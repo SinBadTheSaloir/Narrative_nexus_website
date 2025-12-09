@@ -8,6 +8,7 @@ async function loadBooks() {
   
   try {
     // Fetch books from API
+    console.log('Fetching books from /api/books...');
     const response = await fetch('/api/books');
     
     if (!response.ok) {
@@ -15,7 +16,10 @@ async function loadBooks() {
     }
     
     const data = await response.json();
+    console.log('Received data:', data);
+    
     const books = data.books || [];
+    console.log(`Found ${books.length} books:`, books);
     
     // Clear loading message
     bookListBox.innerHTML = '';
@@ -28,10 +32,13 @@ async function loadBooks() {
     
     // Create clickable book items
     books.forEach((bookName) => {
+      const displayName = formatBookName(bookName);
+      console.log(`Creating link for: ${bookName} -> ${displayName}`);
+      
       const link = document.createElement('a');
       link.href = `/book.html?book=${encodeURIComponent(bookName)}`;
       link.className = 'book-item';
-      link.textContent = formatBookName(bookName);
+      link.textContent = displayName;
       bookListBox.appendChild(link);
     });
     
@@ -43,8 +50,17 @@ async function loadBooks() {
 
 // Helper: Format book name for display
 function formatBookName(name) {
-  // Replace underscores with spaces and capitalize words
-  return name
-    .replace(/_/g, ' ')
-    .replace(/\b\w/g, char => char.toUpperCase());
+  // Remove _DATA suffix if present
+  let displayName = name.replace(/_DATA$/i, '');
+  
+  // Replace underscores with spaces
+  displayName = displayName.replace(/_/g, ' ');
+  
+  // Capitalize each word
+  displayName = displayName
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+  
+  return displayName;
 }

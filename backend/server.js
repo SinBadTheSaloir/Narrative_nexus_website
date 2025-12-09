@@ -47,6 +47,8 @@ async function listBooks() {
       .filter(entry => entry.isDirectory())
       .map(entry => entry.name)
       .sort(); // Alphabetical order
+    
+    console.log(`Found ${books.length} book folders:`, books);
     return books;
   } catch (error) {
     console.error('Error reading Library folder:', error);
@@ -83,9 +85,30 @@ async function getChapterData(bookId, chapterFile) {
 
 // API Routes
 
+// GET /api/debug - Debug endpoint to check Library status
+app.get('/api/debug', async (req, res) => {
+  try {
+    const libraryExists = await fs.access(LIBRARY_PATH).then(() => true).catch(() => false);
+    const entries = libraryExists ? await fs.readdir(LIBRARY_PATH, { withFileTypes: true }) : [];
+    const allEntries = entries.map(e => ({ name: e.name, isDirectory: e.isDirectory() }));
+    const books = await listBooks();
+    
+    res.json({
+      libraryPath: LIBRARY_PATH,
+      libraryExists,
+      allEntries,
+      books,
+      bookCount: books.length
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message, stack: error.stack });
+  }
+});
+
 // GET /api/books - List all books
 app.get('/api/books', async (req, res) => {
   const books = await listBooks();
+  console.log(`API /api/books called - returning ${books.length} books`);
   res.json({ books });
 });
 
