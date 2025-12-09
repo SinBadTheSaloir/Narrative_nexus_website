@@ -7,14 +7,37 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Library path (relative to project root)
-const LIBRARY_PATH = path.join(__dirname, '..', 'Library');
+// Try multiple possible locations for flexibility
+const possibleLibraryPaths = [
+  path.join(__dirname, '..', 'Library'),           // Local: one level up from backend/
+  path.join(__dirname, 'Library'),                 // Alternative: same level as backend/
+  path.join(process.cwd(), 'Library')              // Production: from process root
+];
+
+let LIBRARY_PATH = possibleLibraryPaths[0];
+
+// Find which path exists (will be checked on startup)
+async function findLibraryPath() {
+  for (const libPath of possibleLibraryPaths) {
+    try {
+      await fs.access(libPath);
+      LIBRARY_PATH = libPath;
+      return libPath;
+    } catch (error) {
+      // Path doesn't exist, try next
+    }
+  }
+  return possibleLibraryPaths[0]; // Default to first if none found
+}
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // Serve static frontend files
-app.use(express.static(path.join(__dirname, '..', 'frontend')));
+const frontendPath = path.join(__dirname, '..', 'frontend');
+console.log('Serving frontend from:', frontendPath);
+app.use(express.static(frontendPath));
 
 // Helper: List all books in Library folder
 async function listBooks() {
@@ -102,6 +125,22 @@ app.get('*', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`🚀 Narrative Nexus running on http://localhost:${PORT}`);
+  
+  // Find Library folder
+  await findLibraryPath();
+  console.log(`📁 Library path: ${LIBRARY_PATH}`);
+  
+  // Check if Library folder exists
+  try {
+    await fs.access(LIBRARY_PATH);
+    console.log('✅ Library folder found');
+    const books = await listBooks();
+    console.log(`📚 Found ${books.length} books:`, books);
+  } catch (error) {
+    console.log('⚠️  Library folder not found at any of these locations:');
+    possibleLibraryPaths.forEach(p => console.log(`   - ${p}`));
+    console.log('📝 Please create Library/ folder and add book data');
+  }
 });
