@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book View - Narrative Nexus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app">
+    <h1 class="title">NARRATIVE NEXUS</h1>
+    <p class="subtitle" id="book-title">Loading...</p>
+    
+    <div class="book-list-container">
+      <div class="book-list-box">
+        <p class="info-text">Chapter view coming soon...</p>
+        <a href="/" class="back-link">← Back to Library</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Get book name from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookName = urlParams.get('book');
+    
+    if (bookName) {
+      document.getElementById('book-title').textContent = bookName.replace(/_/g, ' ');
+    }
+  </script>
+</body>
+</html>
