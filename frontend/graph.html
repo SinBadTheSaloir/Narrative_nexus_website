@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapter View - Narrative Nexus</title>
+  <title>Chapter Analysis - Narrative Nexus</title>
   <link rel="stylesheet" href="styles.css">
+  
+  <!-- Plotly.js CDN -->
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  
+  <!-- vis.js CDN (for network graph) -->
+  <link href="https://unpkg.com/vis-network@9.1.2/dist/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  
   <style>
     .graph-container {
       background-color: #0a0a0a;
@@ -33,103 +41,74 @@
       font-size: 0.9rem;
     }
     
-    .data-section {
-      margin-bottom: 2rem;
-    }
-    
-    .data-section h3 {
-      color: #d4af37;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-    
-    .character-list {
+    .graph-tabs {
       display: flex;
-      flex-wrap: wrap;
       gap: 0.5rem;
       margin-bottom: 1.5rem;
+      flex-wrap: wrap;
     }
     
-    .character-badge {
-      background-color: #1a1a1a;
-      color: #fff;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      border: 1px solid #2a2a2a;
-      font-size: 0.9rem;
-    }
-    
-    .matrix-container {
-      overflow-x: auto;
-      margin-bottom: 1.5rem;
-    }
-    
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.85rem;
-    }
-    
-    th, td {
-      padding: 0.75rem;
-      text-align: center;
-      border: 1px solid #2a2a2a;
-    }
-    
-    th {
-      background-color: #1a1a1a;
-      color: #d4af37;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-size: 0.75rem;
-    }
-    
-    td {
-      background-color: #0a0a0a;
-      color: #888;
-    }
-    
-    .cell-active {
-      background-color: #1a3a1a !important;
-      color: #51cf66 !important;
-      font-weight: 600;
-    }
-    
-    .data-type-toggle {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .toggle-btn {
+    .tab-btn {
       background-color: #1a1a1a;
       color: #888;
       border: 1px solid #2a2a2a;
-      padding: 0.5rem 1.5rem;
+      padding: 0.75rem 1.25rem;
       border-radius: 6px;
       cursor: pointer;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
     
-    .toggle-btn.active {
+    .tab-btn.active {
       background-color: #d4af37;
       color: #000;
       border-color: #d4af37;
       font-weight: 600;
     }
     
-    .toggle-btn:hover {
+    .tab-btn:hover:not(.active) {
       border-color: #d4af37;
+      color: #d4af37;
+    }
+    
+    .graph-display {
+      min-height: 400px;
+    }
+    
+    .coming-soon {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: #888;
+    }
+    
+    .coming-soon h3 {
+      color: #d4af37;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    .coming-soon p {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
     }
     
     .nav-links {
       display: flex;
       gap: 1rem;
       margin-top: 2rem;
+    }
+    
+    #plotly-container {
+      width: 100%;
+      height: 500px;
+    }
+    
+    #network-container {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #2a2a2a;
+      background-color: #000;
     }
   </style>
 </head>
@@ -144,12 +123,20 @@
         <p>The Great Gatsby</p>
       </div>
       
-      <div class="data-type-toggle">
-        <button class="toggle-btn active" onclick="showData('external')">External Relationships</button>
-        <button class="toggle-btn" onclick="showData('internal')">Internal States</button>
+      <div class="graph-tabs">
+        <button class="tab-btn active" onclick="showGraph('heartbeat')">Story Heartbeat</button>
+        <button class="tab-btn" onclick="showGraph('importance')">Character Importance</button>
+        <button class="tab-btn" onclick="showGraph('centrality')">Centrality</button>
+        <button class="tab-btn" onclick="showGraph('heatmap')">Emotion Heatmap</button>
+        <button class="tab-btn" onclick="showGraph('network')">Relationship Network</button>
+        <button class="tab-btn" onclick="showGraph('trajectory')">Pos/Neg Trajectory</button>
       </div>
       
-      <div id="data-display"></div>
+      <div id="graph-display" class="graph-display">
+        <div id="plotly-container"></div>
+        <div id="network-container" style="display: none;"></div>
+        <div id="coming-soon-container" style="display: none;"></div>
+      </div>
     </div>
     
     <div class="nav-links">
@@ -159,7 +146,63 @@
   </main>
 
   <script>
-    // ALL DATA HARDCODED HERE
+    // ========================================
+    // EMOTION MAPPINGS (Provided by User)
+    // ========================================
+    
+    // INTERNAL EMOTIONS (15 dimensions, indices 0-14)
+    const internalEmotionNames = [
+      "Shame",         // 0
+      "Guilt",         // 1
+      "Pride_Healthy", // 2
+      "Fear",          // 3
+      "Anger",         // 4
+      "Sadness",       // 5
+      "Hope",          // 6
+      "Love",          // 7
+      "Happiness",     // 8
+      "PastPain",      // 9
+      "PastJoy",       // 10
+      "FuturePain",    // 11
+      "FutureHope",    // 12
+      "SinForce",      // 13
+      "VirtueForce"    // 14
+    ];
+    
+    const internalEmotionPriority = [
+      "Shame", "Guilt", "Fear", "Anger", "Sadness",
+      "PastPain", "FuturePain", "SinForce",
+      "Happiness", "Love", "Hope", "PastJoy", "FutureHope",
+      "Pride_Healthy", "VirtueForce"
+    ];
+    
+    // Positive vs Negative for INTERNAL
+    const internalPositiveIndices = [2, 6, 7, 8, 10, 12, 14];
+    const internalNegativeIndices = [0, 1, 3, 4, 5, 9, 11, 13];
+    
+    // EXTERNAL EMOTIONS (11 dimensions, indices 0-10)
+    const externalEmotionNames = [
+      "Friendship",                   // 0
+      "Love_Affection",               // 1
+      "Enmity_Hostility",             // 2
+      "FamilyBond",                   // 3
+      "Romance",                      // 4
+      "Political_Ideological",        // 5
+      "SocialStandingInfluence",      // 6
+      "Employment_RoleRelationship",  // 7
+      "PastHistory_Any",              // 8
+      "FutureNegative_Fear",          // 9
+      "FuturePositive_Hope"           // 10
+    ];
+    
+    const externalPositiveIndices = [0, 1, 3, 4, 10];
+    const externalNegativeIndices = [2, 9];
+    const externalNeutralIndices = [5, 6, 7, 8];
+    
+    // ========================================
+    // CHAPTER DATA (Hardcoded for all chapters)
+    // ========================================
+    
     const CHAPTERS = {
       "1": {
         name: "Chapter 1",
@@ -220,87 +263,265 @@
         internal: {}
       }
     };
-
-    let currentChapter = "1";
-    let currentDataType = "external";
-
-    // Get chapter from URL
+    
+    // Get current chapter from URL
     const urlParams = new URLSearchParams(window.location.search);
-    const chapterParam = urlParams.get('chapter');
-    if (chapterParam && CHAPTERS[chapterParam]) {
-      currentChapter = chapterParam;
-    }
-
+    const chapterParam = urlParams.get('chapter') || "1";
+    let currentChapter = chapterParam;
+    let currentGraph = 'heartbeat';
+    
     // Set chapter title
-    document.getElementById('chapter-title').textContent = CHAPTERS[currentChapter].name;
-
-    function showData(dataType) {
-      currentDataType = dataType;
+    if (CHAPTERS[currentChapter]) {
+      document.getElementById('chapter-title').textContent = CHAPTERS[currentChapter].name;
+    }
+    
+    // ========================================
+    // GRAPH 1: STORY EMOTIONAL HEARTBEAT
+    // ========================================
+    
+    function buildHeartbeatGraphData() {
+      const chapterLabels = [];
+      const chapterIndices = [];
+      const totalPos = [];
+      const totalNeg = [];
+      const totalTotal = [];
       
-      // Update buttons
-      document.querySelectorAll('.toggle-btn').forEach(btn => {
-        btn.classList.remove('active');
-        if ((dataType === 'external' && btn.textContent.includes('External')) ||
-            (dataType === 'internal' && btn.textContent.includes('Internal'))) {
-          btn.classList.add('active');
+      // Process all chapters
+      Object.keys(CHAPTERS).sort((a, b) => parseInt(a) - parseInt(b)).forEach((chId, idx) => {
+        const ch = CHAPTERS[chId];
+        let pos = 0, neg = 0;
+        
+        // External plane
+        if (ch.external) {
+          Object.keys(ch.external).forEach(actor => {
+            Object.keys(ch.external[actor]).forEach(target => {
+              const v = ch.external[actor][target];
+              if (v && v.length === 11) {
+                externalPositiveIndices.forEach(i => { if (v[i] === 1) pos++; });
+                externalNegativeIndices.forEach(i => { if (v[i] === 1) neg++; });
+              }
+            });
+          });
         }
+        
+        // Internal plane
+        if (ch.internal) {
+          Object.keys(ch.internal).forEach(char => {
+            if (ch.internal[char][char]) {
+              const v = ch.internal[char][char];
+              if (v && v.length === 15) {
+                internalPositiveIndices.forEach(i => { if (v[i] === 1) pos++; });
+                internalNegativeIndices.forEach(i => { if (v[i] === 1) neg++; });
+              }
+            }
+          });
+        }
+        
+        chapterLabels.push(ch.name);
+        chapterIndices.push(idx);
+        totalPos.push(pos);
+        totalNeg.push(neg);
+        totalTotal.push(pos + neg);
       });
       
-      const chapter = CHAPTERS[currentChapter];
-      const data = chapter[dataType];
-      const characters = chapter.characters;
+      return {
+        type: "heartbeat",
+        chapters: chapterLabels,
+        x: chapterIndices,
+        positive: totalPos,
+        negative: totalNeg,
+        total: totalTotal
+      };
+    }
+    
+    function renderHeartbeatGraph() {
+      const data = buildHeartbeatGraphData();
       
-      if (!data || Object.keys(data).length === 0) {
-        document.getElementById('data-display').innerHTML = 
-          `<p class="info-text" style="text-align: center; color: #888;">No ${dataType} data available for this chapter.</p>`;
-        return;
+      const traces = [
+        {
+          x: data.x,
+          y: data.positive,
+          name: 'Positive',
+          type: 'scatter',
+          mode: 'lines+markers',
+          line: { color: '#51cf66', width: 3 },
+          marker: { size: 8 }
+        },
+        {
+          x: data.x,
+          y: data.negative,
+          name: 'Negative',
+          type: 'scatter',
+          mode: 'lines+markers',
+          line: { color: '#ff6b6b', width: 3 },
+          marker: { size: 8 }
+        },
+        {
+          x: data.x,
+          y: data.total,
+          name: 'Total',
+          type: 'scatter',
+          mode: 'lines+markers',
+          line: { color: '#d4af37', width: 3 },
+          marker: { size: 8 }
+        }
+      ];
+      
+      const layout = {
+        title: {
+          text: 'Story Emotional Heartbeat',
+          font: { color: '#d4af37', size: 20 }
+        },
+        xaxis: {
+          title: 'Chapter',
+          color: '#888',
+          gridcolor: '#2a2a2a',
+          tickvals: data.x,
+          ticktext: data.chapters
+        },
+        yaxis: {
+          title: 'Emotional Intensity',
+          color: '#888',
+          gridcolor: '#2a2a2a'
+        },
+        paper_bgcolor: '#0a0a0a',
+        plot_bgcolor: '#0a0a0a',
+        font: { color: '#888' },
+        legend: {
+          font: { color: '#888' }
+        }
+      };
+      
+      Plotly.newPlot('plotly-container', traces, layout, { responsive: true });
+    }
+    
+    // ========================================
+    // GRAPH 2: CHARACTER IMPORTANCE (Stub)
+    // ========================================
+    
+    function buildImportanceGraphData() {
+      // TODO: Implement
+      return null;
+    }
+    
+    function renderImportanceGraph() {
+      showComingSoon('Character Importance Over Time', 'Multi-line graph showing each character\'s normalized importance across chapters');
+    }
+    
+    // ========================================
+    // GRAPH 3: EIGENVECTOR CENTRALITY (Stub)
+    // ========================================
+    
+    function buildEigenCentralityGraphData() {
+      // TODO: Implement with power iteration
+      return null;
+    }
+    
+    function renderCentralityGraph() {
+      showComingSoon('Eigenvector Centrality', 'Shows character importance using eigenvector centrality algorithm');
+    }
+    
+    // ========================================
+    // GRAPH 4: INTERNAL EMOTION HEATMAP (Stub)
+    // ========================================
+    
+    function buildInternalHeatmapData() {
+      // TODO: Implement
+      return null;
+    }
+    
+    function renderHeatmapGraph() {
+      showComingSoon('Internal Emotion Heatmap', '2D heatmap showing dominant emotion per character per chapter');
+    }
+    
+    // ========================================
+    // GRAPH 5: RELATIONSHIP NETWORK (Stub)
+    // ========================================
+    
+    function buildRelationshipNetworkData(chapterId) {
+      // TODO: Implement
+      return null;
+    }
+    
+    function renderNetworkGraph() {
+      showComingSoon('Relationship Polarity Network', 'Force-directed network showing character relationships for this chapter');
+    }
+    
+    // ========================================
+    // GRAPH 6: POS/NEG TRAJECTORY (Stub)
+    // ========================================
+    
+    function buildPosNegTrajectoryData() {
+      // TODO: Implement (can reuse heartbeat data)
+      return null;
+    }
+    
+    function renderTrajectoryGraph() {
+      showComingSoon('Positive vs Negative Trajectory', '2D scatter plot showing emotional trajectory through phase space');
+    }
+    
+    // ========================================
+    // UI FUNCTIONS
+    // ========================================
+    
+    function showGraph(graphType) {
+      currentGraph = graphType;
+      
+      // Update active tab
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      event.target.classList.add('active');
+      
+      // Hide all containers
+      document.getElementById('plotly-container').style.display = 'none';
+      document.getElementById('network-container').style.display = 'none';
+      document.getElementById('coming-soon-container').style.display = 'none';
+      
+      // Show appropriate graph
+      switch(graphType) {
+        case 'heartbeat':
+          document.getElementById('plotly-container').style.display = 'block';
+          renderHeartbeatGraph();
+          break;
+        case 'importance':
+          document.getElementById('coming-soon-container').style.display = 'block';
+          renderImportanceGraph();
+          break;
+        case 'centrality':
+          document.getElementById('coming-soon-container').style.display = 'block';
+          renderCentralityGraph();
+          break;
+        case 'heatmap':
+          document.getElementById('coming-soon-container').style.display = 'block';
+          renderHeatmapGraph();
+          break;
+        case 'network':
+          document.getElementById('network-container').style.display = 'block';
+          renderNetworkGraph();
+          break;
+        case 'trajectory':
+          document.getElementById('coming-soon-container').style.display = 'block';
+          renderTrajectoryGraph();
+          break;
       }
-      
-      displayMatrix(data, characters);
     }
-
-    function displayMatrix(matrixData, characters) {
-      let html = '<div class="data-section">';
-      
-      // Characters
-      html += '<h3>Characters</h3><div class="character-list">';
-      characters.forEach(char => {
-        html += `<div class="character-badge">${char}</div>`;
-      });
-      html += '</div>';
-      
-      // Matrix
-      html += '<h3>Relationship Matrix</h3><div class="matrix-container"><table><thead><tr><th>From / To</th>';
-      characters.forEach(char => {
-        html += `<th>${char}</th>`;
-      });
-      html += '</tr></thead><tbody>';
-      
-      characters.forEach(fromChar => {
-        html += '<tr><th>' + fromChar + '</th>';
-        characters.forEach(toChar => {
-          if (matrixData[fromChar] && matrixData[fromChar][toChar]) {
-            const values = matrixData[fromChar][toChar];
-            const sum = values.reduce((a, b) => a + b, 0);
-            html += `<td class="${sum > 0 ? 'cell-active' : ''}">${sum}</td>`;
-          } else {
-            html += '<td>0</td>';
-          }
-        });
-        html += '</tr>';
-      });
-      
-      html += '</tbody></table></div>';
-      html += '<p style="color: #888; font-size: 0.85rem; margin-top: 1rem;">';
-      html += '<span style="color: #51cf66;">●</span> Green cells indicate active relationships. ';
-      html += 'Values represent the sum of emotional dimensions.';
-      html += '</p></div>';
-      
-      document.getElementById('data-display').innerHTML = html;
+    
+    function showComingSoon(title, description) {
+      const container = document.getElementById('coming-soon-container');
+      container.innerHTML = `
+        <div class="coming-soon">
+          <h3>${title}</h3>
+          <p>${description}</p>
+          <p style="margin-top: 2rem; color: #555;">Coming Soon...</p>
+        </div>
+      `;
     }
-
-    // Show external data by default
-    showData('external');
+    
+    // Initialize - show heartbeat graph by default
+    document.addEventListener('DOMContentLoaded', () => {
+      renderHeartbeatGraph();
+    });
   </script>
 </body>
 </html>
