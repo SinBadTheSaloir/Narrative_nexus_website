@@ -3,105 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book View - Narrative Nexus</title>
+  <title>The Great Gatsby - Narrative Nexus</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main id="app">
     <h1 class="title">NARRATIVE NEXUS</h1>
-    <p class="subtitle" id="book-title">Loading...</p>
+    <p class="subtitle">The Great Gatsby</p>
     
     <div class="book-list-container">
       <div class="book-list-box">
-        <div id="chapters-list">
-          <p class="loading">Loading chapters...</p>
-        </div>
+        <h3 style="color: #888; font-size: 0.9rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">Chapters</h3>
+        
+        <a href="/graph.html?chapter=1" class="book-item" style="display: flex; align-items: center;">
+          <span>Chapter 1</span>
+          <span style="margin-left: auto; color: #51cf66; font-size: 0.9rem;">●</span>
+        </a>
+        
+        <a href="/graph.html?chapter=2" class="book-item" style="display: flex; align-items: center;">
+          <span>Chapter 2</span>
+          <span style="margin-left: auto; color: #51cf66; font-size: 0.9rem;">●</span>
+        </a>
+        
+        <a href="/graph.html?chapter=3" class="book-item" style="display: flex; align-items: center;">
+          <span>Chapter 3</span>
+          <span style="margin-left: auto; color: #51cf66; font-size: 0.9rem;">●</span>
+        </a>
+        
+        <a href="/graph.html?chapter=4" class="book-item" style="display: flex; align-items: center;">
+          <span>Chapter 4</span>
+          <span style="margin-left: auto; color: #51cf66; font-size: 0.9rem;">●</span>
+        </a>
       </div>
       
       <a href="/" class="back-link">← Back to Library</a>
     </div>
   </main>
-
-  <script>
-    // Get book ID from URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const bookId = urlParams.get('book');
-
-    // Load book data from JSON file
-    async function loadBookData() {
-      try {
-        const response = await fetch('/data.json');
-        const data = await response.json();
-        
-        if (!bookId || !data[bookId]) {
-          showError('Book not found');
-          return;
-        }
-        
-        const bookData = data[bookId];
-        displayBook(bookData);
-      } catch (error) {
-        console.error('Error loading book data:', error);
-        showError('Failed to load book data');
-      }
-    }
-
-    function displayBook(bookData) {
-      // Set book title
-      document.getElementById('book-title').textContent = bookData.displayName;
-      
-      const chaptersListElement = document.getElementById('chapters-list');
-      chaptersListElement.innerHTML = '';
-      
-      if (!bookData.chapters || bookData.chapters.length === 0) {
-        chaptersListElement.innerHTML = '<p class="info-text">No chapters available.</p>';
-        return;
-      }
-      
-      // Add section title
-      const sectionTitle = document.createElement('h3');
-      sectionTitle.style.color = '#888';
-      sectionTitle.style.fontSize = '0.9rem';
-      sectionTitle.style.marginBottom = '1rem';
-      sectionTitle.style.textTransform = 'uppercase';
-      sectionTitle.style.letterSpacing = '0.1em';
-      sectionTitle.textContent = 'Chapters';
-      chaptersListElement.appendChild(sectionTitle);
-      
-      // Create chapter links
-      bookData.chapters.forEach((chapter) => {
-        const link = document.createElement('a');
-        link.href = `/graph.html?book=${encodeURIComponent(bookId)}&chapter=${encodeURIComponent(chapter.id)}`;
-        link.className = 'book-item';
-        link.style.display = 'flex';
-        link.style.alignItems = 'center';
-        
-        const chapterName = document.createElement('span');
-        chapterName.textContent = chapter.name;
-        link.appendChild(chapterName);
-        
-        // Add green dot indicator
-        const indicator = document.createElement('span');
-        indicator.style.marginLeft = 'auto';
-        indicator.style.color = '#51cf66';
-        indicator.style.fontSize = '0.9rem';
-        indicator.textContent = '●';
-        link.appendChild(indicator);
-        
-        chaptersListElement.appendChild(link);
-        
-        console.log(`Created chapter link: ${chapter.name}`);
-      });
-    }
-
-    function showError(message) {
-      document.getElementById('book-title').textContent = 'Error';
-      document.getElementById('chapters-list').innerHTML = 
-        `<p class="error">${message}</p>`;
-    }
-
-    // Load data on page load
-    document.addEventListener('DOMContentLoaded', loadBookData);
-  </script>
 </body>
 </html>

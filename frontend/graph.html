@@ -84,6 +84,7 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      font-size: 0.75rem;
     }
     
     td {
@@ -135,12 +136,12 @@
 <body>
   <main id="app">
     <h1 class="title">NARRATIVE NEXUS</h1>
-    <p class="subtitle" id="page-subtitle">Loading...</p>
+    <p class="subtitle">The Great Gatsby</p>
     
     <div class="graph-container">
       <div class="graph-header">
-        <h2 id="chapter-title">Loading Chapter...</h2>
-        <p id="book-name"></p>
+        <h2 id="chapter-title">Chapter 1</h2>
+        <p>The Great Gatsby</p>
       </div>
       
       <div class="data-type-toggle">
@@ -148,66 +149,96 @@
         <button class="toggle-btn" onclick="showData('internal')">Internal States</button>
       </div>
       
-      <div id="data-display">
-        <p class="loading">Loading data...</p>
-      </div>
+      <div id="data-display"></div>
     </div>
     
     <div class="nav-links">
-      <a href="javascript:history.back()" class="back-link">← Back to Chapters</a>
+      <a href="/book.html" class="back-link">← Back to Chapters</a>
       <a href="/" class="back-link">← Back to Library</a>
     </div>
   </main>
 
   <script>
-    // Get parameters from URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const bookId = urlParams.get('book');
-    const chapterId = urlParams.get('chapter');
-    
-    let currentChapterData = null;
-    let currentDataType = 'external';
-
-    // Load chapter data from JSON file
-    async function loadChapterData() {
-      try {
-        const response = await fetch('/data.json');
-        const data = await response.json();
-        
-        if (!bookId || !data[bookId]) {
-          showError('Book not found');
-          return;
+    // ALL DATA HARDCODED HERE
+    const CHAPTERS = {
+      "1": {
+        name: "Chapter 1",
+        characters: ["Nick", "Tom", "Daisy", "Jordan", "Gatsby"],
+        external: {
+          "Nick": {"Nick": [0,0,0,0,0,0,0,0,0,0,0], "Tom": [0,0,1,0,0,0,1,0,0,0,0], "Daisy": [1,1,0,0,0,0,0,0,1,0,1], "Jordan": [1,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Tom": {"Nick": [0,0,1,0,0,0,1,0,0,0,0], "Tom": [0,0,0,0,0,0,0,0,0,0,0], "Daisy": [1,1,0,1,0,0,0,0,1,0,1], "Jordan": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Daisy": {"Nick": [1,1,0,0,0,0,0,0,1,0,1], "Tom": [1,1,0,1,0,0,0,0,1,0,1], "Daisy": [0,0,0,0,0,0,0,0,0,0,0], "Jordan": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Jordan": {"Nick": [1,0,0,0,0,0,0,0,0,0,0], "Tom": [0,0,0,0,0,0,0,0,0,0,0], "Daisy": [0,0,0,0,0,0,0,0,0,0,0], "Jordan": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Gatsby": {"Nick": [0,0,0,0,0,0,0,0,0,0,0], "Tom": [0,0,0,0,0,0,0,0,0,0,0], "Daisy": [0,0,0,0,0,0,0,0,0,0,0], "Jordan": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0]}
+        },
+        internal: {
+          "Nick": {"Nick": [0,0,1,0,0,0,1,0,1,0,0,0,0,0,0]},
+          "Tom": {"Tom": [0,0,0,1,1,0,0,0,0,0,0,0,1,0,0]},
+          "Daisy": {"Daisy": [0,0,0,0,0,1,0,1,1,1,0,0,0,0,0]},
+          "Jordan": {"Jordan": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
+          "Gatsby": {"Gatsby": [0,0,0,0,0,0,1,0,0,0,0,0,0,0,0]}
         }
-        
-        const bookData = data[bookId];
-        const chapter = bookData.chapters.find(ch => ch.id === chapterId);
-        
-        if (!chapter) {
-          showError('Chapter not found');
-          return;
+      },
+      "2": {
+        name: "Chapter 2",
+        characters: ["Tom Buchanan", "Myrtle Wilson", "George Wilson", "Catherine", "Mr. McKee"],
+        external: {
+          "Tom Buchanan": {"Tom Buchanan": [0,0,0,0,0,0,0,0,0,0,0], "Myrtle Wilson": [1,1,0,0,1,0,1,0,0,0,1], "George Wilson": [0,0,1,0,0,0,1,1,0,0,0], "Catherine": [0,0,0,0,0,0,0,0,0,0,0], "Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Myrtle Wilson": {"Tom Buchanan": [1,1,0,0,1,0,1,0,0,0,1], "Myrtle Wilson": [0,0,0,0,0,0,0,0,0,0,0], "George Wilson": [0,0,1,1,0,0,1,0,1,0,0], "Catherine": [0,0,0,0,0,0,0,0,0,0,0], "Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0]},
+          "George Wilson": {"Tom Buchanan": [0,0,1,0,0,0,1,1,0,0,0], "Myrtle Wilson": [0,0,1,1,0,0,1,0,1,0,0], "George Wilson": [0,0,0,0,0,0,0,0,0,0,0], "Catherine": [0,0,0,0,0,0,0,0,0,0,0], "Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Catherine": {"Tom Buchanan": [0,0,0,0,0,0,0,0,0,0,0], "Myrtle Wilson": [0,0,0,0,0,0,0,0,0,0,0], "George Wilson": [0,0,0,0,0,0,0,0,0,0,0], "Catherine": [0,0,0,0,0,0,0,0,0,0,0], "Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Mr. McKee": {"Tom Buchanan": [0,0,0,0,0,0,0,0,0,0,0], "Myrtle Wilson": [0,0,0,0,0,0,0,0,0,0,0], "George Wilson": [0,0,0,0,0,0,0,0,0,0,0], "Catherine": [0,0,0,0,0,0,0,0,0,0,0], "Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0]}
+        },
+        internal: {
+          "Tom Buchanan": {"Tom Buchanan": [0,0,1,0,1,0,0,0,0,0,0,0,0,1,0]},
+          "Myrtle Wilson": {"Myrtle Wilson": [1,1,0,0,0,1,0,1,1,0,0,0,1,0,0]},
+          "George Wilson": {"George Wilson": [0,0,0,0,0,1,0,0,0,1,0,0,0,0,1]},
+          "Catherine": {"Catherine": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},
+          "Mr. McKee": {"Mr. McKee": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}
         }
-        
-        currentChapterData = chapter;
-        
-        // Set titles
-        document.getElementById('page-subtitle').textContent = bookData.displayName;
-        document.getElementById('chapter-title').textContent = chapter.name;
-        document.getElementById('book-name').textContent = bookData.displayName;
-        
-        // Display data
-        showData('external');
-      } catch (error) {
-        console.error('Error loading chapter data:', error);
-        showError('Failed to load chapter data');
+      },
+      "3": {
+        name: "Chapter 3",
+        characters: ["Nick", "Gatsby", "Jordan Baker"],
+        external: {
+          "Nick": {"Nick": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0], "Jordan Baker": [1,0,0,0,0,0,0,0,0,0,1]},
+          "Gatsby": {"Nick": [0,0,0,0,0,0,0,0,0,0,0], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0], "Jordan Baker": [0,0,0,0,0,0,0,0,0,0,0]},
+          "Jordan Baker": {"Nick": [1,0,0,0,0,0,0,0,0,0,1], "Gatsby": [0,0,0,0,0,0,0,0,0,0,0], "Jordan Baker": [0,0,0,0,0,0,0,0,0,0,0]}
+        },
+        internal: {
+          "Gatsby": {"Gatsby": [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0]},
+          "Jordan Baker": {"Jordan Baker": [0,0,0,0,0,0,0,1,1,0,0,0,0,0,0]},
+          "Nick": {"Nick": [0,0,0,0,0,0,0,0,1,0,0,0,0,0,0]}
+        }
+      },
+      "4": {
+        name: "Chapter 4",
+        characters: ["Gatsby", "Nick Carraway", "Tom Buchanan", "Jordan Baker", "Mr. Wolfshiem", "Daisy Fay"],
+        external: {
+          "Gatsby": {"Gatsby": [0,0,0,0,0,0,0,0,0,0,0], "Nick Carraway": [1,1,0,0,1,0,0,0,1,0,1], "Tom Buchanan": [0,0,1,0,0,0,1,0,0,0,0], "Jordan Baker": [1,1,0,0,1,0,0,0,1,0,1], "Mr. Wolfshiem": [0,0,0,0,0,0,0,1,0,0,0], "Daisy Fay": [1,1,0,0,1,0,0,0,1,0,1]}
+        },
+        internal: {}
       }
+    };
+
+    let currentChapter = "1";
+    let currentDataType = "external";
+
+    // Get chapter from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const chapterParam = urlParams.get('chapter');
+    if (chapterParam && CHAPTERS[chapterParam]) {
+      currentChapter = chapterParam;
     }
+
+    // Set chapter title
+    document.getElementById('chapter-title').textContent = CHAPTERS[currentChapter].name;
 
     function showData(dataType) {
       currentDataType = dataType;
       
-      // Update button states
-      const buttons = document.querySelectorAll('.toggle-btn');
-      buttons.forEach(btn => {
+      // Update buttons
+      document.querySelectorAll('.toggle-btn').forEach(btn => {
         btn.classList.remove('active');
         if ((dataType === 'external' && btn.textContent.includes('External')) ||
             (dataType === 'internal' && btn.textContent.includes('Internal'))) {
@@ -215,14 +246,13 @@
         }
       });
       
-      if (!currentChapterData) return;
-      
-      const data = currentChapterData[dataType];
-      const characters = currentChapterData.characters;
+      const chapter = CHAPTERS[currentChapter];
+      const data = chapter[dataType];
+      const characters = chapter.characters;
       
       if (!data || Object.keys(data).length === 0) {
         document.getElementById('data-display').innerHTML = 
-          `<p class="info-text">No ${dataType} data available for this chapter.</p>`;
+          `<p class="info-text" style="text-align: center; color: #888;">No ${dataType} data available for this chapter.</p>`;
         return;
       }
       
@@ -230,75 +260,47 @@
     }
 
     function displayMatrix(matrixData, characters) {
-      const dataDisplay = document.getElementById('data-display');
-      
       let html = '<div class="data-section">';
       
-      // Characters section
-      html += '<h3>Characters</h3>';
-      html += '<div class="character-list">';
+      // Characters
+      html += '<h3>Characters</h3><div class="character-list">';
       characters.forEach(char => {
         html += `<div class="character-badge">${char}</div>`;
       });
       html += '</div>';
       
-      // Matrix section
-      html += '<h3>Relationship Matrix</h3>';
-      html += '<div class="matrix-container">';
-      html += '<table>';
-      
-      // Header row
-      html += '<thead><tr><th>From / To</th>';
+      // Matrix
+      html += '<h3>Relationship Matrix</h3><div class="matrix-container"><table><thead><tr><th>From / To</th>';
       characters.forEach(char => {
         html += `<th>${char}</th>`;
       });
-      html += '</tr></thead>';
+      html += '</tr></thead><tbody>';
       
-      // Data rows
-      html += '<tbody>';
       characters.forEach(fromChar => {
-        html += '<tr>';
-        html += `<th>${fromChar}</th>`;
-        
+        html += '<tr><th>' + fromChar + '</th>';
         characters.forEach(toChar => {
           if (matrixData[fromChar] && matrixData[fromChar][toChar]) {
             const values = matrixData[fromChar][toChar];
             const sum = values.reduce((a, b) => a + b, 0);
-            const hasInteraction = sum > 0;
-            
-            html += `<td class="${hasInteraction ? 'cell-active' : ''}">${sum}</td>`;
+            html += `<td class="${sum > 0 ? 'cell-active' : ''}">${sum}</td>`;
           } else {
             html += '<td>0</td>';
           }
         });
-        
         html += '</tr>';
       });
-      html += '</tbody>';
       
-      html += '</table>';
-      html += '</div>';
-      
-      // Legend
+      html += '</tbody></table></div>';
       html += '<p style="color: #888; font-size: 0.85rem; margin-top: 1rem;">';
-      html += '<span style="color: #51cf66;">●</span> Green cells indicate relationships/interactions. ';
+      html += '<span style="color: #51cf66;">●</span> Green cells indicate active relationships. ';
       html += 'Values represent the sum of emotional dimensions.';
-      html += '</p>';
+      html += '</p></div>';
       
-      html += '</div>';
-      
-      dataDisplay.innerHTML = html;
+      document.getElementById('data-display').innerHTML = html;
     }
 
-    function showError(message) {
-      document.getElementById('page-subtitle').textContent = 'Error';
-      document.getElementById('chapter-title').textContent = message;
-      document.getElementById('data-display').innerHTML = 
-        `<p class="error">${message}</p>`;
-    }
-
-    // Load data on page load
-    document.addEventListener('DOMContentLoaded', loadChapterData);
+    // Show external data by default
+    showData('external');
   </script>
 </body>
 </html>
