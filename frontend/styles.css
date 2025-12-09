@@ -1,4 +1,9 @@
-/* ===== RESET & GLOBALS ===== */
+/* styles.css - Complete Styling for Narrative Nexus */
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,118 +11,387 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
-               "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background-color: #000000;
   color: #ffffff;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
-/* ===== MAIN CONTAINER ===== */
+/* ============================================
+   APP SHELL
+   ============================================ */
+
 #app {
-  max-width: 600px;
-  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background-color: #0a0a0a;
+  border-bottom: 2px solid #d4af37;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
-/* ===== TITLE (GOLD) ===== */
-.title {
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-title {
+  color: #d4af37;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.25em;
-  color: #d4af37; /* Gold */
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
   margin-bottom: 0.5rem;
+}
+
+.app-title:hover {
+  opacity: 0.8;
+}
+
+.app-subtitle {
+  color: #888;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-/* ===== SUBTITLE ===== */
-.subtitle {
-  font-size: 0.95rem;
-  color: #888888;
-  margin-bottom: 2.5rem;
-  font-weight: 400;
+.page-container {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-/* ===== BOOK LIST CONTAINER ===== */
-.book-list-container {
+.app-footer {
   background-color: #0a0a0a;
-  border: 1px solid #333333;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
-
-.book-list-box {
-  min-height: 150px;
-  text-align: left;
-}
-
-/* ===== LOADING / INFO TEXT ===== */
-.loading,
-.info-text {
-  color: #888888;
+  border-top: 1px solid #333;
+  padding: 1.5rem;
   text-align: center;
-  font-size: 0.95rem;
+  color: #666;
+  font-size: 0.85rem;
 }
 
-.error {
-  color: #ff6b6b;
-  text-align: center;
-  font-size: 0.95rem;
-}
+/* ============================================
+   PAGE COMPONENTS
+   ============================================ */
 
-/* ===== BOOK ITEMS (CLICKABLE) ===== */
-.book-item {
-  display: block;
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.5rem;
-  background-color: #111111;
-  border: 1px solid #2a2a2a;
-  border-radius: 6px;
-  color: #ffffff;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  font-size: 1rem;
-  
-  /* Fade-in animation */
-  opacity: 0;
-  animation: fadeIn 0.4s ease forwards;
-}
-
-.book-item:hover {
-  background-color: #1a1a1a;
-  border-color: #d4af37; /* Gold border on hover */
-  transform: translateX(4px);
-}
-
-.book-item:active {
-  transform: translateX(2px);
-}
-
-/* ===== BACK LINK ===== */
-.back-link {
-  display: inline-block;
-  margin-top: 1.5rem;
+.page-title {
   color: #d4af37;
-  text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.page-subtitle {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.breadcrumb {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumb-link {
+  color: #d4af37;
+  cursor: pointer;
   transition: opacity 0.2s ease;
 }
 
-.back-link:hover {
+.breadcrumb-link:hover {
   opacity: 0.7;
 }
 
-/* ===== FADE-IN ANIMATION ===== */
+.breadcrumb-separator {
+  margin: 0 0.5rem;
+  color: #444;
+}
+
+/* ============================================
+   LIBRARY PAGE
+   ============================================ */
+
+.library-page {
+  animation: fadeIn 0.4s ease;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.book-card {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.book-card:hover {
+  border-color: #d4af37;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+}
+
+.book-title {
+  color: #d4af37;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  color: #bbb;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.book-year {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.book-description {
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.book-stats {
+  display: flex;
+  gap: 1rem;
+  color: #888;
+  font-size: 0.85rem;
+  border-top: 1px solid #222;
+  padding-top: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* ============================================
+   BOOK GRAPHS PAGE
+   ============================================ */
+
+.book-graphs-page {
+  animation: fadeIn 0.4s ease;
+}
+
+.graphs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.graph-card {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.graph-card:hover {
+  border-color: #d4af37;
+  transform: translateX(4px);
+}
+
+.graph-title {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.graph-indicator {
+  color: #51cf66;
+  font-size: 1.2rem;
+}
+
+/* ============================================
+   GRAPH VIEWER PAGE
+   ============================================ */
+
+.graph-viewer-page {
+  animation: fadeIn 0.4s ease;
+}
+
+.graph-container {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  min-height: 500px;
+}
+
+.graph-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.btn {
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.btn:hover {
+  background-color: #c19d2f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(212, 175, 55, 0.3);
+}
+
+.btn-secondary {
+  background-color: #1a1a1a;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+}
+
+.btn-secondary:hover {
+  background-color: #2a2a2a;
+  transform: translateY(-2px);
+}
+
+/* ============================================
+   STATES
+   ============================================ */
+
+.loading {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 4rem 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #888;
+}
+
+.empty-state h2 {
+  color: #d4af37;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.error-container h2 {
+  color: #ff6b6b;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.error-container p {
+  color: #aaa;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   PLACEHOLDER (for unimplemented graphs)
+   ============================================ */
+
+.placeholder {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #888;
+}
+
+.placeholder h3 {
+  color: #d4af37;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.placeholder p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.placeholder code {
+  background-color: #1a1a1a;
+  color: #d4af37;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.placeholder details {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.placeholder summary {
+  color: #d4af37;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.placeholder pre {
+  background-color: #1a1a1a;
+  color: #51cf66;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -125,30 +399,26 @@ body {
   }
 }
 
-/* Stagger animation delay for multiple items */
-.book-item:nth-child(1) { animation-delay: 0.05s; }
-.book-item:nth-child(2) { animation-delay: 0.1s; }
-.book-item:nth-child(3) { animation-delay: 0.15s; }
-.book-item:nth-child(4) { animation-delay: 0.2s; }
-.book-item:nth-child(5) { animation-delay: 0.25s; }
-.book-item:nth-child(6) { animation-delay: 0.3s; }
-.book-item:nth-child(7) { animation-delay: 0.35s; }
-.book-item:nth-child(8) { animation-delay: 0.4s; }
-.book-item:nth-child(9) { animation-delay: 0.45s; }
-.book-item:nth-child(10) { animation-delay: 0.5s; }
+/* ============================================
+   RESPONSIVE
+   ============================================ */
 
-/* ===== RESPONSIVE ===== */
-@media (max-width: 640px) {
-  .title {
-    font-size: 1.75rem;
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.8rem;
     letter-spacing: 0.15em;
   }
   
-  .subtitle {
-    font-size: 0.85rem;
+  .books-grid,
+  .graphs-grid {
+    grid-template-columns: 1fr;
   }
   
-  .book-list-container {
-    padding: 1.5rem;
+  .page-container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .graph-container {
+    padding: 1rem;
   }
 }

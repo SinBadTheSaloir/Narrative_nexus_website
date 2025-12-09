@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: narrative-nexus-website
+    name: narrative-nexus-v2
     env: node
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: "cd backend && npm install"
+    startCommand: "cd backend && npm start"
     envVars:
-      - key: NODE_VERSION
-        value: 18.x
+      - key: NODE_ENV
+        value: production
+    plan: free

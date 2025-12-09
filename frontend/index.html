@@ -5,20 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Narrative Nexus</title>
   <link rel="stylesheet" href="styles.css">
+  
+  <!-- Plotly.js for graphs -->
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  
+  <!-- vis.js for network graphs -->
+  <link href="https://unpkg.com/vis-network@9.1.2/dist/dist/vis-network.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
 </head>
 <body>
-  <main id="app">
-    <h1 class="title">NARRATIVE NEXUS</h1>
-    <p class="subtitle">Live Library Viewer – Books currently in the backend</p>
-    
-    <div id="book-list-container" class="book-list-container">
-      <div id="book-list-box" class="book-list-box">
-        <!-- Single hardcoded button -->
-        <a href="/book.html?book=great_gatsby" class="book-item">
-          The Great Gatsby
-        </a>
+  <!-- App Shell -->
+  <div id="app">
+    <!-- Header (always visible) -->
+    <header class="app-header">
+      <div class="header-content">
+        <h1 class="app-title" onclick="navigateTo('/')">NARRATIVE NEXUS</h1>
+        <p class="app-subtitle">Computational Narratology Platform</p>
       </div>
-    </div>
-  </main>
+    </header>
+    
+    <!-- Main content area (changes based on route) -->
+    <main id="page-container" class="page-container">
+      <div class="loading">Loading...</div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2025 Narrative Nexus</p>
+    </footer>
+  </div>
+  
+  <!-- Load app logic -->
+  <script src="app.js"></script>
+  <script src="graph-registry.js"></script>
 </body>
 </html>

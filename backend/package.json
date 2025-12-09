@@ -1,0 +1,21 @@
+{
+  "name": "narrative-nexus-backend",
+  "version": "2.0.0",
+  "description": "Convention-based library backend for Narrative Nexus",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "rescan": "curl -X POST http://localhost:3000/api/rescan"
+  },
+  "keywords": ["narrative", "visualization", "narratology"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
