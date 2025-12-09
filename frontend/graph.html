@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter View - Narrative Nexus</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .graph-container {
+      background-color: #0a0a0a;
+      border: 1px solid #333333;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .graph-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    
+    .graph-header h2 {
+      color: #d4af37;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .graph-header p {
+      color: #888;
+      font-size: 0.9rem;
+    }
+    
+    .data-section {
+      margin-bottom: 2rem;
+    }
+    
+    .data-section h3 {
+      color: #d4af37;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    
+    .character-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .character-badge {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      border: 1px solid #2a2a2a;
+      font-size: 0.9rem;
+    }
+    
+    .matrix-container {
+      overflow-x: auto;
+      margin-bottom: 1.5rem;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    
+    th, td {
+      padding: 0.75rem;
+      text-align: center;
+      border: 1px solid #2a2a2a;
+    }
+    
+    th {
+      background-color: #1a1a1a;
+      color: #d4af37;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    td {
+      background-color: #0a0a0a;
+      color: #888;
+    }
+    
+    .cell-active {
+      background-color: #1a3a1a !important;
+      color: #51cf66 !important;
+      font-weight: 600;
+    }
+    
+    .data-type-toggle {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .toggle-btn {
+      background-color: #1a1a1a;
+      color: #888;
+      border: 1px solid #2a2a2a;
+      padding: 0.5rem 1.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+    
+    .toggle-btn.active {
+      background-color: #d4af37;
+      color: #000;
+      border-color: #d4af37;
+      font-weight: 600;
+    }
+    
+    .toggle-btn:hover {
+      border-color: #d4af37;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <main id="app">
+    <h1 class="title">NARRATIVE NEXUS</h1>
+    <p class="subtitle" id="page-subtitle">Loading...</p>
+    
+    <div class="graph-container">
+      <div class="graph-header">
+        <h2 id="chapter-title">Loading Chapter...</h2>
+        <p id="book-name"></p>
+      </div>
+      
+      <div class="data-type-toggle">
+        <button class="toggle-btn active" onclick="showData('external')">External Relationships</button>
+        <button class="toggle-btn" onclick="showData('internal')">Internal States</button>
+      </div>
+      
+      <div id="data-display">
+        <p class="loading">Loading data...</p>
+      </div>
+    </div>
+    
+    <div class="nav-links">
+      <a href="javascript:history.back()" class="back-link">← Back to Chapters</a>
+      <a href="/" class="back-link">← Back to Library</a>
+    </div>
+  </main>
+
+  <script src="graph.js"></script>
+</body>
+</html>

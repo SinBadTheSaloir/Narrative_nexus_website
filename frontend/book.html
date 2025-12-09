@@ -13,20 +13,15 @@
     
     <div class="book-list-container">
       <div class="book-list-box">
-        <p class="info-text">Chapter view coming soon...</p>
-        <a href="/" class="back-link">← Back to Library</a>
+        <div id="chapters-list">
+          <p class="loading">Loading chapters...</p>
+        </div>
       </div>
+      
+      <a href="/" class="back-link">← Back to Library</a>
     </div>
   </main>
 
-  <script>
-    // Get book name from URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const bookName = urlParams.get('book');
-    
-    if (bookName) {
-      document.getElementById('book-title').textContent = bookName.replace(/_/g, ' ');
-    }
-  </script>
+  <script src="book.js"></script>
 </body>
 </html>
