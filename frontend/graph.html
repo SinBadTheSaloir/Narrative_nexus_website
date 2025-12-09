@@ -159,6 +159,146 @@
     </div>
   </main>
 
-  <script src="graph.js"></script>
+  <script>
+    // Get parameters from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookId = urlParams.get('book');
+    const chapterId = urlParams.get('chapter');
+    
+    let currentChapterData = null;
+    let currentDataType = 'external';
+
+    // Load chapter data from JSON file
+    async function loadChapterData() {
+      try {
+        const response = await fetch('/data.json');
+        const data = await response.json();
+        
+        if (!bookId || !data[bookId]) {
+          showError('Book not found');
+          return;
+        }
+        
+        const bookData = data[bookId];
+        const chapter = bookData.chapters.find(ch => ch.id === chapterId);
+        
+        if (!chapter) {
+          showError('Chapter not found');
+          return;
+        }
+        
+        currentChapterData = chapter;
+        
+        // Set titles
+        document.getElementById('page-subtitle').textContent = bookData.displayName;
+        document.getElementById('chapter-title').textContent = chapter.name;
+        document.getElementById('book-name').textContent = bookData.displayName;
+        
+        // Display data
+        showData('external');
+      } catch (error) {
+        console.error('Error loading chapter data:', error);
+        showError('Failed to load chapter data');
+      }
+    }
+
+    function showData(dataType) {
+      currentDataType = dataType;
+      
+      // Update button states
+      const buttons = document.querySelectorAll('.toggle-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('active');
+        if ((dataType === 'external' && btn.textContent.includes('External')) ||
+            (dataType === 'internal' && btn.textContent.includes('Internal'))) {
+          btn.classList.add('active');
+        }
+      });
+      
+      if (!currentChapterData) return;
+      
+      const data = currentChapterData[dataType];
+      const characters = currentChapterData.characters;
+      
+      if (!data || Object.keys(data).length === 0) {
+        document.getElementById('data-display').innerHTML = 
+          `<p class="info-text">No ${dataType} data available for this chapter.</p>`;
+        return;
+      }
+      
+      displayMatrix(data, characters);
+    }
+
+    function displayMatrix(matrixData, characters) {
+      const dataDisplay = document.getElementById('data-display');
+      
+      let html = '<div class="data-section">';
+      
+      // Characters section
+      html += '<h3>Characters</h3>';
+      html += '<div class="character-list">';
+      characters.forEach(char => {
+        html += `<div class="character-badge">${char}</div>`;
+      });
+      html += '</div>';
+      
+      // Matrix section
+      html += '<h3>Relationship Matrix</h3>';
+      html += '<div class="matrix-container">';
+      html += '<table>';
+      
+      // Header row
+      html += '<thead><tr><th>From / To</th>';
+      characters.forEach(char => {
+        html += `<th>${char}</th>`;
+      });
+      html += '</tr></thead>';
+      
+      // Data rows
+      html += '<tbody>';
+      characters.forEach(fromChar => {
+        html += '<tr>';
+        html += `<th>${fromChar}</th>`;
+        
+        characters.forEach(toChar => {
+          if (matrixData[fromChar] && matrixData[fromChar][toChar]) {
+            const values = matrixData[fromChar][toChar];
+            const sum = values.reduce((a, b) => a + b, 0);
+            const hasInteraction = sum > 0;
+            
+            html += `<td class="${hasInteraction ? 'cell-active' : ''}">${sum}</td>`;
+          } else {
+            html += '<td>0</td>';
+          }
+        });
+        
+        html += '</tr>';
+      });
+      html += '</tbody>';
+      
+      html += '</table>';
+      html += '</div>';
+      
+      // Legend
+      html += '<p style="color: #888; font-size: 0.85rem; margin-top: 1rem;">';
+      html += '<span style="color: #51cf66;">●</span> Green cells indicate relationships/interactions. ';
+      html += 'Values represent the sum of emotional dimensions.';
+      html += '</p>';
+      
+      html += '</div>';
+      
+      dataDisplay.innerHTML = html;
+    }
+
+    function showError(message) {
+      document.getElementById('page-subtitle').textContent = 'Error';
+      document.getElementById('chapter-title').textContent = message;
+      document.getElementById('data-display').innerHTML = 
+        `<p class="error">${message}</p>`;
+    }
+
+    // Load data on page load
+    document.addEventListener('DOMContentLoaded', loadChapterData);
+  </script>
 </body>
 </html>

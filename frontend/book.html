@@ -22,6 +22,86 @@
     </div>
   </main>
 
-  <script src="book.js"></script>
+  <script>
+    // Get book ID from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookId = urlParams.get('book');
+
+    // Load book data from JSON file
+    async function loadBookData() {
+      try {
+        const response = await fetch('/data.json');
+        const data = await response.json();
+        
+        if (!bookId || !data[bookId]) {
+          showError('Book not found');
+          return;
+        }
+        
+        const bookData = data[bookId];
+        displayBook(bookData);
+      } catch (error) {
+        console.error('Error loading book data:', error);
+        showError('Failed to load book data');
+      }
+    }
+
+    function displayBook(bookData) {
+      // Set book title
+      document.getElementById('book-title').textContent = bookData.displayName;
+      
+      const chaptersListElement = document.getElementById('chapters-list');
+      chaptersListElement.innerHTML = '';
+      
+      if (!bookData.chapters || bookData.chapters.length === 0) {
+        chaptersListElement.innerHTML = '<p class="info-text">No chapters available.</p>';
+        return;
+      }
+      
+      // Add section title
+      const sectionTitle = document.createElement('h3');
+      sectionTitle.style.color = '#888';
+      sectionTitle.style.fontSize = '0.9rem';
+      sectionTitle.style.marginBottom = '1rem';
+      sectionTitle.style.textTransform = 'uppercase';
+      sectionTitle.style.letterSpacing = '0.1em';
+      sectionTitle.textContent = 'Chapters';
+      chaptersListElement.appendChild(sectionTitle);
+      
+      // Create chapter links
+      bookData.chapters.forEach((chapter) => {
+        const link = document.createElement('a');
+        link.href = `/graph.html?book=${encodeURIComponent(bookId)}&chapter=${encodeURIComponent(chapter.id)}`;
+        link.className = 'book-item';
+        link.style.display = 'flex';
+        link.style.alignItems = 'center';
+        
+        const chapterName = document.createElement('span');
+        chapterName.textContent = chapter.name;
+        link.appendChild(chapterName);
+        
+        // Add green dot indicator
+        const indicator = document.createElement('span');
+        indicator.style.marginLeft = 'auto';
+        indicator.style.color = '#51cf66';
+        indicator.style.fontSize = '0.9rem';
+        indicator.textContent = '●';
+        link.appendChild(indicator);
+        
+        chaptersListElement.appendChild(link);
+        
+        console.log(`Created chapter link: ${chapter.name}`);
+      });
+    }
+
+    function showError(message) {
+      document.getElementById('book-title').textContent = 'Error';
+      document.getElementById('chapters-list').innerHTML = 
+        `<p class="error">${message}</p>`;
+    }
+
+    // Load data on page load
+    document.addEventListener('DOMContentLoaded', loadBookData);
+  </script>
 </body>
 </html>
