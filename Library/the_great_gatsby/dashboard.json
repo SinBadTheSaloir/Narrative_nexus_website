@@ -1,0 +1,658 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "the_great_gatsby",
+  "title": "The Great Gatsby",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 10.0,
+      "negative": 4.0,
+      "total": 14.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 6.0,
+      "negative": 10.0,
+      "total": 16.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 2.0,
+      "negative": 0.0,
+      "total": 2.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 30.0,
+      "negative": 8.0,
+      "total": 38.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 14.0,
+      "negative": 2.0,
+      "total": 16.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 14.0,
+      "negative": 10.0,
+      "total": 24.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 16.0,
+      "negative": 16.0,
+      "total": 32.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 7.0,
+      "negative": 10.0,
+      "total": 17.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 18.0,
+      "negative": 8.0,
+      "total": 26.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "carraway",
+      "name": "Carraway"
+    },
+    {
+      "id": "catherine",
+      "name": "Catherine"
+    },
+    {
+      "id": "daisy",
+      "name": "Daisy"
+    },
+    {
+      "id": "daisy_fay",
+      "name": "Daisy Fay"
+    },
+    {
+      "id": "dan_cody",
+      "name": "Dan Cody"
+    },
+    {
+      "id": "doctor_civet",
+      "name": "Doctor Civet"
+    },
+    {
+      "id": "ella_kaye",
+      "name": "Ella Kaye"
+    },
+    {
+      "id": "finn",
+      "name": "Finn"
+    },
+    {
+      "id": "gatsby",
+      "name": "Gatsby"
+    },
+    {
+      "id": "george_wilson",
+      "name": "George Wilson"
+    },
+    {
+      "id": "i",
+      "name": "I"
+    },
+    {
+      "id": "james_gatz",
+      "name": "James Gatz"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan"
+    },
+    {
+      "id": "jordan_baker",
+      "name": "Jordan Baker"
+    },
+    {
+      "id": "klipspringer",
+      "name": "Klipspringer"
+    },
+    {
+      "id": "lucille",
+      "name": "Lucille"
+    },
+    {
+      "id": "meyer_wolfshiem",
+      "name": "Meyer Wolfshiem"
+    },
+    {
+      "id": "michaelis",
+      "name": "Michaelis"
+    },
+    {
+      "id": "miss_baedeker",
+      "name": "Miss Baedeker"
+    },
+    {
+      "id": "mr._gatz",
+      "name": "Mr. Gatz"
+    },
+    {
+      "id": "mr._mckee",
+      "name": "Mr. McKee"
+    },
+    {
+      "id": "mr._mumble",
+      "name": "Mr. Mumble"
+    },
+    {
+      "id": "mr._wolfshiem",
+      "name": "Mr. Wolfshiem"
+    },
+    {
+      "id": "myrtle",
+      "name": "Myrtle"
+    },
+    {
+      "id": "myrtle_wilson",
+      "name": "Myrtle Wilson"
+    },
+    {
+      "id": "nick",
+      "name": "Nick"
+    },
+    {
+      "id": "nick_carraway",
+      "name": "Nick Carraway"
+    },
+    {
+      "id": "owl_eyes",
+      "name": "Owl Eyes"
+    },
+    {
+      "id": "owl-eyes",
+      "name": "Owl-eyes"
+    },
+    {
+      "id": "sloane",
+      "name": "Sloane"
+    },
+    {
+      "id": "tom",
+      "name": "Tom"
+    },
+    {
+      "id": "tom_buchanan",
+      "name": "Tom Buchanan"
+    },
+    {
+      "id": "wilson",
+      "name": "Wilson"
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "nick",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "tom",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "daisy",
+          "importance": 0.667,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "jordan",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "gatsby",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "tom_buchanan",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "myrtle_wilson",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "george_wilson",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr._mckee",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": [
+        {
+          "id": "i",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "gatsby",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jordan_baker",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "lucille",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr._mumble",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "owl_eyes",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "nick_carraway",
+          "importance": 0.6,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tom_buchanan",
+          "importance": 0.6,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jordan_baker",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr._wolfshiem",
+          "importance": 0.2,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "daisy_fay",
+          "importance": 0.4,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "i",
+          "importance": 1.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "daisy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "tom",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "finn",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "klipspringer",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": [
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "tom",
+          "importance": 0.75,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "daisy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "nick",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "sloane",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss_baedeker",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "doctor_civet",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "ella_kaye",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "dan_cody",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "james_gatz",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": [
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "carraway",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "daisy",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jordan",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tom",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "myrtle",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "michaelis",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "daisy",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "tom",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "nick",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jordan",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "michaelis",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "gatsby",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.333,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "daisy",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tom",
+          "importance": 0.5,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "meyer_wolfshiem",
+          "importance": 0.167,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr._gatz",
+          "importance": 0.333,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "klipspringer",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "owl-eyes",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "nick",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    }
+  ]
+}
