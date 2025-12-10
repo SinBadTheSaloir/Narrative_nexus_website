@@ -64,7 +64,7 @@ body {
 
 .page-container {
   flex: 1;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -186,66 +186,110 @@ body {
 }
 
 /* ============================================
-   BOOK GRAPHS PAGE
+   DASHBOARD PAGE
    ============================================ */
 
-.book-graphs-page {
+.dashboard-page {
   animation: fadeIn 0.4s ease;
 }
 
-.graphs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+.dashboard-controls {
+  display: flex;
+  justify-content: center;
   margin: 2rem 0;
-}
-
-.graph-card {
+  padding: 1rem;
   background-color: #0a0a0a;
   border: 1px solid #333;
   border-radius: 12px;
-  padding: 1.5rem;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 1rem;
+}
+
+.view-btn {
+  background-color: #1a1a1a;
+  color: #888;
+  border: 1px solid #333;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-.graph-card:hover {
+.view-btn:hover {
   border-color: #d4af37;
-  transform: translateX(4px);
+  color: #d4af37;
 }
 
-.graph-title {
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 500;
+.view-btn.active {
+  background-color: #d4af37;
+  color: #000;
+  border-color: #d4af37;
+  font-weight: 600;
 }
 
-.graph-indicator {
-  color: #51cf66;
-  font-size: 1.2rem;
-}
-
-/* ============================================
-   GRAPH VIEWER PAGE
-   ============================================ */
-
-.graph-viewer-page {
-  animation: fadeIn 0.4s ease;
-}
-
-.graph-container {
+.dashboard-plot {
+  width: 100%;
+  min-height: 500px;
   background-color: #0a0a0a;
   border: 1px solid #333;
   border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  min-height: 500px;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
-.graph-actions {
+.emotion-legend {
+  padding: 1.5rem;
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.legend-title {
+  color: #d4af37;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.legend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #1a1a1a;
+  border-radius: 6px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #444;
+  flex-shrink: 0;
+}
+
+.legend-label {
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.dashboard-actions {
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
@@ -332,59 +376,6 @@ body {
 }
 
 /* ============================================
-   PLACEHOLDER (for unimplemented graphs)
-   ============================================ */
-
-.placeholder {
-  text-align: center;
-  padding: 3rem 2rem;
-  color: #888;
-}
-
-.placeholder h3 {
-  color: #d4af37;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.placeholder p {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.placeholder code {
-  background-color: #1a1a1a;
-  color: #d4af37;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  font-family: 'Courier New', monospace;
-}
-
-.placeholder details {
-  margin-top: 2rem;
-  text-align: left;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.placeholder summary {
-  color: #d4af37;
-  cursor: pointer;
-  margin-bottom: 0.5rem;
-}
-
-.placeholder pre {
-  background-color: #1a1a1a;
-  color: #51cf66;
-  padding: 1rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  font-size: 0.85rem;
-  line-height: 1.4;
-}
-
-/* ============================================
    ANIMATIONS
    ============================================ */
 
@@ -409,8 +400,7 @@ body {
     letter-spacing: 0.15em;
   }
   
-  .books-grid,
-  .graphs-grid {
+  .books-grid {
     grid-template-columns: 1fr;
   }
   
@@ -418,7 +408,19 @@ body {
     padding: 1.5rem 1rem;
   }
   
-  .graph-container {
-    padding: 1rem;
+  .dashboard-plot {
+    padding: 0.5rem;
+  }
+  
+  .view-toggle {
+    flex-direction: column;
+  }
+  
+  .view-btn {
+    width: 100%;
+  }
+  
+  .legend-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 }

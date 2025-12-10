@@ -1,4 +1,4 @@
-// server.js - Complete Backend with Library-Based Architecture
+// server.js - Simplified Backend for Dashboard View
 
 const express = require('express');
 const fs = require('fs');
@@ -11,27 +11,17 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('frontend'));
+app.use(express.static(path.join(__dirname, '..', 'frontend')));
 
 // ============================================
 // LIBRARY CONFIGURATION
 // ============================================
 
-const LIBRARY_PATH = path.join(__dirname, 'Library');
+const LIBRARY_PATH = path.join(__dirname, '..', 'Library');
 let libraryIndex = {}; // In-memory cache of all books
 
-// Graph type to friendly label mapping
-const GRAPH_LABELS = {
-  'heartbeat': 'Story Emotional Heartbeat',
-  'importance': 'Character Importance Over Time',
-  'centrality': 'Eigenvector Centrality',
-  'heatmap': 'Internal Emotion Heatmap',
-  'network': 'Relationship Network',
-  'trajectory': 'Positive vs Negative Trajectory'
-};
-
 // ============================================
-// LIBRARY SCANNER (Convention-Based Discovery)
+// LIBRARY SCANNER
 // ============================================
 
 function scanLibrary() {
@@ -51,7 +41,7 @@ function scanLibrary() {
   bookFolders.forEach(bookId => {
     const bookPath = path.join(LIBRARY_PATH, bookId);
     const metadataPath = path.join(bookPath, 'metadata.json');
-    const graphsPath = path.join(bookPath, 'graphs');
+    const dashboardPath = path.join(bookPath, 'dashboard.json');
     
     // Read metadata
     if (!fs.existsSync(metadataPath)) {
@@ -67,25 +57,16 @@ function scanLibrary() {
       return;
     }
     
-    // Scan available graphs
-    const availableGraphs = [];
-    if (fs.existsSync(graphsPath)) {
-      const graphFiles = fs.readdirSync(graphsPath)
-        .filter(file => file.endsWith('.json'));
-      
-      graphFiles.forEach(file => {
-        const graphType = file.replace('.json', '');
-        availableGraphs.push(graphType);
-      });
-    }
+    // Check for dashboard
+    const hasDashboard = fs.existsSync(dashboardPath);
     
     books[bookId] = {
       id: bookId,
       ...metadata,
-      graphs: availableGraphs
+      hasDashboard
     };
     
-    console.log(`  ✅ ${metadata.title} (${availableGraphs.length} graphs)`);
+    console.log(`  ✅ ${metadata.title}${hasDashboard ? ' (dashboard available)' : ''}`);
   });
   
   console.log(`📚 Library scan complete: ${Object.keys(books).length} books found\n`);
@@ -96,7 +77,7 @@ function scanLibrary() {
 // API ENDPOINTS
 // ============================================
 
-// 1️⃣ GET /api/books - List all books
+// GET /api/books - List all books
 app.get('/api/books', (req, res) => {
   const books = Object.values(libraryIndex).map(book => ({
     id: book.id,
@@ -106,87 +87,47 @@ app.get('/api/books', (req, res) => {
     chapterCount: book.chapterCount,
     characterCount: book.characterCount,
     description: book.description,
-    graphCount: book.graphs.length
+    hasDashboard: book.hasDashboard
   }));
   
   res.json(books);
 });
 
-// 2️⃣ GET /api/books/:bookId/graphs - List available graphs for a book
-app.get('/api/books/:bookId/graphs', (req, res) => {
+// GET /api/books/:bookId/dashboard - Get dashboard data
+app.get('/api/books/:bookId/dashboard', (req, res) => {
   const { bookId } = req.params;
-  const book = libraryIndex[bookId];
-  
-  if (!book) {
-    return res.status(404).json({ error: 'Book not found' });
-  }
-  
-  const graphs = book.graphs.map(graphType => ({
-    type: graphType,
-    label: GRAPH_LABELS[graphType] || graphType
-  }));
-  
-  res.json({
-    id: book.id,
-    title: book.title,
-    graphs
-  });
-});
-
-// 3️⃣ GET /api/books/:bookId/graph/:graphType - Get graph data
-app.get('/api/books/:bookId/graph/:graphType', async (req, res) => {
-  const { bookId, graphType } = req.params;
-  const { chapter } = req.query;
   
   const book = libraryIndex[bookId];
   if (!book) {
     return res.status(404).json({ error: 'Book not found' });
   }
   
-  const graphPath = path.join(LIBRARY_PATH, bookId, 'graphs', `${graphType}.json`);
+  const dashboardPath = path.join(LIBRARY_PATH, bookId, 'dashboard.json');
   
-  // Check if graph file exists
-  if (!fs.existsSync(graphPath)) {
-    // DEV MODE: Auto-generate if missing (future feature)
-    if (process.env.NODE_ENV === 'development') {
-      console.log(`[DEV] Graph ${graphType} missing for ${bookId} - would generate here`);
-      // TODO: Implement auto-generation
-    }
-    
-    return res.status(404).json({ error: 'Graph not available for this book' });
+  if (!fs.existsSync(dashboardPath)) {
+    return res.status(404).json({ error: 'Dashboard data not available for this book' });
   }
   
-  // Read graph data
-  let graphData;
+  let dashboardData;
   try {
-    graphData = JSON.parse(fs.readFileSync(graphPath, 'utf-8'));
+    dashboardData = JSON.parse(fs.readFileSync(dashboardPath, 'utf-8'));
   } catch (error) {
-    console.error(`Error reading graph ${graphType} for ${bookId}:`, error);
-    return res.status(500).json({ error: 'Error reading graph data' });
+    console.error(`Error reading dashboard for ${bookId}:`, error);
+    return res.status(500).json({ error: 'Error reading dashboard data' });
   }
   
-  // If chapter filter requested and graph has chapters
-  if (chapter && graphData.chapters && graphData.chapters[chapter]) {
-    graphData = {
-      ...graphData,
-      data: graphData.chapters[chapter]
-    };
-  }
-  
-  res.json(graphData);
+  res.json(dashboardData);
 });
 
 // ============================================
 // UTILITY ENDPOINTS
 // ============================================
 
-// Rescan library (useful for dev)
 app.post('/api/rescan', (req, res) => {
   libraryIndex = scanLibrary();
   res.json({ message: 'Library rescanned', bookCount: Object.keys(libraryIndex).length });
 });
 
-// Health check
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
@@ -199,11 +140,9 @@ app.get('/api/health', (req, res) => {
 // STARTUP
 // ============================================
 
-// Scan library on startup
 libraryIndex = scanLibrary();
 
 app.listen(PORT, () => {
-  console.log(`🚀 Narrative Nexus Backend running on http://localhost:${PORT}`);
+  console.log(`🚀 Narrative Nexus running on http://localhost:${PORT}`);
   console.log(`📚 ${Object.keys(libraryIndex).length} books loaded`);
-  console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
 });

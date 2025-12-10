@@ -1,0 +1,17 @@
+{
+  "name": "narrative-nexus",
+  "version": "2.0.0",
+  "description": "Narrative Nexus - Emotion Dashboard Viewer",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && NODE_ENV=development node server.js"
+  },
+  "keywords": ["narrative", "visualization", "narratology"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

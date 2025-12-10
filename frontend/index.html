@@ -3,28 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Narrative Nexus</title>
+  <title>Narrative Nexus - Emotion Dashboard</title>
   <link rel="stylesheet" href="styles.css">
   
   <!-- Plotly.js for graphs -->
   <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
-  
-  <!-- vis.js for network graphs -->
-  <link href="https://unpkg.com/vis-network@9.1.2/dist/dist/vis-network.min.css" rel="stylesheet" />
-  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
 </head>
 <body>
-  <!-- App Shell -->
   <div id="app">
-    <!-- Header (always visible) -->
+    <!-- Header -->
     <header class="app-header">
       <div class="header-content">
         <h1 class="app-title" onclick="navigateTo('/')">NARRATIVE NEXUS</h1>
-        <p class="app-subtitle">Computational Narratology Platform</p>
+        <p class="app-subtitle">Emotion Dashboard</p>
       </div>
     </header>
     
-    <!-- Main content area (changes based on route) -->
+    <!-- Main content -->
     <main id="page-container" class="page-container">
       <div class="loading">Loading...</div>
     </main>
@@ -37,6 +32,5 @@
   
   <!-- Load app logic -->
   <script src="app.js"></script>
-  <script src="graph-registry.js"></script>
 </body>
 </html>
