@@ -334,16 +334,16 @@ function renderCharacterView(data) {
     const importance = [];
     const colors = [];
     const hoverText = [];
-    
+  
     data.character_chapters.forEach((chapter, chIdx) => {
       const charData = chapter.characters.find(c => c.id === character.id);
-      
+    
       if (charData) {
         importance.push(charData.importance);
-        
+      
         const emotionColor = emotionColors[charData.top_internal_emotion] || '#888';
         colors.push(emotionColor);
-        
+      
         const emotionLabel = data.internal_emotions?.find(e => e.id === charData.top_internal_emotion)?.label || charData.top_internal_emotion;
         hoverText.push(
           `${character.name}<br>` +
@@ -357,6 +357,8 @@ function renderCharacterView(data) {
       }
     });
     
+    const lineColor = character.line_color || `hsl(${charIdx * 60}, 70%, 60%)`;
+
     return {
       x: xIndices,
       y: importance,
@@ -375,7 +377,7 @@ function renderCharacterView(data) {
       text: hoverText,
       hovertemplate: '%{text}<extra></extra>'
     };
-  });
+    });
   
   const layout = {
     title: {
