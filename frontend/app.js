@@ -4,9 +4,8 @@
 // CONFIGURATION
 // ============================================
 
-const API_BASE = window.location.hostname === 'localhost' 
-  ? 'http://localhost:3000/api'
-  : '/api';
+const API_BASE = '/api';
+
 
 // ============================================
 // ROUTER

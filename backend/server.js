@@ -80,6 +80,12 @@ function scanLibrary() {
 
 // GET /api/books - List all books
 app.get('/api/books', (req, res) => {
+  // Safety: if libraryIndex is empty, try rescanning once
+  if (Object.keys(libraryIndex).length === 0) {
+    console.log('📚 libraryIndex empty on /api/books — rescanning Library...');
+    libraryIndex = scanLibrary();
+  }
+
   const books = Object.values(libraryIndex).map(book => ({
     id: book.id,
     title: book.title,
@@ -90,7 +96,7 @@ app.get('/api/books', (req, res) => {
     description: book.description,
     hasDashboard: book.hasDashboard
   }));
-  
+
   res.json(books);
 });
 
