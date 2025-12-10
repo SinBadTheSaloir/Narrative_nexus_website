@@ -1,0 +1,86 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "othello_data",
+  "title": "Othello Data",
+  "chapters": [],
+  "characters": [],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": []
+}
