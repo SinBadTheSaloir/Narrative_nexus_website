@@ -320,6 +320,7 @@ function renderCharacterView(data) {
     return;
   }
   
+  // Build emotion color map
   const emotionColors = {};
   if (data.internal_emotions) {
     data.internal_emotions.forEach(emotion => {
@@ -327,24 +328,29 @@ function renderCharacterView(data) {
     });
   }
   
+  // Chapter labels / indices
   const xLabels = data.character_chapters.map(ch => ch.label || `Chapter ${ch.index}`);
   const xIndices = data.character_chapters.map(ch => ch.index);
   
+  // Build traces (one per character)
   const traces = data.characters.map((character, charIdx) => {
     const importance = [];
     const colors = [];
     const hoverText = [];
-  
-    data.character_chapters.forEach((chapter, chIdx) => {
-      const charData = chapter.characters.find(c => c.id === character.id);
     
+    data.character_chapters.forEach(chapter => {
+      const charData = chapter.characters.find(c => c.id === character.id);
+      
       if (charData) {
         importance.push(charData.importance);
-      
+        
         const emotionColor = emotionColors[charData.top_internal_emotion] || '#888';
         colors.push(emotionColor);
-      
-        const emotionLabel = data.internal_emotions?.find(e => e.id === charData.top_internal_emotion)?.label || charData.top_internal_emotion;
+        
+        const emotionLabel =
+          data.internal_emotions?.find(e => e.id === charData.top_internal_emotion)?.label ||
+          charData.top_internal_emotion;
+        
         hoverText.push(
           `${character.name}<br>` +
           `Importance: ${(charData.importance * 100).toFixed(1)}%<br>` +
@@ -358,7 +364,7 @@ function renderCharacterView(data) {
     });
     
     const lineColor = character.line_color || `hsl(${charIdx * 60}, 70%, 60%)`;
-
+    
     return {
       x: xIndices,
       y: importance,
@@ -367,7 +373,7 @@ function renderCharacterView(data) {
       mode: 'lines+markers',
       line: { 
         width: 2.5,
-        color: `hsl(${charIdx * 60}, 70%, 60%)`
+        color: lineColor
       },
       marker: { 
         size: 12,
@@ -377,7 +383,7 @@ function renderCharacterView(data) {
       text: hoverText,
       hovertemplate: '%{text}<extra></extra>'
     };
-    });
+  });
   
   const layout = {
     title: {
@@ -416,8 +422,67 @@ function renderCharacterView(data) {
     displayModeBar: false
   };
   
-  Plotly.newPlot('dashboard-plot', traces, layout, config);
+  // Draw plot
+  Plotly.newPlot('dashboard-plot', traces, layout, config).then(plot => {
+    // Focus / dim logic
+    const numTraces = traces.length;
+    let activeIndex = null; // null = all normal
+    
+    function applyFocus() {
+      const lineWidths = [];
+      const traceOpacities = [];
+      const markerSizes = [];
+      const markerOpacities = [];
+      
+      for (let i = 0; i < numTraces; i++) {
+        if (activeIndex === null) {
+          // All equal
+          lineWidths.push(2.5);
+          traceOpacities.push(1.0);
+          markerSizes.push(12);
+          markerOpacities.push(1.0);
+        } else if (i === activeIndex) {
+          // Focused
+          lineWidths.push(3.5);
+          traceOpacities.push(1.0);
+          markerSizes.push(14);
+          markerOpacities.push(1.0);
+        } else {
+          // Dimmed
+          lineWidths.push(1.0);
+          traceOpacities.push(0.15);
+          markerSizes.push(8);
+          markerOpacities.push(0.3);
+        }
+      }
+      
+      Plotly.restyle('dashboard-plot', {
+        'line.width': lineWidths,
+        'opacity': traceOpacities,
+        'marker.size': markerSizes,
+        'marker.opacity': markerOpacities
+      });
+    }
+    
+    // Initial (all equal)
+    applyFocus();
+    
+    // Legend click toggles focus
+    plot.on('plotly_legendclick', ev => {
+      const idx = ev.curveNumber;
+      if (activeIndex === idx) {
+        activeIndex = null;   // reset
+      } else {
+        activeIndex = idx;    // focus this one
+      }
+      applyFocus();
+      
+      // Prevent default hide/show behavior
+      return false;
+    });
+  });
   
+  // Render emotion legend under the graph
   renderEmotionLegend(data.internal_emotions);
 }
 
