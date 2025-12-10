@@ -78,52 +78,52 @@
     },
     {
       "id": "daisy",
-      "name": "Daisy",
+      "name": "Daisy Fay",
       "primary": true,
       "line_color": "#ff6b6b",
-      "global_importance": 4.917
+      "global_importance": 5.317
     },
     {
       "id": "tom",
-      "name": "Tom",
+      "name": "Tom Buchanan",
       "primary": true,
       "line_color": "#51cf66",
-      "global_importance": 3.667
+      "global_importance": 5.267
     },
     {
       "id": "nick",
       "name": "Nick",
       "primary": true,
       "line_color": "#4dabf7",
-      "global_importance": 2.25
+      "global_importance": 2.85
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan Baker",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 2.733
     },
     {
       "id": "i",
       "name": "I",
       "primary": true,
-      "line_color": "#ffa94d",
+      "line_color": "#b197fc",
       "global_importance": 2.0
     },
     {
-      "id": "tom_buchanan",
-      "name": "Tom Buchanan",
-      "primary": true,
-      "line_color": "#b197fc",
-      "global_importance": 1.6
-    },
-    {
-      "id": "jordan_baker",
-      "name": "Jordan Baker",
+      "id": "wilson",
+      "name": "Wilson",
       "primary": true,
       "line_color": "#20c997",
-      "global_importance": 1.4
+      "global_importance": 1.083
     },
     {
-      "id": "jordan",
-      "name": "Jordan",
+      "id": "myrtle",
+      "name": "Myrtle",
       "primary": true,
       "line_color": "#f06595",
-      "global_importance": 1.333
+      "global_importance": 1.0
     }
   ],
   "internal_emotions": [
@@ -240,9 +240,14 @@
       "label": "Chapter 2",
       "characters": [
         {
-          "id": "tom_buchanan",
+          "id": "tom",
           "importance": 1.0,
           "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "myrtle",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
         }
       ]
     },
@@ -261,7 +266,7 @@
           "top_internal_emotion": "pride_healthy"
         },
         {
-          "id": "jordan_baker",
+          "id": "jordan",
           "importance": 1.0,
           "top_internal_emotion": "love"
         }
@@ -277,14 +282,24 @@
           "top_internal_emotion": "guilt"
         },
         {
-          "id": "tom_buchanan",
+          "id": "nick",
+          "importance": 0.6,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tom",
           "importance": 0.6,
           "top_internal_emotion": "pride_healthy"
         },
         {
-          "id": "jordan_baker",
+          "id": "jordan",
           "importance": 0.4,
           "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "daisy",
+          "importance": 0.4,
+          "top_internal_emotion": "shame"
         }
       ]
     },
@@ -363,6 +378,16 @@
           "id": "tom",
           "importance": 1.0,
           "top_internal_emotion": "fear"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "myrtle",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
         }
       ]
     },
@@ -394,6 +419,11 @@
           "id": "jordan",
           "importance": 0.0,
           "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
         }
       ]
     },
@@ -405,6 +435,11 @@
           "id": "gatsby",
           "importance": 1.0,
           "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wilson",
+          "importance": 0.333,
+          "top_internal_emotion": "shame"
         },
         {
           "id": "daisy",
