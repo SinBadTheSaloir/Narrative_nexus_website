@@ -12,12 +12,13 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '..', 'frontend')));
+console.log("📁 Scanning Library at:", LIBRARY_PATH);
 
 // ============================================
 // LIBRARY CONFIGURATION
 // ============================================
 
-const LIBRARY_PATH = path.join(__dirname, '..', 'Library');
+const LIBRARY_PATH = path.join(__dirname, 'Library');
 let libraryIndex = {}; // In-memory cache of all books
 
 // ============================================
