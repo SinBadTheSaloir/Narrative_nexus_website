@@ -1,0 +1,790 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "odyssey_books",
+  "title": "Odyssey Books",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 22.8,
+      "negative": 15.2,
+      "total": 38.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 33.6,
+      "negative": 22.4,
+      "total": 56.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 17.4,
+      "negative": 11.6,
+      "total": 29.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 21.6,
+      "negative": 14.4,
+      "total": 36.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 10.2,
+      "negative": 6.8,
+      "total": 17.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 26.4,
+      "negative": 17.6,
+      "total": 44.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 52.8,
+      "negative": 35.2,
+      "total": 88.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 24.0,
+      "negative": 16.0,
+      "total": 40.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 28.8,
+      "negative": 19.2,
+      "total": 48.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 74.4,
+      "negative": 49.6,
+      "total": 124.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 36.6,
+      "negative": 24.4,
+      "total": 61.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 38.4,
+      "negative": 25.6,
+      "total": 64.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 61.2,
+      "negative": 40.8,
+      "total": 102.0
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "positive": 15.0,
+      "negative": 10.0,
+      "total": 25.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 15.966
+    },
+    {
+      "id": "telemachus",
+      "name": "Telemachus",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 9.268
+    },
+    {
+      "id": "eumaeus",
+      "name": "Eumaeus",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 4.608
+    },
+    {
+      "id": "penelope",
+      "name": "Penelope",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 4.588
+    },
+    {
+      "id": "antinous",
+      "name": "Antinous",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 3.372
+    },
+    {
+      "id": "eurymachus",
+      "name": "Eurymachus",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 2.917
+    },
+    {
+      "id": "alcinous",
+      "name": "Alcinous",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 2.257
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 2.177
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.357,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.429,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.429,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.643,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.643,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "telemachus",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.136,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.091,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.091,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": [
+        {
+          "id": "telemachus",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "telemachus",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.333,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.333,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 0.857,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.143,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "alcinous",
+          "importance": 0.857,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "alcinous",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "alcinous",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.111,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "penelope",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "minerva",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.8,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ulysses",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.2,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "telemachus",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.833,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "telemachus",
+          "importance": 0.955,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "ulysses",
+          "importance": 0.909,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.909,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.455,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.167,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.083,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.083,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "penelope",
+          "importance": 0.25,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.75,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.75,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.875,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.875,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "antinous",
+          "importance": 0.1,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "eurymachus",
+          "importance": 0.1,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.05,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.1,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.15,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "penelope",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "telemachus",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "characters": [
+        {
+          "id": "ulysses",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "telemachus",
+          "importance": 0.091,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "eumaeus",
+          "importance": 0.091,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "minerva",
+          "importance": 0.091,
+          "top_internal_emotion": "love"
+        }
+      ]
+    }
+  ]
+}

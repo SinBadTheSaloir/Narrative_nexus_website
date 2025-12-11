@@ -1,0 +1,891 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "dracula_by_bram_stoker",
+  "title": "Dracula by Bram Stoker",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 28.8,
+      "negative": 19.2,
+      "total": 48.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 6.6,
+      "negative": 4.4,
+      "total": 11.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 48.0,
+      "negative": 32.0,
+      "total": 80.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 28.8,
+      "negative": 19.2,
+      "total": 48.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 32.4,
+      "negative": 21.6,
+      "total": 54.0
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 36.0,
+      "negative": 24.0,
+      "total": 60.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 75.6,
+      "negative": 50.4,
+      "total": 126.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 28.2,
+      "negative": 18.8,
+      "total": 47.0
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "positive": 42.0,
+      "negative": 28.0,
+      "total": 70.0
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "dr.",
+      "name": "Dr. John Seward",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 16.509
+    },
+    {
+      "id": "jonathan",
+      "name": "Jonathan Harker",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 11.948
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 7.986
+    },
+    {
+      "id": "mina",
+      "name": "Mina Harker",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 7.531
+    },
+    {
+      "id": "van",
+      "name": "Van Helsing",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 7.25
+    },
+    {
+      "id": "mrs.",
+      "name": "Mrs. Snelling",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 5.894
+    },
+    {
+      "id": "arthur",
+      "name": "Arthur Holmwood",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 5.623
+    },
+    {
+      "id": "count",
+      "name": "Count",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 5.5
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "count",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "count",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "count",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "count",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mina",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "mina",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "dr.",
+          "importance": 0.2,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "mina",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.667,
+          "top_internal_emotion": "past_pain"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.333,
+          "top_internal_emotion": "future_pain"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "mina",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "dr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lucy",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": [
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "dr.",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 0.909,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lucy",
+          "importance": 0.636,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.727,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.727,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mina",
+          "importance": 0.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "van",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.75,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mina",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "characters": [
+        {
+          "id": "mina",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lucy",
+          "importance": 0.6,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "dr.",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.6,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "arthur",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "sin_force"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "lucy",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mina",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mina",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "dr.",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "van",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "arthur",
+          "importance": 0.429,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mina",
+          "importance": 0.714,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.714,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "count",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mina",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 0.5,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "jonathan",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mina",
+          "importance": 0.5,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "count",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "jonathan",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "van",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "characters": [
+        {
+          "id": "dr.",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "van",
+          "importance": 0.5,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    }
+  ]
+}

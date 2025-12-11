@@ -1,0 +1,742 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "the_iliad_by_homer",
+  "title": "The Iliad by Homer",
+  "chapters": [
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 11.4,
+      "negative": 7.6,
+      "total": 19.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 17.4,
+      "negative": 11.6,
+      "total": 29.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 46.8,
+      "negative": 31.2,
+      "total": 78.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 45.6,
+      "negative": 30.4,
+      "total": 76.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 85.2,
+      "negative": 56.8,
+      "total": 142.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 28.2,
+      "negative": 18.8,
+      "total": 47.0
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 7.8,
+      "negative": 5.2,
+      "total": 13.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 24.6,
+      "negative": 16.4,
+      "total": 41.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 21.0,
+      "negative": 14.0,
+      "total": 35.0
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "hector",
+      "name": "Hector",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 9.909
+    },
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 8.092
+    },
+    {
+      "id": "agamemnon",
+      "name": "Agamemnon",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 4.44
+    },
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 3.103
+    },
+    {
+      "id": "priam",
+      "name": "Priam",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 2.917
+    },
+    {
+      "id": "menelaus",
+      "name": "Menelaus",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 2.639
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 2.55
+    },
+    {
+      "id": "diomed",
+      "name": "Diomed",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 2.507
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "agamemnon",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.625,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "menelaus",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hector",
+          "importance": 0.125,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": [
+        {
+          "id": "menelaus",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hector",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "priam",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "diomed",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "apollo",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "hector",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": [
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "diomed",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "priam",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": [
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "apollo",
+          "importance": 0.25,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 0.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "menelaus",
+          "importance": 0.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "priam",
+          "importance": 0.75,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "diomed",
+          "importance": 0.118,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 0.118,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "agamemnon",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "diomed",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "agamemnon",
+          "importance": 0.889,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "menelaus",
+          "importance": 0.889,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "diomed",
+          "importance": 0.889,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.889,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.667,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.0,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "characters": [
+        {
+          "id": "agamemnon",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "diomed",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "hector",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.25,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "apollo",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hector",
+          "importance": 0.625,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.25,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "apollo",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "ajax",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "menelaus",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "hector",
+          "importance": 0.409,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.364,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "achilles",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "apollo",
+          "importance": 0.8,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "apollo",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "priam",
+          "importance": 0.167,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "hector",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "priam",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "apollo",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "agamemnon",
+          "importance": 0.1,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "ajax",
+          "importance": 0.1,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "characters": [
+        {
+          "id": "achilles",
+          "importance": 0.8,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "priam",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    }
+  ]
+}

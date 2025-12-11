@@ -1,0 +1,6647 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "les_miserables_chapters",
+  "title": "Les Miserables Chapters",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 6.6,
+      "negative": 4.4,
+      "total": 11.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 11.4,
+      "negative": 7.6,
+      "total": 19.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 25.8,
+      "negative": 17.2,
+      "total": 43.0
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 21.6,
+      "negative": 14.4,
+      "total": 36.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "positive": 36.0,
+      "negative": 24.0,
+      "total": 60.0
+    },
+    {
+      "index": 30,
+      "label": "Chapter 30",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 32,
+      "label": "Chapter 32",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 35,
+      "label": "Chapter 35",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 36,
+      "label": "Chapter 36",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 37,
+      "label": "Chapter 37",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 38,
+      "label": "Chapter 38",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 39,
+      "label": "Chapter 39",
+      "positive": 25.2,
+      "negative": 16.8,
+      "total": 42.0
+    },
+    {
+      "index": 40,
+      "label": "Chapter 40",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 41,
+      "label": "Chapter 41",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 42,
+      "label": "Chapter 42",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 43,
+      "label": "Chapter 43",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 45,
+      "label": "Chapter 45",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 46,
+      "label": "Chapter 46",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 47,
+      "label": "Chapter 47",
+      "positive": 7.8,
+      "negative": 5.2,
+      "total": 13.0
+    },
+    {
+      "index": 49,
+      "label": "Chapter 49",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 50,
+      "label": "Chapter 50",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 51,
+      "label": "Chapter 51",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 52,
+      "label": "Chapter 52",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 53,
+      "label": "Chapter 53",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 54,
+      "label": "Chapter 54",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 56,
+      "label": "Chapter 56",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 57,
+      "label": "Chapter 57",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 58,
+      "label": "Chapter 58",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 59,
+      "label": "Chapter 59",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 60,
+      "label": "Chapter 60",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 61,
+      "label": "Chapter 61",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 62,
+      "label": "Chapter 62",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 63,
+      "label": "Chapter 63",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 64,
+      "label": "Chapter 64",
+      "positive": 15.0,
+      "negative": 10.0,
+      "total": 25.0
+    },
+    {
+      "index": 66,
+      "label": "Chapter 66",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 67,
+      "label": "Chapter 67",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 69,
+      "label": "Chapter 69",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 70,
+      "label": "Chapter 70",
+      "positive": 12.6,
+      "negative": 8.4,
+      "total": 21.0
+    },
+    {
+      "index": 71,
+      "label": "Chapter 71",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 72,
+      "label": "Chapter 72",
+      "positive": 25.2,
+      "negative": 16.8,
+      "total": 42.0
+    },
+    {
+      "index": 73,
+      "label": "Chapter 73",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 74,
+      "label": "Chapter 74",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 76,
+      "label": "Chapter 76",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 77,
+      "label": "Chapter 77",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 78,
+      "label": "Chapter 78",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 79,
+      "label": "Chapter 79",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 80,
+      "label": "Chapter 80",
+      "positive": 46.8,
+      "negative": 31.2,
+      "total": 78.0
+    },
+    {
+      "index": 81,
+      "label": "Chapter 81",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 82,
+      "label": "Chapter 82",
+      "positive": 80.4,
+      "negative": 53.6,
+      "total": 134.0
+    },
+    {
+      "index": 84,
+      "label": "Chapter 84",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 85,
+      "label": "Chapter 85",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 86,
+      "label": "Chapter 86",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 87,
+      "label": "Chapter 87",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 88,
+      "label": "Chapter 88",
+      "positive": 28.8,
+      "negative": 19.2,
+      "total": 48.0
+    },
+    {
+      "index": 89,
+      "label": "Chapter 89",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 90,
+      "label": "Chapter 90",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 91,
+      "label": "Chapter 91",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 92,
+      "label": "Chapter 92",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 93,
+      "label": "Chapter 93",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 94,
+      "label": "Chapter 94",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 95,
+      "label": "Chapter 95",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 96,
+      "label": "Chapter 96",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 97,
+      "label": "Chapter 97",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 98,
+      "label": "Chapter 98",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 99,
+      "label": "Chapter 99",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 100,
+      "label": "Chapter 100",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 101,
+      "label": "Chapter 101",
+      "positive": 25.2,
+      "negative": 16.8,
+      "total": 42.0
+    },
+    {
+      "index": 102,
+      "label": "Chapter 102",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 103,
+      "label": "Chapter 103",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 104,
+      "label": "Chapter 104",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 105,
+      "label": "Chapter 105",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 107,
+      "label": "Chapter 107",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 108,
+      "label": "Chapter 108",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 109,
+      "label": "Chapter 109",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 110,
+      "label": "Chapter 110",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 111,
+      "label": "Chapter 111",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 112,
+      "label": "Chapter 112",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 114,
+      "label": "Chapter 114",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 115,
+      "label": "Chapter 115",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 116,
+      "label": "Chapter 116",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 117,
+      "label": "Chapter 117",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 119,
+      "label": "Chapter 119",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 120,
+      "label": "Chapter 120",
+      "positive": 36.0,
+      "negative": 24.0,
+      "total": 60.0
+    },
+    {
+      "index": 121,
+      "label": "Chapter 121",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 122,
+      "label": "Chapter 122",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 124,
+      "label": "Chapter 124",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 125,
+      "label": "Chapter 125",
+      "positive": 119.4,
+      "negative": 79.6,
+      "total": 199.0
+    },
+    {
+      "index": 126,
+      "label": "Chapter 126",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 127,
+      "label": "Chapter 127",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 128,
+      "label": "Chapter 128",
+      "positive": 27.6,
+      "negative": 18.4,
+      "total": 46.0
+    },
+    {
+      "index": 129,
+      "label": "Chapter 129",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 130,
+      "label": "Chapter 130",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 131,
+      "label": "Chapter 131",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 132,
+      "label": "Chapter 132",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 133,
+      "label": "Chapter 133",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 134,
+      "label": "Chapter 134",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 135,
+      "label": "Chapter 135",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 136,
+      "label": "Chapter 136",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 137,
+      "label": "Chapter 137",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 138,
+      "label": "Chapter 138",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 139,
+      "label": "Chapter 139",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 140,
+      "label": "Chapter 140",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 141,
+      "label": "Chapter 141",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 143,
+      "label": "Chapter 143",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 144,
+      "label": "Chapter 144",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 146,
+      "label": "Chapter 146",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 147,
+      "label": "Chapter 147",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 148,
+      "label": "Chapter 148",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 149,
+      "label": "Chapter 149",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 150,
+      "label": "Chapter 150",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 151,
+      "label": "Chapter 151",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 152,
+      "label": "Chapter 152",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 153,
+      "label": "Chapter 153",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 154,
+      "label": "Chapter 154",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 155,
+      "label": "Chapter 155",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 156,
+      "label": "Chapter 156",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 157,
+      "label": "Chapter 157",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 158,
+      "label": "Chapter 158",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 159,
+      "label": "Chapter 159",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 160,
+      "label": "Chapter 160",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 161,
+      "label": "Chapter 161",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 162,
+      "label": "Chapter 162",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 163,
+      "label": "Chapter 163",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 164,
+      "label": "Chapter 164",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 165,
+      "label": "Chapter 165",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 166,
+      "label": "Chapter 166",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 167,
+      "label": "Chapter 167",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 168,
+      "label": "Chapter 168",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 169,
+      "label": "Chapter 169",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 172,
+      "label": "Chapter 172",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 173,
+      "label": "Chapter 173",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 174,
+      "label": "Chapter 174",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 175,
+      "label": "Chapter 175",
+      "positive": 7.8,
+      "negative": 5.2,
+      "total": 13.0
+    },
+    {
+      "index": 176,
+      "label": "Chapter 176",
+      "positive": 32.4,
+      "negative": 21.6,
+      "total": 54.0
+    },
+    {
+      "index": 177,
+      "label": "Chapter 177",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 178,
+      "label": "Chapter 178",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 180,
+      "label": "Chapter 180",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 181,
+      "label": "Chapter 181",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 182,
+      "label": "Chapter 182",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 183,
+      "label": "Chapter 183",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 184,
+      "label": "Chapter 184",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 185,
+      "label": "Chapter 185",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 186,
+      "label": "Chapter 186",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 187,
+      "label": "Chapter 187",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 188,
+      "label": "Chapter 188",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 189,
+      "label": "Chapter 189",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 190,
+      "label": "Chapter 190",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 192,
+      "label": "Chapter 192",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 193,
+      "label": "Chapter 193",
+      "positive": 20.4,
+      "negative": 13.6,
+      "total": 34.0
+    },
+    {
+      "index": 194,
+      "label": "Chapter 194",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 195,
+      "label": "Chapter 195",
+      "positive": 10.2,
+      "negative": 6.8,
+      "total": 17.0
+    },
+    {
+      "index": 197,
+      "label": "Chapter 197",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 198,
+      "label": "Chapter 198",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 199,
+      "label": "Chapter 199",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 200,
+      "label": "Chapter 200",
+      "positive": 22.8,
+      "negative": 15.2,
+      "total": 38.0
+    },
+    {
+      "index": 201,
+      "label": "Chapter 201",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 202,
+      "label": "Chapter 202",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 203,
+      "label": "Chapter 203",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 204,
+      "label": "Chapter 204",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 205,
+      "label": "Chapter 205",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 206,
+      "label": "Chapter 206",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 207,
+      "label": "Chapter 207",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 208,
+      "label": "Chapter 208",
+      "positive": 21.6,
+      "negative": 14.4,
+      "total": 36.0
+    },
+    {
+      "index": 210,
+      "label": "Chapter 210",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 211,
+      "label": "Chapter 211",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 212,
+      "label": "Chapter 212",
+      "positive": 25.2,
+      "negative": 16.8,
+      "total": 42.0
+    },
+    {
+      "index": 213,
+      "label": "Chapter 213",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 214,
+      "label": "Chapter 214",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 215,
+      "label": "Chapter 215",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 216,
+      "label": "Chapter 216",
+      "positive": 12.6,
+      "negative": 8.4,
+      "total": 21.0
+    },
+    {
+      "index": 217,
+      "label": "Chapter 217",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 218,
+      "label": "Chapter 218",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 219,
+      "label": "Chapter 219",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 220,
+      "label": "Chapter 220",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 221,
+      "label": "Chapter 221",
+      "positive": 158.4,
+      "negative": 105.6,
+      "total": 264.0
+    },
+    {
+      "index": 222,
+      "label": "Chapter 222",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 224,
+      "label": "Chapter 224",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 225,
+      "label": "Chapter 225",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 226,
+      "label": "Chapter 226",
+      "positive": 28.8,
+      "negative": 19.2,
+      "total": 48.0
+    },
+    {
+      "index": 227,
+      "label": "Chapter 227",
+      "positive": 15.0,
+      "negative": 10.0,
+      "total": 25.0
+    },
+    {
+      "index": 228,
+      "label": "Chapter 228",
+      "positive": 15.0,
+      "negative": 10.0,
+      "total": 25.0
+    },
+    {
+      "index": 229,
+      "label": "Chapter 229",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 230,
+      "label": "Chapter 230",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 231,
+      "label": "Chapter 231",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 232,
+      "label": "Chapter 232",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 233,
+      "label": "Chapter 233",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 234,
+      "label": "Chapter 234",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 235,
+      "label": "Chapter 235",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 236,
+      "label": "Chapter 236",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 237,
+      "label": "Chapter 237",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 238,
+      "label": "Chapter 238",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 239,
+      "label": "Chapter 239",
+      "positive": 12.6,
+      "negative": 8.4,
+      "total": 21.0
+    },
+    {
+      "index": 241,
+      "label": "Chapter 241",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 242,
+      "label": "Chapter 242",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 243,
+      "label": "Chapter 243",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 244,
+      "label": "Chapter 244",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 245,
+      "label": "Chapter 245",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 246,
+      "label": "Chapter 246",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 247,
+      "label": "Chapter 247",
+      "positive": 6.6,
+      "negative": 4.4,
+      "total": 11.0
+    },
+    {
+      "index": 248,
+      "label": "Chapter 248",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 251,
+      "label": "Chapter 251",
+      "positive": 22.8,
+      "negative": 15.2,
+      "total": 38.0
+    },
+    {
+      "index": 252,
+      "label": "Chapter 252",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 253,
+      "label": "Chapter 253",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 254,
+      "label": "Chapter 254",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 255,
+      "label": "Chapter 255",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 256,
+      "label": "Chapter 256",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 257,
+      "label": "Chapter 257",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 258,
+      "label": "Chapter 258",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 260,
+      "label": "Chapter 260",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 261,
+      "label": "Chapter 261",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 263,
+      "label": "Chapter 263",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 264,
+      "label": "Chapter 264",
+      "positive": 6.6,
+      "negative": 4.4,
+      "total": 11.0
+    },
+    {
+      "index": 265,
+      "label": "Chapter 265",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 266,
+      "label": "Chapter 266",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 267,
+      "label": "Chapter 267",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 269,
+      "label": "Chapter 269",
+      "positive": 37.2,
+      "negative": 24.8,
+      "total": 62.0
+    },
+    {
+      "index": 270,
+      "label": "Chapter 270",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 271,
+      "label": "Chapter 271",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 272,
+      "label": "Chapter 272",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 273,
+      "label": "Chapter 273",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 275,
+      "label": "Chapter 275",
+      "positive": 30.6,
+      "negative": 20.4,
+      "total": 51.0
+    },
+    {
+      "index": 276,
+      "label": "Chapter 276",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 277,
+      "label": "Chapter 277",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 278,
+      "label": "Chapter 278",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 279,
+      "label": "Chapter 279",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 280,
+      "label": "Chapter 280",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 281,
+      "label": "Chapter 281",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 282,
+      "label": "Chapter 282",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 283,
+      "label": "Chapter 283",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 284,
+      "label": "Chapter 284",
+      "positive": 24.0,
+      "negative": 16.0,
+      "total": 40.0
+    },
+    {
+      "index": 285,
+      "label": "Chapter 285",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 286,
+      "label": "Chapter 286",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 287,
+      "label": "Chapter 287",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 288,
+      "label": "Chapter 288",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 289,
+      "label": "Chapter 289",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 290,
+      "label": "Chapter 290",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 292,
+      "label": "Chapter 292",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 293,
+      "label": "Chapter 293",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 295,
+      "label": "Chapter 295",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 296,
+      "label": "Chapter 296",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 297,
+      "label": "Chapter 297",
+      "positive": 5.4,
+      "negative": 3.6,
+      "total": 9.0
+    },
+    {
+      "index": 298,
+      "label": "Chapter 298",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 299,
+      "label": "Chapter 299",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 300,
+      "label": "Chapter 300",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 301,
+      "label": "Chapter 301",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 302,
+      "label": "Chapter 302",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 303,
+      "label": "Chapter 303",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 304,
+      "label": "Chapter 304",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 305,
+      "label": "Chapter 305",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 306,
+      "label": "Chapter 306",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 307,
+      "label": "Chapter 307",
+      "positive": 1.8,
+      "negative": 1.2,
+      "total": 3.0
+    },
+    {
+      "index": 308,
+      "label": "Chapter 308",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 309,
+      "label": "Chapter 309",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 310,
+      "label": "Chapter 310",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 312,
+      "label": "Chapter 312",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 313,
+      "label": "Chapter 313",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    },
+    {
+      "index": 315,
+      "label": "Chapter 315",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 316,
+      "label": "Chapter 316",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 317,
+      "label": "Chapter 317",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 318,
+      "label": "Chapter 318",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 319,
+      "label": "Chapter 319",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 320,
+      "label": "Chapter 320",
+      "positive": 39.6,
+      "negative": 26.4,
+      "total": 66.0
+    },
+    {
+      "index": 321,
+      "label": "Chapter 321",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 323,
+      "label": "Chapter 323",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 324,
+      "label": "Chapter 324",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 325,
+      "label": "Chapter 325",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 326,
+      "label": "Chapter 326",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 327,
+      "label": "Chapter 327",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 328,
+      "label": "Chapter 328",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 329,
+      "label": "Chapter 329",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 330,
+      "label": "Chapter 330",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 331,
+      "label": "Chapter 331",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 332,
+      "label": "Chapter 332",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 334,
+      "label": "Chapter 334",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 335,
+      "label": "Chapter 335",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 336,
+      "label": "Chapter 336",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 337,
+      "label": "Chapter 337",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 338,
+      "label": "Chapter 338",
+      "positive": 10.2,
+      "negative": 6.8,
+      "total": 17.0
+    },
+    {
+      "index": 339,
+      "label": "Chapter 339",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 340,
+      "label": "Chapter 340",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 341,
+      "label": "Chapter 341",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    },
+    {
+      "index": 342,
+      "label": "Chapter 342",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 343,
+      "label": "Chapter 343",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 344,
+      "label": "Chapter 344",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 345,
+      "label": "Chapter 345",
+      "positive": 17.4,
+      "negative": 11.6,
+      "total": 29.0
+    },
+    {
+      "index": 346,
+      "label": "Chapter 346",
+      "positive": 4.2,
+      "negative": 2.8,
+      "total": 7.0
+    },
+    {
+      "index": 347,
+      "label": "Chapter 347",
+      "positive": 56.4,
+      "negative": 37.6,
+      "total": 94.0
+    },
+    {
+      "index": 348,
+      "label": "Chapter 348",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 349,
+      "label": "Chapter 349",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 352,
+      "label": "Chapter 352",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 353,
+      "label": "Chapter 353",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 354,
+      "label": "Chapter 354",
+      "positive": 13.8,
+      "negative": 9.2,
+      "total": 23.0
+    },
+    {
+      "index": 355,
+      "label": "Chapter 355",
+      "positive": 20.4,
+      "negative": 13.6,
+      "total": 34.0
+    },
+    {
+      "index": 356,
+      "label": "Chapter 356",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 357,
+      "label": "Chapter 357",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 358,
+      "label": "Chapter 358",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 359,
+      "label": "Chapter 359",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 360,
+      "label": "Chapter 360",
+      "positive": 7.8,
+      "negative": 5.2,
+      "total": 13.0
+    },
+    {
+      "index": 361,
+      "label": "Chapter 361",
+      "positive": 1.2,
+      "negative": 0.8,
+      "total": 2.0
+    },
+    {
+      "index": 362,
+      "label": "Chapter 362",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 363,
+      "label": "Chapter 363",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 364,
+      "label": "Chapter 364",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 365,
+      "label": "Chapter 365",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "jean",
+      "name": "Jean Valjean",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 69.262
+    },
+    {
+      "id": "marius",
+      "name": "Marius Pontmercy",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 65.343
+    },
+    {
+      "id": "cosette",
+      "name": "Cosette",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 54.3
+    },
+    {
+      "id": "m.",
+      "name": "M. le Comte d\u2019Angl\u00e8s",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 41.338
+    },
+    {
+      "id": "enjolras",
+      "name": "Enjolras",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 25.9
+    },
+    {
+      "id": "mother",
+      "name": "Mother Gerbaud",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 23.023
+    },
+    {
+      "id": "courfeyrac",
+      "name": "Courfeyrac",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 22.645
+    },
+    {
+      "id": "javert",
+      "name": "Javert",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 19.143
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": []
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": []
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": []
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": []
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": []
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": []
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": []
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "characters": []
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "characters": []
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": []
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": []
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.333,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mother",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "characters": []
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": []
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "characters": []
+    },
+    {
+      "index": 30,
+      "label": "Chapter 30",
+      "characters": []
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "characters": []
+    },
+    {
+      "index": 32,
+      "label": "Chapter 32",
+      "characters": []
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "characters": []
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "characters": []
+    },
+    {
+      "index": 35,
+      "label": "Chapter 35",
+      "characters": []
+    },
+    {
+      "index": 36,
+      "label": "Chapter 36",
+      "characters": []
+    },
+    {
+      "index": 37,
+      "label": "Chapter 37",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "label": "Chapter 38",
+      "characters": []
+    },
+    {
+      "index": 39,
+      "label": "Chapter 39",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "label": "Chapter 40",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "label": "Chapter 41",
+      "characters": []
+    },
+    {
+      "index": 42,
+      "label": "Chapter 42",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "label": "Chapter 43",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "label": "Chapter 45",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "label": "Chapter 46",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "label": "Chapter 47",
+      "characters": []
+    },
+    {
+      "index": 49,
+      "label": "Chapter 49",
+      "characters": []
+    },
+    {
+      "index": 50,
+      "label": "Chapter 50",
+      "characters": []
+    },
+    {
+      "index": 51,
+      "label": "Chapter 51",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "label": "Chapter 52",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "label": "Chapter 53",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "label": "Chapter 54",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "label": "Chapter 56",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "label": "Chapter 57",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "label": "Chapter 58",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "label": "Chapter 59",
+      "characters": []
+    },
+    {
+      "index": 60,
+      "label": "Chapter 60",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "label": "Chapter 61",
+      "characters": []
+    },
+    {
+      "index": 62,
+      "label": "Chapter 62",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "label": "Chapter 63",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "label": "Chapter 64",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "virtue_force"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "label": "Chapter 66",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "future_hope"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "label": "Chapter 67",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "label": "Chapter 69",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "label": "Chapter 70",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 0.333,
+          "top_internal_emotion": "virtue_force"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "label": "Chapter 71",
+      "characters": []
+    },
+    {
+      "index": 72,
+      "label": "Chapter 72",
+      "characters": []
+    },
+    {
+      "index": 73,
+      "label": "Chapter 73",
+      "characters": []
+    },
+    {
+      "index": 74,
+      "label": "Chapter 74",
+      "characters": []
+    },
+    {
+      "index": 76,
+      "label": "Chapter 76",
+      "characters": []
+    },
+    {
+      "index": 77,
+      "label": "Chapter 77",
+      "characters": []
+    },
+    {
+      "index": 78,
+      "label": "Chapter 78",
+      "characters": []
+    },
+    {
+      "index": 79,
+      "label": "Chapter 79",
+      "characters": []
+    },
+    {
+      "index": 80,
+      "label": "Chapter 80",
+      "characters": []
+    },
+    {
+      "index": 81,
+      "label": "Chapter 81",
+      "characters": []
+    },
+    {
+      "index": 82,
+      "label": "Chapter 82",
+      "characters": []
+    },
+    {
+      "index": 84,
+      "label": "Chapter 84",
+      "characters": []
+    },
+    {
+      "index": 85,
+      "label": "Chapter 85",
+      "characters": []
+    },
+    {
+      "index": 86,
+      "label": "Chapter 86",
+      "characters": []
+    },
+    {
+      "index": 87,
+      "label": "Chapter 87",
+      "characters": []
+    },
+    {
+      "index": 88,
+      "label": "Chapter 88",
+      "characters": []
+    },
+    {
+      "index": 89,
+      "label": "Chapter 89",
+      "characters": []
+    },
+    {
+      "index": 90,
+      "label": "Chapter 90",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "label": "Chapter 91",
+      "characters": []
+    },
+    {
+      "index": 92,
+      "label": "Chapter 92",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "label": "Chapter 93",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 0.8,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "label": "Chapter 94",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "label": "Chapter 95",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "label": "Chapter 96",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "label": "Chapter 97",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "label": "Chapter 98",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "label": "Chapter 99",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "label": "Chapter 100",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "label": "Chapter 101",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "label": "Chapter 102",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "label": "Chapter 103",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "label": "Chapter 104",
+      "characters": []
+    },
+    {
+      "index": 105,
+      "label": "Chapter 105",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "label": "Chapter 107",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "label": "Chapter 108",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "label": "Chapter 109",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "label": "Chapter 110",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "label": "Chapter 111",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "label": "Chapter 112",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "label": "Chapter 114",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "label": "Chapter 115",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "label": "Chapter 116",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "past_joy"
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "label": "Chapter 117",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "label": "Chapter 119",
+      "characters": []
+    },
+    {
+      "index": 120,
+      "label": "Chapter 120",
+      "characters": []
+    },
+    {
+      "index": 121,
+      "label": "Chapter 121",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "label": "Chapter 122",
+      "characters": []
+    },
+    {
+      "index": 124,
+      "label": "Chapter 124",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "label": "Chapter 125",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.545,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "label": "Chapter 126",
+      "characters": []
+    },
+    {
+      "index": 127,
+      "label": "Chapter 127",
+      "characters": []
+    },
+    {
+      "index": 128,
+      "label": "Chapter 128",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "virtue_force"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "virtue_force"
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "label": "Chapter 129",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "label": "Chapter 130",
+      "characters": []
+    },
+    {
+      "index": 131,
+      "label": "Chapter 131",
+      "characters": []
+    },
+    {
+      "index": 132,
+      "label": "Chapter 132",
+      "characters": []
+    },
+    {
+      "index": 133,
+      "label": "Chapter 133",
+      "characters": []
+    },
+    {
+      "index": 134,
+      "label": "Chapter 134",
+      "characters": []
+    },
+    {
+      "index": 135,
+      "label": "Chapter 135",
+      "characters": []
+    },
+    {
+      "index": 136,
+      "label": "Chapter 136",
+      "characters": []
+    },
+    {
+      "index": 137,
+      "label": "Chapter 137",
+      "characters": []
+    },
+    {
+      "index": 138,
+      "label": "Chapter 138",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "label": "Chapter 139",
+      "characters": []
+    },
+    {
+      "index": 140,
+      "label": "Chapter 140",
+      "characters": []
+    },
+    {
+      "index": 141,
+      "label": "Chapter 141",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "label": "Chapter 143",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "label": "Chapter 144",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 146,
+      "label": "Chapter 146",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 147,
+      "label": "Chapter 147",
+      "characters": []
+    },
+    {
+      "index": 148,
+      "label": "Chapter 148",
+      "characters": []
+    },
+    {
+      "index": 149,
+      "label": "Chapter 149",
+      "characters": []
+    },
+    {
+      "index": 150,
+      "label": "Chapter 150",
+      "characters": []
+    },
+    {
+      "index": 151,
+      "label": "Chapter 151",
+      "characters": []
+    },
+    {
+      "index": 152,
+      "label": "Chapter 152",
+      "characters": []
+    },
+    {
+      "index": 153,
+      "label": "Chapter 153",
+      "characters": []
+    },
+    {
+      "index": 154,
+      "label": "Chapter 154",
+      "characters": []
+    },
+    {
+      "index": 155,
+      "label": "Chapter 155",
+      "characters": []
+    },
+    {
+      "index": 156,
+      "label": "Chapter 156",
+      "characters": []
+    },
+    {
+      "index": 157,
+      "label": "Chapter 157",
+      "characters": []
+    },
+    {
+      "index": 158,
+      "label": "Chapter 158",
+      "characters": []
+    },
+    {
+      "index": 159,
+      "label": "Chapter 159",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "label": "Chapter 160",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "label": "Chapter 161",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "label": "Chapter 162",
+      "characters": []
+    },
+    {
+      "index": 163,
+      "label": "Chapter 163",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "label": "Chapter 164",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "label": "Chapter 165",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 166,
+      "label": "Chapter 166",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 167,
+      "label": "Chapter 167",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "label": "Chapter 168",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 169,
+      "label": "Chapter 169",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.667,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "m.",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 172,
+      "label": "Chapter 172",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 173,
+      "label": "Chapter 173",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 174,
+      "label": "Chapter 174",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 175,
+      "label": "Chapter 175",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 176,
+      "label": "Chapter 176",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 177,
+      "label": "Chapter 177",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 178,
+      "label": "Chapter 178",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 180,
+      "label": "Chapter 180",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 181,
+      "label": "Chapter 181",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 182,
+      "label": "Chapter 182",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 183,
+      "label": "Chapter 183",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "label": "Chapter 184",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 185,
+      "label": "Chapter 185",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.667,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 186,
+      "label": "Chapter 186",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 187,
+      "label": "Chapter 187",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 188,
+      "label": "Chapter 188",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 189,
+      "label": "Chapter 189",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 190,
+      "label": "Chapter 190",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 192,
+      "label": "Chapter 192",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "label": "Chapter 193",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "label": "Chapter 194",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 195,
+      "label": "Chapter 195",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "m.",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "label": "Chapter 197",
+      "characters": []
+    },
+    {
+      "index": 198,
+      "label": "Chapter 198",
+      "characters": []
+    },
+    {
+      "index": 199,
+      "label": "Chapter 199",
+      "characters": []
+    },
+    {
+      "index": 200,
+      "label": "Chapter 200",
+      "characters": []
+    },
+    {
+      "index": 201,
+      "label": "Chapter 201",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 202,
+      "label": "Chapter 202",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 203,
+      "label": "Chapter 203",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 204,
+      "label": "Chapter 204",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 205,
+      "label": "Chapter 205",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 206,
+      "label": "Chapter 206",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 207,
+      "label": "Chapter 207",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 208,
+      "label": "Chapter 208",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.25,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 210,
+      "label": "Chapter 210",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 211,
+      "label": "Chapter 211",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 212,
+      "label": "Chapter 212",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 213,
+      "label": "Chapter 213",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 214,
+      "label": "Chapter 214",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 215,
+      "label": "Chapter 215",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 216,
+      "label": "Chapter 216",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.25,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mother",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 217,
+      "label": "Chapter 217",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 218,
+      "label": "Chapter 218",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 219,
+      "label": "Chapter 219",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 220,
+      "label": "Chapter 220",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.429,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.143,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 221,
+      "label": "Chapter 221",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 0.917,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 222,
+      "label": "Chapter 222",
+      "characters": []
+    },
+    {
+      "index": 224,
+      "label": "Chapter 224",
+      "characters": []
+    },
+    {
+      "index": 225,
+      "label": "Chapter 225",
+      "characters": []
+    },
+    {
+      "index": 226,
+      "label": "Chapter 226",
+      "characters": []
+    },
+    {
+      "index": 227,
+      "label": "Chapter 227",
+      "characters": []
+    },
+    {
+      "index": 228,
+      "label": "Chapter 228",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.118,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.059,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 229,
+      "label": "Chapter 229",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 230,
+      "label": "Chapter 230",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "label": "Chapter 231",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 232,
+      "label": "Chapter 232",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "label": "Chapter 233",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 234,
+      "label": "Chapter 234",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 235,
+      "label": "Chapter 235",
+      "characters": []
+    },
+    {
+      "index": 236,
+      "label": "Chapter 236",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 237,
+      "label": "Chapter 237",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 238,
+      "label": "Chapter 238",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 239,
+      "label": "Chapter 239",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "label": "Chapter 241",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 242,
+      "label": "Chapter 242",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 243,
+      "label": "Chapter 243",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 244,
+      "label": "Chapter 244",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 245,
+      "label": "Chapter 245",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 246,
+      "label": "Chapter 246",
+      "characters": []
+    },
+    {
+      "index": 247,
+      "label": "Chapter 247",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "label": "Chapter 248",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "label": "Chapter 251",
+      "characters": []
+    },
+    {
+      "index": 252,
+      "label": "Chapter 252",
+      "characters": []
+    },
+    {
+      "index": 253,
+      "label": "Chapter 253",
+      "characters": []
+    },
+    {
+      "index": 254,
+      "label": "Chapter 254",
+      "characters": []
+    },
+    {
+      "index": 255,
+      "label": "Chapter 255",
+      "characters": []
+    },
+    {
+      "index": 256,
+      "label": "Chapter 256",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 257,
+      "label": "Chapter 257",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 258,
+      "label": "Chapter 258",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 260,
+      "label": "Chapter 260",
+      "characters": []
+    },
+    {
+      "index": 261,
+      "label": "Chapter 261",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 263,
+      "label": "Chapter 263",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 264,
+      "label": "Chapter 264",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.167,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.167,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.167,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 265,
+      "label": "Chapter 265",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 266,
+      "label": "Chapter 266",
+      "characters": []
+    },
+    {
+      "index": 267,
+      "label": "Chapter 267",
+      "characters": []
+    },
+    {
+      "index": 269,
+      "label": "Chapter 269",
+      "characters": []
+    },
+    {
+      "index": 270,
+      "label": "Chapter 270",
+      "characters": []
+    },
+    {
+      "index": 271,
+      "label": "Chapter 271",
+      "characters": []
+    },
+    {
+      "index": 272,
+      "label": "Chapter 272",
+      "characters": []
+    },
+    {
+      "index": 273,
+      "label": "Chapter 273",
+      "characters": []
+    },
+    {
+      "index": 275,
+      "label": "Chapter 275",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 276,
+      "label": "Chapter 276",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 277,
+      "label": "Chapter 277",
+      "characters": [
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 278,
+      "label": "Chapter 278",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 279,
+      "label": "Chapter 279",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "label": "Chapter 280",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mother",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 281,
+      "label": "Chapter 281",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "label": "Chapter 282",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 0.429,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 283,
+      "label": "Chapter 283",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 284,
+      "label": "Chapter 284",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 285,
+      "label": "Chapter 285",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 286,
+      "label": "Chapter 286",
+      "characters": []
+    },
+    {
+      "index": 287,
+      "label": "Chapter 287",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 288,
+      "label": "Chapter 288",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.167,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 289,
+      "label": "Chapter 289",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 290,
+      "label": "Chapter 290",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 292,
+      "label": "Chapter 292",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "javert",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 293,
+      "label": "Chapter 293",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 295,
+      "label": "Chapter 295",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "marius",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "label": "Chapter 296",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 297,
+      "label": "Chapter 297",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 298,
+      "label": "Chapter 298",
+      "characters": []
+    },
+    {
+      "index": 299,
+      "label": "Chapter 299",
+      "characters": []
+    },
+    {
+      "index": 300,
+      "label": "Chapter 300",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 0.143,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.143,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 301,
+      "label": "Chapter 301",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 302,
+      "label": "Chapter 302",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 303,
+      "label": "Chapter 303",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 304,
+      "label": "Chapter 304",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 305,
+      "label": "Chapter 305",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 306,
+      "label": "Chapter 306",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.4,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 307,
+      "label": "Chapter 307",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 308,
+      "label": "Chapter 308",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 309,
+      "label": "Chapter 309",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 310,
+      "label": "Chapter 310",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 312,
+      "label": "Chapter 312",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 313,
+      "label": "Chapter 313",
+      "characters": [
+        {
+          "id": "courfeyrac",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 315,
+      "label": "Chapter 315",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mother",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 316,
+      "label": "Chapter 316",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "jean",
+          "importance": 0.333,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 317,
+      "label": "Chapter 317",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 318,
+      "label": "Chapter 318",
+      "characters": []
+    },
+    {
+      "index": 319,
+      "label": "Chapter 319",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.2,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.2,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 320,
+      "label": "Chapter 320",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.375,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 321,
+      "label": "Chapter 321",
+      "characters": [
+        {
+          "id": "enjolras",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 323,
+      "label": "Chapter 323",
+      "characters": []
+    },
+    {
+      "index": 324,
+      "label": "Chapter 324",
+      "characters": []
+    },
+    {
+      "index": 325,
+      "label": "Chapter 325",
+      "characters": []
+    },
+    {
+      "index": 326,
+      "label": "Chapter 326",
+      "characters": []
+    },
+    {
+      "index": 327,
+      "label": "Chapter 327",
+      "characters": []
+    },
+    {
+      "index": 328,
+      "label": "Chapter 328",
+      "characters": []
+    },
+    {
+      "index": 329,
+      "label": "Chapter 329",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 330,
+      "label": "Chapter 330",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 331,
+      "label": "Chapter 331",
+      "characters": []
+    },
+    {
+      "index": 332,
+      "label": "Chapter 332",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 334,
+      "label": "Chapter 334",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 335,
+      "label": "Chapter 335",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 336,
+      "label": "Chapter 336",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 337,
+      "label": "Chapter 337",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "javert",
+          "importance": 0.5,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 338,
+      "label": "Chapter 338",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 0.833,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "marius",
+          "importance": 0.833,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 339,
+      "label": "Chapter 339",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 340,
+      "label": "Chapter 340",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.4,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 341,
+      "label": "Chapter 341",
+      "characters": [
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 342,
+      "label": "Chapter 342",
+      "characters": []
+    },
+    {
+      "index": 343,
+      "label": "Chapter 343",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 344,
+      "label": "Chapter 344",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 345,
+      "label": "Chapter 345",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.833,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 346,
+      "label": "Chapter 346",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "javert",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 347,
+      "label": "Chapter 347",
+      "characters": [
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 348,
+      "label": "Chapter 348",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "enjolras",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "courfeyrac",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 349,
+      "label": "Chapter 349",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "m.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 352,
+      "label": "Chapter 352",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 353,
+      "label": "Chapter 353",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 354,
+      "label": "Chapter 354",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "marius",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 355,
+      "label": "Chapter 355",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.75,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "javert",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 356,
+      "label": "Chapter 356",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 357,
+      "label": "Chapter 357",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 358,
+      "label": "Chapter 358",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 359,
+      "label": "Chapter 359",
+      "characters": []
+    },
+    {
+      "index": 360,
+      "label": "Chapter 360",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 0.75,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "jean",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 361,
+      "label": "Chapter 361",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 362,
+      "label": "Chapter 362",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "marius",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 363,
+      "label": "Chapter 363",
+      "characters": [
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 364,
+      "label": "Chapter 364",
+      "characters": [
+        {
+          "id": "jean",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cosette",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "marius",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 365,
+      "label": "Chapter 365",
+      "characters": [
+        {
+          "id": "m.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    }
+  ]
+}

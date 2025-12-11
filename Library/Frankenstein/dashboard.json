@@ -1,0 +1,765 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "frankenstein",
+  "title": "Frankenstein",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 24.0,
+      "negative": 16.0,
+      "total": 40.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 54.0,
+      "negative": 36.0,
+      "total": 90.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 15.0,
+      "negative": 10.0,
+      "total": 25.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 0.0,
+      "negative": 0.0,
+      "total": 0.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "victor",
+      "name": "Victor Frankenstein",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 14.25
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth Lavenza",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 7.6
+    },
+    {
+      "id": "creature",
+      "name": "Creature",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 4.0
+    },
+    {
+      "id": "felix",
+      "name": "Felix",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 3.607
+    },
+    {
+      "id": "father",
+      "name": "Father",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 3.45
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 3.357
+    },
+    {
+      "id": "clerval",
+      "name": "Clerval",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 2.983
+    },
+    {
+      "id": "m.",
+      "name": "M. Krempe",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 2.607
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": []
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "father",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "victor",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Chapter 3",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "father",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.25,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "m.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "father",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.25,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "m.",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.25,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "victor",
+          "importance": 0.5,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "father",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "father",
+          "importance": 0.6,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.8,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": [
+        {
+          "id": "creature",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "creature",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "characters": [
+        {
+          "id": "felix",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "agatha",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "felix",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "agatha",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "creature",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "felix",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "agatha",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "creature",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "felix",
+          "importance": 0.857,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "agatha",
+          "importance": 0.857,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "m.",
+          "importance": 0.857,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "creature",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "father",
+          "importance": 0.6,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.8,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "clerval",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.333,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "father",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "clerval",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "characters": [
+        {
+          "id": "victor",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "characters": []
+    }
+  ]
+}

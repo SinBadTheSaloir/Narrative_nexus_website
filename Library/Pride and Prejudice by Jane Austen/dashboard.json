@@ -1,0 +1,2378 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "pride_and_prejudice_by_jane_austen",
+  "title": "Pride and Prejudice by Jane Austen",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 12.6,
+      "negative": 8.4,
+      "total": 21.0
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "positive": 25.8,
+      "negative": 17.2,
+      "total": 43.0
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "positive": 5.4,
+      "negative": 3.6,
+      "total": 9.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "positive": 11.4,
+      "negative": 7.6,
+      "total": 19.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 51.6,
+      "negative": 34.4,
+      "total": 86.0
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 11.4,
+      "negative": 7.6,
+      "total": 19.0
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "positive": 4.8,
+      "negative": 3.2,
+      "total": 8.0
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "positive": 18.0,
+      "negative": 12.0,
+      "total": 30.0
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 32,
+      "label": "Chapter 32",
+      "positive": 6.0,
+      "negative": 4.0,
+      "total": 10.0
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 35,
+      "label": "Chapter 35",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 36,
+      "label": "Chapter 36",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 38,
+      "label": "Chapter 38",
+      "positive": 20.4,
+      "negative": 13.6,
+      "total": 34.0
+    },
+    {
+      "index": 39,
+      "label": "Chapter 39",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 40,
+      "label": "Chapter 40",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 41,
+      "label": "Chapter 41",
+      "positive": 40.8,
+      "negative": 27.2,
+      "total": 68.0
+    },
+    {
+      "index": 42,
+      "label": "Chapter 42",
+      "positive": 26.4,
+      "negative": 17.6,
+      "total": 44.0
+    },
+    {
+      "index": 44,
+      "label": "Chapter 44",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 46,
+      "label": "Chapter 46",
+      "positive": 63.6,
+      "negative": 42.4,
+      "total": 106.0
+    },
+    {
+      "index": 47,
+      "label": "Chapter 47",
+      "positive": 98.4,
+      "negative": 65.6,
+      "total": 164.0
+    },
+    {
+      "index": 48,
+      "label": "Chapter 48",
+      "positive": 21.6,
+      "negative": 14.4,
+      "total": 36.0
+    },
+    {
+      "index": 49,
+      "label": "Chapter 49",
+      "positive": 7.2,
+      "negative": 4.8,
+      "total": 12.0
+    },
+    {
+      "index": 50,
+      "label": "Chapter 50",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 51,
+      "label": "Chapter 51",
+      "positive": 6.6,
+      "negative": 4.4,
+      "total": 11.0
+    },
+    {
+      "index": 52,
+      "label": "Chapter 52",
+      "positive": 13.2,
+      "negative": 8.8,
+      "total": 22.0
+    },
+    {
+      "index": 53,
+      "label": "Chapter 53",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 54,
+      "label": "Chapter 54",
+      "positive": 25.2,
+      "negative": 16.8,
+      "total": 42.0
+    },
+    {
+      "index": 55,
+      "label": "Chapter 55",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 56,
+      "label": "Chapter 56",
+      "positive": 23.4,
+      "negative": 15.6,
+      "total": 39.0
+    },
+    {
+      "index": 57,
+      "label": "Chapter 57",
+      "positive": 27.6,
+      "negative": 18.4,
+      "total": 46.0
+    },
+    {
+      "index": 58,
+      "label": "Chapter 58",
+      "positive": 26.4,
+      "negative": 17.6,
+      "total": 44.0
+    },
+    {
+      "index": 59,
+      "label": "Chapter 59",
+      "positive": 25.8,
+      "negative": 17.2,
+      "total": 43.0
+    },
+    {
+      "index": 60,
+      "label": "Chapter 60",
+      "positive": 99.6,
+      "negative": 66.4,
+      "total": 166.0
+    },
+    {
+      "index": 61,
+      "label": "Chapter 61",
+      "positive": 59.4,
+      "negative": 39.6,
+      "total": 99.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "mr.",
+      "name": "Mr. Hurst",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 49.013
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 41.775
+    },
+    {
+      "id": "mrs.",
+      "name": "Mrs. Gardiner",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 28.562
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 17.17
+    },
+    {
+      "id": "miss",
+      "name": "Miss de Bourgh",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 7.389
+    },
+    {
+      "id": "lydia",
+      "name": "Lydia",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 7.301
+    },
+    {
+      "id": "kitty",
+      "name": "Kitty",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 4.474
+    },
+    {
+      "id": "wickham",
+      "name": "Wickham",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 4.388
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "jane",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.667,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.333,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "miss",
+          "importance": 0.333,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jane",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 0.4,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miss",
+          "importance": 0.4,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.4,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.4,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "jane",
+          "importance": 0.4,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 0.5,
+          "top_internal_emotion": "virtue_force"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "virtue_force"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miss",
+          "importance": 0.375,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.375,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.875,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miss",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.625,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lydia",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "Chapter 14",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "jane",
+          "importance": 0.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Chapter 17",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.714,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.429,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.571,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.429,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.571,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.429,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.429,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.571,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 0.643,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.4,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.625,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 0.8,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.3,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Chapter 24",
+      "characters": [
+        {
+          "id": "jane",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "miss",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.25,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.857,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miss",
+          "importance": 0.429,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "label": "Chapter 32",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jane",
+          "importance": 0.667,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "label": "Chapter 35",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 0.5,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "label": "Chapter 36",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "label": "Chapter 38",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "label": "Chapter 39",
+      "characters": [
+        {
+          "id": "lydia",
+          "importance": 0.8,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.6,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jane",
+          "importance": 0.6,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "label": "Chapter 40",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "jane",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.667,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "label": "Chapter 41",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 0.8,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lydia",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.8,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.8,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.8,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "label": "Chapter 42",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "jane",
+          "importance": 0.125,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.125,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.125,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "label": "Chapter 44",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.4,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miss",
+          "importance": 0.4,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.2,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "label": "Chapter 46",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jane",
+          "importance": 0.75,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.625,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.625,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.625,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "label": "Chapter 47",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.7,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.7,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.7,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.9,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.9,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.3,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.6,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "label": "Chapter 48",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.857,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.429,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.429,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.286,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "jane",
+          "importance": 0.286,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.286,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "label": "Chapter 49",
+      "characters": [
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "label": "Chapter 50",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.75,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "label": "Chapter 51",
+      "characters": [
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "lydia",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.667,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.333,
+          "top_internal_emotion": "love"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "label": "Chapter 52",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "label": "Chapter 53",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.375,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.375,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.375,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "label": "Chapter 54",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.75,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "label": "Chapter 55",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "label": "Chapter 56",
+      "characters": [
+        {
+          "id": "jane",
+          "importance": 0.8,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.8,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "label": "Chapter 57",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.333,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "label": "Chapter 58",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "jane",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.125,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "label": "Chapter 59",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 0.4,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.3,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "label": "Chapter 60",
+      "characters": [
+        {
+          "id": "elizabeth",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "miss",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "label": "Chapter 61",
+      "characters": [
+        {
+          "id": "mrs.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.364,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.455,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "jane",
+          "importance": 0.636,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "elizabeth",
+          "importance": 0.591,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "kitty",
+          "importance": 0.364,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "lydia",
+          "importance": 0.364,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "wickham",
+          "importance": 0.955,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "miss",
+          "importance": 0.409,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    }
+  ]
+}

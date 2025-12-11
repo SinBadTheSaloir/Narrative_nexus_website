@@ -1,0 +1,1122 @@
+{
+  "type": "dashboard",
+  "schemaVersion": "1.0",
+  "book_id": "wuthering_heights_by_emily_bront\u00eb",
+  "title": "Wuthering Heights by Emily Bront\u00eb",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "positive": 2.4,
+      "negative": 1.6,
+      "total": 4.0
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "positive": 22.8,
+      "negative": 15.2,
+      "total": 38.0
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "positive": 21.0,
+      "negative": 14.0,
+      "total": 35.0
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "positive": 43.2,
+      "negative": 28.8,
+      "total": 72.0
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "positive": 20.4,
+      "negative": 13.6,
+      "total": 34.0
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "positive": 50.4,
+      "negative": 33.6,
+      "total": 84.0
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "positive": 16.2,
+      "negative": 10.8,
+      "total": 27.0
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "positive": 5.4,
+      "negative": 3.6,
+      "total": 9.0
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "positive": 21.6,
+      "negative": 14.4,
+      "total": 36.0
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "positive": 16.8,
+      "negative": 11.2,
+      "total": 28.0
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "positive": 24.0,
+      "negative": 16.0,
+      "total": 40.0
+    },
+    {
+      "index": 28,
+      "label": "Chapter 28",
+      "positive": 30.6,
+      "negative": 20.4,
+      "total": 51.0
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 30,
+      "label": "Chapter 30",
+      "positive": 8.4,
+      "negative": 5.6,
+      "total": 14.0
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "positive": 9.6,
+      "negative": 6.4,
+      "total": 16.0
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "positive": 12.0,
+      "negative": 8.0,
+      "total": 20.0
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "positive": 3.0,
+      "negative": 2.0,
+      "total": 5.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "heathcliff",
+      "name": "Heathcliff",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 18.534
+    },
+    {
+      "id": "catherine",
+      "name": "Catherine Linton",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 18.26
+    },
+    {
+      "id": "mr.",
+      "name": "Mr. Lockwood",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 13.036
+    },
+    {
+      "id": "hareton",
+      "name": "Hareton",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 7.914
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar Linton",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 6.431
+    },
+    {
+      "id": "linton",
+      "name": "Linton",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 6.333
+    },
+    {
+      "id": "joseph",
+      "name": "Joseph",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 5.019
+    },
+    {
+      "id": "cathy",
+      "name": "Cathy",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 4.333
+    }
+  ],
+  "internal_emotions": [
+    {
+      "id": "shame",
+      "label": "Shame",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "guilt",
+      "label": "Guilt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "pride_healthy",
+      "label": "Pride (Healthy)",
+      "color": "#00c853"
+    },
+    {
+      "id": "fear",
+      "label": "Fear",
+      "color": "#1f3b99"
+    },
+    {
+      "id": "anger",
+      "label": "Anger",
+      "color": "#ff3b30"
+    },
+    {
+      "id": "sadness",
+      "label": "Sadness",
+      "color": "#95a5a6"
+    },
+    {
+      "id": "hope",
+      "label": "Hope",
+      "color": "#1abc9c"
+    },
+    {
+      "id": "love",
+      "label": "Love",
+      "color": "#e91e63"
+    },
+    {
+      "id": "happiness",
+      "label": "Happiness",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "past_pain",
+      "label": "Past Pain",
+      "color": "#8e5c2c"
+    },
+    {
+      "id": "past_joy",
+      "label": "Past Joy",
+      "color": "#ffb300"
+    },
+    {
+      "id": "future_pain",
+      "label": "Future Pain",
+      "color": "#ff5722"
+    },
+    {
+      "id": "future_hope",
+      "label": "Future Hope",
+      "color": "#7bed9f"
+    },
+    {
+      "id": "sin_force",
+      "label": "Sin Force",
+      "color": "#2c3e50"
+    },
+    {
+      "id": "virtue_force",
+      "label": "Virtue Force",
+      "color": "#00c853"
+    }
+  ],
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Chapter 1",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Chapter 2",
+      "characters": [
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "hareton",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "joseph",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Chapter 4",
+      "characters": [
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "cathy",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Chapter 5",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "joseph",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Chapter 6",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.571,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.857,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.429,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Chapter 7",
+      "characters": [
+        {
+          "id": "cathy",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Chapter 8",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.286,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.571,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.714,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Chapter 9",
+      "characters": [
+        {
+          "id": "hareton",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.6,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.6,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.4,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Chapter 10",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Chapter 11",
+      "characters": [
+        {
+          "id": "hareton",
+          "importance": 0.2,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.2,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.2,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Chapter 12",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.25,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Chapter 13",
+      "characters": [
+        {
+          "id": "edgar",
+          "importance": 0.833,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.667,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.667,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Chapter 15",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.5,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Chapter 16",
+      "characters": [
+        {
+          "id": "edgar",
+          "importance": 0.667,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Chapter 18",
+      "characters": [
+        {
+          "id": "cathy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.25,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.25,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Chapter 19",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "edgar",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "linton",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "joseph",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Chapter 20",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "linton",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Chapter 21",
+      "characters": [
+        {
+          "id": "cathy",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.8,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.6,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "linton",
+          "importance": 0.6,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Chapter 22",
+      "characters": [
+        {
+          "id": "cathy",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Chapter 23",
+      "characters": [
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "linton",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hareton",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Chapter 25",
+      "characters": [
+        {
+          "id": "edgar",
+          "importance": 0.8,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "linton",
+          "importance": 0.4,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.2,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "cathy",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Chapter 26",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "linton",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "label": "Chapter 27",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "linton",
+          "importance": 0.667,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "label": "Chapter 28",
+      "characters": [
+        {
+          "id": "heathcliff",
+          "importance": 0.889,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "linton",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.889,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "edgar",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "label": "Chapter 29",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "label": "Chapter 30",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 1.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hareton",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "linton",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "label": "Chapter 31",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.667,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "label": "Chapter 33",
+      "characters": [
+        {
+          "id": "catherine",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.75,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "heathcliff",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "joseph",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "label": "Chapter 34",
+      "characters": [
+        {
+          "id": "mr.",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "catherine",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "hareton",
+          "importance": 0.667,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "joseph",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mr.",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    }
+  ]
+}
