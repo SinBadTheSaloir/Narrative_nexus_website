@@ -1,10 +1,96 @@
 {
   "type": "dashboard",
   "schemaVersion": "1.0",
-  "book_id": "romeo_and_juliet_data",
-  "title": "Romeo And Juliet Data",
-  "chapters": [],
-  "characters": [],
+  "book_id": "romeo_and_juliet",
+  "title": "Romeo and Juliet",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "positive": 114.6,
+      "negative": 76.4,
+      "total": 191.0
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "positive": 9.0,
+      "negative": 6.0,
+      "total": 15.0
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "romeo",
+      "name": "Romeo",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 2.926
+    },
+    {
+      "id": "juliet",
+      "name": "Juliet",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 2.759
+    },
+    {
+      "id": "lady",
+      "name": "Lady Montague",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 1.963
+    },
+    {
+      "id": "tybalt",
+      "name": "Tybalt",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 1.63
+    },
+    {
+      "id": "mercutio",
+      "name": "MERCUTIO",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 1.63
+    },
+    {
+      "id": "benvolio",
+      "name": "BENVOLIO",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 1.37
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 1.213
+    },
+    {
+      "id": "montague",
+      "name": "Montague",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 1.0
+    }
+  ],
   "internal_emotions": [
     {
       "id": "shame",
@@ -82,5 +168,150 @@
       "color": "#00c853"
     }
   ],
-  "character_chapters": []
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "characters": [
+        {
+          "id": "benvolio",
+          "importance": 0.704,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tybalt",
+          "importance": 0.963,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "lady",
+          "importance": 0.963,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "montague",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "lady",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "romeo",
+          "importance": 0.926,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "paris",
+          "importance": 0.963,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "juliet",
+          "importance": 0.926,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "mercutio",
+          "importance": 0.963,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "characters": [
+        {
+          "id": "benvolio",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "mercutio",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "tybalt",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "romeo",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "montague",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lady",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "paris",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "juliet",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "characters": [
+        {
+          "id": "juliet",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lady",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "characters": [
+        {
+          "id": "romeo",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "paris",
+          "importance": 0.25,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "juliet",
+          "importance": 0.5,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lady",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "montague",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    }
+  ]
 }

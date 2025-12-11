@@ -1,10 +1,96 @@
 {
   "type": "dashboard",
   "schemaVersion": "1.0",
-  "book_id": "othello_data",
-  "title": "Othello Data",
-  "chapters": [],
-  "characters": [],
+  "book_id": "othello",
+  "title": "Othello",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "positive": 13.8,
+      "negative": 9.2,
+      "total": 23.0
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "positive": 21.0,
+      "negative": 14.0,
+      "total": 35.0
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "positive": 10.2,
+      "negative": 6.8,
+      "total": 17.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "othello",
+      "name": "Othello",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 3.477
+    },
+    {
+      "id": "cassio",
+      "name": "Cassio",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 2.619
+    },
+    {
+      "id": "iago",
+      "name": "Iago",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 1.916
+    },
+    {
+      "id": "roderigo",
+      "name": "Roderigo",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 1.393
+    },
+    {
+      "id": "desdemona",
+      "name": "Desdemona",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 1.173
+    },
+    {
+      "id": "bianca",
+      "name": "Bianca",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 0.968
+    },
+    {
+      "id": "brabantio",
+      "name": "Brabantio",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 0.5
+    },
+    {
+      "id": "emilia",
+      "name": "Emilia",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 0.416
+    }
+  ],
   "internal_emotions": [
     {
       "id": "shame",
@@ -82,5 +168,160 @@
       "color": "#00c853"
     }
   ],
-  "character_chapters": []
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "characters": [
+        {
+          "id": "roderigo",
+          "importance": 0.5,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "iago",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "brabantio",
+          "importance": 0.5,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "othello",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "cassio",
+          "importance": 0.333,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "desdemona",
+          "importance": 0.167,
+          "top_internal_emotion": "pride_healthy"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "characters": [
+        {
+          "id": "cassio",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "iago",
+          "importance": 0.273,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "emilia",
+          "importance": 0.273,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "othello",
+          "importance": 0.727,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "desdemona",
+          "importance": 0.364,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "bianca",
+          "importance": 0.182,
+          "top_internal_emotion": "happiness"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "characters": [
+        {
+          "id": "othello",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "iago",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "cassio",
+          "importance": 0.286,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "bianca",
+          "importance": 0.286,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "desdemona",
+          "importance": 0.143,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "emilia",
+          "importance": 0.143,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "roderigo",
+          "importance": 0.143,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "characters": [
+        {
+          "id": "iago",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "roderigo",
+          "importance": 0.75,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "cassio",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "othello",
+          "importance": 0.75,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "bianca",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "emilia",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "desdemona",
+          "importance": 0.5,
+          "top_internal_emotion": "sadness"
+        }
+      ]
+    }
+  ]
 }

@@ -1,10 +1,96 @@
 {
   "type": "dashboard",
   "schemaVersion": "1.0",
-  "book_id": "the_tempest_data",
-  "title": "The Tempest Data",
-  "chapters": [],
-  "characters": [],
+  "book_id": "the_tempest",
+  "title": "The Tempest",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "positive": 19.8,
+      "negative": 13.2,
+      "total": 33.0
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "positive": 10.8,
+      "negative": 7.2,
+      "total": 18.0
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "positive": 15.6,
+      "negative": 10.4,
+      "total": 26.0
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "positive": 44.4,
+      "negative": 29.6,
+      "total": 74.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "prospero",
+      "name": "PROSPERO",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 4.0
+    },
+    {
+      "id": "miranda",
+      "name": "Miranda",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 2.82
+    },
+    {
+      "id": "ferdinand",
+      "name": "Ferdinand",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 2.677
+    },
+    {
+      "id": "stephano",
+      "name": "Stephano",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 1.561
+    },
+    {
+      "id": "trinculo",
+      "name": "Trinculo",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 1.561
+    },
+    {
+      "id": "ariel",
+      "name": "Ariel",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 1.537
+    },
+    {
+      "id": "caliban",
+      "name": "Caliban",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 1.468
+    },
+    {
+      "id": "alonso",
+      "name": "Alonso",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 0.5
+    }
+  ],
   "internal_emotions": [
     {
       "id": "shame",
@@ -82,5 +168,175 @@
       "color": "#00c853"
     }
   ],
-  "character_chapters": []
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "characters": [
+        {
+          "id": "alonso",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "miranda",
+          "importance": 0.714,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "prospero",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "ariel",
+          "importance": 0.143,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "caliban",
+          "importance": 0.286,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "ferdinand",
+          "importance": 0.571,
+          "top_internal_emotion": "guilt"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "characters": [
+        {
+          "id": "ferdinand",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miranda",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "prospero",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "caliban",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "stephano",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "trinculo",
+          "importance": 0.5,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "alonso",
+          "importance": 0.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ariel",
+          "importance": 0.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "characters": [
+        {
+          "id": "prospero",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ferdinand",
+          "importance": 0.833,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "miranda",
+          "importance": 0.833,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "ariel",
+          "importance": 0.667,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "caliban",
+          "importance": 1.0,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "stephano",
+          "importance": 0.833,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "trinculo",
+          "importance": 0.833,
+          "top_internal_emotion": "anger"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "characters": [
+        {
+          "id": "prospero",
+          "importance": 1.0,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ariel",
+          "importance": 0.727,
+          "top_internal_emotion": "happiness"
+        },
+        {
+          "id": "alonso",
+          "importance": 0.5,
+          "top_internal_emotion": "guilt"
+        },
+        {
+          "id": "ferdinand",
+          "importance": 0.273,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "miranda",
+          "importance": 0.273,
+          "top_internal_emotion": "love"
+        },
+        {
+          "id": "caliban",
+          "importance": 0.182,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "stephano",
+          "importance": 0.227,
+          "top_internal_emotion": "anger"
+        },
+        {
+          "id": "trinculo",
+          "importance": 0.227,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    }
+  ]
 }

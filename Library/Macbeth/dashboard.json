@@ -1,10 +1,103 @@
 {
   "type": "dashboard",
   "schemaVersion": "1.0",
-  "book_id": "macbeth_data",
-  "title": "Macbeth Data",
-  "chapters": [],
-  "characters": [],
+  "book_id": "macbeth",
+  "title": "Macbeth",
+  "chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "positive": 14.4,
+      "negative": 9.6,
+      "total": 24.0
+    },
+    {
+      "index": 2,
+      "label": "Act 2",
+      "positive": 19.2,
+      "negative": 12.8,
+      "total": 32.0
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "positive": 13.8,
+      "negative": 9.2,
+      "total": 23.0
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "positive": 3.6,
+      "negative": 2.4,
+      "total": 6.0
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "positive": 0.6,
+      "negative": 0.4,
+      "total": 1.0
+    }
+  ],
+  "characters": [
+    {
+      "id": "macbeth",
+      "name": "Macbeth",
+      "primary": true,
+      "line_color": "#d4af37",
+      "global_importance": 3.667
+    },
+    {
+      "id": "lady",
+      "name": "LADY MACDUFF",
+      "primary": true,
+      "line_color": "#ff6b6b",
+      "global_importance": 2.5
+    },
+    {
+      "id": "banquo",
+      "name": "Banquo",
+      "primary": true,
+      "line_color": "#51cf66",
+      "global_importance": 2.333
+    },
+    {
+      "id": "first",
+      "name": "FIRST WITCH",
+      "primary": true,
+      "line_color": "#4dabf7",
+      "global_importance": 1.667
+    },
+    {
+      "id": "second",
+      "name": "SECOND WITCH",
+      "primary": true,
+      "line_color": "#ffa94d",
+      "global_importance": 1.667
+    },
+    {
+      "id": "third",
+      "name": "THIRD WITCH",
+      "primary": true,
+      "line_color": "#b197fc",
+      "global_importance": 1.667
+    },
+    {
+      "id": "fleance",
+      "name": "Fleance",
+      "primary": true,
+      "line_color": "#20c997",
+      "global_importance": 1.083
+    },
+    {
+      "id": "hecate",
+      "name": "HECATE",
+      "primary": true,
+      "line_color": "#f06595",
+      "global_importance": 1.0
+    }
+  ],
   "internal_emotions": [
     {
       "id": "shame",
@@ -82,5 +175,151 @@
       "color": "#00c853"
     }
   ],
-  "character_chapters": []
+  "character_chapters": [
+    {
+      "index": 1,
+      "label": "Act 1",
+      "characters": [
+        {
+          "id": "first",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "second",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "third",
+          "importance": 0.667,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "macbeth",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "banquo",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "lady",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Act 2",
+      "characters": [
+        {
+          "id": "banquo",
+          "importance": 1.0,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "fleance",
+          "importance": 0.333,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "macbeth",
+          "importance": 0.667,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lady",
+          "importance": 0.667,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Act 3",
+      "characters": [
+        {
+          "id": "banquo",
+          "importance": 1.0,
+          "top_internal_emotion": "sadness"
+        },
+        {
+          "id": "macbeth",
+          "importance": 1.0,
+          "top_internal_emotion": "shame"
+        },
+        {
+          "id": "lady",
+          "importance": 0.5,
+          "top_internal_emotion": "pride_healthy"
+        },
+        {
+          "id": "fleance",
+          "importance": 0.75,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hecate",
+          "importance": 0.0,
+          "top_internal_emotion": "shame"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Act 4",
+      "characters": [
+        {
+          "id": "first",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "second",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "third",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "hecate",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "macbeth",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        },
+        {
+          "id": "lady",
+          "importance": 0.0,
+          "top_internal_emotion": "fear"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Act 5",
+      "characters": [
+        {
+          "id": "lady",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        },
+        {
+          "id": "macbeth",
+          "importance": 1.0,
+          "top_internal_emotion": "hope"
+        }
+      ]
+    }
+  ]
 }

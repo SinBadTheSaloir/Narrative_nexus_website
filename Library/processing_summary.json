@@ -1,0 +1,32 @@
+{
+  "total": 5,
+  "successful": 1,
+  "failed": 4,
+  "results": [
+    {
+      "play": "Hamlet_DATA",
+      "success": false,
+      "message": "Error processing Hamlet_DATA: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "play": "Macbeth_DATA",
+      "success": true,
+      "message": "Successfully processed Macbeth_DATA"
+    },
+    {
+      "play": "Othello_DATA",
+      "success": false,
+      "message": "Error processing Othello_DATA: Expecting ',' delimiter: line 172 column 2 (char 5862)"
+    },
+    {
+      "play": "Romeo_and_Juliet_DATA",
+      "success": false,
+      "message": "Error processing Romeo_and_Juliet_DATA: Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "play": "The_Tempest_DATA",
+      "success": false,
+      "message": "Error processing The_Tempest_DATA: Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
+}
