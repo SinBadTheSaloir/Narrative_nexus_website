@@ -1,4 +1,4 @@
-// server.js - Simplified Backend for Dashboard View
+// server.js - Simplified Backend for Dashboard View (No metadata.json required)
 
 const express = require('express');
 const fs = require('fs');
@@ -20,6 +20,42 @@ app.use(express.static(path.join(__dirname, '..', 'frontend')));
 const LIBRARY_PATH = path.join(__dirname, '..', 'Library');
 console.log("📁 Scanning Library at:", LIBRARY_PATH);
 let libraryIndex = {}; // In-memory cache of all books
+
+// ============================================
+// AUTHOR INFERENCE (optional enhancement)
+// ============================================
+
+const KNOWN_AUTHORS = {
+  'hamlet': 'William Shakespeare',
+  'macbeth': 'William Shakespeare',
+  'othello': 'William Shakespeare',
+  'romeo_and_juliet': 'William Shakespeare',
+  'the_tempest': 'William Shakespeare',
+  'the_great_gatsby': 'F. Scott Fitzgerald',
+};
+
+const KNOWN_YEARS = {
+  'hamlet': '1600',
+  'macbeth': '1606',
+  'othello': '1603',
+  'romeo_and_juliet': '1597',
+  'the_tempest': '1611',
+  'the_great_gatsby': '1925',
+};
+
+function inferAuthor(bookId, title) {
+  // Check known authors map
+  if (KNOWN_AUTHORS[bookId]) {
+    return KNOWN_AUTHORS[bookId];
+  }
+  
+  // Return null to let frontend handle it
+  return null;
+}
+
+function inferYear(bookId) {
+  return KNOWN_YEARS[bookId] || null;
+}
 
 // ============================================
 // LIBRARY SCANNER
@@ -44,30 +80,67 @@ function scanLibrary() {
     const metadataPath = path.join(bookPath, 'metadata.json');
     const dashboardPath = path.join(bookPath, 'dashboard.json');
     
-    // Read metadata
-    if (!fs.existsSync(metadataPath)) {
-      console.warn(`⚠️  No metadata.json for ${bookId}, skipping`);
+    // Dashboard.json is required
+    if (!fs.existsSync(dashboardPath)) {
+      console.warn(`⚠️  No dashboard.json for ${bookId}, skipping`);
       return;
     }
     
-    let metadata;
+    let dashboardData;
     try {
-      metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+      dashboardData = JSON.parse(fs.readFileSync(dashboardPath, 'utf-8'));
     } catch (error) {
-      console.error(`❌ Error reading metadata for ${bookId}:`, error.message);
+      console.error(`❌ Error reading dashboard for ${bookId}:`, error.message);
       return;
     }
     
-    // Check for dashboard
-    const hasDashboard = fs.existsSync(dashboardPath);
-    
-    books[bookId] = {
+    // Start with data from dashboard.json
+    const bookInfo = {
       id: bookId,
-      ...metadata,
-      hasDashboard
+      title: dashboardData.title || bookId.replace(/_/g, ' '),
+      chapterCount: dashboardData.chapters ? dashboardData.chapters.length : 0,
+      characterCount: dashboardData.characters ? dashboardData.characters.length : 0,
+      hasDashboard: true
     };
     
-    console.log(`  ✅ ${metadata.title}${hasDashboard ? ' (dashboard available)' : ''}`);
+    // Try to read metadata.json if it exists (optional)
+    if (fs.existsSync(metadataPath)) {
+      try {
+        const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+        
+        // Merge metadata (metadata.json takes priority)
+        if (metadata.title) bookInfo.title = metadata.title;
+        if (metadata.author) bookInfo.author = metadata.author;
+        if (metadata.year) bookInfo.year = metadata.year;
+        if (metadata.description) bookInfo.description = metadata.description;
+        if (metadata.chapterCount) bookInfo.chapterCount = metadata.chapterCount;
+        if (metadata.characterCount) bookInfo.characterCount = metadata.characterCount;
+        
+        console.log(`  ✅ ${bookInfo.title} (with metadata.json)`);
+      } catch (error) {
+        console.warn(`  ⚠️  Error reading metadata for ${bookId}, using dashboard data only`);
+      }
+    } else {
+      // No metadata.json, try to infer author
+      const inferredAuthor = inferAuthor(bookId, bookInfo.title);
+      const inferredYear = inferYear(bookId);
+      
+      if (inferredAuthor) {
+        bookInfo.author = inferredAuthor;
+      }
+      if (inferredYear) {
+        bookInfo.year = inferredYear;
+      }
+      
+      console.log(`  ✅ ${bookInfo.title} (dashboard.json only)`);
+    }
+    
+    // Set default author if still missing
+    if (!bookInfo.author) {
+      bookInfo.author = 'Unknown Author';
+    }
+    
+    books[bookId] = bookInfo;
   });
   
   console.log(`📚 Library scan complete: ${Object.keys(books).length} books found\n`);
