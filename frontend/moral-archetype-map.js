@@ -1,13 +1,13 @@
-// moral-archetype-map.js - Moral Archetype Map Visualization
-// Add this to your index.html as a separate script file
+// moral-archetype-map-improved.js - Enhanced Moral Archetype Map Visualization
+// Features:
+// - Clickable act numbers instead of play button
+// - Smart radial label positioning to prevent overlaps
+// - All acts shown dimmed, selected act highlighted
 
 // ============================================
 // MORAL ARCHETYPE MAP - THIRD VIEW
 // ============================================
 
-/**
- * Renders the Moral Archetype Map as a separate view alongside Story and Character views.
- */
 function renderMoralArchetypeView(data) {
   // Check if we have moral archetype data
   if (!data.moral_archetype) {
@@ -39,6 +39,13 @@ function renderMoralArchetypeView(data) {
 
 function renderMoralArchetypeMap(data) {
   const container = document.getElementById('dashboard-plot');
+  
+  // Create act number tabs dynamically
+  const actTabs = data.units.map((unit, idx) => `
+    <button class="act-tab ${idx === 0 ? 'active' : ''}" data-act-index="${idx}">
+      ${unit.label}
+    </button>
+  `).join('');
   
   // Create HTML structure
   container.innerHTML = `
@@ -77,11 +84,9 @@ function renderMoralArchetypeMap(data) {
       <div class="archetype-plot-area">
         <div id="archetype-plotly" class="archetype-plot"></div>
         
-        <!-- Time Slider Controls -->
-        <div class="time-controls">
-          <button id="play-btn" class="control-btn">▶ Play</button>
-          <input type="range" id="time-slider" min="0" max="${data.units.length - 1}" value="0" step="1" />
-          <div id="time-label" class="time-label">${data.units[0].label}</div>
+        <!-- Act Tabs (clickable) -->
+        <div class="act-tabs-container">
+          ${actTabs}
         </div>
       </div>
     </div>
@@ -151,6 +156,8 @@ function renderMoralArchetypeMap(data) {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        max-height: 300px;
+        overflow-y: auto;
       }
       
       .character-item {
@@ -159,19 +166,21 @@ function renderMoralArchetypeMap(data) {
         gap: 0.5rem;
         padding: 0.5rem;
         background-color: #1a1a1a;
+        border: 1px solid #333;
         border-radius: 4px;
         cursor: pointer;
-        transition: background-color 0.2s;
+        transition: all 0.2s ease;
         font-size: 0.85rem;
       }
       
       .character-item:hover {
         background-color: #2a2a2a;
+        border-color: #d4af37;
       }
       
       .character-item.selected {
         background-color: #2a2a2a;
-        border-left: 3px solid #d4af37;
+        border-color: #d4af37;
       }
       
       .character-color {
@@ -179,26 +188,12 @@ function renderMoralArchetypeMap(data) {
         height: 12px;
         border-radius: 50%;
         flex-shrink: 0;
+        border: 1px solid #555;
       }
       
       .character-name {
-        color: #ccc;
+        color: #ddd;
         flex: 1;
-      }
-      
-      #character-detail-content {
-        color: #aaa;
-        font-size: 0.85rem;
-        line-height: 1.6;
-      }
-      
-      .detail-row {
-        margin-bottom: 0.5rem;
-      }
-      
-      .detail-label {
-        color: #d4af37;
-        font-weight: 600;
       }
       
       .archetype-plot-area {
@@ -209,71 +204,55 @@ function renderMoralArchetypeMap(data) {
       
       .archetype-plot {
         flex: 1;
-        min-height: 550px;
-        background-color: #0a0a0a;
-        border: 1px solid #333;
-        border-radius: 8px;
+        min-height: 500px;
       }
       
-      .time-controls {
+      /* Act Tabs Styling */
+      .act-tabs-container {
         display: flex;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem;
-        background-color: #0a0a0a;
-        border: 1px solid #333;
-        border-radius: 8px;
-        margin-top: 1rem;
+        gap: 0.5rem;
+        padding: 1rem 0;
+        justify-content: center;
+        flex-wrap: wrap;
       }
       
-      .control-btn {
+      .act-tab {
+        background-color: #1a1a1a;
+        color: #888;
+        border: 1px solid #333;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      
+      .act-tab:hover {
+        border-color: #d4af37;
+        color: #d4af37;
+        background-color: #2a2a2a;
+      }
+      
+      .act-tab.active {
         background-color: #d4af37;
         color: #000;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 4px;
+        border-color: #d4af37;
         font-weight: 600;
-        cursor: pointer;
-        transition: background-color 0.2s;
       }
       
-      .control-btn:hover {
-        background-color: #c19d2f;
+      .detail-row {
+        margin-bottom: 0.75rem;
+        font-size: 0.85rem;
+        color: #aaa;
       }
       
-      #time-slider {
-        flex: 1;
-        height: 6px;
-        border-radius: 3px;
-        background: #333;
-        outline: none;
-        -webkit-appearance: none;
-      }
-      
-      #time-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: #d4af37;
-        cursor: pointer;
-      }
-      
-      #time-slider::-moz-range-thumb {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: #d4af37;
-        cursor: pointer;
-        border: none;
-      }
-      
-      .time-label {
+      .detail-label {
         color: #d4af37;
         font-weight: 600;
-        min-width: 100px;
-        text-align: right;
+        margin-right: 0.5rem;
       }
     </style>
   `;
@@ -283,19 +262,13 @@ function renderMoralArchetypeMap(data) {
     data: data,
     currentIndex: 0,
     selectedCharacters: new Set(),
-    isPlaying: false,
-    playInterval: null,
     searchTerm: '',
     filterMode: 'all'
   };
   
-  // Render character list
+  // Render initial views
   renderCharacterList();
-  
-  // Render initial plot
   renderArchetypePlot();
-  
-  // Setup event listeners
   setupArchetypeEventListeners();
   
   // Hide the emotion legend (not needed for archetype map)
@@ -416,6 +389,90 @@ function showCharacterDetail(character) {
 
 
 // ============================================
+// SMART RADIAL LABEL POSITIONING
+// ============================================
+
+function calculateRadialLabelPositions(points, minDistance = 0.8) {
+  /**
+   * Calculate non-overlapping label positions using radial spacing
+   * Returns array of {x, y, textposition, angle} for each point
+   */
+  
+  const labelInfo = points.map((point, idx) => ({
+    x: point.x,
+    y: point.y,
+    name: point.name,
+    color: point.color,
+    originalIdx: idx
+  }));
+  
+  // For each point, find optimal angle to place label
+  const positions = labelInfo.map((point, idx) => {
+    // Calculate angles to all other points
+    const angles = [];
+    
+    labelInfo.forEach((other, otherIdx) => {
+      if (idx === otherIdx) return;
+      
+      const dx = other.x - point.x;
+      const dy = other.y - point.y;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+      
+      if (distance < minDistance * 3) {
+        // This point is close, record the angle to avoid
+        const angle = Math.atan2(dy, dx) * (180 / Math.PI);
+        angles.push(angle);
+      }
+    });
+    
+    // Find the best angle (furthest from other points)
+    let bestAngle = 90; // Default: top
+    
+    if (angles.length > 0) {
+      // Sort angles
+      angles.sort((a, b) => a - b);
+      
+      // Find largest gap between angles
+      let maxGap = 0;
+      let gapAngle = 90;
+      
+      for (let i = 0; i < angles.length; i++) {
+        const nextAngle = angles[(i + 1) % angles.length];
+        const gap = nextAngle - angles[i];
+        
+        if (gap > maxGap) {
+          maxGap = gap;
+          gapAngle = angles[i] + gap / 2;
+        }
+      }
+      
+      bestAngle = gapAngle;
+    }
+    
+    // Convert angle to text position
+    let textposition;
+    if (bestAngle >= -45 && bestAngle < 45) {
+      textposition = 'middle right';
+    } else if (bestAngle >= 45 && bestAngle < 135) {
+      textposition = 'top center';
+    } else if (bestAngle >= 135 || bestAngle < -135) {
+      textposition = 'middle left';
+    } else {
+      textposition = 'bottom center';
+    }
+    
+    return {
+      ...point,
+      textposition: textposition,
+      angle: bestAngle
+    };
+  });
+  
+  return positions;
+}
+
+
+// ============================================
 // PLOT RENDERING
 // ============================================
 
@@ -454,7 +511,7 @@ function renderArchetypePlot() {
       layer: 'below',
       line: { width: 0 }
     },
-    // Bottom-left: Madness / Evil (indigo)
+    // Bottom-left: Madness / Evil (purple)
     {
       type: 'rect',
       x0: -10, y0: -10, x1: 0, y1: 0,
@@ -465,48 +522,77 @@ function renderArchetypePlot() {
     }
   ];
   
-  // Determine which characters to show
-  let visibleCharacters = data.characters;
-  if (selectedCharacters.size > 0) {
-    visibleCharacters = data.characters.filter(c => selectedCharacters.has(c.id));
-  }
+  const traces = [];
   
-  // Create scatter traces for current positions
-  const currentTrace = {
-    x: [],
-    y: [],
-    text: [],
-    mode: 'markers+text',
-    type: 'scatter',
-    marker: {
-      size: 12,
-      color: [],
-      line: { color: '#000', width: 2 }
-    },
-    textposition: 'top center',
-    textfont: { size: 10, color: '#fff' },
-    hovertemplate: '%{text}<extra></extra>',
-    name: 'Current Position'
-  };
+  // ============================================
+  // NEW: Show ALL acts, but dimmed for non-current
+  // ============================================
   
-  visibleCharacters.forEach(char => {
-    const point = currentUnit.points.find(p => p.character_id === char.id);
-    if (point) {
-      currentTrace.x.push(point.x);
-      currentTrace.y.push(point.y);
-      currentTrace.marker.color.push(char.color);
-      currentTrace.text.push(
-        `${char.name}<br>` +
-        `Control: ${point.x.toFixed(2)}<br>` +
-        `Integrity: ${point.y.toFixed(2)}<br>` +
-        `Top: ${Object.keys(point.top_emotions)[0]}`
-      );
+  data.units.forEach((unit, unitIdx) => {
+    const isCurrentAct = unitIdx === currentIndex;
+    const opacity = isCurrentAct ? 1.0 : 0.15;
+    const markerSize = isCurrentAct ? 12 : 8;
+    
+    // Collect all points for this unit
+    const unitPoints = [];
+    
+    data.characters.forEach(char => {
+      const point = unit.points.find(p => p.character_id === char.id);
+      if (point) {
+        unitPoints.push({
+          x: point.x,
+          y: point.y,
+          name: char.name,
+          color: char.color,
+          char: char,
+          point: point
+        });
+      }
+    });
+    
+    // Calculate radial positions for labels (only for current act)
+    let labelPositions = null;
+    if (isCurrentAct) {
+      labelPositions = calculateRadialLabelPositions(unitPoints);
     }
+    
+    // Create trace for this unit
+    const trace = {
+      x: unitPoints.map(p => p.x),
+      y: unitPoints.map(p => p.y),
+      text: isCurrentAct ? unitPoints.map((p, idx) => {
+        const labelPos = labelPositions[idx];
+        return labelPos.name;
+      }) : [],
+      mode: isCurrentAct ? 'markers+text' : 'markers',
+      type: 'scatter',
+      marker: {
+        size: markerSize,
+        color: unitPoints.map(p => p.color),
+        opacity: opacity,
+        line: { color: isCurrentAct ? '#000' : '#333', width: isCurrentAct ? 2 : 1 }
+      },
+      textposition: isCurrentAct ? labelPositions.map(l => l.textposition) : [],
+      textfont: { size: 10, color: '#fff' },
+      opacity: opacity,
+      hovertemplate: unitPoints.map(p => 
+        `${p.name}<br>` +
+        `${unit.label}<br>` +
+        `Control: ${p.point.x.toFixed(2)}<br>` +
+        `Integrity: ${p.point.y.toFixed(2)}<br>` +
+        `<extra></extra>`
+      ),
+      name: unit.label,
+      showlegend: false
+    };
+    
+    traces.push(trace);
   });
   
-  const traces = [currentTrace];
-  
+  // ============================================
   // Add trajectory lines for selected characters
+  // ============================================
+  
   selectedCharacters.forEach(charId => {
     const char = data.characters.find(c => c.id === charId);
     const trajectory = data.trajectories[charId];
@@ -526,7 +612,7 @@ function renderArchetypePlot() {
             width: 2,
             dash: 'dot'
           },
-          opacity: 0.5,
+          opacity: 0.7,
           showlegend: false,
           hoverinfo: 'skip'
         });
@@ -546,7 +632,8 @@ function renderArchetypePlot() {
       gridcolor: '#2a2a2a',
       zeroline: true,
       zerolinecolor: '#000',
-      zerolinewidth: 2
+      zerolinewidth: 2,
+      range: [-10, 10]
     },
     yaxis: {
       title: data.axes.y_label,
@@ -554,7 +641,8 @@ function renderArchetypePlot() {
       gridcolor: '#2a2a2a',
       zeroline: true,
       zerolinecolor: '#000',
-      zerolinewidth: 2
+      zerolinewidth: 2,
+      range: [-10, 10]
     },
     shapes: shapes,
     annotations: [
@@ -581,7 +669,7 @@ function renderArchetypePlot() {
         x: -5, y: -5,
         text: data.quadrants.bottom_left.label,
         showarrow: false,
-        font: { size: 11, color: 'white', weight: 'bold' }
+        font: { size: 11, color: 'indigo', weight: 'bold' }
       }
     ],
     paper_bgcolor: '#0a0a0a',
@@ -608,32 +696,28 @@ function renderArchetypePlot() {
 function setupArchetypeEventListeners() {
   const { data } = window.archetypeState;
   
-  // Time slider
-  const slider = document.getElementById('time-slider');
-  const timeLabel = document.getElementById('time-label');
-  
-  slider.addEventListener('input', (e) => {
-    window.archetypeState.currentIndex = parseInt(e.target.value);
-    const currentUnit = data.units[window.archetypeState.currentIndex];
-    timeLabel.textContent = currentUnit.label;
-    renderArchetypePlot();
-    
-    // Update character detail if one is selected
-    if (window.archetypeState.selectedCharacters.size === 1) {
-      const charId = Array.from(window.archetypeState.selectedCharacters)[0];
-      const char = data.characters.find(c => c.id === charId);
-      showCharacterDetail(char);
-    }
-  });
-  
-  // Play button
-  const playBtn = document.getElementById('play-btn');
-  playBtn.addEventListener('click', () => {
-    if (window.archetypeState.isPlaying) {
-      stopAnimation();
-    } else {
-      startAnimation();
-    }
+  // Act tab clicks
+  document.querySelectorAll('.act-tab').forEach(tab => {
+    tab.addEventListener('click', (e) => {
+      const actIndex = parseInt(e.target.dataset.actIndex);
+      
+      // Update active state
+      document.querySelectorAll('.act-tab').forEach(t => t.classList.remove('active'));
+      e.target.classList.add('active');
+      
+      // Update current index
+      window.archetypeState.currentIndex = actIndex;
+      
+      // Re-render plot
+      renderArchetypePlot();
+      
+      // Update character detail if one is selected
+      if (window.archetypeState.selectedCharacters.size === 1) {
+        const charId = Array.from(window.archetypeState.selectedCharacters)[0];
+        const char = data.characters.find(c => c.id === charId);
+        showCharacterDetail(char);
+      }
+    });
   });
   
   // Character search
@@ -653,54 +737,9 @@ function setupArchetypeEventListeners() {
 }
 
 
-function startAnimation() {
-  const { data } = window.archetypeState;
-  const slider = document.getElementById('time-slider');
-  const playBtn = document.getElementById('play-btn');
-  const timeLabel = document.getElementById('time-label');
-  
-  window.archetypeState.isPlaying = true;
-  playBtn.textContent = '⏸ Pause';
-  
-  window.archetypeState.playInterval = setInterval(() => {
-    let nextIndex = window.archetypeState.currentIndex + 1;
-    
-    if (nextIndex >= data.units.length) {
-      nextIndex = 0; // Loop back to start
-    }
-    
-    window.archetypeState.currentIndex = nextIndex;
-    slider.value = nextIndex;
-    timeLabel.textContent = data.units[nextIndex].label;
-    
-    renderArchetypePlot();
-    
-    // Update character detail if needed
-    if (window.archetypeState.selectedCharacters.size === 1) {
-      const charId = Array.from(window.archetypeState.selectedCharacters)[0];
-      const char = data.characters.find(c => c.id === charId);
-      showCharacterDetail(char);
-    }
-  }, 1500); // 1.5 second intervals
-}
-
-
-function stopAnimation() {
-  const playBtn = document.getElementById('play-btn');
-  
-  window.archetypeState.isPlaying = false;
-  playBtn.textContent = '▶ Play';
-  
-  if (window.archetypeState.playInterval) {
-    clearInterval(window.archetypeState.playInterval);
-    window.archetypeState.playInterval = null;
-  }
-}
-
-
 // ============================================
-// EXPORT FOR GRAPH REGISTRY
+// EXPORT
 // ============================================
 
 // Make sure the function is globally accessible
-window.renderCharacterView = renderCharacterView;
+window.renderMoralArchetypeView = renderMoralArchetypeView;
