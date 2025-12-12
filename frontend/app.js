@@ -173,6 +173,9 @@ async function renderDashboardPage(bookId) {
             <button class="view-btn" data-view="character" onclick="switchDashboardView('character')">
               Character View
             </button>
+            <button class="view-btn" data-view="archetype" onclick="switchDashboardView('archetype')">
+              Moral Archetype Map
+            </button>
           </div>
         </div>
         
@@ -218,6 +221,9 @@ function switchDashboardView(view) {
   } else if (view === 'character') {
     document.getElementById('emotion-legend').style.display = 'block';
     renderCharacterView(window.dashboardData);
+  } else if (view === 'archetype') {
+    document.getElementById('emotion-legend').style.display = 'none';
+    renderMoralArchetypeView(window.dashboardData);
   }
 }
 

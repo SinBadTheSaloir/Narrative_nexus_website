@@ -1,15 +1,14 @@
 // moral-archetype-map.js - Moral Archetype Map Visualization
-// Add this to your graph-registry.js or include as a separate file
+// Add this to your index.html as a separate script file
 
 // ============================================
-// MORAL ARCHETYPE MAP - CHARACTER VIEW REPLACEMENT
+// MORAL ARCHETYPE MAP - THIRD VIEW
 // ============================================
 
 /**
- * Renders the Moral Archetype Map instead of the old character importance view.
- * This replaces the renderCharacterView function.
+ * Renders the Moral Archetype Map as a separate view alongside Story and Character views.
  */
-function renderCharacterView(data) {
+function renderMoralArchetypeView(data) {
   // Check if we have moral archetype data
   if (!data.moral_archetype) {
     document.getElementById('dashboard-plot').innerHTML = 
