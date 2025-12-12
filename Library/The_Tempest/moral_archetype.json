@@ -1,0 +1,273 @@
+{
+  "book_id": "the_tempest_data",
+  "title": "The_Tempest_DATA",
+  "author": "",
+  "structure": {
+    "unit_type": "act",
+    "units": [
+      {
+        "id": "act_0",
+        "index": 0,
+        "label": "Act 1"
+      },
+      {
+        "id": "act_2",
+        "index": 2,
+        "label": "Act 3"
+      },
+      {
+        "id": "act_3",
+        "index": 3,
+        "label": "Act 4"
+      },
+      {
+        "id": "act_4",
+        "index": 4,
+        "label": "Act 5"
+      },
+      {
+        "id": "act_5",
+        "index": 5,
+        "label": "Act 1"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "adrian",
+      "name": "ADRIAN",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "alonso",
+      "name": "ALONSO",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "antonio",
+      "name": "ANTONIO",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "ariel",
+      "name": "ARIEL",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "adrian",
+      "name": "Adrian",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "alonso",
+      "name": "Alonso",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "antonio",
+      "name": "Antonio",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "ariel",
+      "name": "Ariel",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "boatswain",
+      "name": "BOATSWAIN",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "boatwain",
+      "name": "Boatwain",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "caliban",
+      "name": "CALIBAN",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "caliban",
+      "name": "Caliban",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "ceres",
+      "name": "Ceres",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ferdinand",
+      "name": "FERDINAND",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "francisco",
+      "name": "FRANCISCO",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "ferdinand",
+      "name": "Ferdinand",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "francisco",
+      "name": "Francisco",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "gonzalo",
+      "name": "GONZALO",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "gonzalo",
+      "name": "Gonzalo",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "juno",
+      "name": "Juno",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mariners",
+      "name": "MARINERS",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "master",
+      "name": "MASTER",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "miranda",
+      "name": "MIRANDA",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "miranda",
+      "name": "Miranda",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "prospero",
+      "name": "PROSPERO",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "prospero",
+      "name": "Prospero",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "sebastian",
+      "name": "SEBASTIAN",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "shipmaster",
+      "name": "SHIPMASTER",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "stephano",
+      "name": "STEPHANO",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "sebastian",
+      "name": "Sebastian",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "stephano",
+      "name": "Stephano",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "trinculo",
+      "name": "TRINCULO",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "trinculo",
+      "name": "Trinculo",
+      "color": "#5555FF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

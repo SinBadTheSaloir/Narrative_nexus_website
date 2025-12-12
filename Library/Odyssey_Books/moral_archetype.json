@@ -1,0 +1,534 @@
+{
+  "book_id": "odyssey_books",
+  "title": "Odyssey_Books",
+  "author": "",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "aegyptius",
+      "name": "Aegyptius",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "aeolus",
+      "name": "Aeolus",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "agamemnon",
+      "name": "Agamemnon",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "agelaus",
+      "name": "Agelaus",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "alcinous",
+      "name": "Alcinous",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "amphimedon",
+      "name": "Amphimedon",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "amphinomus",
+      "name": "Amphinomus",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "anticlea",
+      "name": "Anticlea",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "antinous",
+      "name": "Antinous",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "antiphates",
+      "name": "Antiphates",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "antiphus",
+      "name": "Antiphus",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "arete",
+      "name": "Arete",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "aretus",
+      "name": "Aretus",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "argos",
+      "name": "Argos",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "calypso",
+      "name": "Calypso",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "circe",
+      "name": "Circe",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "clytemnestra",
+      "name": "Clytemnestra",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "ctesippus",
+      "name": "Ctesippus",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "demodocus",
+      "name": "Demodocus",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "dolius",
+      "name": "Dolius",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "echeneus",
+      "name": "Echeneus",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "echephron",
+      "name": "Echephron",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "elpenor",
+      "name": "Elpenor",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "eteoneus",
+      "name": "Eteoneus",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "eumaeus",
+      "name": "Eumaeus",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "eupeithes",
+      "name": "Eupeithes",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "euryalus",
+      "name": "Euryalus",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "euryclea",
+      "name": "Euryclea",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "eurydice",
+      "name": "Eurydice",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "eurylochus",
+      "name": "Eurylochus",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "eurymachus",
+      "name": "Eurymachus",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "eurymedusa",
+      "name": "Eurymedusa",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "halitherses",
+      "name": "Halitherses",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "helen",
+      "name": "Helen",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "hercules",
+      "name": "Hercules",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "iphitus",
+      "name": "Iphitus",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "laertes",
+      "name": "Laertes",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "laodamas",
+      "name": "Laodamas",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "leiodes",
+      "name": "Leiodes",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "medon",
+      "name": "Medon",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "melanthius",
+      "name": "Melanthius",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "melantho",
+      "name": "Melantho",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "menelaus",
+      "name": "Menelaus",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mentor",
+      "name": "Mentor",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "nausicaa",
+      "name": "Nausicaa",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "nestor",
+      "name": "Nestor",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "nurse_euryclea",
+      "name": "Nurse Euryclea",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "penelope",
+      "name": "Penelope",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "phemius",
+      "name": "Phemius",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "philoetius",
+      "name": "Philoetius",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "piraeus",
+      "name": "Piraeus",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "pisistratus",
+      "name": "Pisistratus",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "polycaste",
+      "name": "Polycaste",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "proserpine",
+      "name": "Proserpine",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "stratius",
+      "name": "Stratius",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "teiresias",
+      "name": "Teiresias",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "telemachus",
+      "name": "Telemachus",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "theoclymenus",
+      "name": "Theoclymenus",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "thrasymedes",
+      "name": "Thrasymedes",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "color": "#FFFF55",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

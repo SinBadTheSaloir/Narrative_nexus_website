@@ -1,0 +1,656 @@
+{
+  "book_id": "pride_and_prejudice_by_jane_austen",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 29"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 30"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 31"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 32"
+      },
+      {
+        "id": "chapter_25",
+        "index": 25,
+        "label": "Chapter 33"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 34"
+      },
+      {
+        "id": "chapter_27",
+        "index": 27,
+        "label": "Chapter 35"
+      },
+      {
+        "id": "chapter_28",
+        "index": 28,
+        "label": "Chapter 36"
+      },
+      {
+        "id": "chapter_29",
+        "index": 29,
+        "label": "Chapter 37"
+      },
+      {
+        "id": "chapter_30",
+        "index": 30,
+        "label": "Chapter 38"
+      },
+      {
+        "id": "chapter_31",
+        "index": 31,
+        "label": "Chapter 39"
+      },
+      {
+        "id": "chapter_32",
+        "index": 32,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_33",
+        "index": 33,
+        "label": "Chapter 40"
+      },
+      {
+        "id": "chapter_34",
+        "index": 34,
+        "label": "Chapter 41"
+      },
+      {
+        "id": "chapter_35",
+        "index": 35,
+        "label": "Chapter 42"
+      },
+      {
+        "id": "chapter_36",
+        "index": 36,
+        "label": "Chapter 43"
+      },
+      {
+        "id": "chapter_37",
+        "index": 37,
+        "label": "Chapter 44"
+      },
+      {
+        "id": "chapter_38",
+        "index": 38,
+        "label": "Chapter 45"
+      },
+      {
+        "id": "chapter_39",
+        "index": 39,
+        "label": "Chapter 46"
+      },
+      {
+        "id": "chapter_40",
+        "index": 40,
+        "label": "Chapter 47"
+      },
+      {
+        "id": "chapter_41",
+        "index": 41,
+        "label": "Chapter 48"
+      },
+      {
+        "id": "chapter_42",
+        "index": 42,
+        "label": "Chapter 49"
+      },
+      {
+        "id": "chapter_43",
+        "index": 43,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_44",
+        "index": 44,
+        "label": "Chapter 50"
+      },
+      {
+        "id": "chapter_45",
+        "index": 45,
+        "label": "Chapter 51"
+      },
+      {
+        "id": "chapter_46",
+        "index": 46,
+        "label": "Chapter 52"
+      },
+      {
+        "id": "chapter_47",
+        "index": 47,
+        "label": "Chapter 53"
+      },
+      {
+        "id": "chapter_48",
+        "index": 48,
+        "label": "Chapter 54"
+      },
+      {
+        "id": "chapter_49",
+        "index": 49,
+        "label": "Chapter 55"
+      },
+      {
+        "id": "chapter_50",
+        "index": 50,
+        "label": "Chapter 56"
+      },
+      {
+        "id": "chapter_51",
+        "index": 51,
+        "label": "Chapter 57"
+      },
+      {
+        "id": "chapter_52",
+        "index": 52,
+        "label": "Chapter 58"
+      },
+      {
+        "id": "chapter_53",
+        "index": 53,
+        "label": "Chapter 59"
+      },
+      {
+        "id": "chapter_54",
+        "index": 54,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_55",
+        "index": 55,
+        "label": "Chapter 60"
+      },
+      {
+        "id": "chapter_56",
+        "index": 56,
+        "label": "Chapter 61"
+      },
+      {
+        "id": "chapter_57",
+        "index": 57,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_58",
+        "index": 58,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_59",
+        "index": 59,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_60",
+        "index": 60,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "bingley",
+      "name": "Bingley",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "caroline",
+      "name": "Caroline",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "caroline_bingley",
+      "name": "Caroline Bingley",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "catherine",
+      "name": "Catherine",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "charles_bingley",
+      "name": "Charles Bingley",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "charlotte",
+      "name": "Charlotte",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "colonel_fitzwilliam",
+      "name": "Colonel Fitzwilliam",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "colonel_forster",
+      "name": "Colonel Forster",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "darcy",
+      "name": "Darcy",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "elizabeth_bennet",
+      "name": "Elizabeth Bennet",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "gardiners",
+      "name": "Gardiners",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "george_wickham",
+      "name": "George Wickham",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "georgiana",
+      "name": "Georgiana",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "jane_bennet",
+      "name": "Jane Bennet",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "kitty",
+      "name": "Kitty",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "kitty_bennet",
+      "name": "Kitty Bennet",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "lady_catherine",
+      "name": "Lady Catherine",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "lady_catherine_de_bourgh",
+      "name": "Lady Catherine de Bourgh",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "lady_lucas",
+      "name": "Lady Lucas",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "lydia",
+      "name": "Lydia",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "lydia_bennet",
+      "name": "Lydia Bennet",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "maria",
+      "name": "Maria",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mary",
+      "name": "Mary",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mary_bennet",
+      "name": "Mary Bennet",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "miss_bingley",
+      "name": "Miss Bingley",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "miss_darcy",
+      "name": "Miss Darcy",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "miss_lucas",
+      "name": "Miss Lucas",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "miss_de_bourgh",
+      "name": "Miss de Bourgh",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mr._bennet",
+      "name": "Mr. Bennet",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mr._bingley",
+      "name": "Mr. Bingley",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._collins",
+      "name": "Mr. Collins",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._darcy",
+      "name": "Mr. Darcy",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._denny",
+      "name": "Mr. Denny",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._gardiner",
+      "name": "Mr. Gardiner",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mr._hurst",
+      "name": "Mr. Hurst",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mr._wickham",
+      "name": "Mr. Wickham",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._annesley",
+      "name": "Mrs. Annesley",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mrs._bennet",
+      "name": "Mrs. Bennet",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._collins",
+      "name": "Mrs. Collins",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mrs._forster",
+      "name": "Mrs. Forster",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mrs._gardiner",
+      "name": "Mrs. Gardiner",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._hill",
+      "name": "Mrs. Hill",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mrs._hurst",
+      "name": "Mrs. Hurst",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._jenkinson",
+      "name": "Mrs. Jenkinson",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mrs._philips",
+      "name": "Mrs. Philips",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._reynolds",
+      "name": "Mrs. Reynolds",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "sir_william",
+      "name": "Sir William",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "sir_william_lucas",
+      "name": "Sir William Lucas",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "wickham",
+      "name": "Wickham",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "young_lucas",
+      "name": "Young Lucas",
+      "color": "#55FFFF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

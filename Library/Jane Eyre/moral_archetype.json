@@ -1,0 +1,634 @@
+{
+  "book_id": "jane_eyre",
+  "title": "Jane Eyre",
+  "author": "",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 29"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 31"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 32"
+      },
+      {
+        "id": "chapter_25",
+        "index": 25,
+        "label": "Chapter 33"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 34"
+      },
+      {
+        "id": "chapter_27",
+        "index": 27,
+        "label": "Chapter 35"
+      },
+      {
+        "id": "chapter_28",
+        "index": 28,
+        "label": "Chapter 36"
+      },
+      {
+        "id": "chapter_29",
+        "index": 29,
+        "label": "Chapter 37"
+      },
+      {
+        "id": "chapter_30",
+        "index": 30,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_31",
+        "index": 31,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_32",
+        "index": 32,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_33",
+        "index": 33,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_34",
+        "index": 34,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_35",
+        "index": 35,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_36",
+        "index": 36,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "abbot",
+      "name": "Abbot",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "ad\u00e8le",
+      "name": "Ad\u00e8le",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "amy_eshton",
+      "name": "Amy Eshton",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "bessie",
+      "name": "Bessie",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "bessie_leaven",
+      "name": "Bessie Leaven",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "blanche_ingram",
+      "name": "Blanche Ingram",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "briggs",
+      "name": "Briggs",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "burns",
+      "name": "Burns",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "colonel_dent",
+      "name": "Colonel Dent",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "eliza",
+      "name": "Eliza",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "eliza_reed",
+      "name": "Eliza Reed",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "frederick_lynn",
+      "name": "Frederick Lynn",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "georgiana",
+      "name": "Georgiana",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "georgiana_reed",
+      "name": "Georgiana Reed",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "grace_poole",
+      "name": "Grace Poole",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "hannah",
+      "name": "Hannah",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "helen_burns",
+      "name": "Helen Burns",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "henry_lynn",
+      "name": "Henry Lynn",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "i",
+      "name": "I",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "jane",
+      "name": "Jane",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "jane_eyre",
+      "name": "Jane Eyre",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "jane_rochester",
+      "name": "Jane Rochester",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "john_reed",
+      "name": "John Reed",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lady_ingram",
+      "name": "Lady Ingram",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "leah",
+      "name": "Leah",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "louisa_eshton",
+      "name": "Louisa Eshton",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_pierrot",
+      "name": "Madame Pierrot",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mary",
+      "name": "Mary",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mary_ann_wilson",
+      "name": "Mary Ann Wilson",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mary_ingram",
+      "name": "Mary Ingram",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mason",
+      "name": "Mason",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "miss_abbot",
+      "name": "Miss Abbot",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "miss_eyre",
+      "name": "Miss Eyre",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "miss_gryce",
+      "name": "Miss Gryce",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "miss_ingram",
+      "name": "Miss Ingram",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "miss_miller",
+      "name": "Miss Miller",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "miss_oliver",
+      "name": "Miss Oliver",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "miss_scatcherd",
+      "name": "Miss Scatcherd",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "miss_smith",
+      "name": "Miss Smith",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "miss_temple",
+      "name": "Miss Temple",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mr._bates",
+      "name": "Mr. Bates",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._brocklehurst",
+      "name": "Mr. Brocklehurst",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mr._eshton",
+      "name": "Mr. Eshton",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mr._lloyd",
+      "name": "Mr. Lloyd",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mr._mason",
+      "name": "Mr. Mason",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._oliver",
+      "name": "Mr. Oliver",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._rivers",
+      "name": "Mr. Rivers",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._rochester",
+      "name": "Mr. Rochester",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._st._john",
+      "name": "Mr. St. John",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mr._st._john_rivers",
+      "name": "Mr. St. John Rivers",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mr._wood",
+      "name": "Mr. Wood",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._dent",
+      "name": "Mrs. Dent",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mrs._eshton",
+      "name": "Mrs. Eshton",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._fairfax",
+      "name": "Mrs. Fairfax",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mrs._poole",
+      "name": "Mrs. Poole",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mrs._reed",
+      "name": "Mrs. Reed",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "porter",
+      "name": "Porter",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "porters_wife",
+      "name": "Porter's wife",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "rev._mr._nasmyth",
+      "name": "Rev. Mr. Nasmyth",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "robert_leaven",
+      "name": "Robert Leaven",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "rosamond_oliver",
+      "name": "Rosamond Oliver",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "sir_george_lynn",
+      "name": "Sir George Lynn",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "sophie",
+      "name": "Sophie",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "st._john",
+      "name": "St. John",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "st._john_rivers",
+      "name": "St. John Rivers",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "the_gipsy",
+      "name": "The Gipsy",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_butler",
+      "name": "the butler",
+      "color": "#5599FF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

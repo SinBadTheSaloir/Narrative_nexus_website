@@ -1,0 +1,5215 @@
+{
+  "book_id": "les_miserables_chapters",
+  "title": "Les_Miserables_Chapters",
+  "author": "",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 100"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 101"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 102"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 103"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 104"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 105"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 107"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 108"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 109"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 110"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 111"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 112"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 114"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 115"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 116"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 117"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 119"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 120"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 121"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 122"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 124"
+      },
+      {
+        "id": "chapter_27",
+        "index": 27,
+        "label": "Chapter 125"
+      },
+      {
+        "id": "chapter_29",
+        "index": 29,
+        "label": "Chapter 127"
+      },
+      {
+        "id": "chapter_30",
+        "index": 30,
+        "label": "Chapter 128"
+      },
+      {
+        "id": "chapter_31",
+        "index": 31,
+        "label": "Chapter 129"
+      },
+      {
+        "id": "chapter_32",
+        "index": 32,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_33",
+        "index": 33,
+        "label": "Chapter 130"
+      },
+      {
+        "id": "chapter_34",
+        "index": 34,
+        "label": "Chapter 131"
+      },
+      {
+        "id": "chapter_35",
+        "index": 35,
+        "label": "Chapter 132"
+      },
+      {
+        "id": "chapter_36",
+        "index": 36,
+        "label": "Chapter 133"
+      },
+      {
+        "id": "chapter_37",
+        "index": 37,
+        "label": "Chapter 134"
+      },
+      {
+        "id": "chapter_38",
+        "index": 38,
+        "label": "Chapter 135"
+      },
+      {
+        "id": "chapter_39",
+        "index": 39,
+        "label": "Chapter 136"
+      },
+      {
+        "id": "chapter_40",
+        "index": 40,
+        "label": "Chapter 137"
+      },
+      {
+        "id": "chapter_41",
+        "index": 41,
+        "label": "Chapter 138"
+      },
+      {
+        "id": "chapter_42",
+        "index": 42,
+        "label": "Chapter 139"
+      },
+      {
+        "id": "chapter_43",
+        "index": 43,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_44",
+        "index": 44,
+        "label": "Chapter 140"
+      },
+      {
+        "id": "chapter_45",
+        "index": 45,
+        "label": "Chapter 141"
+      },
+      {
+        "id": "chapter_47",
+        "index": 47,
+        "label": "Chapter 143"
+      },
+      {
+        "id": "chapter_48",
+        "index": 48,
+        "label": "Chapter 144"
+      },
+      {
+        "id": "chapter_49",
+        "index": 49,
+        "label": "Chapter 145"
+      },
+      {
+        "id": "chapter_50",
+        "index": 50,
+        "label": "Chapter 146"
+      },
+      {
+        "id": "chapter_51",
+        "index": 51,
+        "label": "Chapter 147"
+      },
+      {
+        "id": "chapter_52",
+        "index": 52,
+        "label": "Chapter 148"
+      },
+      {
+        "id": "chapter_53",
+        "index": 53,
+        "label": "Chapter 149"
+      },
+      {
+        "id": "chapter_54",
+        "index": 54,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_55",
+        "index": 55,
+        "label": "Chapter 150"
+      },
+      {
+        "id": "chapter_56",
+        "index": 56,
+        "label": "Chapter 151"
+      },
+      {
+        "id": "chapter_57",
+        "index": 57,
+        "label": "Chapter 152"
+      },
+      {
+        "id": "chapter_58",
+        "index": 58,
+        "label": "Chapter 153"
+      },
+      {
+        "id": "chapter_59",
+        "index": 59,
+        "label": "Chapter 154"
+      },
+      {
+        "id": "chapter_60",
+        "index": 60,
+        "label": "Chapter 155"
+      },
+      {
+        "id": "chapter_61",
+        "index": 61,
+        "label": "Chapter 156"
+      },
+      {
+        "id": "chapter_62",
+        "index": 62,
+        "label": "Chapter 157"
+      },
+      {
+        "id": "chapter_63",
+        "index": 63,
+        "label": "Chapter 158"
+      },
+      {
+        "id": "chapter_64",
+        "index": 64,
+        "label": "Chapter 159"
+      },
+      {
+        "id": "chapter_65",
+        "index": 65,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_66",
+        "index": 66,
+        "label": "Chapter 160"
+      },
+      {
+        "id": "chapter_67",
+        "index": 67,
+        "label": "Chapter 161"
+      },
+      {
+        "id": "chapter_68",
+        "index": 68,
+        "label": "Chapter 162"
+      },
+      {
+        "id": "chapter_69",
+        "index": 69,
+        "label": "Chapter 163"
+      },
+      {
+        "id": "chapter_70",
+        "index": 70,
+        "label": "Chapter 164"
+      },
+      {
+        "id": "chapter_71",
+        "index": 71,
+        "label": "Chapter 165"
+      },
+      {
+        "id": "chapter_72",
+        "index": 72,
+        "label": "Chapter 166"
+      },
+      {
+        "id": "chapter_73",
+        "index": 73,
+        "label": "Chapter 167"
+      },
+      {
+        "id": "chapter_74",
+        "index": 74,
+        "label": "Chapter 168"
+      },
+      {
+        "id": "chapter_75",
+        "index": 75,
+        "label": "Chapter 169"
+      },
+      {
+        "id": "chapter_76",
+        "index": 76,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_77",
+        "index": 77,
+        "label": "Chapter 170"
+      },
+      {
+        "id": "chapter_78",
+        "index": 78,
+        "label": "Chapter 171"
+      },
+      {
+        "id": "chapter_79",
+        "index": 79,
+        "label": "Chapter 172"
+      },
+      {
+        "id": "chapter_80",
+        "index": 80,
+        "label": "Chapter 173"
+      },
+      {
+        "id": "chapter_81",
+        "index": 81,
+        "label": "Chapter 174"
+      },
+      {
+        "id": "chapter_82",
+        "index": 82,
+        "label": "Chapter 175"
+      },
+      {
+        "id": "chapter_83",
+        "index": 83,
+        "label": "Chapter 176"
+      },
+      {
+        "id": "chapter_84",
+        "index": 84,
+        "label": "Chapter 177"
+      },
+      {
+        "id": "chapter_85",
+        "index": 85,
+        "label": "Chapter 178"
+      },
+      {
+        "id": "chapter_87",
+        "index": 87,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_88",
+        "index": 88,
+        "label": "Chapter 180"
+      },
+      {
+        "id": "chapter_89",
+        "index": 89,
+        "label": "Chapter 181"
+      },
+      {
+        "id": "chapter_90",
+        "index": 90,
+        "label": "Chapter 182"
+      },
+      {
+        "id": "chapter_91",
+        "index": 91,
+        "label": "Chapter 183"
+      },
+      {
+        "id": "chapter_92",
+        "index": 92,
+        "label": "Chapter 184"
+      },
+      {
+        "id": "chapter_93",
+        "index": 93,
+        "label": "Chapter 185"
+      },
+      {
+        "id": "chapter_94",
+        "index": 94,
+        "label": "Chapter 186"
+      },
+      {
+        "id": "chapter_95",
+        "index": 95,
+        "label": "Chapter 187"
+      },
+      {
+        "id": "chapter_96",
+        "index": 96,
+        "label": "Chapter 188"
+      },
+      {
+        "id": "chapter_97",
+        "index": 97,
+        "label": "Chapter 189"
+      },
+      {
+        "id": "chapter_98",
+        "index": 98,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_99",
+        "index": 99,
+        "label": "Chapter 190"
+      },
+      {
+        "id": "chapter_101",
+        "index": 101,
+        "label": "Chapter 192"
+      },
+      {
+        "id": "chapter_102",
+        "index": 102,
+        "label": "Chapter 193"
+      },
+      {
+        "id": "chapter_103",
+        "index": 103,
+        "label": "Chapter 194"
+      },
+      {
+        "id": "chapter_104",
+        "index": 104,
+        "label": "Chapter 195"
+      },
+      {
+        "id": "chapter_106",
+        "index": 106,
+        "label": "Chapter 197"
+      },
+      {
+        "id": "chapter_107",
+        "index": 107,
+        "label": "Chapter 198"
+      },
+      {
+        "id": "chapter_108",
+        "index": 108,
+        "label": "Chapter 199"
+      },
+      {
+        "id": "chapter_109",
+        "index": 109,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_110",
+        "index": 110,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_111",
+        "index": 111,
+        "label": "Chapter 200"
+      },
+      {
+        "id": "chapter_112",
+        "index": 112,
+        "label": "Chapter 201"
+      },
+      {
+        "id": "chapter_113",
+        "index": 113,
+        "label": "Chapter 202"
+      },
+      {
+        "id": "chapter_114",
+        "index": 114,
+        "label": "Chapter 203"
+      },
+      {
+        "id": "chapter_115",
+        "index": 115,
+        "label": "Chapter 204"
+      },
+      {
+        "id": "chapter_116",
+        "index": 116,
+        "label": "Chapter 205"
+      },
+      {
+        "id": "chapter_117",
+        "index": 117,
+        "label": "Chapter 206"
+      },
+      {
+        "id": "chapter_118",
+        "index": 118,
+        "label": "Chapter 207"
+      },
+      {
+        "id": "chapter_119",
+        "index": 119,
+        "label": "Chapter 208"
+      },
+      {
+        "id": "chapter_120",
+        "index": 120,
+        "label": "Chapter 209"
+      },
+      {
+        "id": "chapter_122",
+        "index": 122,
+        "label": "Chapter 210"
+      },
+      {
+        "id": "chapter_123",
+        "index": 123,
+        "label": "Chapter 211"
+      },
+      {
+        "id": "chapter_124",
+        "index": 124,
+        "label": "Chapter 212"
+      },
+      {
+        "id": "chapter_125",
+        "index": 125,
+        "label": "Chapter 213"
+      },
+      {
+        "id": "chapter_126",
+        "index": 126,
+        "label": "Chapter 214"
+      },
+      {
+        "id": "chapter_127",
+        "index": 127,
+        "label": "Chapter 215"
+      },
+      {
+        "id": "chapter_128",
+        "index": 128,
+        "label": "Chapter 216"
+      },
+      {
+        "id": "chapter_129",
+        "index": 129,
+        "label": "Chapter 217"
+      },
+      {
+        "id": "chapter_130",
+        "index": 130,
+        "label": "Chapter 218"
+      },
+      {
+        "id": "chapter_131",
+        "index": 131,
+        "label": "Chapter 219"
+      },
+      {
+        "id": "chapter_132",
+        "index": 132,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_133",
+        "index": 133,
+        "label": "Chapter 220"
+      },
+      {
+        "id": "chapter_134",
+        "index": 134,
+        "label": "Chapter 221"
+      },
+      {
+        "id": "chapter_135",
+        "index": 135,
+        "label": "Chapter 222"
+      },
+      {
+        "id": "chapter_136",
+        "index": 136,
+        "label": "Chapter 223"
+      },
+      {
+        "id": "chapter_137",
+        "index": 137,
+        "label": "Chapter 224"
+      },
+      {
+        "id": "chapter_138",
+        "index": 138,
+        "label": "Chapter 225"
+      },
+      {
+        "id": "chapter_139",
+        "index": 139,
+        "label": "Chapter 226"
+      },
+      {
+        "id": "chapter_140",
+        "index": 140,
+        "label": "Chapter 227"
+      },
+      {
+        "id": "chapter_141",
+        "index": 141,
+        "label": "Chapter 228"
+      },
+      {
+        "id": "chapter_142",
+        "index": 142,
+        "label": "Chapter 229"
+      },
+      {
+        "id": "chapter_143",
+        "index": 143,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_144",
+        "index": 144,
+        "label": "Chapter 230"
+      },
+      {
+        "id": "chapter_145",
+        "index": 145,
+        "label": "Chapter 231"
+      },
+      {
+        "id": "chapter_146",
+        "index": 146,
+        "label": "Chapter 232"
+      },
+      {
+        "id": "chapter_147",
+        "index": 147,
+        "label": "Chapter 233"
+      },
+      {
+        "id": "chapter_148",
+        "index": 148,
+        "label": "Chapter 234"
+      },
+      {
+        "id": "chapter_150",
+        "index": 150,
+        "label": "Chapter 236"
+      },
+      {
+        "id": "chapter_151",
+        "index": 151,
+        "label": "Chapter 237"
+      },
+      {
+        "id": "chapter_152",
+        "index": 152,
+        "label": "Chapter 238"
+      },
+      {
+        "id": "chapter_153",
+        "index": 153,
+        "label": "Chapter 239"
+      },
+      {
+        "id": "chapter_154",
+        "index": 154,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_156",
+        "index": 156,
+        "label": "Chapter 241"
+      },
+      {
+        "id": "chapter_157",
+        "index": 157,
+        "label": "Chapter 242"
+      },
+      {
+        "id": "chapter_158",
+        "index": 158,
+        "label": "Chapter 243"
+      },
+      {
+        "id": "chapter_159",
+        "index": 159,
+        "label": "Chapter 244"
+      },
+      {
+        "id": "chapter_160",
+        "index": 160,
+        "label": "Chapter 245"
+      },
+      {
+        "id": "chapter_161",
+        "index": 161,
+        "label": "Chapter 246"
+      },
+      {
+        "id": "chapter_162",
+        "index": 162,
+        "label": "Chapter 247"
+      },
+      {
+        "id": "chapter_163",
+        "index": 163,
+        "label": "Chapter 248"
+      },
+      {
+        "id": "chapter_165",
+        "index": 165,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_166",
+        "index": 166,
+        "label": "Chapter 250"
+      },
+      {
+        "id": "chapter_167",
+        "index": 167,
+        "label": "Chapter 251"
+      },
+      {
+        "id": "chapter_168",
+        "index": 168,
+        "label": "Chapter 252"
+      },
+      {
+        "id": "chapter_170",
+        "index": 170,
+        "label": "Chapter 254"
+      },
+      {
+        "id": "chapter_172",
+        "index": 172,
+        "label": "Chapter 256"
+      },
+      {
+        "id": "chapter_173",
+        "index": 173,
+        "label": "Chapter 257"
+      },
+      {
+        "id": "chapter_174",
+        "index": 174,
+        "label": "Chapter 258"
+      },
+      {
+        "id": "chapter_175",
+        "index": 175,
+        "label": "Chapter 259"
+      },
+      {
+        "id": "chapter_176",
+        "index": 176,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_177",
+        "index": 177,
+        "label": "Chapter 260"
+      },
+      {
+        "id": "chapter_178",
+        "index": 178,
+        "label": "Chapter 261"
+      },
+      {
+        "id": "chapter_179",
+        "index": 179,
+        "label": "Chapter 262"
+      },
+      {
+        "id": "chapter_180",
+        "index": 180,
+        "label": "Chapter 263"
+      },
+      {
+        "id": "chapter_181",
+        "index": 181,
+        "label": "Chapter 264"
+      },
+      {
+        "id": "chapter_182",
+        "index": 182,
+        "label": "Chapter 265"
+      },
+      {
+        "id": "chapter_183",
+        "index": 183,
+        "label": "Chapter 266"
+      },
+      {
+        "id": "chapter_184",
+        "index": 184,
+        "label": "Chapter 267"
+      },
+      {
+        "id": "chapter_185",
+        "index": 185,
+        "label": "Chapter 268"
+      },
+      {
+        "id": "chapter_186",
+        "index": 186,
+        "label": "Chapter 269"
+      },
+      {
+        "id": "chapter_187",
+        "index": 187,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_188",
+        "index": 188,
+        "label": "Chapter 270"
+      },
+      {
+        "id": "chapter_189",
+        "index": 189,
+        "label": "Chapter 271"
+      },
+      {
+        "id": "chapter_190",
+        "index": 190,
+        "label": "Chapter 272"
+      },
+      {
+        "id": "chapter_191",
+        "index": 191,
+        "label": "Chapter 273"
+      },
+      {
+        "id": "chapter_192",
+        "index": 192,
+        "label": "Chapter 274"
+      },
+      {
+        "id": "chapter_193",
+        "index": 193,
+        "label": "Chapter 275"
+      },
+      {
+        "id": "chapter_194",
+        "index": 194,
+        "label": "Chapter 276"
+      },
+      {
+        "id": "chapter_195",
+        "index": 195,
+        "label": "Chapter 277"
+      },
+      {
+        "id": "chapter_196",
+        "index": 196,
+        "label": "Chapter 278"
+      },
+      {
+        "id": "chapter_197",
+        "index": 197,
+        "label": "Chapter 279"
+      },
+      {
+        "id": "chapter_198",
+        "index": 198,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_199",
+        "index": 199,
+        "label": "Chapter 280"
+      },
+      {
+        "id": "chapter_200",
+        "index": 200,
+        "label": "Chapter 281"
+      },
+      {
+        "id": "chapter_201",
+        "index": 201,
+        "label": "Chapter 282"
+      },
+      {
+        "id": "chapter_202",
+        "index": 202,
+        "label": "Chapter 283"
+      },
+      {
+        "id": "chapter_203",
+        "index": 203,
+        "label": "Chapter 284"
+      },
+      {
+        "id": "chapter_204",
+        "index": 204,
+        "label": "Chapter 285"
+      },
+      {
+        "id": "chapter_205",
+        "index": 205,
+        "label": "Chapter 286"
+      },
+      {
+        "id": "chapter_206",
+        "index": 206,
+        "label": "Chapter 287"
+      },
+      {
+        "id": "chapter_207",
+        "index": 207,
+        "label": "Chapter 288"
+      },
+      {
+        "id": "chapter_208",
+        "index": 208,
+        "label": "Chapter 289"
+      },
+      {
+        "id": "chapter_209",
+        "index": 209,
+        "label": "Chapter 28"
+      },
+      {
+        "id": "chapter_210",
+        "index": 210,
+        "label": "Chapter 290"
+      },
+      {
+        "id": "chapter_211",
+        "index": 211,
+        "label": "Chapter 291"
+      },
+      {
+        "id": "chapter_212",
+        "index": 212,
+        "label": "Chapter 292"
+      },
+      {
+        "id": "chapter_213",
+        "index": 213,
+        "label": "Chapter 293"
+      },
+      {
+        "id": "chapter_214",
+        "index": 214,
+        "label": "Chapter 294"
+      },
+      {
+        "id": "chapter_215",
+        "index": 215,
+        "label": "Chapter 295"
+      },
+      {
+        "id": "chapter_216",
+        "index": 216,
+        "label": "Chapter 296"
+      },
+      {
+        "id": "chapter_217",
+        "index": 217,
+        "label": "Chapter 297"
+      },
+      {
+        "id": "chapter_218",
+        "index": 218,
+        "label": "Chapter 298"
+      },
+      {
+        "id": "chapter_219",
+        "index": 219,
+        "label": "Chapter 299"
+      },
+      {
+        "id": "chapter_220",
+        "index": 220,
+        "label": "Chapter 29"
+      },
+      {
+        "id": "chapter_221",
+        "index": 221,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_222",
+        "index": 222,
+        "label": "Chapter 300"
+      },
+      {
+        "id": "chapter_223",
+        "index": 223,
+        "label": "Chapter 301"
+      },
+      {
+        "id": "chapter_224",
+        "index": 224,
+        "label": "Chapter 302"
+      },
+      {
+        "id": "chapter_225",
+        "index": 225,
+        "label": "Chapter 303"
+      },
+      {
+        "id": "chapter_226",
+        "index": 226,
+        "label": "Chapter 304"
+      },
+      {
+        "id": "chapter_227",
+        "index": 227,
+        "label": "Chapter 305"
+      },
+      {
+        "id": "chapter_228",
+        "index": 228,
+        "label": "Chapter 306"
+      },
+      {
+        "id": "chapter_229",
+        "index": 229,
+        "label": "Chapter 307"
+      },
+      {
+        "id": "chapter_230",
+        "index": 230,
+        "label": "Chapter 308"
+      },
+      {
+        "id": "chapter_231",
+        "index": 231,
+        "label": "Chapter 309"
+      },
+      {
+        "id": "chapter_232",
+        "index": 232,
+        "label": "Chapter 30"
+      },
+      {
+        "id": "chapter_233",
+        "index": 233,
+        "label": "Chapter 310"
+      },
+      {
+        "id": "chapter_234",
+        "index": 234,
+        "label": "Chapter 311"
+      },
+      {
+        "id": "chapter_235",
+        "index": 235,
+        "label": "Chapter 312"
+      },
+      {
+        "id": "chapter_236",
+        "index": 236,
+        "label": "Chapter 313"
+      },
+      {
+        "id": "chapter_238",
+        "index": 238,
+        "label": "Chapter 315"
+      },
+      {
+        "id": "chapter_239",
+        "index": 239,
+        "label": "Chapter 316"
+      },
+      {
+        "id": "chapter_240",
+        "index": 240,
+        "label": "Chapter 317"
+      },
+      {
+        "id": "chapter_241",
+        "index": 241,
+        "label": "Chapter 318"
+      },
+      {
+        "id": "chapter_242",
+        "index": 242,
+        "label": "Chapter 319"
+      },
+      {
+        "id": "chapter_243",
+        "index": 243,
+        "label": "Chapter 31"
+      },
+      {
+        "id": "chapter_244",
+        "index": 244,
+        "label": "Chapter 320"
+      },
+      {
+        "id": "chapter_245",
+        "index": 245,
+        "label": "Chapter 321"
+      },
+      {
+        "id": "chapter_246",
+        "index": 246,
+        "label": "Chapter 322"
+      },
+      {
+        "id": "chapter_247",
+        "index": 247,
+        "label": "Chapter 323"
+      },
+      {
+        "id": "chapter_249",
+        "index": 249,
+        "label": "Chapter 325"
+      },
+      {
+        "id": "chapter_250",
+        "index": 250,
+        "label": "Chapter 326"
+      },
+      {
+        "id": "chapter_251",
+        "index": 251,
+        "label": "Chapter 327"
+      },
+      {
+        "id": "chapter_253",
+        "index": 253,
+        "label": "Chapter 329"
+      },
+      {
+        "id": "chapter_254",
+        "index": 254,
+        "label": "Chapter 32"
+      },
+      {
+        "id": "chapter_255",
+        "index": 255,
+        "label": "Chapter 330"
+      },
+      {
+        "id": "chapter_256",
+        "index": 256,
+        "label": "Chapter 331"
+      },
+      {
+        "id": "chapter_257",
+        "index": 257,
+        "label": "Chapter 332"
+      },
+      {
+        "id": "chapter_259",
+        "index": 259,
+        "label": "Chapter 334"
+      },
+      {
+        "id": "chapter_260",
+        "index": 260,
+        "label": "Chapter 335"
+      },
+      {
+        "id": "chapter_261",
+        "index": 261,
+        "label": "Chapter 336"
+      },
+      {
+        "id": "chapter_262",
+        "index": 262,
+        "label": "Chapter 337"
+      },
+      {
+        "id": "chapter_263",
+        "index": 263,
+        "label": "Chapter 338"
+      },
+      {
+        "id": "chapter_264",
+        "index": 264,
+        "label": "Chapter 339"
+      },
+      {
+        "id": "chapter_265",
+        "index": 265,
+        "label": "Chapter 33"
+      },
+      {
+        "id": "chapter_266",
+        "index": 266,
+        "label": "Chapter 340"
+      },
+      {
+        "id": "chapter_267",
+        "index": 267,
+        "label": "Chapter 341"
+      },
+      {
+        "id": "chapter_268",
+        "index": 268,
+        "label": "Chapter 342"
+      },
+      {
+        "id": "chapter_269",
+        "index": 269,
+        "label": "Chapter 343"
+      },
+      {
+        "id": "chapter_270",
+        "index": 270,
+        "label": "Chapter 344"
+      },
+      {
+        "id": "chapter_271",
+        "index": 271,
+        "label": "Chapter 345"
+      },
+      {
+        "id": "chapter_272",
+        "index": 272,
+        "label": "Chapter 346"
+      },
+      {
+        "id": "chapter_273",
+        "index": 273,
+        "label": "Chapter 347"
+      },
+      {
+        "id": "chapter_274",
+        "index": 274,
+        "label": "Chapter 348"
+      },
+      {
+        "id": "chapter_275",
+        "index": 275,
+        "label": "Chapter 349"
+      },
+      {
+        "id": "chapter_276",
+        "index": 276,
+        "label": "Chapter 34"
+      },
+      {
+        "id": "chapter_277",
+        "index": 277,
+        "label": "Chapter 350"
+      },
+      {
+        "id": "chapter_279",
+        "index": 279,
+        "label": "Chapter 352"
+      },
+      {
+        "id": "chapter_280",
+        "index": 280,
+        "label": "Chapter 353"
+      },
+      {
+        "id": "chapter_281",
+        "index": 281,
+        "label": "Chapter 354"
+      },
+      {
+        "id": "chapter_282",
+        "index": 282,
+        "label": "Chapter 355"
+      },
+      {
+        "id": "chapter_283",
+        "index": 283,
+        "label": "Chapter 356"
+      },
+      {
+        "id": "chapter_284",
+        "index": 284,
+        "label": "Chapter 357"
+      },
+      {
+        "id": "chapter_285",
+        "index": 285,
+        "label": "Chapter 358"
+      },
+      {
+        "id": "chapter_286",
+        "index": 286,
+        "label": "Chapter 359"
+      },
+      {
+        "id": "chapter_287",
+        "index": 287,
+        "label": "Chapter 35"
+      },
+      {
+        "id": "chapter_288",
+        "index": 288,
+        "label": "Chapter 360"
+      },
+      {
+        "id": "chapter_289",
+        "index": 289,
+        "label": "Chapter 361"
+      },
+      {
+        "id": "chapter_290",
+        "index": 290,
+        "label": "Chapter 362"
+      },
+      {
+        "id": "chapter_291",
+        "index": 291,
+        "label": "Chapter 363"
+      },
+      {
+        "id": "chapter_292",
+        "index": 292,
+        "label": "Chapter 364"
+      },
+      {
+        "id": "chapter_293",
+        "index": 293,
+        "label": "Chapter 365"
+      },
+      {
+        "id": "chapter_294",
+        "index": 294,
+        "label": "Chapter 36"
+      },
+      {
+        "id": "chapter_295",
+        "index": 295,
+        "label": "Chapter 37"
+      },
+      {
+        "id": "chapter_296",
+        "index": 296,
+        "label": "Chapter 38"
+      },
+      {
+        "id": "chapter_297",
+        "index": 297,
+        "label": "Chapter 39"
+      },
+      {
+        "id": "chapter_298",
+        "index": 298,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_299",
+        "index": 299,
+        "label": "Chapter 40"
+      },
+      {
+        "id": "chapter_300",
+        "index": 300,
+        "label": "Chapter 41"
+      },
+      {
+        "id": "chapter_301",
+        "index": 301,
+        "label": "Chapter 42"
+      },
+      {
+        "id": "chapter_302",
+        "index": 302,
+        "label": "Chapter 43"
+      },
+      {
+        "id": "chapter_303",
+        "index": 303,
+        "label": "Chapter 44"
+      },
+      {
+        "id": "chapter_304",
+        "index": 304,
+        "label": "Chapter 45"
+      },
+      {
+        "id": "chapter_305",
+        "index": 305,
+        "label": "Chapter 46"
+      },
+      {
+        "id": "chapter_306",
+        "index": 306,
+        "label": "Chapter 47"
+      },
+      {
+        "id": "chapter_307",
+        "index": 307,
+        "label": "Chapter 48"
+      },
+      {
+        "id": "chapter_308",
+        "index": 308,
+        "label": "Chapter 49"
+      },
+      {
+        "id": "chapter_309",
+        "index": 309,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_310",
+        "index": 310,
+        "label": "Chapter 50"
+      },
+      {
+        "id": "chapter_311",
+        "index": 311,
+        "label": "Chapter 51"
+      },
+      {
+        "id": "chapter_312",
+        "index": 312,
+        "label": "Chapter 52"
+      },
+      {
+        "id": "chapter_313",
+        "index": 313,
+        "label": "Chapter 53"
+      },
+      {
+        "id": "chapter_314",
+        "index": 314,
+        "label": "Chapter 54"
+      },
+      {
+        "id": "chapter_315",
+        "index": 315,
+        "label": "Chapter 55"
+      },
+      {
+        "id": "chapter_316",
+        "index": 316,
+        "label": "Chapter 56"
+      },
+      {
+        "id": "chapter_317",
+        "index": 317,
+        "label": "Chapter 57"
+      },
+      {
+        "id": "chapter_318",
+        "index": 318,
+        "label": "Chapter 58"
+      },
+      {
+        "id": "chapter_319",
+        "index": 319,
+        "label": "Chapter 59"
+      },
+      {
+        "id": "chapter_320",
+        "index": 320,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_321",
+        "index": 321,
+        "label": "Chapter 60"
+      },
+      {
+        "id": "chapter_322",
+        "index": 322,
+        "label": "Chapter 61"
+      },
+      {
+        "id": "chapter_323",
+        "index": 323,
+        "label": "Chapter 62"
+      },
+      {
+        "id": "chapter_324",
+        "index": 324,
+        "label": "Chapter 63"
+      },
+      {
+        "id": "chapter_325",
+        "index": 325,
+        "label": "Chapter 64"
+      },
+      {
+        "id": "chapter_326",
+        "index": 326,
+        "label": "Chapter 65"
+      },
+      {
+        "id": "chapter_327",
+        "index": 327,
+        "label": "Chapter 66"
+      },
+      {
+        "id": "chapter_328",
+        "index": 328,
+        "label": "Chapter 67"
+      },
+      {
+        "id": "chapter_329",
+        "index": 329,
+        "label": "Chapter 68"
+      },
+      {
+        "id": "chapter_330",
+        "index": 330,
+        "label": "Chapter 69"
+      },
+      {
+        "id": "chapter_331",
+        "index": 331,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_332",
+        "index": 332,
+        "label": "Chapter 70"
+      },
+      {
+        "id": "chapter_333",
+        "index": 333,
+        "label": "Chapter 71"
+      },
+      {
+        "id": "chapter_334",
+        "index": 334,
+        "label": "Chapter 72"
+      },
+      {
+        "id": "chapter_335",
+        "index": 335,
+        "label": "Chapter 73"
+      },
+      {
+        "id": "chapter_336",
+        "index": 336,
+        "label": "Chapter 74"
+      },
+      {
+        "id": "chapter_338",
+        "index": 338,
+        "label": "Chapter 76"
+      },
+      {
+        "id": "chapter_339",
+        "index": 339,
+        "label": "Chapter 77"
+      },
+      {
+        "id": "chapter_340",
+        "index": 340,
+        "label": "Chapter 78"
+      },
+      {
+        "id": "chapter_341",
+        "index": 341,
+        "label": "Chapter 79"
+      },
+      {
+        "id": "chapter_342",
+        "index": 342,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_343",
+        "index": 343,
+        "label": "Chapter 80"
+      },
+      {
+        "id": "chapter_344",
+        "index": 344,
+        "label": "Chapter 81"
+      },
+      {
+        "id": "chapter_345",
+        "index": 345,
+        "label": "Chapter 82"
+      },
+      {
+        "id": "chapter_347",
+        "index": 347,
+        "label": "Chapter 84"
+      },
+      {
+        "id": "chapter_348",
+        "index": 348,
+        "label": "Chapter 85"
+      },
+      {
+        "id": "chapter_349",
+        "index": 349,
+        "label": "Chapter 86"
+      },
+      {
+        "id": "chapter_350",
+        "index": 350,
+        "label": "Chapter 87"
+      },
+      {
+        "id": "chapter_351",
+        "index": 351,
+        "label": "Chapter 88"
+      },
+      {
+        "id": "chapter_352",
+        "index": 352,
+        "label": "Chapter 89"
+      },
+      {
+        "id": "chapter_353",
+        "index": 353,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_354",
+        "index": 354,
+        "label": "Chapter 90"
+      },
+      {
+        "id": "chapter_355",
+        "index": 355,
+        "label": "Chapter 91"
+      },
+      {
+        "id": "chapter_356",
+        "index": 356,
+        "label": "Chapter 92"
+      },
+      {
+        "id": "chapter_357",
+        "index": 357,
+        "label": "Chapter 93"
+      },
+      {
+        "id": "chapter_358",
+        "index": 358,
+        "label": "Chapter 94"
+      },
+      {
+        "id": "chapter_359",
+        "index": 359,
+        "label": "Chapter 95"
+      },
+      {
+        "id": "chapter_360",
+        "index": 360,
+        "label": "Chapter 96"
+      },
+      {
+        "id": "chapter_361",
+        "index": 361,
+        "label": "Chapter 97"
+      },
+      {
+        "id": "chapter_362",
+        "index": 362,
+        "label": "Chapter 98"
+      },
+      {
+        "id": "chapter_363",
+        "index": 363,
+        "label": "Chapter 99"
+      },
+      {
+        "id": "chapter_364",
+        "index": 364,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "abbate_palmieri",
+      "name": "Abbate Palmieri",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_ban\u00e9s",
+      "name": "Abb\u00e9 Ban\u00e9s",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_frayssinous",
+      "name": "Abb\u00e9 Frayssinous",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_gr\u00e9goire",
+      "name": "Abb\u00e9 Gr\u00e9goire",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_halma",
+      "name": "Abb\u00e9 Halma",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_keravenant",
+      "name": "Abb\u00e9 Keravenant",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_letourneur",
+      "name": "Abb\u00e9 Letourneur",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_louis",
+      "name": "Abb\u00e9 Louis",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "abb\u00e9_de_la_trappe",
+      "name": "Abb\u00e9 de la Trappe",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "alexander",
+      "name": "Alexander",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "alix",
+      "name": "Alix",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "alten",
+      "name": "Alten",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "arouet",
+      "name": "Arouet",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "aunt",
+      "name": "Aunt",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "aunt_gillenormand",
+      "name": "Aunt Gillenormand",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "azelma",
+      "name": "Azelma",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "babet",
+      "name": "Babet",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "babeuf",
+      "name": "Babeuf",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "bahorel",
+      "name": "Bahorel",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "baptistine",
+      "name": "Baptistine",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "barber",
+      "name": "Barber",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "barne",
+      "name": "Barne",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "barra",
+      "name": "Barra",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "barth\u00e9lemy",
+      "name": "Barth\u00e9lemy",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "basque",
+      "name": "Basque",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "bauduin",
+      "name": "Bauduin",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "beaumarchais",
+      "name": "Beaumarchais",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "beggar",
+      "name": "Beggar",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "beggar-girl",
+      "name": "Beggar-Girl",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "bernardines",
+      "name": "Bernardines",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "bertrand",
+      "name": "Bertrand",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "bigrenaille",
+      "name": "Bigrenaille",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "bishop",
+      "name": "Bishop",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "bishop_myriel",
+      "name": "Bishop Myriel",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "bishop_of_mirepoix",
+      "name": "Bishop of Mirepoix",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "blachevelle",
+      "name": "Blachevelle",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "blackmann",
+      "name": "Blackmann",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "bl\u00fccher",
+      "name": "Bl\u00fccher",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "bombarda",
+      "name": "Bombarda",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "bonaparte",
+      "name": "Bonaparte",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "bossuet",
+      "name": "Bossuet",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "boulatruelle",
+      "name": "Boulatruelle",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "bourgeois",
+      "name": "Bourgeois",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "brevet",
+      "name": "Brevet",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "brother",
+      "name": "Brother",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "brujon",
+      "name": "Brujon",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "bruneseau",
+      "name": "Bruneseau",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "bugeaud",
+      "name": "Bugeaud",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "burke",
+      "name": "Burke",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "b\u00fclow",
+      "name": "B\u00fclow",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "caiphas",
+      "name": "Caiphas",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "cambronne",
+      "name": "Cambronne",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "camille_desmoulins",
+      "name": "Camille Desmoulins",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "captain_dufour",
+      "name": "Captain Dufour",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "captain_fannicot",
+      "name": "Captain Fannicot",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "cardinal_fesch",
+      "name": "Cardinal Fesch",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "cardinal_de_cl******_t*******",
+      "name": "Cardinal de Cl****** T*******",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "cardinal_de_la_luzerne",
+      "name": "Cardinal de la Luzerne",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "carpenter",
+      "name": "Carpenter",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "cartouche",
+      "name": "Cartouche",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "castaing",
+      "name": "Castaing",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "championnet",
+      "name": "Championnet",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "champmathieu",
+      "name": "Champmathieu",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "charles_x",
+      "name": "Charles X",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "charras",
+      "name": "Charras",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "chass\u00e9",
+      "name": "Chass\u00e9",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "chateaubriand",
+      "name": "Chateaubriand",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "chenildieu",
+      "name": "Chenildieu",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "child1",
+      "name": "Child1",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "child2",
+      "name": "Child2",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "christopher_columbus",
+      "name": "Christopher Columbus",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "ch\u00e9valier_de_port-de-guy",
+      "name": "Ch\u00e9valier de Port-de-Guy",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "cicero",
+      "name": "Cicero",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "citizens",
+      "name": "Citizens",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "claquesous",
+      "name": "Claquesous",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "claquessous",
+      "name": "Claquessous",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "clauquesous",
+      "name": "Clauquesous",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "clinton",
+      "name": "Clinton",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "coachman",
+      "name": "Coachman",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "cochepaille",
+      "name": "Cochepaille",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "colonel_selves",
+      "name": "Colonel Selves",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "combeferre",
+      "name": "Combeferre",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "comte_beug***",
+      "name": "Comte Beug***",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "comte_h._church-warden_mabeuf",
+      "name": "Comte H. Church-warden Mabeuf",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "comte_de_lamothe",
+      "name": "Comte de Lamothe",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "comte_d\u2019am****",
+      "name": "Comte d\u2019Am****",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "comtesse_de_ch\u00e2teauvieux",
+      "name": "Comtesse de Ch\u00e2teauvieux",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "condorcet",
+      "name": "Condorcet",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "cosette",
+      "name": "Cosette",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "count_angl\u00e8s",
+      "name": "Count Angl\u00e8s",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "count_lynch",
+      "name": "Count Lynch",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "courfeyrac",
+      "name": "Courfeyrac",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "cournet",
+      "name": "Cournet",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "cravatte",
+      "name": "Cravatte",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "cur\u00e9",
+      "name": "Cur\u00e9",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "c\u00e6sar",
+      "name": "C\u00e6sar",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "dahlia",
+      "name": "Dahlia",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "danton",
+      "name": "Danton",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "daughter",
+      "name": "Daughter",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "delancey",
+      "name": "Delancey",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "delort",
+      "name": "Delort",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "desmoulins",
+      "name": "Desmoulins",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "deuxmilliards",
+      "name": "Deuxmilliards",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "diderot",
+      "name": "Diderot",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "district-attorney",
+      "name": "District-Attorney",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "district-attorney",
+      "name": "District-attorney",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "domon",
+      "name": "Domon",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "draco",
+      "name": "Draco",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "driver",
+      "name": "Driver",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "drouet_d\u2019erlon",
+      "name": "Drouet d\u2019Erlon",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "dubois",
+      "name": "Dubois",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "duc_denghien",
+      "name": "Duc d'Enghien",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "duc_de_nevers",
+      "name": "Duc de Nevers",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "duc_d\u2019orl\u00e9ans",
+      "name": "Duc d\u2019Orl\u00e9ans",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "duchesse_de_duras",
+      "name": "Duchesse de Duras",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "duplat",
+      "name": "Duplat",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "d\u00e9saugiers",
+      "name": "D\u00e9saugiers",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "elder_child",
+      "name": "Elder Child",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "elder_daughter",
+      "name": "Elder_Daughter",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "eldest_daughter",
+      "name": "Eldest Daughter",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "eldest_girl",
+      "name": "Eldest Girl",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "english_generals",
+      "name": "English Generals",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "english_army",
+      "name": "English army",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "english_people",
+      "name": "English people",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "english_soldier",
+      "name": "English soldier",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "enjolras",
+      "name": "Enjolras",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "fameuil",
+      "name": "Fameuil",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "fantine",
+      "name": "Fantine",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "father",
+      "name": "Father",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "father_fauchelevent",
+      "name": "Father Fauchelevent",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "father_gillenormand",
+      "name": "Father Gillenormand",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "father_hucheloup",
+      "name": "Father Hucheloup",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "father_mabeuf",
+      "name": "Father Mabeuf",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "father_madeleine",
+      "name": "Father Madeleine",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "father_mestienne",
+      "name": "Father Mestienne",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "fauchelevent",
+      "name": "Fauchelevent",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "favourite",
+      "name": "Favourite",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "female_th\u00e9nardier",
+      "name": "Female Th\u00e9nardier",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "feuilly",
+      "name": "Feuilly",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "fishmonger",
+      "name": "Fishmonger",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "fouillou",
+      "name": "Fouillou",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "fourcroy",
+      "name": "Fourcroy",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "fourier",
+      "name": "Fourier",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "foy",
+      "name": "Foy",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "g",
+      "name": "G",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "gavroche",
+      "name": "Gavroche",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "gendarme",
+      "name": "Gendarme",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "gendarmes",
+      "name": "Gendarmes",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "genflot",
+      "name": "Genflot",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "georges_pontmercy",
+      "name": "Georges Pontmercy",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "gibelotte",
+      "name": "Gibelotte",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "gillenormand",
+      "name": "Gillenormand",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "gisquet",
+      "name": "Gisquet",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "god",
+      "name": "God",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "gordon",
+      "name": "Gordon",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "grantaire",
+      "name": "Grantaire",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "gribier",
+      "name": "Gribier",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "grouchy",
+      "name": "Grouchy",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "guelemer",
+      "name": "Guelemer",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "gueulemer",
+      "name": "Gueulemer",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "guillaume_du_vair",
+      "name": "Guillaume du Vair",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "guillaume_van_kylsom",
+      "name": "Guillaume van Kylsom",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "hacke",
+      "name": "Hacke",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "heliogabalus",
+      "name": "Heliogabalus",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "hill",
+      "name": "Hill",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "hiller",
+      "name": "Hiller",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "inspector",
+      "name": "Inspector",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "jacqueline",
+      "name": "Jacqueline",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "jacquin_labarre",
+      "name": "Jacquin Labarre",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "javert",
+      "name": "Javert",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "jean_prouvaire",
+      "name": "Jean Prouvaire",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "jean_valjean",
+      "name": "Jean Valjean",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "john",
+      "name": "John",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "joly",
+      "name": "Joly",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "jomini",
+      "name": "Jomini",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "jondrette",
+      "name": "Jondrette",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "jondrette_girl",
+      "name": "Jondrette Girl",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "jondrette_woman",
+      "name": "Jondrette woman",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "jondrettes_daughter",
+      "name": "Jondrette's Daughter",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "jondrette_wife",
+      "name": "Jondrette_wife",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "joseph_de_maistre",
+      "name": "Joseph de Maistre",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "juvenal",
+      "name": "Juvenal",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "j\u00e9r\u00f4me_bonaparte",
+      "name": "J\u00e9r\u00f4me Bonaparte",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "kempt",
+      "name": "Kempt",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "lacenaire",
+      "name": "Lacenaire",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "lacoste",
+      "name": "Lacoste",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "lafayette",
+      "name": "Lafayette",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lagrange",
+      "name": "Lagrange",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "laigle",
+      "name": "Laigle",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "laigle_de_meaux",
+      "name": "Laigle de Meaux",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "lamarque",
+      "name": "Lamarque",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "le_cabuc",
+      "name": "Le Cabuc",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "leibnitz",
+      "name": "Leibnitz",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "lesgle",
+      "name": "Lesgle",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "lieutenant_th\u00e9odule",
+      "name": "Lieutenant Th\u00e9odule",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "listolier",
+      "name": "Listolier",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "little_gavroche",
+      "name": "Little Gavroche",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "little_gervais",
+      "name": "Little Gervais",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "lombier",
+      "name": "Lombier",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "lord_bathurst",
+      "name": "Lord Bathurst",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "lord_byron",
+      "name": "Lord Byron",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "lord_paglan",
+      "name": "Lord Paglan",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "losthin",
+      "name": "Losthin",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "louis_philippe",
+      "name": "Louis Philippe",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "louis_philippe_dorleans",
+      "name": "Louis Philippe d'Orleans",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "louis_xiv",
+      "name": "Louis XIV",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "louis_xv",
+      "name": "Louis XV",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "louis_xviii",
+      "name": "Louis XVIII",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "louis_xviii",
+      "name": "Louis_XVIII",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "lover",
+      "name": "Lover",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "luc-esprit",
+      "name": "Luc-Esprit",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "m._ansiaux",
+      "name": "M. Ansiaux",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "m._baloup",
+      "name": "M. Baloup",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "m._bamatabois",
+      "name": "M. Bamatabois",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "m._bavoux",
+      "name": "M. Bavoux",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "m._bellart",
+      "name": "M. Bellart",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._brugui\u00e8re_de_sorsum",
+      "name": "M. Brugui\u00e8re de Sorsum",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "m._clausel_de_coussergues",
+      "name": "M. Clausel de Coussergues",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "m._clausel_de_montals",
+      "name": "M. Clausel de Montals",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "m._decazes",
+      "name": "M. Decazes",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "m._delalot",
+      "name": "M. Delalot",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "m._delaveau",
+      "name": "M. Delaveau",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "m._fabvier",
+      "name": "M. Fabvier",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "m._fauchelevent",
+      "name": "M. Fauchelevent",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "m._fran\u00e7ois_de_neufch\u00e2teau",
+      "name": "M. Fran\u00e7ois de Neufch\u00e2teau",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._gillenormand",
+      "name": "M. Gillenormand",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "m._g\u00e9borand",
+      "name": "M. G\u00e9borand",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "m._hoffmann",
+      "name": "M. Hoffmann",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "m._leblanc",
+      "name": "M. Leblanc",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "m._loyson",
+      "name": "M. Loyson",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "m._mabeuf",
+      "name": "M. Mabeuf",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._madeleine",
+      "name": "M. Madeleine",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "m._marius",
+      "name": "M. Marius",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "m._myriel",
+      "name": "M. Myriel",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "m._pa\u00ebr",
+      "name": "M. Pa\u00ebr",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "m._piet",
+      "name": "M. Piet",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "m._scaufflaire",
+      "name": "M. Scaufflaire",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "m._tranchelevent",
+      "name": "M. Tranchelevent",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "m._de_f\u00e9letez",
+      "name": "M. de F\u00e9letez",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "m._de_metz",
+      "name": "M. de Metz",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._de_roquelaure",
+      "name": "M. de Roquelaure",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "m._de_salaberry",
+      "name": "M. de Salaberry",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "m._de_talleyrand",
+      "name": "M. de Talleyrand",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "m._l\u2019abb\u00e9_mabeuf",
+      "name": "M. l\u2019Abb\u00e9 Mabeuf",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "m._the_duke_d\u2019angoul\u00eame",
+      "name": "M. the Duke d\u2019Angoul\u00eame",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "m._the_prior",
+      "name": "M. the Prior",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._le_duc_de_havr\u00e9",
+      "name": "M._le_Duc_de_Havr\u00e9",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mabeuf",
+      "name": "Mabeuf",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "machiavelli",
+      "name": "Machiavelli",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "madame_albertine",
+      "name": "Madame Albertine",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_beaufort_d\u2019hautpoul",
+      "name": "Madame Beaufort d\u2019Hautpoul",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "madame_boischevron",
+      "name": "Madame Boischevron",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "madame_campan",
+      "name": "Madame Campan",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "madame_courtin",
+      "name": "Madame Courtin",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_magloire",
+      "name": "Madame Magloire",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_saqui",
+      "name": "Madame Saqui",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_th\u00e9nardier",
+      "name": "Madame Th\u00e9nardier",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_vacarmini",
+      "name": "Madame Vacarmini",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "madame_victurnien",
+      "name": "Madame Victurnien",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "madame_de_boufflers",
+      "name": "Madame de Boufflers",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_de_genlis",
+      "name": "Madame de Genlis",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_de_r",
+      "name": "Madame de R",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_de_t.",
+      "name": "Madame de T.",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "madame_la_comtesse_de_l\u00f4",
+      "name": "Madame la Comtesse de L\u00f4",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "madame_la_marquise_de_grucheray",
+      "name": "Madame la Marquise de Grucheray",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "madeleine",
+      "name": "Madeleine",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_baptistine",
+      "name": "Mademoiselle Baptistine",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_bigottini",
+      "name": "Mademoiselle Bigottini",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_gillenormand",
+      "name": "Mademoiselle Gillenormand",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_mars",
+      "name": "Mademoiselle Mars",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_roze",
+      "name": "Mademoiselle Roze",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_vaubois",
+      "name": "Mademoiselle Vaubois",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_de_b\u00e9lissen",
+      "name": "Mademoiselle de B\u00e9lissen",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_de_saint-aulaire",
+      "name": "Mademoiselle de Saint-Aulaire",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "magnon",
+      "name": "Magnon",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mame_hucheloup",
+      "name": "Mame Hucheloup",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "man",
+      "name": "Man",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "man_in_blouse",
+      "name": "Man in blouse",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "man_in_buttoned-up_coat",
+      "name": "Man in buttoned-up coat",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "marat",
+      "name": "Marat",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "marguerite",
+      "name": "Marguerite",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "marius",
+      "name": "Marius",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "marius_pontmercy",
+      "name": "Marius Pontmercy",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "marquis_de_c*****_d\u2019e******",
+      "name": "Marquis de C***** d\u2019E******",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "marquis_de_champtercier",
+      "name": "Marquis de Champtercier",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "marquis_de_sass****",
+      "name": "Marquis de Sass****",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "marquis_of_fervacques",
+      "name": "Marquis of Fervacques",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "marquise_dufresne",
+      "name": "Marquise Dufresne",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "marshal_soult",
+      "name": "Marshal Soult",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "martin_verga",
+      "name": "Martin Verga",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "masker1",
+      "name": "Masker1",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "masker2",
+      "name": "Masker2",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "master_scaufflaire",
+      "name": "Master Scaufflaire",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "matelote",
+      "name": "Matelote",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mavot",
+      "name": "Mavot",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mayor",
+      "name": "Mayor",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "ma\u00eetre_gorbeau",
+      "name": "Ma\u00eetre Gorbeau",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "ma\u00eetre_renard",
+      "name": "Ma\u00eetre Renard",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "ma\u2019am_bougon",
+      "name": "Ma\u2019am Bougon",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "men",
+      "name": "Men",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "milhaud",
+      "name": "Milhaud",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "minister_of_the_interior",
+      "name": "Minister of the Interior",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mirabeau",
+      "name": "Mirabeau",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mistress_balizard",
+      "name": "Mistress Balizard",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "moli\u00e8re",
+      "name": "Moli\u00e8re",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "monseigneur_bienvenu",
+      "name": "Monseigneur Bienvenu",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "monseigneur_welcome",
+      "name": "Monseigneur Welcome",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "monsieur",
+      "name": "Monsieur",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_gillenormand",
+      "name": "Monsieur Gillenormand",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_mabeuf",
+      "name": "Monsieur Mabeuf",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_madeleine",
+      "name": "Monsieur Madeleine",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_pabourgeot",
+      "name": "Monsieur Pabourgeot",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_pontmercy",
+      "name": "Monsieur Pontmercy",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_labb\u00e9",
+      "name": "Monsieur l'Abb\u00e9",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_le_maire",
+      "name": "Monsieur le Maire",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_the_director",
+      "name": "Monsieur the director",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "monsignor_macchi",
+      "name": "Monsignor Macchi",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "montchenu",
+      "name": "Montchenu",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "montesquieu",
+      "name": "Montesquieu",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "montparnasse",
+      "name": "Montparnasse",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "moses",
+      "name": "Moses",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mother",
+      "name": "Mother",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_annonciation",
+      "name": "Mother Annonciation",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mother_catherine_de_bar",
+      "name": "Mother Catherine de Bar",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mother_cineres",
+      "name": "Mother Cineres",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_compassion",
+      "name": "Mother Compassion",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mother_gerbaud",
+      "name": "Mother Gerbaud",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mother_hucheloup",
+      "name": "Mother Hucheloup",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mother_innocente",
+      "name": "Mother Innocente",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_jacob",
+      "name": "Mother Jacob",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mother_jondrette",
+      "name": "Mother Jondrette",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_mis\u00e9ricorde",
+      "name": "Mother Mis\u00e9ricorde",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mother_plutarque",
+      "name": "Mother Plutarque",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mother_providence",
+      "name": "Mother Providence",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mother_pr\u00e9sentation",
+      "name": "Mother Pr\u00e9sentation",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_saint-ange",
+      "name": "Mother Saint-Ange",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mother_saint-augustin",
+      "name": "Mother Saint-Augustin",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_saint-joseph",
+      "name": "Mother Saint-Joseph",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-ad\u00e9laide",
+      "name": "Mother Sainte-Ad\u00e9laide",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-bazile",
+      "name": "Mother Sainte-Bazile",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-chantal",
+      "name": "Mother Sainte-Chantal",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-c\u00e9ligne",
+      "name": "Mother Sainte-C\u00e9ligne",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-gertrude",
+      "name": "Mother Sainte-Gertrude",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-honorine",
+      "name": "Mother Sainte-Honorine",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-mechtilde",
+      "name": "Mother Sainte-Mechtilde",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mother_sainte-scolastique",
+      "name": "Mother Sainte-Scolastique",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mother_th\u00e9nardier",
+      "name": "Mother Th\u00e9nardier",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mother_veuvain",
+      "name": "Mother Veuvain",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mother_des_anges",
+      "name": "Mother des Anges",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "muffling",
+      "name": "Muffling",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "nahenry",
+      "name": "Nahenry",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "nargaud",
+      "name": "Nargaud",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "national_guards",
+      "name": "National Guards",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "navet",
+      "name": "Navet",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "ney",
+      "name": "Ney",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "nicolette",
+      "name": "Nicolette",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "observer",
+      "name": "Observer",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "old_man",
+      "name": "Old Man",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "old_toussaint",
+      "name": "Old Toussaint",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "old_woman",
+      "name": "Old Woman",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "old_women",
+      "name": "Old Women",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "olympie",
+      "name": "Olympie",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "omtpeda",
+      "name": "Omtpeda",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "owen",
+      "name": "Owen",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "p._fabantou",
+      "name": "P. Fabantou",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "parisian_populace",
+      "name": "Parisian populace",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "paul_aim\u00e9_garnier",
+      "name": "Paul Aim\u00e9 Garnier",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "peasant",
+      "name": "Peasant",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "philosopher",
+      "name": "Philosopher",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "phocian",
+      "name": "Phocian",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "picton",
+      "name": "Picton",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "ponsonby",
+      "name": "Ponsonby",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "pontmercy",
+      "name": "Pontmercy",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "pope_alexander_vii",
+      "name": "Pope Alexander VII",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "pope_pius_vii",
+      "name": "Pope Pius VII",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "poquelin",
+      "name": "Poquelin",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "porter",
+      "name": "Porter",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "portress",
+      "name": "Portress",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "portress_patagon",
+      "name": "Portress Patagon",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "president",
+      "name": "President",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "pretot",
+      "name": "Pretot",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "prince_william_of_prussia",
+      "name": "Prince William of Prussia",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "prince_de_beauff*******",
+      "name": "Prince de Beauff*******",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "prince_de_talleyrand",
+      "name": "Prince de Talleyrand",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "prince_of_orange",
+      "name": "Prince of Orange",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "prioress",
+      "name": "Prioress",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "prouvaire",
+      "name": "Prouvaire",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "prudhomme",
+      "name": "Prudhomme",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "rag-picker",
+      "name": "Rag-Picker",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "rambler",
+      "name": "Rambler",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "ramus",
+      "name": "Ramus",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "reader",
+      "name": "Reader",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "reille",
+      "name": "Reille",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "restif_de_la_bretonne",
+      "name": "Restif de La Bretonne",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "robespierre",
+      "name": "Robespierre",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "rousseau",
+      "name": "Rousseau",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ryssel",
+      "name": "Ryssel",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "saint-simon",
+      "name": "Saint-Simon",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "schinderhannes",
+      "name": "Schinderhannes",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "schoolmaster",
+      "name": "Schoolmaster",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "servant",
+      "name": "Servant",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "sieur_boulatruelle",
+      "name": "Sieur Boulatruelle",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "silent_men",
+      "name": "Silent Men",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "sister",
+      "name": "Sister",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "sister_agatha",
+      "name": "Sister Agatha",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "sister_euphrasie",
+      "name": "Sister Euphrasie",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "sister_perp\u00e9tue",
+      "name": "Sister Perp\u00e9tue",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "sister_sainte-margu\u00e9rite",
+      "name": "Sister Sainte-Margu\u00e9rite",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "sister_sainte-marthe",
+      "name": "Sister Sainte-Marthe",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "sister_sainte-michel",
+      "name": "Sister Sainte-Michel",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "sister_simplice",
+      "name": "Sister Simplice",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "snyder",
+      "name": "Snyder",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "society",
+      "name": "Society",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "soult",
+      "name": "Soult",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "stranger",
+      "name": "Stranger",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "tacitus",
+      "name": "Tacitus",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "talbot",
+      "name": "Talbot",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "thales",
+      "name": "Thales",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "the_bishop",
+      "name": "The Bishop",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "the_bourbons",
+      "name": "The Bourbons",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "the_infinite",
+      "name": "The Infinite",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "the_mother",
+      "name": "The Mother",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_child",
+      "name": "The child",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "the_portress",
+      "name": "The portress",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "tholomy\u00e8s",
+      "name": "Tholomy\u00e8s",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "th\u00e9nardier",
+      "name": "Th\u00e9nardier",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "th\u00e9nardier_woman",
+      "name": "Th\u00e9nardier woman",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "th\u00e9odule",
+      "name": "Th\u00e9odule",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "th\u00e9odule_gillenormand",
+      "name": "Th\u00e9odule Gillenormand",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "tiberius",
+      "name": "Tiberius",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "toulon_newspaper",
+      "name": "Toulon newspaper",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "toussaint",
+      "name": "Toussaint",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "traveller",
+      "name": "Traveller",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "trimalcion",
+      "name": "Trimalcion",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "turgot",
+      "name": "Turgot",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "two_young_girls",
+      "name": "Two Young Girls",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "ugolino",
+      "name": "Ugolino",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "unknown_citizen",
+      "name": "Unknown Citizen",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "unnamed_individuals",
+      "name": "Unnamed individuals",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "ursule",
+      "name": "Ursule",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "usher",
+      "name": "Usher",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "uxbridge",
+      "name": "Uxbridge",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "van_meeren",
+      "name": "Van Meeren",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "vicomte_de_val***",
+      "name": "Vicomte de Val***",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "victor_hugo",
+      "name": "Victor Hugo",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "vitellius",
+      "name": "Vitellius",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "voltaire",
+      "name": "Voltaire",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "waterloo",
+      "name": "Waterloo",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "wellington",
+      "name": "Wellington",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "wilda",
+      "name": "Wilda",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "woman",
+      "name": "Woman",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "women",
+      "name": "Women",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "workingmen",
+      "name": "Workingmen",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "young_girl",
+      "name": "Young Girl",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "young_girls",
+      "name": "Young Girls",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "young_man",
+      "name": "Young Man",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "younger_child",
+      "name": "Younger Child",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "younger_girl",
+      "name": "Younger Girl",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "younger_daughter",
+      "name": "Younger_Daughter",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "z\u00e9phine",
+      "name": "Z\u00e9phine",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "artillery-man",
+      "name": "artillery-man",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "attorney-general",
+      "name": "attorney-general",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "author",
+      "name": "author",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "bearded_man",
+      "name": "bearded man",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "black_figure",
+      "name": "black figure",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "bourgeois",
+      "name": "bourgeois",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "bourgeoisie",
+      "name": "bourgeoisie",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "boy",
+      "name": "boy",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "carter",
+      "name": "carter",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "centenarian",
+      "name": "centenarian",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "child",
+      "name": "child",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "children",
+      "name": "children",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "clever_men",
+      "name": "clever men",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "colonel",
+      "name": "colonel",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "convict",
+      "name": "convict",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "counsel_for_the_defence",
+      "name": "counsel for the defence",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "crowd",
+      "name": "crowd",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "cur\u00e9",
+      "name": "cur\u00e9",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "district-attorney",
+      "name": "district-attorney",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "doctor",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "drowning_man",
+      "name": "drowning_man",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "d\u2019erlon",
+      "name": "d\u2019Erlon",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "elder_girl",
+      "name": "elder girl",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "eldest_jondrette_girl",
+      "name": "eldest Jondrette girl",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "father",
+      "name": "father",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "gamin",
+      "name": "gamin",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ghoul",
+      "name": "ghoul",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "girls",
+      "name": "girls",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "grave-digger",
+      "name": "grave-digger",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "hair-dresser",
+      "name": "hair-dresser",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "homuncio",
+      "name": "homuncio",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "inhabitants",
+      "name": "inhabitants",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "insurgents",
+      "name": "insurgents",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "jeanne",
+      "name": "jeanne",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "landlady",
+      "name": "landlady",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "lawyer",
+      "name": "lawyer",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "lay-sisters",
+      "name": "lay-sisters",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "long-haired_man",
+      "name": "long-haired man",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "man_in_yellow_coat",
+      "name": "man in yellow coat",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mother",
+      "name": "mother",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "novices",
+      "name": "novices",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "officer",
+      "name": "officer",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "old_man",
+      "name": "old man",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "old_soldier",
+      "name": "old soldier",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "old_woman",
+      "name": "old woman",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "pedler",
+      "name": "pedler",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "people",
+      "name": "people",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "philosopher",
+      "name": "philosopher",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "politicians",
+      "name": "politicians",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "porter",
+      "name": "porter",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "postman",
+      "name": "postman",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "postulants",
+      "name": "postulants",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "professed_nuns",
+      "name": "professed nuns",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "p\u00e8gre",
+      "name": "p\u00e8gre",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "rioters",
+      "name": "rioters",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "road-mender",
+      "name": "road-mender",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ruffians",
+      "name": "ruffians",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "sages",
+      "name": "sages",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "sailors",
+      "name": "sailors",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "senator",
+      "name": "senator",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "servant-maid",
+      "name": "servant-maid",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "servant-woman",
+      "name": "servant-woman",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "shopkeeper",
+      "name": "shopkeeper",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "skilful",
+      "name": "skilful",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "soldier",
+      "name": "soldier",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "stableman",
+      "name": "stableman",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "statesmen",
+      "name": "statesmen",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "street_arab",
+      "name": "street Arab",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "the_guard",
+      "name": "the Guard",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "the_old_man",
+      "name": "the Old Man",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "the_young_girl",
+      "name": "the Young Girl",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "the_archbishop",
+      "name": "the archbishop",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "the_bird",
+      "name": "the bird",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "the_child",
+      "name": "the child",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "the_chimney-builders",
+      "name": "the chimney-builders",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "the_daughter",
+      "name": "the daughter",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_doctor",
+      "name": "the doctor",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "the_forest",
+      "name": "the forest",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "the_gamin",
+      "name": "the gamin",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "the_gardener",
+      "name": "the gardener",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "the_grave_man",
+      "name": "the grave man",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "the_man",
+      "name": "the man",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_man_with_the_cudgel",
+      "name": "the man with the cudgel",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "the_man_with_the_pole-axe",
+      "name": "the man with the pole-axe",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "the_old_man",
+      "name": "the old man",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "the_peasant_woman",
+      "name": "the peasant woman",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "the_prioress",
+      "name": "the prioress",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "the_street_arab",
+      "name": "the street Arab",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "the_traveller",
+      "name": "the traveller",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "the_young_girl",
+      "name": "the young girl",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "the_young_woman",
+      "name": "the young woman",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_child",
+      "name": "the_child",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "the_coachman",
+      "name": "the_coachman",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "the_man",
+      "name": "the_man",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "the_traveller",
+      "name": "the_traveller",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "titi",
+      "name": "titi",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "topman",
+      "name": "topman",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "traveller",
+      "name": "traveller",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "unknown",
+      "name": "unknown",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "usher",
+      "name": "usher",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "veteran",
+      "name": "veteran",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "vocal_mothers",
+      "name": "vocal mothers",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "wheelwright",
+      "name": "wheelwright",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "wild_beast",
+      "name": "wild beast",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "wolves",
+      "name": "wolves",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "woman",
+      "name": "woman",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "young_girl",
+      "name": "young girl",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "younger_sister",
+      "name": "younger sister",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "\u00e9ponine",
+      "name": "\u00c9ponine",
+      "color": "#FF9955",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

@@ -1,0 +1,2655 @@
+{
+  "book_id": "anna_karenina_by_graf_leo_tolstoy",
+  "title": "Anna Karenina",
+  "author": "graf Leo Tolstoy",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 100"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 101"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 102"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 103"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 104"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 105"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 106"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 107"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 108"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 109"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 110"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 111"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 112"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 113"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 114"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 115"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 116"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 117"
+      },
+      {
+        "id": "chapter_19",
+        "index": 19,
+        "label": "Chapter 118"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 119"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 120"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 121"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 122"
+      },
+      {
+        "id": "chapter_25",
+        "index": 25,
+        "label": "Chapter 123"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 124"
+      },
+      {
+        "id": "chapter_27",
+        "index": 27,
+        "label": "Chapter 125"
+      },
+      {
+        "id": "chapter_28",
+        "index": 28,
+        "label": "Chapter 126"
+      },
+      {
+        "id": "chapter_29",
+        "index": 29,
+        "label": "Chapter 127"
+      },
+      {
+        "id": "chapter_30",
+        "index": 30,
+        "label": "Chapter 128"
+      },
+      {
+        "id": "chapter_31",
+        "index": 31,
+        "label": "Chapter 129"
+      },
+      {
+        "id": "chapter_32",
+        "index": 32,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_33",
+        "index": 33,
+        "label": "Chapter 130"
+      },
+      {
+        "id": "chapter_34",
+        "index": 34,
+        "label": "Chapter 131"
+      },
+      {
+        "id": "chapter_35",
+        "index": 35,
+        "label": "Chapter 132"
+      },
+      {
+        "id": "chapter_36",
+        "index": 36,
+        "label": "Chapter 133"
+      },
+      {
+        "id": "chapter_37",
+        "index": 37,
+        "label": "Chapter 134"
+      },
+      {
+        "id": "chapter_38",
+        "index": 38,
+        "label": "Chapter 135"
+      },
+      {
+        "id": "chapter_39",
+        "index": 39,
+        "label": "Chapter 136"
+      },
+      {
+        "id": "chapter_40",
+        "index": 40,
+        "label": "Chapter 137"
+      },
+      {
+        "id": "chapter_41",
+        "index": 41,
+        "label": "Chapter 138"
+      },
+      {
+        "id": "chapter_42",
+        "index": 42,
+        "label": "Chapter 139"
+      },
+      {
+        "id": "chapter_43",
+        "index": 43,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_44",
+        "index": 44,
+        "label": "Chapter 140"
+      },
+      {
+        "id": "chapter_45",
+        "index": 45,
+        "label": "Chapter 141"
+      },
+      {
+        "id": "chapter_46",
+        "index": 46,
+        "label": "Chapter 142"
+      },
+      {
+        "id": "chapter_47",
+        "index": 47,
+        "label": "Chapter 143"
+      },
+      {
+        "id": "chapter_48",
+        "index": 48,
+        "label": "Chapter 144"
+      },
+      {
+        "id": "chapter_49",
+        "index": 49,
+        "label": "Chapter 145"
+      },
+      {
+        "id": "chapter_50",
+        "index": 50,
+        "label": "Chapter 146"
+      },
+      {
+        "id": "chapter_51",
+        "index": 51,
+        "label": "Chapter 147"
+      },
+      {
+        "id": "chapter_52",
+        "index": 52,
+        "label": "Chapter 148"
+      },
+      {
+        "id": "chapter_53",
+        "index": 53,
+        "label": "Chapter 149"
+      },
+      {
+        "id": "chapter_54",
+        "index": 54,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_55",
+        "index": 55,
+        "label": "Chapter 150"
+      },
+      {
+        "id": "chapter_56",
+        "index": 56,
+        "label": "Chapter 151"
+      },
+      {
+        "id": "chapter_57",
+        "index": 57,
+        "label": "Chapter 152"
+      },
+      {
+        "id": "chapter_58",
+        "index": 58,
+        "label": "Chapter 153"
+      },
+      {
+        "id": "chapter_59",
+        "index": 59,
+        "label": "Chapter 154"
+      },
+      {
+        "id": "chapter_60",
+        "index": 60,
+        "label": "Chapter 155"
+      },
+      {
+        "id": "chapter_61",
+        "index": 61,
+        "label": "Chapter 156"
+      },
+      {
+        "id": "chapter_62",
+        "index": 62,
+        "label": "Chapter 157"
+      },
+      {
+        "id": "chapter_63",
+        "index": 63,
+        "label": "Chapter 158"
+      },
+      {
+        "id": "chapter_64",
+        "index": 64,
+        "label": "Chapter 159"
+      },
+      {
+        "id": "chapter_65",
+        "index": 65,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_66",
+        "index": 66,
+        "label": "Chapter 160"
+      },
+      {
+        "id": "chapter_67",
+        "index": 67,
+        "label": "Chapter 161"
+      },
+      {
+        "id": "chapter_68",
+        "index": 68,
+        "label": "Chapter 162"
+      },
+      {
+        "id": "chapter_69",
+        "index": 69,
+        "label": "Chapter 163"
+      },
+      {
+        "id": "chapter_70",
+        "index": 70,
+        "label": "Chapter 164"
+      },
+      {
+        "id": "chapter_71",
+        "index": 71,
+        "label": "Chapter 165"
+      },
+      {
+        "id": "chapter_72",
+        "index": 72,
+        "label": "Chapter 166"
+      },
+      {
+        "id": "chapter_73",
+        "index": 73,
+        "label": "Chapter 167"
+      },
+      {
+        "id": "chapter_74",
+        "index": 74,
+        "label": "Chapter 168"
+      },
+      {
+        "id": "chapter_75",
+        "index": 75,
+        "label": "Chapter 169"
+      },
+      {
+        "id": "chapter_76",
+        "index": 76,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_77",
+        "index": 77,
+        "label": "Chapter 170"
+      },
+      {
+        "id": "chapter_78",
+        "index": 78,
+        "label": "Chapter 171"
+      },
+      {
+        "id": "chapter_79",
+        "index": 79,
+        "label": "Chapter 172"
+      },
+      {
+        "id": "chapter_80",
+        "index": 80,
+        "label": "Chapter 173"
+      },
+      {
+        "id": "chapter_81",
+        "index": 81,
+        "label": "Chapter 174"
+      },
+      {
+        "id": "chapter_82",
+        "index": 82,
+        "label": "Chapter 175"
+      },
+      {
+        "id": "chapter_83",
+        "index": 83,
+        "label": "Chapter 176"
+      },
+      {
+        "id": "chapter_84",
+        "index": 84,
+        "label": "Chapter 177"
+      },
+      {
+        "id": "chapter_85",
+        "index": 85,
+        "label": "Chapter 178"
+      },
+      {
+        "id": "chapter_87",
+        "index": 87,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_88",
+        "index": 88,
+        "label": "Chapter 180"
+      },
+      {
+        "id": "chapter_89",
+        "index": 89,
+        "label": "Chapter 181"
+      },
+      {
+        "id": "chapter_90",
+        "index": 90,
+        "label": "Chapter 182"
+      },
+      {
+        "id": "chapter_91",
+        "index": 91,
+        "label": "Chapter 183"
+      },
+      {
+        "id": "chapter_92",
+        "index": 92,
+        "label": "Chapter 184"
+      },
+      {
+        "id": "chapter_93",
+        "index": 93,
+        "label": "Chapter 185"
+      },
+      {
+        "id": "chapter_94",
+        "index": 94,
+        "label": "Chapter 186"
+      },
+      {
+        "id": "chapter_95",
+        "index": 95,
+        "label": "Chapter 187"
+      },
+      {
+        "id": "chapter_96",
+        "index": 96,
+        "label": "Chapter 188"
+      },
+      {
+        "id": "chapter_97",
+        "index": 97,
+        "label": "Chapter 189"
+      },
+      {
+        "id": "chapter_98",
+        "index": 98,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_99",
+        "index": 99,
+        "label": "Chapter 190"
+      },
+      {
+        "id": "chapter_100",
+        "index": 100,
+        "label": "Chapter 191"
+      },
+      {
+        "id": "chapter_101",
+        "index": 101,
+        "label": "Chapter 192"
+      },
+      {
+        "id": "chapter_102",
+        "index": 102,
+        "label": "Chapter 193"
+      },
+      {
+        "id": "chapter_103",
+        "index": 103,
+        "label": "Chapter 194"
+      },
+      {
+        "id": "chapter_104",
+        "index": 104,
+        "label": "Chapter 195"
+      },
+      {
+        "id": "chapter_105",
+        "index": 105,
+        "label": "Chapter 196"
+      },
+      {
+        "id": "chapter_106",
+        "index": 106,
+        "label": "Chapter 197"
+      },
+      {
+        "id": "chapter_107",
+        "index": 107,
+        "label": "Chapter 198"
+      },
+      {
+        "id": "chapter_108",
+        "index": 108,
+        "label": "Chapter 199"
+      },
+      {
+        "id": "chapter_109",
+        "index": 109,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_110",
+        "index": 110,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_111",
+        "index": 111,
+        "label": "Chapter 200"
+      },
+      {
+        "id": "chapter_112",
+        "index": 112,
+        "label": "Chapter 201"
+      },
+      {
+        "id": "chapter_113",
+        "index": 113,
+        "label": "Chapter 202"
+      },
+      {
+        "id": "chapter_114",
+        "index": 114,
+        "label": "Chapter 203"
+      },
+      {
+        "id": "chapter_115",
+        "index": 115,
+        "label": "Chapter 204"
+      },
+      {
+        "id": "chapter_116",
+        "index": 116,
+        "label": "Chapter 205"
+      },
+      {
+        "id": "chapter_118",
+        "index": 118,
+        "label": "Chapter 207"
+      },
+      {
+        "id": "chapter_119",
+        "index": 119,
+        "label": "Chapter 208"
+      },
+      {
+        "id": "chapter_120",
+        "index": 120,
+        "label": "Chapter 209"
+      },
+      {
+        "id": "chapter_121",
+        "index": 121,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_122",
+        "index": 122,
+        "label": "Chapter 210"
+      },
+      {
+        "id": "chapter_123",
+        "index": 123,
+        "label": "Chapter 211"
+      },
+      {
+        "id": "chapter_124",
+        "index": 124,
+        "label": "Chapter 212"
+      },
+      {
+        "id": "chapter_125",
+        "index": 125,
+        "label": "Chapter 213"
+      },
+      {
+        "id": "chapter_126",
+        "index": 126,
+        "label": "Chapter 214"
+      },
+      {
+        "id": "chapter_127",
+        "index": 127,
+        "label": "Chapter 215"
+      },
+      {
+        "id": "chapter_128",
+        "index": 128,
+        "label": "Chapter 216"
+      },
+      {
+        "id": "chapter_129",
+        "index": 129,
+        "label": "Chapter 217"
+      },
+      {
+        "id": "chapter_130",
+        "index": 130,
+        "label": "Chapter 218"
+      },
+      {
+        "id": "chapter_131",
+        "index": 131,
+        "label": "Chapter 219"
+      },
+      {
+        "id": "chapter_132",
+        "index": 132,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_133",
+        "index": 133,
+        "label": "Chapter 220"
+      },
+      {
+        "id": "chapter_134",
+        "index": 134,
+        "label": "Chapter 221"
+      },
+      {
+        "id": "chapter_135",
+        "index": 135,
+        "label": "Chapter 222"
+      },
+      {
+        "id": "chapter_137",
+        "index": 137,
+        "label": "Chapter 224"
+      },
+      {
+        "id": "chapter_138",
+        "index": 138,
+        "label": "Chapter 225"
+      },
+      {
+        "id": "chapter_139",
+        "index": 139,
+        "label": "Chapter 226"
+      },
+      {
+        "id": "chapter_140",
+        "index": 140,
+        "label": "Chapter 227"
+      },
+      {
+        "id": "chapter_141",
+        "index": 141,
+        "label": "Chapter 228"
+      },
+      {
+        "id": "chapter_142",
+        "index": 142,
+        "label": "Chapter 229"
+      },
+      {
+        "id": "chapter_143",
+        "index": 143,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_144",
+        "index": 144,
+        "label": "Chapter 230"
+      },
+      {
+        "id": "chapter_145",
+        "index": 145,
+        "label": "Chapter 231"
+      },
+      {
+        "id": "chapter_146",
+        "index": 146,
+        "label": "Chapter 232"
+      },
+      {
+        "id": "chapter_147",
+        "index": 147,
+        "label": "Chapter 233"
+      },
+      {
+        "id": "chapter_148",
+        "index": 148,
+        "label": "Chapter 234"
+      },
+      {
+        "id": "chapter_149",
+        "index": 149,
+        "label": "Chapter 235"
+      },
+      {
+        "id": "chapter_150",
+        "index": 150,
+        "label": "Chapter 236"
+      },
+      {
+        "id": "chapter_151",
+        "index": 151,
+        "label": "Chapter 237"
+      },
+      {
+        "id": "chapter_152",
+        "index": 152,
+        "label": "Chapter 238"
+      },
+      {
+        "id": "chapter_153",
+        "index": 153,
+        "label": "Chapter 239"
+      },
+      {
+        "id": "chapter_154",
+        "index": 154,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_155",
+        "index": 155,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_156",
+        "index": 156,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_157",
+        "index": 157,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_158",
+        "index": 158,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_159",
+        "index": 159,
+        "label": "Chapter 28"
+      },
+      {
+        "id": "chapter_160",
+        "index": 160,
+        "label": "Chapter 29"
+      },
+      {
+        "id": "chapter_161",
+        "index": 161,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_162",
+        "index": 162,
+        "label": "Chapter 30"
+      },
+      {
+        "id": "chapter_163",
+        "index": 163,
+        "label": "Chapter 31"
+      },
+      {
+        "id": "chapter_164",
+        "index": 164,
+        "label": "Chapter 32"
+      },
+      {
+        "id": "chapter_165",
+        "index": 165,
+        "label": "Chapter 33"
+      },
+      {
+        "id": "chapter_166",
+        "index": 166,
+        "label": "Chapter 34"
+      },
+      {
+        "id": "chapter_167",
+        "index": 167,
+        "label": "Chapter 35"
+      },
+      {
+        "id": "chapter_168",
+        "index": 168,
+        "label": "Chapter 36"
+      },
+      {
+        "id": "chapter_169",
+        "index": 169,
+        "label": "Chapter 37"
+      },
+      {
+        "id": "chapter_170",
+        "index": 170,
+        "label": "Chapter 38"
+      },
+      {
+        "id": "chapter_171",
+        "index": 171,
+        "label": "Chapter 39"
+      },
+      {
+        "id": "chapter_172",
+        "index": 172,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_173",
+        "index": 173,
+        "label": "Chapter 40"
+      },
+      {
+        "id": "chapter_174",
+        "index": 174,
+        "label": "Chapter 41"
+      },
+      {
+        "id": "chapter_175",
+        "index": 175,
+        "label": "Chapter 42"
+      },
+      {
+        "id": "chapter_176",
+        "index": 176,
+        "label": "Chapter 43"
+      },
+      {
+        "id": "chapter_177",
+        "index": 177,
+        "label": "Chapter 44"
+      },
+      {
+        "id": "chapter_178",
+        "index": 178,
+        "label": "Chapter 45"
+      },
+      {
+        "id": "chapter_179",
+        "index": 179,
+        "label": "Chapter 46"
+      },
+      {
+        "id": "chapter_180",
+        "index": 180,
+        "label": "Chapter 47"
+      },
+      {
+        "id": "chapter_182",
+        "index": 182,
+        "label": "Chapter 49"
+      },
+      {
+        "id": "chapter_183",
+        "index": 183,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_184",
+        "index": 184,
+        "label": "Chapter 50"
+      },
+      {
+        "id": "chapter_185",
+        "index": 185,
+        "label": "Chapter 51"
+      },
+      {
+        "id": "chapter_186",
+        "index": 186,
+        "label": "Chapter 52"
+      },
+      {
+        "id": "chapter_187",
+        "index": 187,
+        "label": "Chapter 53"
+      },
+      {
+        "id": "chapter_188",
+        "index": 188,
+        "label": "Chapter 54"
+      },
+      {
+        "id": "chapter_189",
+        "index": 189,
+        "label": "Chapter 55"
+      },
+      {
+        "id": "chapter_190",
+        "index": 190,
+        "label": "Chapter 56"
+      },
+      {
+        "id": "chapter_191",
+        "index": 191,
+        "label": "Chapter 57"
+      },
+      {
+        "id": "chapter_192",
+        "index": 192,
+        "label": "Chapter 58"
+      },
+      {
+        "id": "chapter_193",
+        "index": 193,
+        "label": "Chapter 59"
+      },
+      {
+        "id": "chapter_194",
+        "index": 194,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_195",
+        "index": 195,
+        "label": "Chapter 60"
+      },
+      {
+        "id": "chapter_197",
+        "index": 197,
+        "label": "Chapter 62"
+      },
+      {
+        "id": "chapter_198",
+        "index": 198,
+        "label": "Chapter 63"
+      },
+      {
+        "id": "chapter_199",
+        "index": 199,
+        "label": "Chapter 64"
+      },
+      {
+        "id": "chapter_200",
+        "index": 200,
+        "label": "Chapter 65"
+      },
+      {
+        "id": "chapter_201",
+        "index": 201,
+        "label": "Chapter 66"
+      },
+      {
+        "id": "chapter_202",
+        "index": 202,
+        "label": "Chapter 67"
+      },
+      {
+        "id": "chapter_203",
+        "index": 203,
+        "label": "Chapter 68"
+      },
+      {
+        "id": "chapter_204",
+        "index": 204,
+        "label": "Chapter 69"
+      },
+      {
+        "id": "chapter_205",
+        "index": 205,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_206",
+        "index": 206,
+        "label": "Chapter 70"
+      },
+      {
+        "id": "chapter_207",
+        "index": 207,
+        "label": "Chapter 71"
+      },
+      {
+        "id": "chapter_208",
+        "index": 208,
+        "label": "Chapter 72"
+      },
+      {
+        "id": "chapter_209",
+        "index": 209,
+        "label": "Chapter 73"
+      },
+      {
+        "id": "chapter_210",
+        "index": 210,
+        "label": "Chapter 74"
+      },
+      {
+        "id": "chapter_211",
+        "index": 211,
+        "label": "Chapter 75"
+      },
+      {
+        "id": "chapter_212",
+        "index": 212,
+        "label": "Chapter 76"
+      },
+      {
+        "id": "chapter_213",
+        "index": 213,
+        "label": "Chapter 77"
+      },
+      {
+        "id": "chapter_214",
+        "index": 214,
+        "label": "Chapter 78"
+      },
+      {
+        "id": "chapter_215",
+        "index": 215,
+        "label": "Chapter 79"
+      },
+      {
+        "id": "chapter_216",
+        "index": 216,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_217",
+        "index": 217,
+        "label": "Chapter 80"
+      },
+      {
+        "id": "chapter_218",
+        "index": 218,
+        "label": "Chapter 81"
+      },
+      {
+        "id": "chapter_219",
+        "index": 219,
+        "label": "Chapter 82"
+      },
+      {
+        "id": "chapter_220",
+        "index": 220,
+        "label": "Chapter 83"
+      },
+      {
+        "id": "chapter_221",
+        "index": 221,
+        "label": "Chapter 84"
+      },
+      {
+        "id": "chapter_222",
+        "index": 222,
+        "label": "Chapter 85"
+      },
+      {
+        "id": "chapter_224",
+        "index": 224,
+        "label": "Chapter 87"
+      },
+      {
+        "id": "chapter_225",
+        "index": 225,
+        "label": "Chapter 88"
+      },
+      {
+        "id": "chapter_226",
+        "index": 226,
+        "label": "Chapter 89"
+      },
+      {
+        "id": "chapter_227",
+        "index": 227,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_228",
+        "index": 228,
+        "label": "Chapter 90"
+      },
+      {
+        "id": "chapter_229",
+        "index": 229,
+        "label": "Chapter 91"
+      },
+      {
+        "id": "chapter_230",
+        "index": 230,
+        "label": "Chapter 92"
+      },
+      {
+        "id": "chapter_231",
+        "index": 231,
+        "label": "Chapter 93"
+      },
+      {
+        "id": "chapter_232",
+        "index": 232,
+        "label": "Chapter 94"
+      },
+      {
+        "id": "chapter_233",
+        "index": 233,
+        "label": "Chapter 95"
+      },
+      {
+        "id": "chapter_234",
+        "index": 234,
+        "label": "Chapter 96"
+      },
+      {
+        "id": "chapter_235",
+        "index": 235,
+        "label": "Chapter 97"
+      },
+      {
+        "id": "chapter_236",
+        "index": 236,
+        "label": "Chapter 98"
+      },
+      {
+        "id": "chapter_237",
+        "index": 237,
+        "label": "Chapter 99"
+      },
+      {
+        "id": "chapter_238",
+        "index": 238,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "agafea_mihalovna",
+      "name": "Agafea Mihalovna",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "alexander_vronsky",
+      "name": "Alexander Vronsky",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "alexey",
+      "name": "Alexey",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "alexey_alexandrovitch",
+      "name": "Alexey Alexandrovitch",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "aliosha",
+      "name": "Aliosha",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "anna",
+      "name": "Anna",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "anna_arkadyevna",
+      "name": "Anna Arkadyevna",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "anna_karenina",
+      "name": "Anna Karenina",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "anna_pavlovna",
+      "name": "Anna Pavlovna",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "annas_friend",
+      "name": "Anna's friend",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "annushka",
+      "name": "Annushka",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "bailiff",
+      "name": "Bailiff",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "baroness_shilton",
+      "name": "Baroness Shilton",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "bartnyansky",
+      "name": "Bartnyansky",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "betsy",
+      "name": "Betsy",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "bondarenko",
+      "name": "Bondarenko",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "boy",
+      "name": "Boy",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "children",
+      "name": "Children",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "coachman",
+      "name": "Coachman",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "colonel",
+      "name": "Colonel",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "cord",
+      "name": "Cord",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "count_bezzubov",
+      "name": "Count Bezzubov",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "count_bol",
+      "name": "Count Bol",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "count_siniavin",
+      "name": "Count Siniavin",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "count_vronsky",
+      "name": "Count Vronsky",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "countess",
+      "name": "Countess",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "countess_bola",
+      "name": "Countess Bola",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "countess_lidia",
+      "name": "Countess Lidia",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "countess_lidia_ivanovna",
+      "name": "Countess Lidia Ivanovna",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "countess_nordston",
+      "name": "Countess Nordston",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "countess_vronskaya",
+      "name": "Countess Vronskaya",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "counting-house_clerk",
+      "name": "Counting-house clerk",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "curly-headed_old_man",
+      "name": "Curly-headed old man",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "darya",
+      "name": "Darya",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "darya_alexandrovna",
+      "name": "Darya Alexandrovna",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "darya_alexandrovna_oblonskaya",
+      "name": "Darya Alexandrovna Oblonskaya",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "darya_dmitrievna",
+      "name": "Darya Dmitrievna",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "demin",
+      "name": "Demin",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "dolly",
+      "name": "Dolly",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "elder_son",
+      "name": "Elder Son",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "englishman",
+      "name": "Englishman",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "family_doctor",
+      "name": "Family Doctor",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "fokanitch",
+      "name": "Fokanitch",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "fomitch",
+      "name": "Fomitch",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "frenchwoman",
+      "name": "Frenchwoman",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "frou-frou",
+      "name": "Frou-Frou",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "fyodor",
+      "name": "Fyodor",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "fyodor_ryezunov",
+      "name": "Fyodor Ryezunov",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "f\u00fcrst_shtcherbatsky",
+      "name": "F\u00fcrst Shtcherbatsky",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "gagin",
+      "name": "Gagin",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "gentleman",
+      "name": "Gentleman",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "golenishtchev",
+      "name": "Golenishtchev",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "grisha",
+      "name": "Grisha",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "hliustov",
+      "name": "Hliustov",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "husband",
+      "name": "Husband",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "ignat",
+      "name": "Ignat",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "ivan",
+      "name": "Ivan",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ivan_parmenov",
+      "name": "Ivan Parmenov",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "ivans_wife",
+      "name": "Ivan's Wife",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "jules_landau",
+      "name": "Jules Landau",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "kamerovsky",
+      "name": "Kamerovsky",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "kapitonitch",
+      "name": "Kapitonitch",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "karenin",
+      "name": "Karenin",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "kartasov",
+      "name": "Kartasov",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "katavasov",
+      "name": "Katavasov",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "katerina_alexandrovna",
+      "name": "Katerina Alexandrovna",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "kedrov",
+      "name": "Kedrov",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "kitty",
+      "name": "Kitty",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "kitty_shtcherbatskaya",
+      "name": "Kitty Shtcherbatskaya",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "komissarov",
+      "name": "Komissarov",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "konstantin_levin",
+      "name": "Konstantin Levin",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "korney",
+      "name": "Korney",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "korsunsky",
+      "name": "Korsunsky",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "kostya",
+      "name": "Kostya",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "kouzma",
+      "name": "Kouzma",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "koznishev",
+      "name": "Koznishev",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "kritsky",
+      "name": "Kritsky",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "kuzovlev",
+      "name": "Kuzovlev",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "laborers",
+      "name": "Laborers",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "landau",
+      "name": "Landau",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "landowner",
+      "name": "Landowner",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "laska",
+      "name": "Laska",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "levin",
+      "name": "Levin",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "lidia_ivanovna",
+      "name": "Lidia Ivanovna",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lily",
+      "name": "Lily",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "liza",
+      "name": "Liza",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "lizaveta_petrovna",
+      "name": "Lizaveta Petrovna",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "lvov",
+      "name": "Lvov",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "madame_karenina",
+      "name": "Madame Karenina",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "madame_kartasova",
+      "name": "Madame Kartasova",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "madame_korsunskaya",
+      "name": "Madame Korsunskaya",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_lvova",
+      "name": "Madame Lvova",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_nikolaeva",
+      "name": "Madame Nikolaeva",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "madame_stahl",
+      "name": "Madame Stahl",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_sviazhskaya",
+      "name": "Madame Sviazhskaya",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "madame_trubetskaya",
+      "name": "Madame Trubetskaya",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_linon",
+      "name": "Mademoiselle Linon",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mademoiselle_varenka",
+      "name": "Mademoiselle Varenka",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mahotin",
+      "name": "Mahotin",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "marshal",
+      "name": "Marshal",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "marya_dmitrievna",
+      "name": "Marya Dmitrievna",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "marya_nikolaevna",
+      "name": "Marya Nikolaevna",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "marya_philimonovna",
+      "name": "Marya Philimonovna",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "marya_vlasyevna",
+      "name": "Marya Vlasyevna",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "marya_yevgenyevna",
+      "name": "Marya Yevgenyevna",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "masha",
+      "name": "Masha",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "masha_tchibisova",
+      "name": "Masha Tchibisova",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "matrona",
+      "name": "Matrona",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "matrona_philimonovna",
+      "name": "Matrona Philimonovna",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "matvey",
+      "name": "Matvey",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "metrov",
+      "name": "Metrov",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mihail",
+      "name": "Mihail",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mihail_petrovitch",
+      "name": "Mihail Petrovitch",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mihail_vassilievitch_sludin",
+      "name": "Mihail Vassilievitch Sludin",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mihailov",
+      "name": "Mihailov",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mihalitch",
+      "name": "Mihalitch",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mishka",
+      "name": "Mishka",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mitya",
+      "name": "Mitya",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mlle._linon",
+      "name": "Mlle. Linon",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "monsieur_landau",
+      "name": "Monsieur Landau",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "moscow_colonel",
+      "name": "Moscow colonel",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "myaskin",
+      "name": "Myaskin",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "natalia",
+      "name": "Natalia",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "nevyedovsky",
+      "name": "Nevyedovsky",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "nikolay",
+      "name": "Nikolay",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "nikolay_ivanovitch_sviazhsky",
+      "name": "Nikolay Ivanovitch Sviazhsky",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "nikolay_levin",
+      "name": "Nikolay Levin",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "nikolay_shtcherbatsky",
+      "name": "Nikolay Shtcherbatsky",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "oblonsky",
+      "name": "Oblonsky",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "old_man",
+      "name": "Old Man",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "old_prince",
+      "name": "Old Prince",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "old_woman",
+      "name": "Old Woman",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "parmenitch",
+      "name": "Parmenitch",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "pava",
+      "name": "Pava",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "peasant",
+      "name": "Peasant",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "peasant_boys",
+      "name": "Peasant Boys",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "pestsov",
+      "name": "Pestsov",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "petritsky",
+      "name": "Petritsky",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "petrov",
+      "name": "Petrov",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "platon",
+      "name": "Platon",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "prince",
+      "name": "Prince",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "prince_alexander_dmitrievitch_shtcherbatsky",
+      "name": "Prince Alexander Dmitrievitch Shtcherbatsky",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "prince_kaluzhsky",
+      "name": "Prince Kaluzhsky",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "prince_pyotr_oblonsky",
+      "name": "Prince Pyotr Oblonsky",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "prince_shtcherbatsky",
+      "name": "Prince Shtcherbatsky",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "prince_stepan_arkadyevitch",
+      "name": "Prince Stepan Arkadyevitch",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "prince_tchetchensky",
+      "name": "Prince Tchetchensky",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "princess",
+      "name": "Princess",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "princess_betsy",
+      "name": "Princess Betsy",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "princess_betsy_tverskaya",
+      "name": "Princess Betsy Tverskaya",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "princess_marya_borissovna",
+      "name": "Princess Marya Borissovna",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "princess_myakaya",
+      "name": "Princess Myakaya",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "princess_oblonskaya",
+      "name": "Princess Oblonskaya",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "princess_shtcherbatskaya",
+      "name": "Princess Shtcherbatskaya",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "princess_sorokina",
+      "name": "Princess Sorokina",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "princess_tcharskaya",
+      "name": "Princess Tcharskaya",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "princess_tverskaya",
+      "name": "Princess Tverskaya",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "princess_varvara",
+      "name": "Princess Varvara",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "professor",
+      "name": "Professor",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "pyotr",
+      "name": "Pyotr",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "pyotr_oblonsky",
+      "name": "Pyotr Oblonsky",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "raven",
+      "name": "Raven",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "ristitch-kudzhitsky",
+      "name": "Ristitch-Kudzhitsky",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "ryabinin",
+      "name": "Ryabinin",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "sappho",
+      "name": "Sappho",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "sasha",
+      "name": "Sasha",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "semyon",
+      "name": "Semyon",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "sergey",
+      "name": "Sergey",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "sergey_ivanovitch",
+      "name": "Sergey Ivanovitch",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "sergey_ivanovitch_koznishev",
+      "name": "Sergey Ivanovitch Koznishev",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "serpuhovskoy",
+      "name": "Serpuhovskoy",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "seryozha",
+      "name": "Seryozha",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "she",
+      "name": "She",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "shtcherbatsky",
+      "name": "Shtcherbatsky",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "shuraev",
+      "name": "Shuraev",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "sickman",
+      "name": "SickMan",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "sister-in-law",
+      "name": "Sister-in-law",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "sludin",
+      "name": "Sludin",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "snetkov",
+      "name": "Snetkov",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "son",
+      "name": "Son",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "stepan",
+      "name": "Stepan",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "stepan_arkadyevitch",
+      "name": "Stepan Arkadyevitch",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "stepan_arkadyevitch_oblonsky",
+      "name": "Stepan Arkadyevitch Oblonsky",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "stiva",
+      "name": "Stiva",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "stremov",
+      "name": "Stremov",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "sviazhsky",
+      "name": "Sviazhsky",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "tanya",
+      "name": "Tanya",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "tchirikov",
+      "name": "Tchirikov",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "tit",
+      "name": "Tit",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "tsar",
+      "name": "Tsar",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "turovtsin",
+      "name": "Turovtsin",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "tushkevitch",
+      "name": "Tushkevitch",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "varenka",
+      "name": "Varenka",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "varvara",
+      "name": "Varvara",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "varya",
+      "name": "Varya",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "vaska",
+      "name": "Vaska",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "vassenka",
+      "name": "Vassenka",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "vassenka_veslovsky",
+      "name": "Vassenka Veslovsky",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "vassily_fedorovitch",
+      "name": "Vassily Fedorovitch",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "vassily_lukitch",
+      "name": "Vassily Lukitch",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "venden",
+      "name": "Venden",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "veslovsky",
+      "name": "Veslovsky",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "vorkuev",
+      "name": "Vorkuev",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "voytov",
+      "name": "Voytov",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "vronsky",
+      "name": "Vronsky",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "vronskys_mother",
+      "name": "Vronsky's Mother",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "yashvin",
+      "name": "Yashvin",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "yegor",
+      "name": "Yegor",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "young_peasant",
+      "name": "Young Peasant",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "young_woman",
+      "name": "Young Woman",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "ambassadors_wife",
+      "name": "ambassador's wife",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "attach\u00e9",
+      "name": "attach\u00e9",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "clerk",
+      "name": "clerk",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "doctor",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "footman",
+      "name": "footman",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "general",
+      "name": "general",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "government_clerk",
+      "name": "government clerk",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "hall-porter",
+      "name": "hall-porter",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "landowner",
+      "name": "landowner",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lawyer",
+      "name": "lawyer",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "marshal_of_the_province",
+      "name": "marshal of the province",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "nurse",
+      "name": "nurse",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "officer",
+      "name": "officer",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "prince",
+      "name": "prince",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "princess",
+      "name": "princess",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "staff_captain_kalinin",
+      "name": "staff captain Kalinin",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "the_bailiff",
+      "name": "the bailiff",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_carpenter",
+      "name": "the carpenter",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "the_clerk",
+      "name": "the clerk",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "the_colonel",
+      "name": "the colonel",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "the_cook",
+      "name": "the cook",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "the_day_servant",
+      "name": "the day servant",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "the_footman",
+      "name": "the footman",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "the_hall-porter",
+      "name": "the hall-porter",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "the_old_prince",
+      "name": "the old prince",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "the_priest",
+      "name": "the priest",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "the_prince",
+      "name": "the prince",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "the_princess",
+      "name": "the princess",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "the_sledge-driver",
+      "name": "the sledge-driver",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "young_shtcherbatsky",
+      "name": "young Shtcherbatsky",
+      "color": "#FF5555",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

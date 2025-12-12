@@ -1,0 +1,404 @@
+{
+  "book_id": "frankenstein",
+  "title": "Frankenstein",
+  "author": "",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_15",
+        "index": 15,
+        "label": "Chapter 24"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_19",
+        "index": 19,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "a",
+      "name": "A",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "alphonse",
+      "name": "Alphonse",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "beaufort",
+      "name": "Beaufort",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "caroline_beaufort",
+      "name": "Caroline Beaufort",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "clerval",
+      "name": "Clerval",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "creature",
+      "name": "Creature",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "daniel_nugent",
+      "name": "Daniel Nugent",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "de_lacey",
+      "name": "De Lacey",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "elizabeth_lavenza",
+      "name": "Elizabeth Lavenza",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "ernest",
+      "name": "Ernest",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "father",
+      "name": "Father",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "felix",
+      "name": "Felix",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "frankenstein",
+      "name": "Frankenstein",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "henry_clerval",
+      "name": "Henry Clerval",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "justine",
+      "name": "Justine",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "m._frankenstein",
+      "name": "M. Frankenstein",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "m._krempe",
+      "name": "M. Krempe",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "m._waldman",
+      "name": "M. Waldman",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "madame_moritz",
+      "name": "Madame Moritz",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "monster",
+      "name": "Monster",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._kirwin",
+      "name": "Mr. Kirwin",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "old_man",
+      "name": "Old Man",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "r._walton",
+      "name": "R. Walton",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "safie",
+      "name": "Safie",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "the_stranger",
+      "name": "The Stranger",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "the_turk",
+      "name": "The Turk",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "victor",
+      "name": "Victor",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "victor_frankenstein",
+      "name": "Victor Frankenstein",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "victors_mother",
+      "name": "Victor's Mother",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "victors_father",
+      "name": "Victor's father",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "walton",
+      "name": "Walton",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "william",
+      "name": "William",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "young_girl",
+      "name": "Young Girl",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "young_man",
+      "name": "Young Man",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "magistrate",
+      "name": "magistrate",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "nurse",
+      "name": "nurse",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "old_woman",
+      "name": "old woman",
+      "color": "#5599FF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

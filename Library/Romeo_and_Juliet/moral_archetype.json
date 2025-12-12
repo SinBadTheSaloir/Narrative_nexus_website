@@ -1,0 +1,351 @@
+{
+  "book_id": "romeo_and_juliet_data",
+  "title": "Romeo_and_Juliet_DATA",
+  "author": "",
+  "structure": {
+    "unit_type": "act",
+    "units": [
+      {
+        "id": "act_0",
+        "index": 0,
+        "label": "Act 1"
+      },
+      {
+        "id": "act_2",
+        "index": 2,
+        "label": "Act 3"
+      },
+      {
+        "id": "act_3",
+        "index": 3,
+        "label": "Act 4"
+      },
+      {
+        "id": "act_4",
+        "index": 4,
+        "label": "Act 5"
+      },
+      {
+        "id": "act_5",
+        "index": 5,
+        "label": "Act 1"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "abram",
+      "name": "ABRAM",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "apothecary",
+      "name": "APOTHECARY",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "abram",
+      "name": "Abram",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "apothecary",
+      "name": "Apothecary",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "balthasar",
+      "name": "BALTHASAR",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "benvolio",
+      "name": "BENVOLIO",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "balthasar",
+      "name": "Balthasar",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "benvolio",
+      "name": "Benvolio",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "capulet",
+      "name": "CAPULET",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "chorus",
+      "name": "CHORUS",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "capulet",
+      "name": "Capulet",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "citizens",
+      "name": "Citizens",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "county_paris",
+      "name": "County Paris",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "escalus",
+      "name": "ESCALUS",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "friar_john",
+      "name": "FRIAR JOHN",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "friar_lawrence",
+      "name": "FRIAR LAWRENCE",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "father_capulet",
+      "name": "Father Capulet",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "first_watch",
+      "name": "First Watch",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "friar_john",
+      "name": "Friar John",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "friar_lawrence",
+      "name": "Friar Lawrence",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "gregory",
+      "name": "Gregory",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "juliet",
+      "name": "JULIET",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "juliet",
+      "name": "Juliet",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "lady_capulet",
+      "name": "LADY CAPULET",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "lady_montague",
+      "name": "LADY MONTAGUE",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lady_capulet",
+      "name": "Lady Capulet",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "lady_montague",
+      "name": "Lady Montague",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mercutio",
+      "name": "MERCUTIO",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "montague",
+      "name": "MONTAGUE",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mercutio",
+      "name": "Mercutio",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "montague",
+      "name": "Montague",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "mother",
+      "name": "Mother",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "nurse",
+      "name": "NURSE",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "nurse",
+      "name": "Nurse",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "paris",
+      "name": "PARIS",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "petruchio",
+      "name": "PETRUCHIO",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "page",
+      "name": "Page",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "petruchio",
+      "name": "Petruchio",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "prince",
+      "name": "Prince",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "romeo",
+      "name": "ROMEO",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "romeo",
+      "name": "Romeo",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "sampson",
+      "name": "Sampson",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "second_watch",
+      "name": "Second Watch",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "tybalt",
+      "name": "TYBALT",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "third_watch",
+      "name": "Third Watch",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "tybalt",
+      "name": "Tybalt",
+      "color": "#FF99FF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

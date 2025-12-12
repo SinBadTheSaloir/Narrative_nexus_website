@@ -1,0 +1,297 @@
+{
+  "book_id": "hamlet_data",
+  "title": "Hamlet_DATA",
+  "author": "",
+  "structure": {
+    "unit_type": "act",
+    "units": [
+      {
+        "id": "act_1",
+        "index": 1,
+        "label": "Act 2"
+      },
+      {
+        "id": "act_2",
+        "index": 2,
+        "label": "Act 3"
+      },
+      {
+        "id": "act_3",
+        "index": 3,
+        "label": "Act 4"
+      },
+      {
+        "id": "act_4",
+        "index": 4,
+        "label": "Act 5"
+      },
+      {
+        "id": "act_5",
+        "index": 5,
+        "label": "Act 1"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "ambassador",
+      "name": "Ambassador",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "barnardo",
+      "name": "BARNARDO",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "cornelius",
+      "name": "CORNELIUS",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "fortinbras",
+      "name": "FORTINBRAS",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "francisco",
+      "name": "FRANCISCO",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "fortinbras",
+      "name": "Fortinbras",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "guildenstern",
+      "name": "GUILDENSTERN",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "gravedigger",
+      "name": "Gravedigger",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "guildenstern",
+      "name": "Guildenstern",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "hamlet",
+      "name": "HAMLET",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "horatio",
+      "name": "HORATIO",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "hamlet",
+      "name": "Hamlet",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "horatio",
+      "name": "Horatio",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "king",
+      "name": "KING",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "king_claudius",
+      "name": "KING CLAUDIUS",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "laertes",
+      "name": "LAERTES",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "laertes",
+      "name": "Laertes",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "lucianus",
+      "name": "Lucianus",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "marcellus",
+      "name": "MARCELLUS",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "ophelia",
+      "name": "OPHELIA",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "osric",
+      "name": "OSRIC",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "ophelia",
+      "name": "Ophelia",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "osric",
+      "name": "Osric",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "polonius",
+      "name": "POLONIUS",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "player",
+      "name": "Player",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "polonius",
+      "name": "Polonius",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "queen",
+      "name": "QUEEN",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "queen_gertrude",
+      "name": "QUEEN GERTRUDE",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "reynaldo",
+      "name": "REYNALDO",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "rosencrantz",
+      "name": "ROSENCRANTZ",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "reynaldo",
+      "name": "Reynaldo",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "rosencrantz",
+      "name": "Rosencrantz",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "the_ghost",
+      "name": "THE GHOST",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "voltemand",
+      "name": "VOLTEMAND",
+      "color": "#FF55FF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

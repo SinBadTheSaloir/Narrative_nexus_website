@@ -1,0 +1,254 @@
+{
+  "book_id": "othello_data",
+  "title": "Othello_DATA",
+  "author": "",
+  "structure": {
+    "unit_type": "act",
+    "units": [
+      {
+        "id": "act_0",
+        "index": 0,
+        "label": "Act 1"
+      },
+      {
+        "id": "act_1",
+        "index": 1,
+        "label": "Act 2"
+      },
+      {
+        "id": "act_2",
+        "index": 2,
+        "label": "Act 3"
+      },
+      {
+        "id": "act_3",
+        "index": 3,
+        "label": "Act 4"
+      },
+      {
+        "id": "act_4",
+        "index": 4,
+        "label": "Act 5"
+      },
+      {
+        "id": "act_5",
+        "index": 5,
+        "label": "Act 1"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "bianca",
+      "name": "BIANCA",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "brabantio",
+      "name": "BRABANTIO",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "bianca",
+      "name": "Bianca",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "brabantio",
+      "name": "Brabantio",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "cassio",
+      "name": "CASSIO",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "clown",
+      "name": "CLOWN",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "cassio",
+      "name": "Cassio",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "clown",
+      "name": "Clown",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "desdemona",
+      "name": "DESDEMONA",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "desdemona",
+      "name": "Desdemona",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "emilia",
+      "name": "EMILIA",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "emilia",
+      "name": "Emilia",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "first_gentleman",
+      "name": "First Gentleman",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "gratiano",
+      "name": "GRATIANO",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "gratiano",
+      "name": "Gratiano",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "herald",
+      "name": "Herald",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "iago",
+      "name": "IAGO",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "iago",
+      "name": "Iago",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "lodovico",
+      "name": "LODOVICO",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "lodovico",
+      "name": "Lodovico",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "montano",
+      "name": "MONTANO",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "montano",
+      "name": "Montano",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "musician",
+      "name": "Musician",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "othello",
+      "name": "OTHELLO",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "othello",
+      "name": "Othello",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "roderigo",
+      "name": "RODERIGO",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "roderigo",
+      "name": "Roderigo",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "second_gentleman",
+      "name": "Second Gentleman",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "third_gentleman",
+      "name": "Third Gentleman",
+      "color": "#55AAFF",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

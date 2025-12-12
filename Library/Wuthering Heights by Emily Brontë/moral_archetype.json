@@ -1,0 +1,402 @@
+{
+  "book_id": "wuthering_heights_by_emily_bront\u00eb",
+  "title": "Wuthering Heights",
+  "author": "Emily Bront\u00eb",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_9",
+        "index": 9,
+        "label": "Chapter 19"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_19",
+        "index": 19,
+        "label": "Chapter 28"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 29"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 30"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 31"
+      },
+      {
+        "id": "chapter_24",
+        "index": 24,
+        "label": "Chapter 32"
+      },
+      {
+        "id": "chapter_25",
+        "index": 25,
+        "label": "Chapter 33"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 34"
+      },
+      {
+        "id": "chapter_27",
+        "index": 27,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_28",
+        "index": 28,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_29",
+        "index": 29,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_30",
+        "index": 30,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_31",
+        "index": 31,
+        "label": "Chapter 7"
+      },
+      {
+        "id": "chapter_32",
+        "index": 32,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_33",
+        "index": 33,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "a",
+      "name": "A",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "catherine",
+      "name": "Catherine",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "catherine_linton",
+      "name": "Catherine Linton",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "cathy",
+      "name": "Cathy",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "earnshaw",
+      "name": "Earnshaw",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "edgar",
+      "name": "Edgar",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "edgar_linton",
+      "name": "Edgar Linton",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "ellen",
+      "name": "Ellen",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "hareton",
+      "name": "Hareton",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "hareton_earnshaw",
+      "name": "Hareton Earnshaw",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "heathcliff",
+      "name": "Heathcliff",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "hindley",
+      "name": "Hindley",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "i",
+      "name": "I",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "isabella",
+      "name": "Isabella",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "isabella_linton",
+      "name": "Isabella Linton",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "joseph",
+      "name": "Joseph",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "linton",
+      "name": "Linton",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "lockwood",
+      "name": "Lockwood",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._earnshaw",
+      "name": "Mr. Earnshaw",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._edgar",
+      "name": "Mr. Edgar",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._edgar_linton",
+      "name": "Mr. Edgar Linton",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mr._heathcliff",
+      "name": "Mr. Heathcliff",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mr._hindley",
+      "name": "Mr. Hindley",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._kenneth",
+      "name": "Mr. Kenneth",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._linton",
+      "name": "Mr. Linton",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._lockwood",
+      "name": "Mr. Lockwood",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mrs._dean",
+      "name": "Mrs. Dean",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mrs._earnshaw",
+      "name": "Mrs. Earnshaw",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._heathcliff",
+      "name": "Mrs. Heathcliff",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mrs._linton",
+      "name": "Mrs. Linton",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "nelly",
+      "name": "Nelly",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "nelly_dean",
+      "name": "Nelly Dean",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "zillah",
+      "name": "Zillah",
+      "color": "#55FF55",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}

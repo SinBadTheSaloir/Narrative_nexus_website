@@ -1,0 +1,410 @@
+{
+  "book_id": "dracula_by_bram_stoker",
+  "title": "Dracula",
+  "author": "Bram Stoker",
+  "structure": {
+    "unit_type": "chapter",
+    "units": [
+      {
+        "id": "chapter_0",
+        "index": 0,
+        "label": "Chapter 10"
+      },
+      {
+        "id": "chapter_1",
+        "index": 1,
+        "label": "Chapter 11"
+      },
+      {
+        "id": "chapter_2",
+        "index": 2,
+        "label": "Chapter 12"
+      },
+      {
+        "id": "chapter_3",
+        "index": 3,
+        "label": "Chapter 13"
+      },
+      {
+        "id": "chapter_4",
+        "index": 4,
+        "label": "Chapter 14"
+      },
+      {
+        "id": "chapter_5",
+        "index": 5,
+        "label": "Chapter 15"
+      },
+      {
+        "id": "chapter_6",
+        "index": 6,
+        "label": "Chapter 16"
+      },
+      {
+        "id": "chapter_7",
+        "index": 7,
+        "label": "Chapter 17"
+      },
+      {
+        "id": "chapter_8",
+        "index": 8,
+        "label": "Chapter 18"
+      },
+      {
+        "id": "chapter_10",
+        "index": 10,
+        "label": "Chapter 1"
+      },
+      {
+        "id": "chapter_11",
+        "index": 11,
+        "label": "Chapter 20"
+      },
+      {
+        "id": "chapter_12",
+        "index": 12,
+        "label": "Chapter 21"
+      },
+      {
+        "id": "chapter_13",
+        "index": 13,
+        "label": "Chapter 22"
+      },
+      {
+        "id": "chapter_14",
+        "index": 14,
+        "label": "Chapter 23"
+      },
+      {
+        "id": "chapter_16",
+        "index": 16,
+        "label": "Chapter 25"
+      },
+      {
+        "id": "chapter_17",
+        "index": 17,
+        "label": "Chapter 26"
+      },
+      {
+        "id": "chapter_18",
+        "index": 18,
+        "label": "Chapter 27"
+      },
+      {
+        "id": "chapter_19",
+        "index": 19,
+        "label": "Chapter 2"
+      },
+      {
+        "id": "chapter_20",
+        "index": 20,
+        "label": "Chapter 3"
+      },
+      {
+        "id": "chapter_21",
+        "index": 21,
+        "label": "Chapter 4"
+      },
+      {
+        "id": "chapter_22",
+        "index": 22,
+        "label": "Chapter 5"
+      },
+      {
+        "id": "chapter_23",
+        "index": 23,
+        "label": "Chapter 6"
+      },
+      {
+        "id": "chapter_25",
+        "index": 25,
+        "label": "Chapter 8"
+      },
+      {
+        "id": "chapter_26",
+        "index": 26,
+        "label": "Chapter 9"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4",
+      "description": "Morally corrupt but emotionally controlled"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6",
+      "description": "Morally aligned and emotionally controlled"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd",
+      "description": "Morally corrupt and emotionally chaotic"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd",
+      "description": "Morally aligned but emotionally chaotic"
+    }
+  },
+  "characters": [
+    {
+      "id": "abraham_van_helsing",
+      "name": "Abraham Van Helsing",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "arthur",
+      "name": "Arthur",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "arthur_holmwood",
+      "name": "Arthur Holmwood",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "count_dracula",
+      "name": "COUNT DRACULA",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "captain_donelson",
+      "name": "Captain Donelson",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "count",
+      "name": "Count",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "count_dracula",
+      "name": "Count Dracula",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "dr._john_seward",
+      "name": "Dr. John Seward",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "dr._seward",
+      "name": "Dr. Seward",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "dr._van_helsing",
+      "name": "Dr. Van Helsing",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "harker",
+      "name": "Harker",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "immanuel_hildesheim",
+      "name": "Immanuel Hildesheim",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "jonathan_harker",
+      "name": "JONATHAN HARKER",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "john_seward",
+      "name": "John Seward",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "jonathan",
+      "name": "Jonathan",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "jonathan_harker",
+      "name": "Jonathan Harker",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "joseph_smollet",
+      "name": "Joseph Smollet",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "lord_godalming",
+      "name": "Lord Godalming",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "lucy_westenra",
+      "name": "Lucy Westenra",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "mina",
+      "name": "Mina",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "mina_harker",
+      "name": "Mina Harker",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "mina_murray",
+      "name": "Mina Murray",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._hawkins",
+      "name": "Mr. Hawkins",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "mr._holmwood",
+      "name": "Mr. Holmwood",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "mr._morris",
+      "name": "Mr. Morris",
+      "color": "#FF5599",
+      "is_main": true
+    },
+    {
+      "id": "mr._renfield",
+      "name": "Mr. Renfield",
+      "color": "#99FF99",
+      "is_main": true
+    },
+    {
+      "id": "mr._swales",
+      "name": "Mr. Swales",
+      "color": "#9955FF",
+      "is_main": true
+    },
+    {
+      "id": "mrs._harker",
+      "name": "Mrs. Harker",
+      "color": "#FFAA55",
+      "is_main": true
+    },
+    {
+      "id": "mrs._westenra",
+      "name": "Mrs. Westenra",
+      "color": "#55AAFF",
+      "is_main": true
+    },
+    {
+      "id": "petrof_skinsky",
+      "name": "Petrof Skinsky",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "professor_van_helsing",
+      "name": "Professor Van Helsing",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "quincey",
+      "name": "Quincey",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "quincey_morris",
+      "name": "Quincey Morris",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "quincey_p._morris",
+      "name": "Quincey P. Morris",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "renfield",
+      "name": "Renfield",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "sister_agatha",
+      "name": "Sister Agatha",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "solicitor_marquand",
+      "name": "Solicitor Marquand",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "thomas_bilder",
+      "name": "Thomas Bilder",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "thomas_snelling",
+      "name": "Thomas Snelling",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "van_helsing",
+      "name": "Van Helsing",
+      "color": "#FF5599",
+      "is_main": true
+    }
+  ],
+  "units": [],
+  "trajectories": {}
+}
