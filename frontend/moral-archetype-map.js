@@ -1,10 +1,10 @@
 // moral-archetype-map-final.js - Complete Enhanced Moral Archetype Map
 // Features:
-// - NO text labels (prevents overlaps)
-// - Clickable act tabs
-// - All acts visible (dimmed/bright)
+// - NO text labels on character dots
+// - All nodes MORE VISIBLE (higher opacity)
 // - ALL character trajectories shown as dotted lines
-// - Duplicate character consolidation
+// - Thicker dotted lines for selected characters (in their color)
+// - Gold quadrant labels for better visibility
 
 // ============================================
 // MORAL ARCHETYPE MAP - THIRD VIEW
@@ -43,20 +43,13 @@ function renderMoralArchetypeView(data) {
 // ============================================
 
 function consolidateDuplicateCharacters(data) {
-  /**
-   * Consolidate characters with same name but different case
-   * e.g., "MALCOLM" and "Malcolm" become one "Malcolm"
-   */
-  
-  // Create normalized name map
-  const nameMap = new Map(); // normalized name -> preferred display name
-  const charMap = new Map(); // normalized name -> consolidated character object
+  const nameMap = new Map();
+  const charMap = new Map();
   
   data.characters.forEach(char => {
     const normalized = char.name.toLowerCase().trim();
     
     if (!nameMap.has(normalized)) {
-      // First occurrence - use this as the display name (prefer title case)
       const displayName = char.name.charAt(0).toUpperCase() + char.name.slice(1).toLowerCase();
       nameMap.set(normalized, displayName);
       charMap.set(normalized, {
@@ -67,14 +60,12 @@ function consolidateDuplicateCharacters(data) {
     }
   });
   
-  // Consolidate units (merge points for same character)
   const consolidatedUnits = data.units.map(unit => {
     const pointMap = new Map();
     
     unit.points.forEach(point => {
       const normalized = point.character_name.toLowerCase().trim();
       
-      // If we haven't seen this character in this unit, add it
       if (!pointMap.has(normalized)) {
         pointMap.set(normalized, {
           ...point,
@@ -90,11 +81,9 @@ function consolidateDuplicateCharacters(data) {
     };
   });
   
-  // Consolidate trajectories
   const consolidatedTrajectories = {};
   
   Object.entries(data.trajectories).forEach(([charId, trajectory]) => {
-    // Find the normalized ID for this character
     const charName = data.characters.find(c => c.id === charId)?.name;
     if (charName) {
       const normalized = charName.toLowerCase().trim();
@@ -122,17 +111,14 @@ function consolidateDuplicateCharacters(data) {
 function renderMoralArchetypeMap(data) {
   const container = document.getElementById('dashboard-plot');
   
-  // Create act number tabs dynamically
   const actTabs = data.units.map((unit, idx) => `
     <button class="act-tab ${idx === 0 ? 'active' : ''}" data-act-index="${idx}">
       ${unit.label}
     </button>
   `).join('');
   
-  // Create HTML structure
   container.innerHTML = `
     <div class="archetype-map-container">
-      <!-- Character Filter Sidebar -->
       <div class="archetype-sidebar">
         <div class="sidebar-section">
           <h3>Characters</h3>
@@ -162,11 +148,9 @@ function renderMoralArchetypeMap(data) {
         </div>
       </div>
       
-      <!-- Main Plot Area -->
       <div class="archetype-plot-area">
         <div id="archetype-plotly" class="archetype-plot"></div>
         
-        <!-- Act Tabs (clickable) -->
         <div class="act-tabs-container">
           ${actTabs}
         </div>
@@ -289,7 +273,6 @@ function renderMoralArchetypeMap(data) {
         min-height: 500px;
       }
       
-      /* Act Tabs Styling */
       .act-tabs-container {
         display: flex;
         gap: 0.5rem;
@@ -339,7 +322,6 @@ function renderMoralArchetypeMap(data) {
     </style>
   `;
   
-  // Initialize state
   window.archetypeState = {
     data: data,
     currentIndex: 0,
@@ -348,12 +330,10 @@ function renderMoralArchetypeMap(data) {
     filterMode: 'all'
   };
   
-  // Render initial views
   renderCharacterList();
   renderArchetypePlot();
   setupArchetypeEventListeners();
   
-  // Hide the emotion legend (not needed for archetype map)
   document.getElementById('emotion-legend').style.display = 'none';
 }
 
@@ -366,7 +346,6 @@ function renderCharacterList() {
   const { data, selectedCharacters, searchTerm, filterMode } = window.archetypeState;
   const listContainer = document.getElementById('character-list');
   
-  // Filter characters
   let characters = data.characters;
   
   if (searchTerm) {
@@ -381,10 +360,8 @@ function renderCharacterList() {
     characters = characters.filter(c => selectedCharacters.has(c.id));
   }
   
-  // Sort alphabetically for easier finding
   characters = characters.sort((a, b) => a.name.localeCompare(b.name));
   
-  // Render list
   listContainer.innerHTML = characters.map(char => `
     <div class="character-item ${selectedCharacters.has(char.id) ? 'selected' : ''}" 
          data-char-id="${char.id}">
@@ -393,7 +370,6 @@ function renderCharacterList() {
     </div>
   `).join('');
   
-  // Add click handlers
   listContainer.querySelectorAll('.character-item').forEach(item => {
     item.addEventListener('click', () => {
       const charId = item.dataset.charId;
@@ -415,7 +391,6 @@ function toggleCharacterSelection(charId) {
   renderCharacterList();
   renderArchetypePlot();
   
-  // Show character detail if one is selected
   if (selectedCharacters.size === 1) {
     const char = window.archetypeState.data.characters.find(c => c.id === charId);
     showCharacterDetail(char);
@@ -485,7 +460,6 @@ function renderArchetypePlot() {
   
   // Create quadrant shapes for background
   const shapes = [
-    // Top-right: Hero / Stable (light blue)
     {
       type: 'rect',
       x0: 0, y0: 0, x1: 10, y1: 10,
@@ -494,7 +468,6 @@ function renderArchetypePlot() {
       layer: 'below',
       line: { width: 0 }
     },
-    // Top-left: Cold Tyrant (light coral)
     {
       type: 'rect',
       x0: -10, y0: 0, x1: 0, y1: 10,
@@ -503,7 +476,6 @@ function renderArchetypePlot() {
       layer: 'below',
       line: { width: 0 }
     },
-    // Bottom-right: Tragic Victim (plum)
     {
       type: 'rect',
       x0: 0, y0: -10, x1: 10, y1: 0,
@@ -512,7 +484,6 @@ function renderArchetypePlot() {
       layer: 'below',
       line: { width: 0 }
     },
-    // Bottom-left: Madness / Evil (purple)
     {
       type: 'rect',
       x0: -10, y0: -10, x1: 0, y1: 0,
@@ -533,10 +504,7 @@ function renderArchetypePlot() {
     const trajectory = data.trajectories[char.id];
     
     if (trajectory && trajectory.length > 1) {
-      // Determine if this character is selected
       const isSelected = selectedCharacters.has(char.id);
-      
-      // Show trajectory up to current index
       const pathUpToNow = trajectory.filter(p => p.unit_index <= currentIndex);
       
       if (pathUpToNow.length > 1) {
@@ -546,11 +514,11 @@ function renderArchetypePlot() {
           mode: 'lines',
           type: 'scatter',
           line: {
-            color: char.color,
-            width: isSelected ? 2.5 : 1.0,  // Thicker for selected
+            color: char.color,                    // Character's color
+            width: isSelected ? 3.0 : 1.2,        // Thicker for selected
             dash: 'dot'
           },
-          opacity: isSelected ? 0.8 : 0.3,  // More visible for selected
+          opacity: isSelected ? 0.9 : 0.4,        // More visible for selected
           showlegend: false,
           hoverinfo: 'skip',
           name: `${char.name} path`
@@ -560,15 +528,14 @@ function renderArchetypePlot() {
   });
   
   // ============================================
-  // SECOND: Show ALL acts as dots (dimmed/bright)
+  // SECOND: Show ALL acts as dots (MORE VISIBLE)
   // ============================================
   
   data.units.forEach((unit, unitIdx) => {
     const isCurrentAct = unitIdx === currentIndex;
-    const opacity = isCurrentAct ? 1.0 : 0.2;  // Bright vs see-through
-    const markerSize = isCurrentAct ? 14 : 10;  // Bigger vs smaller
+    const opacity = isCurrentAct ? 1.0 : 0.5;     // Changed from 0.2 to 0.5 - MORE VISIBLE!
+    const markerSize = isCurrentAct ? 16 : 12;    // Bigger dots
     
-    // Collect all points for this unit
     const unitPoints = [];
     
     data.characters.forEach(char => {
@@ -585,23 +552,23 @@ function renderArchetypePlot() {
       }
     });
     
-    // Create trace for this unit (NO TEXT LABELS!)
+    // NO TEXT - only markers!
     const trace = {
       x: unitPoints.map(p => p.x),
       y: unitPoints.map(p => p.y),
-      mode: 'markers',  // ONLY markers, NO text
+      mode: 'markers',                            // ONLY markers, NO text!
       type: 'scatter',
       marker: {
         size: markerSize,
         color: unitPoints.map(p => p.color),
         opacity: opacity,
         line: { 
-          color: isCurrentAct ? '#000' : '#333', 
+          color: isCurrentAct ? '#fff' : '#666',  // White border for current, gray for others
           width: isCurrentAct ? 2 : 1 
         }
       },
       hovertemplate: unitPoints.map(p => 
-        `${p.name}<br>` +
+        `<b>${p.name}</b><br>` +
         `${unit.label}<br>` +
         `Control: ${p.point.x.toFixed(2)}<br>` +
         `Integrity: ${p.point.y.toFixed(2)}<br>` +
@@ -615,7 +582,7 @@ function renderArchetypePlot() {
     traces.push(trace);
   });
   
-  // Layout
+  // Layout with GOLD quadrant labels
   const layout = {
     title: {
       text: `${data.title} - Moral Archetype Map<br><sub>${currentUnit.label}</sub>`,
@@ -641,30 +608,30 @@ function renderArchetypePlot() {
     },
     shapes: shapes,
     annotations: [
-      // Quadrant labels
+      // GOLD quadrant labels
       {
         x: 5, y: 5,
         text: data.quadrants.top_right.label,
         showarrow: false,
-        font: { size: 11, color: 'navy', weight: 'bold' }
+        font: { size: 13, color: '#d4af37', weight: 'bold' }  // GOLD!
       },
       {
         x: -5, y: 5,
         text: data.quadrants.top_left.label,
         showarrow: false,
-        font: { size: 11, color: 'darkred', weight: 'bold' }
+        font: { size: 13, color: '#d4af37', weight: 'bold' }  // GOLD!
       },
       {
         x: 5, y: -5,
         text: data.quadrants.bottom_right.label,
         showarrow: false,
-        font: { size: 11, color: 'purple', weight: 'bold' }
+        font: { size: 13, color: '#d4af37', weight: 'bold' }  // GOLD!
       },
       {
         x: -5, y: -5,
         text: data.quadrants.bottom_left.label,
         showarrow: false,
-        font: { size: 11, color: 'indigo', weight: 'bold' }
+        font: { size: 13, color: '#d4af37', weight: 'bold' }  // GOLD!
       }
     ],
     paper_bgcolor: '#0a0a0a',
@@ -691,22 +658,17 @@ function renderArchetypePlot() {
 function setupArchetypeEventListeners() {
   const { data } = window.archetypeState;
   
-  // Act tab clicks
   document.querySelectorAll('.act-tab').forEach(tab => {
     tab.addEventListener('click', (e) => {
       const actIndex = parseInt(e.target.dataset.actIndex);
       
-      // Update active state
       document.querySelectorAll('.act-tab').forEach(t => t.classList.remove('active'));
       e.target.classList.add('active');
       
-      // Update current index
       window.archetypeState.currentIndex = actIndex;
       
-      // Re-render plot
       renderArchetypePlot();
       
-      // Update character detail if one is selected
       if (window.archetypeState.selectedCharacters.size === 1) {
         const charId = Array.from(window.archetypeState.selectedCharacters)[0];
         const char = data.characters.find(c => c.id === charId);
@@ -715,14 +677,12 @@ function setupArchetypeEventListeners() {
     });
   });
   
-  // Character search
   const searchInput = document.getElementById('char-search');
   searchInput.addEventListener('input', (e) => {
     window.archetypeState.searchTerm = e.target.value;
     renderCharacterList();
   });
   
-  // Filter radio buttons
   document.querySelectorAll('input[name="char-filter"]').forEach(radio => {
     radio.addEventListener('change', (e) => {
       window.archetypeState.filterMode = e.target.value;
@@ -736,5 +696,4 @@ function setupArchetypeEventListeners() {
 // EXPORT
 // ============================================
 
-// Make sure the function is globally accessible
 window.renderMoralArchetypeView = renderMoralArchetypeView;
