@@ -1,8 +1,9 @@
-// moral-archetype-map-improved.js - Enhanced Moral Archetype Map Visualization
+// moral-archetype-map-final.js - Complete Enhanced Moral Archetype Map
 // Features:
-// - Clickable act numbers instead of play button
-// - Smart radial label positioning to prevent overlaps
-// - All acts shown dimmed, selected act highlighted
+// - Clickable act tabs (no play button)
+// - Smart radial label positioning (no overlaps)
+// - All acts visible (dimmed/bright)
+// - Duplicate character consolidation
 
 // ============================================
 // MORAL ARCHETYPE MAP - THIRD VIEW
@@ -28,8 +29,90 @@ function renderMoralArchetypeView(data) {
     return;
   }
   
+  // Consolidate duplicate characters
+  const consolidatedData = consolidateDuplicateCharacters(archetypeData);
+  
   // Initialize the archetype map
-  renderMoralArchetypeMap(archetypeData);
+  renderMoralArchetypeMap(consolidatedData);
+}
+
+
+// ============================================
+// CONSOLIDATE DUPLICATE CHARACTERS
+// ============================================
+
+function consolidateDuplicateCharacters(data) {
+  /**
+   * Consolidate characters with same name but different case
+   * e.g., "MALCOLM" and "Malcolm" become one "Malcolm"
+   */
+  
+  // Create normalized name map
+  const nameMap = new Map(); // normalized name -> preferred display name
+  const charMap = new Map(); // normalized name -> consolidated character object
+  
+  data.characters.forEach(char => {
+    const normalized = char.name.toLowerCase().trim();
+    
+    if (!nameMap.has(normalized)) {
+      // First occurrence - use this as the display name (prefer title case)
+      const displayName = char.name.charAt(0).toUpperCase() + char.name.slice(1).toLowerCase();
+      nameMap.set(normalized, displayName);
+      charMap.set(normalized, {
+        ...char,
+        name: displayName,
+        id: normalized.replace(/\s+/g, '_')
+      });
+    }
+  });
+  
+  // Consolidate units (merge points for same character)
+  const consolidatedUnits = data.units.map(unit => {
+    const pointMap = new Map();
+    
+    unit.points.forEach(point => {
+      const normalized = point.character_name.toLowerCase().trim();
+      
+      // If we haven't seen this character in this unit, add it
+      if (!pointMap.has(normalized)) {
+        pointMap.set(normalized, {
+          ...point,
+          character_id: normalized.replace(/\s+/g, '_'),
+          character_name: nameMap.get(normalized)
+        });
+      }
+      // If we have, keep the first occurrence (could also merge data if needed)
+    });
+    
+    return {
+      ...unit,
+      points: Array.from(pointMap.values())
+    };
+  });
+  
+  // Consolidate trajectories
+  const consolidatedTrajectories = {};
+  
+  Object.entries(data.trajectories).forEach(([charId, trajectory]) => {
+    // Find the normalized ID for this character
+    const charName = data.characters.find(c => c.id === charId)?.name;
+    if (charName) {
+      const normalized = charName.toLowerCase().trim();
+      const newCharId = normalized.replace(/\s+/g, '_');
+      
+      if (!consolidatedTrajectories[newCharId]) {
+        consolidatedTrajectories[newCharId] = trajectory;
+      }
+      // If already exists, could merge trajectories if needed
+    }
+  });
+  
+  return {
+    ...data,
+    characters: Array.from(charMap.values()),
+    units: consolidatedUnits,
+    trajectories: consolidatedTrajectories
+  };
 }
 
 
@@ -299,6 +382,9 @@ function renderCharacterList() {
     characters = characters.filter(c => selectedCharacters.has(c.id));
   }
   
+  // Sort alphabetically for easier finding
+  characters = characters.sort((a, b) => a.name.localeCompare(b.name));
+  
   // Render list
   listContainer.innerHTML = characters.map(char => `
     <div class="character-item ${selectedCharacters.has(char.id) ? 'selected' : ''}" 
@@ -438,7 +524,12 @@ function calculateRadialLabelPositions(points, minDistance = 0.8) {
       
       for (let i = 0; i < angles.length; i++) {
         const nextAngle = angles[(i + 1) % angles.length];
-        const gap = nextAngle - angles[i];
+        let gap = nextAngle - angles[i];
+        
+        // Handle wrap-around
+        if (i === angles.length - 1) {
+          gap = (360 + angles[0]) - angles[i];
+        }
         
         if (gap > maxGap) {
           maxGap = gap;
@@ -525,7 +616,7 @@ function renderArchetypePlot() {
   const traces = [];
   
   // ============================================
-  // NEW: Show ALL acts, but dimmed for non-current
+  // Show ALL acts, but dimmed for non-current
   // ============================================
   
   data.units.forEach((unit, unitIdx) => {
@@ -552,7 +643,7 @@ function renderArchetypePlot() {
     
     // Calculate radial positions for labels (only for current act)
     let labelPositions = null;
-    if (isCurrentAct) {
+    if (isCurrentAct && unitPoints.length > 0) {
       labelPositions = calculateRadialLabelPositions(unitPoints);
     }
     
