@@ -1,8 +1,9 @@
 // moral-archetype-map-final.js - Complete Enhanced Moral Archetype Map
 // Features:
-// - Clickable act tabs (no play button)
-// - Smart radial label positioning (no overlaps)
+// - NO text labels (prevents overlaps)
+// - Clickable act tabs
 // - All acts visible (dimmed/bright)
+// - ALL character trajectories shown as dotted lines
 // - Duplicate character consolidation
 
 // ============================================
@@ -81,7 +82,6 @@ function consolidateDuplicateCharacters(data) {
           character_name: nameMap.get(normalized)
         });
       }
-      // If we have, keep the first occurrence (could also merge data if needed)
     });
     
     return {
@@ -103,7 +103,6 @@ function consolidateDuplicateCharacters(data) {
       if (!consolidatedTrajectories[newCharId]) {
         consolidatedTrajectories[newCharId] = trajectory;
       }
-      // If already exists, could merge trajectories if needed
     }
   });
   
@@ -475,95 +474,6 @@ function showCharacterDetail(character) {
 
 
 // ============================================
-// SMART RADIAL LABEL POSITIONING
-// ============================================
-
-function calculateRadialLabelPositions(points, minDistance = 0.8) {
-  /**
-   * Calculate non-overlapping label positions using radial spacing
-   * Returns array of {x, y, textposition, angle} for each point
-   */
-  
-  const labelInfo = points.map((point, idx) => ({
-    x: point.x,
-    y: point.y,
-    name: point.name,
-    color: point.color,
-    originalIdx: idx
-  }));
-  
-  // For each point, find optimal angle to place label
-  const positions = labelInfo.map((point, idx) => {
-    // Calculate angles to all other points
-    const angles = [];
-    
-    labelInfo.forEach((other, otherIdx) => {
-      if (idx === otherIdx) return;
-      
-      const dx = other.x - point.x;
-      const dy = other.y - point.y;
-      const distance = Math.sqrt(dx * dx + dy * dy);
-      
-      if (distance < minDistance * 3) {
-        // This point is close, record the angle to avoid
-        const angle = Math.atan2(dy, dx) * (180 / Math.PI);
-        angles.push(angle);
-      }
-    });
-    
-    // Find the best angle (furthest from other points)
-    let bestAngle = 90; // Default: top
-    
-    if (angles.length > 0) {
-      // Sort angles
-      angles.sort((a, b) => a - b);
-      
-      // Find largest gap between angles
-      let maxGap = 0;
-      let gapAngle = 90;
-      
-      for (let i = 0; i < angles.length; i++) {
-        const nextAngle = angles[(i + 1) % angles.length];
-        let gap = nextAngle - angles[i];
-        
-        // Handle wrap-around
-        if (i === angles.length - 1) {
-          gap = (360 + angles[0]) - angles[i];
-        }
-        
-        if (gap > maxGap) {
-          maxGap = gap;
-          gapAngle = angles[i] + gap / 2;
-        }
-      }
-      
-      bestAngle = gapAngle;
-    }
-    
-    // Convert angle to text position
-    let textposition;
-    if (bestAngle >= -45 && bestAngle < 45) {
-      textposition = 'middle right';
-    } else if (bestAngle >= 45 && bestAngle < 135) {
-      textposition = 'top center';
-    } else if (bestAngle >= 135 || bestAngle < -135) {
-      textposition = 'middle left';
-    } else {
-      textposition = 'bottom center';
-    }
-    
-    return {
-      ...point,
-      textposition: textposition,
-      angle: bestAngle
-    };
-  });
-  
-  return positions;
-}
-
-
-// ============================================
 // PLOT RENDERING
 // ============================================
 
@@ -616,13 +526,47 @@ function renderArchetypePlot() {
   const traces = [];
   
   // ============================================
-  // Show ALL acts, but dimmed for non-current
+  // FIRST: Add ALL character trajectory lines
+  // ============================================
+  
+  data.characters.forEach(char => {
+    const trajectory = data.trajectories[char.id];
+    
+    if (trajectory && trajectory.length > 1) {
+      // Determine if this character is selected
+      const isSelected = selectedCharacters.has(char.id);
+      
+      // Show trajectory up to current index
+      const pathUpToNow = trajectory.filter(p => p.unit_index <= currentIndex);
+      
+      if (pathUpToNow.length > 1) {
+        traces.push({
+          x: pathUpToNow.map(p => p.x),
+          y: pathUpToNow.map(p => p.y),
+          mode: 'lines',
+          type: 'scatter',
+          line: {
+            color: char.color,
+            width: isSelected ? 2.5 : 1.0,  // Thicker for selected
+            dash: 'dot'
+          },
+          opacity: isSelected ? 0.8 : 0.3,  // More visible for selected
+          showlegend: false,
+          hoverinfo: 'skip',
+          name: `${char.name} path`
+        });
+      }
+    }
+  });
+  
+  // ============================================
+  // SECOND: Show ALL acts as dots (dimmed/bright)
   // ============================================
   
   data.units.forEach((unit, unitIdx) => {
     const isCurrentAct = unitIdx === currentIndex;
-    const opacity = isCurrentAct ? 1.0 : 0.15;
-    const markerSize = isCurrentAct ? 12 : 8;
+    const opacity = isCurrentAct ? 1.0 : 0.2;  // Bright vs see-through
+    const markerSize = isCurrentAct ? 14 : 10;  // Bigger vs smaller
     
     // Collect all points for this unit
     const unitPoints = [];
@@ -641,36 +585,27 @@ function renderArchetypePlot() {
       }
     });
     
-    // Calculate radial positions for labels (only for current act)
-    let labelPositions = null;
-    if (isCurrentAct && unitPoints.length > 0) {
-      labelPositions = calculateRadialLabelPositions(unitPoints);
-    }
-    
-    // Create trace for this unit
+    // Create trace for this unit (NO TEXT LABELS!)
     const trace = {
       x: unitPoints.map(p => p.x),
       y: unitPoints.map(p => p.y),
-      text: isCurrentAct ? unitPoints.map((p, idx) => {
-        const labelPos = labelPositions[idx];
-        return labelPos.name;
-      }) : [],
-      mode: isCurrentAct ? 'markers+text' : 'markers',
+      mode: 'markers',  // ONLY markers, NO text
       type: 'scatter',
       marker: {
         size: markerSize,
         color: unitPoints.map(p => p.color),
         opacity: opacity,
-        line: { color: isCurrentAct ? '#000' : '#333', width: isCurrentAct ? 2 : 1 }
+        line: { 
+          color: isCurrentAct ? '#000' : '#333', 
+          width: isCurrentAct ? 2 : 1 
+        }
       },
-      textposition: isCurrentAct ? labelPositions.map(l => l.textposition) : [],
-      textfont: { size: 10, color: '#fff' },
-      opacity: opacity,
       hovertemplate: unitPoints.map(p => 
         `${p.name}<br>` +
         `${unit.label}<br>` +
         `Control: ${p.point.x.toFixed(2)}<br>` +
         `Integrity: ${p.point.y.toFixed(2)}<br>` +
+        `Top: ${Object.keys(p.point.top_emotions)[0]}<br>` +
         `<extra></extra>`
       ),
       name: unit.label,
@@ -678,37 +613,6 @@ function renderArchetypePlot() {
     };
     
     traces.push(trace);
-  });
-  
-  // ============================================
-  // Add trajectory lines for selected characters
-  // ============================================
-  
-  selectedCharacters.forEach(charId => {
-    const char = data.characters.find(c => c.id === charId);
-    const trajectory = data.trajectories[charId];
-    
-    if (trajectory && trajectory.length > 1) {
-      // Only show trajectory up to current index
-      const pathUpToNow = trajectory.filter(p => p.unit_index <= currentIndex);
-      
-      if (pathUpToNow.length > 1) {
-        traces.push({
-          x: pathUpToNow.map(p => p.x),
-          y: pathUpToNow.map(p => p.y),
-          mode: 'lines',
-          type: 'scatter',
-          line: {
-            color: char.color,
-            width: 2,
-            dash: 'dot'
-          },
-          opacity: 0.7,
-          showlegend: false,
-          hoverinfo: 'skip'
-        });
-      }
-    }
   });
   
   // Layout
