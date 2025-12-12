@@ -1,4 +1,4 @@
-// server.js - Simplified Backend for Dashboard View (No metadata.json required)
+// server.js - Simplified Backend for Dashboard View with Moral Archetype Support
 
 const express = require('express');
 const fs = require('fs');
@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '..', 'frontend')));
 // ============================================
 
 const LIBRARY_PATH = path.join(__dirname, '..', 'Library');
-console.log("📁 Scanning Library at:", LIBRARY_PATH);
+console.log("📂 Scanning Library at:", LIBRARY_PATH);
 let libraryIndex = {}; // In-memory cache of all books
 
 // ============================================
@@ -79,6 +79,7 @@ function scanLibrary() {
     const bookPath = path.join(LIBRARY_PATH, bookId);
     const metadataPath = path.join(bookPath, 'metadata.json');
     const dashboardPath = path.join(bookPath, 'dashboard.json');
+    const moralArchetypePath = path.join(bookPath, 'moral_archetype.json');
     
     // Dashboard.json is required
     if (!fs.existsSync(dashboardPath)) {
@@ -100,7 +101,8 @@ function scanLibrary() {
       title: dashboardData.title || bookId.replace(/_/g, ' '),
       chapterCount: dashboardData.chapters ? dashboardData.chapters.length : 0,
       characterCount: dashboardData.characters ? dashboardData.characters.length : 0,
-      hasDashboard: true
+      hasDashboard: true,
+      hasMoralArchetype: fs.existsSync(moralArchetypePath)  // NEW: Track if archetype data exists
     };
     
     // Try to read metadata.json if it exists (optional)
@@ -116,7 +118,8 @@ function scanLibrary() {
         if (metadata.chapterCount) bookInfo.chapterCount = metadata.chapterCount;
         if (metadata.characterCount) bookInfo.characterCount = metadata.characterCount;
         
-        console.log(`  ✅ ${bookInfo.title} (with metadata.json)`);
+        const archetypeStatus = bookInfo.hasMoralArchetype ? '+ archetype' : '';
+        console.log(`  ✅ ${bookInfo.title} (with metadata.json ${archetypeStatus})`);
       } catch (error) {
         console.warn(`  ⚠️  Error reading metadata for ${bookId}, using dashboard data only`);
       }
@@ -132,7 +135,8 @@ function scanLibrary() {
         bookInfo.year = inferredYear;
       }
       
-      console.log(`  ✅ ${bookInfo.title} (dashboard.json only)`);
+      const archetypeStatus = bookInfo.hasMoralArchetype ? '+ archetype' : '';
+      console.log(`  ✅ ${bookInfo.title} (dashboard.json only ${archetypeStatus})`);
     }
     
     // Set default author if still missing
@@ -154,7 +158,7 @@ function scanLibrary() {
 // GET /api/books - List all books
 app.get('/api/books', (req, res) => {
   // Always rescan so new folders are picked up without restarting
-  console.log('📚 /api/books requested — rescanning Library...');
+  console.log('📚 /api/books requested – rescanning Library...');
   libraryIndex = scanLibrary();
 
   const books = Object.values(libraryIndex).map(book => ({
@@ -165,14 +169,15 @@ app.get('/api/books', (req, res) => {
     chapterCount: book.chapterCount,
     characterCount: book.characterCount,
     description: book.description,
-    hasDashboard: book.hasDashboard
+    hasDashboard: book.hasDashboard,
+    hasMoralArchetype: book.hasMoralArchetype  // NEW
   }));
 
   res.json(books);
 });
 
 
-// GET /api/books/:bookId/dashboard - Get dashboard data
+// GET /api/books/:bookId/dashboard - Get dashboard data with moral archetype
 app.get('/api/books/:bookId/dashboard', (req, res) => {
   const { bookId } = req.params;
   
@@ -193,6 +198,24 @@ app.get('/api/books/:bookId/dashboard', (req, res) => {
   } catch (error) {
     console.error(`Error reading dashboard for ${bookId}:`, error);
     return res.status(500).json({ error: 'Error reading dashboard data' });
+  }
+  
+  // ============================================
+  // NEW: Load moral archetype data if available
+  // ============================================
+  const moralArchetypePath = path.join(LIBRARY_PATH, bookId, 'moral_archetype.json');
+  if (fs.existsSync(moralArchetypePath)) {
+    try {
+      const moralArchetypeData = JSON.parse(fs.readFileSync(moralArchetypePath, 'utf-8'));
+      dashboardData.moral_archetype = moralArchetypeData;
+      console.log(`  ✅ Loaded moral archetype data for ${bookId}`);
+    } catch (error) {
+      console.warn(`  ⚠️  Error loading moral archetype for ${bookId}:`, error.message);
+      dashboardData.moral_archetype = null;
+    }
+  } else {
+    console.log(`  ℹ️  No moral archetype data for ${bookId}`);
+    dashboardData.moral_archetype = null;
   }
   
   res.json(dashboardData);

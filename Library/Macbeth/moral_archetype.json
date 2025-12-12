@@ -1,0 +1,2491 @@
+{
+  "book_id": "macbeth",
+  "title": "Macbeth",
+  "author": "William Shakespeare",
+  "structure": {
+    "unit_type": "act",
+    "units": [
+      {
+        "id": "act_0",
+        "index": 0,
+        "label": "Act 1"
+      },
+      {
+        "id": "act_1",
+        "index": 1,
+        "label": "Act 2"
+      },
+      {
+        "id": "act_2",
+        "index": 2,
+        "label": "Act 3"
+      },
+      {
+        "id": "act_3",
+        "index": 3,
+        "label": "Act 4"
+      },
+      {
+        "id": "act_4",
+        "index": 4,
+        "label": "Act 5"
+      },
+      {
+        "id": "act_5",
+        "index": 5,
+        "label": "Act 6"
+      }
+    ]
+  },
+  "axes": {
+    "x_label": "Control \u2192 Chaos (\u2192 emotional control, \u2190 chaos)",
+    "y_label": "Integrity \u2192 Corruption (\u2191 moral integrity, \u2193 moral corruption)"
+  },
+  "quadrants": {
+    "top_left": {
+      "id": "cold_tyrant",
+      "label": "Cold Tyrant",
+      "color": "#f8b4b4"
+    },
+    "top_right": {
+      "id": "hero_stable",
+      "label": "Hero / Stable",
+      "color": "#add8e6"
+    },
+    "bottom_left": {
+      "id": "madness_evil",
+      "label": "Madness / Evil",
+      "color": "#dda0dd"
+    },
+    "bottom_right": {
+      "id": "tragic_victim",
+      "label": "Tragic Victim",
+      "color": "#dda0dd"
+    }
+  },
+  "characters": [
+    {
+      "id": "angus",
+      "name": "ANGUS",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "angus",
+      "name": "Angus",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "banquo",
+      "name": "BANQUO",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "banquo",
+      "name": "Banquo",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "caithness",
+      "name": "CAITHNESS",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "caithness",
+      "name": "Caithness",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "captain",
+      "name": "Captain",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "donalbain",
+      "name": "DONALBAIN",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "duncan",
+      "name": "DUNCAN",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "donalbain",
+      "name": "Donalbain",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "duncan",
+      "name": "Duncan",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "first_witch",
+      "name": "FIRST WITCH",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "fleance",
+      "name": "FLEANCE",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "first_witch",
+      "name": "First Witch",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "fleance",
+      "name": "Fleance",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "hecate",
+      "name": "HECATE",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "hecate",
+      "name": "Hecate",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "lady_macbeth",
+      "name": "LADY MACBETH",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "lady_macduff",
+      "name": "LADY MACDUFF",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "lennox",
+      "name": "LENNOX",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "lady_macbeth",
+      "name": "Lady Macbeth",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "lennox",
+      "name": "Lennox",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "lord",
+      "name": "Lord",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "macbeth",
+      "name": "MACBETH",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "macduff",
+      "name": "MACDUFF",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "malcolm",
+      "name": "MALCOLM",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "menteith",
+      "name": "MENTEITH",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "macbeth",
+      "name": "Macbeth",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "macduff",
+      "name": "Macduff",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "malcolm",
+      "name": "Malcolm",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "menteith",
+      "name": "Menteith",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "murderers",
+      "name": "Murderers",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "old_man",
+      "name": "Old Man",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "porter",
+      "name": "Porter",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "ross",
+      "name": "ROSS",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "ross",
+      "name": "Ross",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "second_witch",
+      "name": "SECOND WITCH",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "seyton",
+      "name": "SEYTON",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "siward",
+      "name": "SIWARD",
+      "color": "#5599FF",
+      "is_main": true
+    },
+    {
+      "id": "son",
+      "name": "SON",
+      "color": "#FF5555",
+      "is_main": true
+    },
+    {
+      "id": "second_witch",
+      "name": "Second Witch",
+      "color": "#FF99FF",
+      "is_main": true
+    },
+    {
+      "id": "servant",
+      "name": "Servant",
+      "color": "#55FF55",
+      "is_main": true
+    },
+    {
+      "id": "seyton",
+      "name": "Seyton",
+      "color": "#5555FF",
+      "is_main": true
+    },
+    {
+      "id": "siward",
+      "name": "Siward",
+      "color": "#FFFF55",
+      "is_main": true
+    },
+    {
+      "id": "third_witch",
+      "name": "THIRD WITCH",
+      "color": "#FF9955",
+      "is_main": true
+    },
+    {
+      "id": "third_witch",
+      "name": "Third Witch",
+      "color": "#55FFFF",
+      "is_main": true
+    },
+    {
+      "id": "waiting-gentlewoman",
+      "name": "Waiting-Gentlewoman",
+      "color": "#FF55FF",
+      "is_main": true
+    },
+    {
+      "id": "young_siward",
+      "name": "YOUNG SIWARD",
+      "color": "#99FF55",
+      "is_main": true
+    },
+    {
+      "id": "young_siward",
+      "name": "Young Siward",
+      "color": "#5599FF",
+      "is_main": true
+    }
+  ],
+  "units": [
+    {
+      "unit_id": "act_0",
+      "index": 0,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "first_witch",
+          "character_name": "First Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "second_witch",
+          "character_name": "Second Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "third_witch",
+          "character_name": "Third Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "duncan",
+          "character_name": "Duncan",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "malcolm",
+          "character_name": "Malcolm",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "donalbain",
+          "character_name": "Donalbain",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "Lennox",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "captain",
+          "character_name": "Captain",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "Ross",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "angus",
+          "character_name": "Angus",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "Macbeth",
+          "x": -0.1,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.7,
+            "chaos": 1.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "banquo",
+          "character_name": "Banquo",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lady_macbeth",
+          "character_name": "Lady Macbeth",
+          "x": -0.5,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 2.1,
+            "chaos": 2.6,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Happiness": 1
+          }
+        }
+      ]
+    },
+    {
+      "unit_id": "act_1",
+      "index": 1,
+      "label": "Act 2",
+      "points": [
+        {
+          "character_id": "banquo",
+          "character_name": "Banquo",
+          "x": 1.5,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.5,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "fleance",
+          "character_name": "Fleance",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "Macbeth",
+          "x": -3.8,
+          "y": -0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.8,
+            "chaos": 5.6,
+            "integrity": 2.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "lady_macbeth",
+          "character_name": "Lady Macbeth",
+          "x": -1.6,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "porter",
+          "character_name": "Porter",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macduff",
+          "character_name": "Macduff",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "Lennox",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "Ross",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "old_man",
+          "character_name": "Old Man",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "malcolm",
+          "character_name": "Malcolm",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "donalbain",
+          "character_name": "Donalbain",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "unit_id": "act_2",
+      "index": 2,
+      "label": "Act 3",
+      "points": [
+        {
+          "character_id": "banquo",
+          "character_name": "Banquo",
+          "x": -1.0,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.8,
+            "chaos": 1.8,
+            "integrity": 0.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Hope": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "Macbeth",
+          "x": -4.6,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 1.0,
+            "chaos": 5.6,
+            "integrity": 1.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "lady_macbeth",
+          "character_name": "Lady Macbeth",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "servant",
+          "character_name": "Servant",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "murderers",
+          "character_name": "Murderers",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "fleance",
+          "character_name": "Fleance",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "Lennox",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "Ross",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hecate",
+          "character_name": "Hecate",
+          "x": 0.2,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 0.8,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "VirtueForce": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "first_witch",
+          "character_name": "First Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "second_witch",
+          "character_name": "Second Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "third_witch",
+          "character_name": "Third Witch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lord",
+          "character_name": "Lord",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macduff",
+          "character_name": "Macduff",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "unit_id": "act_3",
+      "index": 3,
+      "label": "Act 4",
+      "points": [
+        {
+          "character_id": "first_witch",
+          "character_name": "FIRST WITCH",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "second_witch",
+          "character_name": "SECOND WITCH",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "third_witch",
+          "character_name": "THIRD WITCH",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hecate",
+          "character_name": "HECATE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "MACBETH",
+          "x": -1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 1.8,
+            "chaos": 2.8,
+            "integrity": 2.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "LENNOX",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_macduff",
+          "character_name": "LADY MACDUFF",
+          "x": -1.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "son",
+          "character_name": "SON",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "ROSS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "malcolm",
+          "character_name": "MALCOLM",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macduff",
+          "character_name": "MACDUFF",
+          "x": 0.0,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.8,
+            "chaos": 1.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "unit_id": "act_4",
+      "index": 4,
+      "label": "Act 5",
+      "points": [
+        {
+          "character_id": "doctor",
+          "character_name": "Doctor",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "waiting-gentlewoman",
+          "character_name": "Waiting-Gentlewoman",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_macbeth",
+          "character_name": "Lady Macbeth",
+          "x": -4.8,
+          "y": -2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 8,
+            "control": 1.8,
+            "chaos": 6.6,
+            "integrity": 2.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "menteith",
+          "character_name": "Menteith",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "caithness",
+          "character_name": "Caithness",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "angus",
+          "character_name": "Angus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "Lennox",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "Macbeth",
+          "x": -3.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.4,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastJoy": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "seyton",
+          "character_name": "Seyton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "malcolm",
+          "character_name": "Malcolm",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "siward",
+          "character_name": "Siward",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macduff",
+          "character_name": "Macduff",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "young_siward",
+          "character_name": "Young Siward",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "Ross",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "unit_id": "act_5",
+      "index": 5,
+      "label": "Act 6",
+      "points": [
+        {
+          "character_id": "duncan",
+          "character_name": "DUNCAN",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "malcolm",
+          "character_name": "MALCOLM",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "donalbain",
+          "character_name": "DONALBAIN",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macbeth",
+          "character_name": "MACBETH",
+          "x": -4.2,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.8,
+            "chaos": 6.0,
+            "integrity": 2.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "lady_macbeth",
+          "character_name": "LADY MACBETH",
+          "x": -3.4,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 1.8,
+            "chaos": 5.2,
+            "integrity": 2.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "seyton",
+          "character_name": "SEYTON",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "banquo",
+          "character_name": "BANQUO",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "fleance",
+          "character_name": "FLEANCE",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "macduff",
+          "character_name": "MACDUFF",
+          "x": -0.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.7,
+            "chaos": 0.8,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lady_macduff",
+          "character_name": "LADY MACDUFF",
+          "x": -0.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.7,
+            "chaos": 0.8,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lennox",
+          "character_name": "LENNOX",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ross",
+          "character_name": "ROSS",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "angus",
+          "character_name": "ANGUS",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "menteith",
+          "character_name": "MENTEITH",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "caithness",
+          "character_name": "CAITHNESS",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "siward",
+          "character_name": "SIWARD",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "young_siward",
+          "character_name": "YOUNG SIWARD",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hecate",
+          "character_name": "HECATE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "first_witch": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "third_witch": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "malcolm": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 5,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "ross": [
+      {
+        "unit_index": 0,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "macduff": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 2.2
+      },
+      {
+        "unit_index": 5,
+        "x": -0.1,
+        "y": 0.5
+      }
+    ],
+    "macbeth": [
+      {
+        "unit_index": 0,
+        "x": -0.1,
+        "y": 1.7
+      },
+      {
+        "unit_index": 1,
+        "x": -3.8,
+        "y": -0.4
+      },
+      {
+        "unit_index": 2,
+        "x": -4.6,
+        "y": -1.4
+      },
+      {
+        "unit_index": 4,
+        "x": -3.0,
+        "y": -1.8
+      }
+    ],
+    "caithness": [
+      {
+        "unit_index": 5,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "young_siward": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lady_macbeth": [
+      {
+        "unit_index": 5,
+        "x": -3.4,
+        "y": -1.6
+      }
+    ],
+    "menteith": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "donalbain": [
+      {
+        "unit_index": 5,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "angus": [
+      {
+        "unit_index": 5,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "lady_macduff": [
+      {
+        "unit_index": 3,
+        "x": -1.8,
+        "y": 1.0
+      },
+      {
+        "unit_index": 5,
+        "x": -0.1,
+        "y": 0.5
+      }
+    ],
+    "second_witch": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "murderers": [
+      {
+        "unit_index": 2,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "captain": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "son": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "duncan": [
+      {
+        "unit_index": 0,
+        "x": 1.1,
+        "y": 0.5
+      }
+    ],
+    "fleance": [
+      {
+        "unit_index": 5,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "porter": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lennox": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "servant": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "hecate": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "banquo": [
+      {
+        "unit_index": 0,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 1,
+        "x": 1.5,
+        "y": 1.2
+      },
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": -1.3
+      }
+    ],
+    "old_man": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "siward": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lord": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "doctor": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "seyton": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "waiting-gentlewoman": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
+}
