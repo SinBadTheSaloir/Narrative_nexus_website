@@ -1,9 +1,9 @@
 {
   "id": "hamlet",
-  "title": "Hamlet",
+  "title": "Hamlet, Prince of Denmark",
   "author": "William Shakespeare",
-  "year": 1600,
-  "chapterCount": 5,
-  "characterCount": 30,
-  "description": "A tragedy about Prince Hamlet’s quest to avenge his father’s murder, exploring madness, revenge, and moral corruption."
+  "year": 1603,
+  "actCount": 5,
+  "characterCount": 38,
+  "description": "A tragedy of revenge, madness, and moral corruption in the Danish court"
 }

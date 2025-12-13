@@ -1,9 +1,9 @@
 {
   "id": "othello",
-  "title": "Othello",
+  "title": "Othello, the Moor of Venice",
   "author": "William Shakespeare",
-  "year": 1603,
-  "chapterCount": 5,
-  "characterCount": 20,
-  "description": "A tragedy about the Moorish general Othello, whose trust in the deceitful Iago leads to jealousy, manipulation, and destruction."
+  "year": 1604,
+  "actCount": 5,
+  "characterCount": 30,
+  "description": "A tragedy of jealousy, manipulation, and the destructive power of deception"
 }

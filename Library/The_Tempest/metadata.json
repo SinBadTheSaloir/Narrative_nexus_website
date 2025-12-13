@@ -3,7 +3,7 @@
   "title": "The Tempest",
   "author": "William Shakespeare",
   "year": 1611,
-  "chapterCount": 5,
-  "characterCount": 18,
-  "description": "A late Shakespearean play blending magic, shipwreck, and forgiveness, centered on Prospero’s enchanted island."
+  "actCount": 5,
+  "characterCount": 34,
+  "description": "A romance featuring magic, revenge, and forgiveness on an enchanted island"
 }
