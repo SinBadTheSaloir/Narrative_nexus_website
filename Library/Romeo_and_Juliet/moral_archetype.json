@@ -1,7 +1,7 @@
 {
-  "book_id": "romeo_and_juliet_data",
-  "title": "Romeo_and_Juliet_DATA",
-  "author": "",
+  "book_id": "romeo_and_juliet",
+  "title": "Romeo_and_Juliet",
+  "author": "William Shakespeare",
   "structure": {
     "unit_type": "act",
     "units": [

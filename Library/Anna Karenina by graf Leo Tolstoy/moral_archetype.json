@@ -1,7 +1,7 @@
 {
-  "book_id": "anna_karenina_by_graf_leo_tolstoy",
+  "book_id": "anna_karenina",
   "title": "Anna Karenina",
-  "author": "graf Leo Tolstoy",
+  "author": "Leo Tolstoy",
   "structure": {
     "unit_type": "chapter",
     "units": [

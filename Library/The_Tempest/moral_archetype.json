@@ -1,7 +1,7 @@
 {
-  "book_id": "the_tempest_data",
-  "title": "The_Tempest_DATA",
-  "author": "",
+  "book_id": "the_tempest",
+  "title": "The_Tempest",
+  "author": "William Shakespeare",
   "structure": {
     "unit_type": "act",
     "units": [

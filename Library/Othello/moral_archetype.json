@@ -1,7 +1,7 @@
 {
-  "book_id": "othello_data",
-  "title": "Othello_DATA",
-  "author": "",
+  "book_id": "othello",
+  "title": "Othello",
+  "author": "William Shakespeare",
   "structure": {
     "unit_type": "act",
     "units": [

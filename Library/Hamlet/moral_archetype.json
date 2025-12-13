@@ -1,7 +1,7 @@
 {
-  "book_id": "hamlet_data",
-  "title": "Hamlet_DATA",
-  "author": "",
+  "book_id": "hamlet",
+  "title": "Hamlet",
+  "author": "William Shakespeare",
   "structure": {
     "unit_type": "act",
     "units": [
