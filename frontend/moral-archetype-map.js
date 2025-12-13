@@ -45,63 +45,73 @@ function renderMoralArchetypeView(data) {
 function consolidateDuplicateCharacters(data) {
   const nameMap = new Map();
   const charMap = new Map();
-  
+
+  // Build normalized character map
   data.characters.forEach(char => {
     const normalized = char.name.toLowerCase().trim();
-    
+
     if (!nameMap.has(normalized)) {
-      const displayName = char.name.charAt(0).toUpperCase() + char.name.slice(1).toLowerCase();
+      const displayName =
+        char.name.charAt(0).toUpperCase() + char.name.slice(1).toLowerCase();
+
       nameMap.set(normalized, displayName);
+
+      // Keep all original fields (color, is_main, etc.)
       charMap.set(normalized, {
         ...char,
         name: displayName,
-        id: normalized.replace(/\s+/g, '_')
+        id: normalized.replace(/\s+/g, "_"),
       });
     }
   });
-  
+
+  // Consolidate points per unit
   const consolidatedUnits = data.units.map(unit => {
     const pointMap = new Map();
-    
+
     unit.points.forEach(point => {
       const normalized = point.character_name.toLowerCase().trim();
-      
+
       if (!pointMap.has(normalized)) {
         pointMap.set(normalized, {
+          // Keep x, y, scores, top_emotions, etc.
           ...point,
-          character_id: normalized.replace(/\s+/g, '_'),
-          character_name: nameMap.get(normalized)
+          character_id: normalized.replace(/\s+/g, "_"),
+          character_name: nameMap.get(normalized),
         });
       }
     });
-    
+
     return {
       ...unit,
-      points: Array.from(pointMap.values())
+      points: Array.from(pointMap.values()),
     };
   });
-  
+
+  // Remap trajectories to the new character ids
   const consolidatedTrajectories = {};
-  
+
   Object.entries(data.trajectories).forEach(([charId, trajectory]) => {
     const charName = data.characters.find(c => c.id === charId)?.name;
     if (charName) {
       const normalized = charName.toLowerCase().trim();
-      const newCharId = normalized.replace(/\s+/g, '_');
-      
+      const newCharId = normalized.replace(/\s+/g, "_");
+
       if (!consolidatedTrajectories[newCharId]) {
         consolidatedTrajectories[newCharId] = trajectory;
       }
     }
   });
-  
+
+  // Return same structure, but with deduped characters/points
   return {
     ...data,
     characters: Array.from(charMap.values()),
     units: consolidatedUnits,
-    trajectories: consolidatedTrajectories
+    trajectories: consolidatedTrajectories,
   };
 }
+
 
 
 // ============================================
