@@ -292,6 +292,1502 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "act_1",
+      "index": 1,
+      "label": "Act 2",
+      "points": [
+        {
+          "character_id": "polonius",
+          "character_name": "Polonius",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "reynaldo",
+          "character_name": "Reynaldo",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ophelia",
+          "character_name": "Ophelia",
+          "x": -1.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "king",
+          "character_name": "King",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "queen",
+          "character_name": "Queen",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "rosencrantz",
+          "character_name": "Rosencrantz",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "guildenstern",
+          "character_name": "Guildenstern",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hamlet",
+          "character_name": "Hamlet",
+          "x": -3.8,
+          "y": -0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.8,
+            "chaos": 5.6,
+            "integrity": 2.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_2",
+      "index": 2,
+      "label": "Act 3",
+      "points": [
+        {
+          "character_id": "king",
+          "character_name": "King",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.6,
+            "integrity": 1.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "queen",
+          "character_name": "Queen",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.6,
+            "integrity": 1.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "polonius",
+          "character_name": "Polonius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ophelia",
+          "character_name": "Ophelia",
+          "x": -3.0,
+          "y": -1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.2,
+            "chaos": 4.2,
+            "integrity": 1.7,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "rosencrantz",
+          "character_name": "Rosencrantz",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "guildenstern",
+          "character_name": "Guildenstern",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hamlet",
+          "character_name": "Hamlet",
+          "x": -4.8,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.2,
+            "chaos": 6.0,
+            "integrity": 1.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "horatio",
+          "character_name": "Horatio",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "player",
+          "character_name": "Player",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lucianus",
+          "character_name": "Lucianus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_3",
+      "index": 3,
+      "label": "Act 4",
+      "points": [
+        {
+          "character_id": "king",
+          "character_name": "KING",
+          "x": -3.4,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "FuturePain": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "queen",
+          "character_name": "QUEEN",
+          "x": -4.2,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.2,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "rosencrantz",
+          "character_name": "ROSENCRANTZ",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "guildenstern",
+          "character_name": "GUILDENSTERN",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hamlet",
+          "character_name": "HAMLET",
+          "x": -3.1,
+          "y": -1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 6,
+            "control": 2.1,
+            "chaos": 5.2,
+            "integrity": 2.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "ophelia",
+          "character_name": "OPHELIA",
+          "x": -1.6,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "laertes",
+          "character_name": "LAERTES",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "fortinbras",
+          "character_name": "FORTINBRAS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "horatio",
+          "character_name": "HORATIO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_4",
+      "index": 4,
+      "label": "Act 5",
+      "points": [
+        {
+          "character_id": "gravedigger",
+          "character_name": "Gravedigger",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "other",
+          "character_name": "Other",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "hamlet",
+          "character_name": "Hamlet",
+          "x": -4.6,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.4,
+            "chaos": 6.0,
+            "integrity": 2.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "horatio",
+          "character_name": "Horatio",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "laertes",
+          "character_name": "Laertes",
+          "x": -1.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "king",
+          "character_name": "King",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.8,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Anger": 1,
+            "FutureHope": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "queen",
+          "character_name": "Queen",
+          "x": -1.6,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "doctor",
+          "character_name": "Doctor",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "osric",
+          "character_name": "Osric",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ambassador",
+          "character_name": "Ambassador",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "fortinbras",
+          "character_name": "Fortinbras",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_5",
+      "index": 5,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "the_ghost",
+          "character_name": "THE GHOST",
+          "x": -2.6,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.4,
+            "integrity": 1.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "hamlet",
+          "character_name": "HAMLET",
+          "x": -2.7,
+          "y": -1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 6,
+            "control": 2.5,
+            "chaos": 5.2,
+            "integrity": 2.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "queen_gertrude",
+          "character_name": "QUEEN GERTRUDE",
+          "x": 0.0,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 2.2,
+            "chaos": 2.2,
+            "integrity": 3.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "king_claudius",
+          "character_name": "KING CLAUDIUS",
+          "x": 1.1,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 2.5,
+            "chaos": 1.4,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "PastPain": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "ophelia",
+          "character_name": "OPHELIA",
+          "x": -3.8,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.4,
+            "chaos": 4.2,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "laertes",
+          "character_name": "LAERTES",
+          "x": -2.5,
+          "y": -2.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.9,
+            "chaos": 4.4,
+            "integrity": 1.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "polonius",
+          "character_name": "POLONIUS",
+          "x": 0.3,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 2.5,
+            "chaos": 2.2,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "reynaldo",
+          "character_name": "REYNALDO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "horatio",
+          "character_name": "HORATIO",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "voltemand",
+          "character_name": "VOLTEMAND",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "cornelius",
+          "character_name": "CORNELIUS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "rosencrantz",
+          "character_name": "ROSENCRANTZ",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "guildenstern",
+          "character_name": "GUILDENSTERN",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "osric",
+          "character_name": "OSRIC",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "francisco",
+          "character_name": "FRANCISCO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "barnardo",
+          "character_name": "BARNARDO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "marcellus",
+          "character_name": "MARCELLUS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "fortinbras",
+          "character_name": "FORTINBRAS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "ophelia": [
+      {
+        "unit_index": 3,
+        "x": -1.6,
+        "y": 1.0
+      },
+      {
+        "unit_index": 5,
+        "x": -3.8,
+        "y": -1.8
+      }
+    ],
+    "other": [
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "the_ghost": [
+      {
+        "unit_index": 5,
+        "x": -2.6,
+        "y": -0.8
+      }
+    ],
+    "reynaldo": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "fortinbras": [
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "doctor": [
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "queen_gertrude": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 2.4
+      }
+    ],
+    "king_claudius": [
+      {
+        "unit_index": 5,
+        "x": 1.1,
+        "y": 1.9
+      }
+    ],
+    "queen": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.6,
+        "y": 1.0
+      }
+    ],
+    "laertes": [
+      {
+        "unit_index": 4,
+        "x": -1.8,
+        "y": -1.0
+      }
+    ],
+    "gravedigger": [
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "horatio": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "guildenstern": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "marcellus": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "rosencrantz": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "osric": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "hamlet": [
+      {
+        "unit_index": 1,
+        "x": -3.8,
+        "y": -0.4
+      },
+      {
+        "unit_index": 2,
+        "x": -4.8,
+        "y": -2.8
+      },
+      {
+        "unit_index": 4,
+        "x": -4.6,
+        "y": -1.6
+      }
+    ],
+    "king": [
+      {
+        "unit_index": 3,
+        "x": -3.4,
+        "y": -2.8
+      }
+    ],
+    "cornelius": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lucianus": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "barnardo": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "polonius": [
+      {
+        "unit_index": 1,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "voltemand": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "francisco": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "ambassador": [
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "player": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

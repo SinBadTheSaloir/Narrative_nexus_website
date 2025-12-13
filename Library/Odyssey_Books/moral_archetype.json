@@ -529,6 +529,4814 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "chapter_0",
+      "index": 0,
+      "label": "Chapter 10",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -3.1,
+          "y": -0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 7,
+            "control": 2.9,
+            "chaos": 6.0,
+            "integrity": 3.4,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1
+          }
+        },
+        {
+          "character_id": "aeolus",
+          "character_name": "Aeolus",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "eurylochus",
+          "character_name": "Eurylochus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "circe",
+          "character_name": "Circe",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "antiphates",
+          "character_name": "Antiphates",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "elpenor",
+          "character_name": "Elpenor",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "index": 1,
+      "label": "Chapter 11",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -2.5,
+          "y": -1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 1.7,
+            "chaos": 4.2,
+            "integrity": 1.7,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "elpenor",
+          "character_name": "Elpenor",
+          "x": -2.2,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.2,
+            "integrity": 0.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "anticlea",
+          "character_name": "Anticlea",
+          "x": -1.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "teiresias",
+          "character_name": "Teiresias",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "agamemnon",
+          "character_name": "Agamemnon",
+          "x": -4.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.0,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "achilles",
+          "character_name": "Achilles",
+          "x": -0.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.7,
+            "chaos": 0.8,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "echeneus",
+          "character_name": "Echeneus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "arete",
+          "character_name": "Arete",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "alcinous",
+          "character_name": "Alcinous",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "clytemnestra",
+          "character_name": "Clytemnestra",
+          "x": -1.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.5,
+            "chaos": 3.4,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "neptune",
+          "character_name": "Neptune",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "proserpine",
+          "character_name": "Proserpine",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hades",
+          "character_name": "Hades",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hercules",
+          "character_name": "Hercules",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "index": 2,
+      "label": "Chapter 12",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -4.3,
+          "y": -2.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.5,
+            "chaos": 5.8,
+            "integrity": 2.5,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "circe",
+          "character_name": "Circe",
+          "x": 2.3,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 1,
+            "control": 3.3,
+            "chaos": 1.0,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "eurylochus",
+          "character_name": "Eurylochus",
+          "x": -4.2,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 5.0,
+            "integrity": 1.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "index": 4,
+      "label": "Chapter 14",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -2.6,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "FuturePain": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": -3.8,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 7,
+            "control": 2.2,
+            "chaos": 6.0,
+            "integrity": 3.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "index": 5,
+      "label": "Chapter 15",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": 1.5,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 2.5,
+            "chaos": 1.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -5.6,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.6,
+            "integrity": 1.0,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "melantho",
+          "character_name": "Melantho",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "index": 6,
+      "label": "Chapter 16",
+      "points": [
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -3.4,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.2,
+            "integrity": 1.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 2.7,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 3.7,
+            "chaos": 1.0,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "pisistratus",
+          "character_name": "Pisistratus",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "menelaus",
+          "character_name": "Menelaus",
+          "x": 0.1,
+          "y": -1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 1.0,
+            "integrity": 0.5,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": -0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "theoclymenus",
+          "character_name": "Theoclymenus",
+          "x": -0.4,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 2.2,
+            "chaos": 2.6,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "FutureHope": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "index": 7,
+      "label": "Chapter 17",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": 1.3,
+          "y": 2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 3,
+            "control": 3.7,
+            "chaos": 2.4,
+            "integrity": 4.4,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -0.5,
+          "y": 2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 5,
+            "control": 3.7,
+            "chaos": 4.2,
+            "integrity": 4.4,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": 1.9,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.7,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -4.0,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.0,
+            "integrity": 1.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": -2.6,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -2.6,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 1.2,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.2,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "FutureHope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "index": 8,
+      "label": "Chapter 18",
+      "points": [
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -0.9,
+          "y": -0.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 4,
+            "control": 2.5,
+            "chaos": 3.4,
+            "integrity": 3.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Love": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -1.3,
+          "y": -0.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 5,
+            "control": 2.9,
+            "chaos": 4.2,
+            "integrity": 3.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": 0.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.7,
+            "chaos": 1.0,
+            "integrity": 2.7,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -1.0,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 4,
+            "control": 2.2,
+            "chaos": 3.2,
+            "integrity": 2.2,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "PastJoy": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "melanthius",
+          "character_name": "Melanthius",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "theoclymenus",
+          "character_name": "Theoclymenus",
+          "x": 2.5,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.5,
+            "chaos": 0.0,
+            "integrity": 2.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "piraeus",
+          "character_name": "Piraeus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "argos",
+          "character_name": "Argos",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "nurse_euryclea",
+          "character_name": "Nurse Euryclea",
+          "x": 0.8,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.8,
+            "chaos": 0.0,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "menelaus",
+          "character_name": "Menelaus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "helen",
+          "character_name": "Helen",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "medon",
+          "character_name": "Medon",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "index": 10,
+      "label": "Chapter 1",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -3.4,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "calypso",
+          "character_name": "Calypso",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "neptune",
+          "character_name": "Neptune",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 0.9,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 1.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -3.7,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.7,
+            "chaos": 4.4,
+            "integrity": 0.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1
+          }
+        },
+        {
+          "character_id": "phemius",
+          "character_name": "Phemius",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -1.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "index": 11,
+      "label": "Chapter 20",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -2.9,
+          "y": -2.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 1.5,
+            "chaos": 4.4,
+            "integrity": 1.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -1.4,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 4,
+            "control": 1.8,
+            "chaos": 3.2,
+            "integrity": 3.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": 1.3,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 2.1,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "philoetius",
+          "character_name": "Philoetius",
+          "x": 1.3,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 2.1,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 2.1,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ctesippus",
+          "character_name": "Ctesippus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "theoclymenus",
+          "character_name": "Theoclymenus",
+          "x": -0.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "melanthius",
+          "character_name": "Melanthius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "agelaus",
+          "character_name": "Agelaus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "index": 12,
+      "label": "Chapter 21",
+      "points": [
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -2.0,
+          "y": 1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.8,
+            "chaos": 3.8,
+            "integrity": 2.9,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": -0.8,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 1.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "philoetius",
+          "character_name": "Philoetius",
+          "x": -0.8,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 1.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -1.0,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 2.0,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "iphitus",
+          "character_name": "Iphitus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": 1.1,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.8,
+            "integrity": 2.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "leiodes",
+          "character_name": "Leiodes",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "index": 13,
+      "label": "Chapter 22",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -0.1,
+          "y": -0.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 2.9,
+            "chaos": 3.0,
+            "integrity": 2.7,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 0.5,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 2.5,
+            "chaos": 2.0,
+            "integrity": 2.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": 0.8,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.8,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "melanthius",
+          "character_name": "Melanthius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -1.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": -0.2,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.8,
+            "chaos": 2.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "agelaus",
+          "character_name": "Agelaus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "amphinomus",
+          "character_name": "Amphinomus",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "philoetius",
+          "character_name": "Philoetius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "leiodes",
+          "character_name": "Leiodes",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "phemius",
+          "character_name": "Phemius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "medon",
+          "character_name": "Medon",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "index": 14,
+      "label": "Chapter 23",
+      "points": [
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": 0.6,
+          "y": 3.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 3,
+            "control": 3.0,
+            "chaos": 2.4,
+            "integrity": 3.9,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": 1.7,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 2.0,
+            "integrity": 4.4,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 3.0,
+          "y": 2.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 3.0,
+            "chaos": 0.0,
+            "integrity": 2.9,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "eumaeus",
+          "character_name": "Eumaeus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "philoetius",
+          "character_name": "Philoetius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "index": 15,
+      "label": "Chapter 24",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": 1.7,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 2.0,
+            "integrity": 4.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "laertes",
+          "character_name": "Laertes",
+          "x": -1.6,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.8,
+            "chaos": 3.4,
+            "integrity": 2.2,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 1.7,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 2.0,
+            "integrity": 4.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "dolius",
+          "character_name": "Dolius",
+          "x": -0.1,
+          "y": -0.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.7,
+            "chaos": 1.8,
+            "integrity": 1.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "SinForce": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "phemius",
+          "character_name": "Phemius",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "medon",
+          "character_name": "Medon",
+          "x": -1.6,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "PastPain": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 0.0,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "SinForce": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "agamemnon",
+          "character_name": "Agamemnon",
+          "x": -1.2,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.4,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "achilles",
+          "character_name": "Achilles",
+          "x": -0.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.5,
+            "chaos": 1.6,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "amphimedon",
+          "character_name": "Amphimedon",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "eupeithes",
+          "character_name": "Eupeithes",
+          "x": -0.9,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 1.5,
+            "chaos": 2.4,
+            "integrity": 1.5,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "index": 16,
+      "label": "Chapter 2",
+      "points": [
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -2.5,
+          "y": -0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 7,
+            "control": 3.3,
+            "chaos": 5.8,
+            "integrity": 4.4,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "aegyptius",
+          "character_name": "Aegyptius",
+          "x": -1.2,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 2.2,
+            "integrity": 1.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "antiphus",
+          "character_name": "Antiphus",
+          "x": -0.6,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 1.6,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "halitherses",
+          "character_name": "Halitherses",
+          "x": 1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 1.0,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mentor",
+          "character_name": "Mentor",
+          "x": 1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 1.0,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": -3.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "index": 17,
+      "label": "Chapter 3",
+      "points": [
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": -3.6,
+          "y": -0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 1.0,
+            "chaos": 4.6,
+            "integrity": 1.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 1.1,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 2.7,
+            "chaos": 1.6,
+            "integrity": 2.2,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "FuturePain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "nestor",
+          "character_name": "Nestor",
+          "x": -0.5,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 1.7,
+            "chaos": 2.2,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "pisistratus",
+          "character_name": "Pisistratus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "thrasymedes",
+          "character_name": "Thrasymedes",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "echephron",
+          "character_name": "Echephron",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "stratius",
+          "character_name": "Stratius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "perseus",
+          "character_name": "Perseus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "aretus",
+          "character_name": "Aretus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "eurydice",
+          "character_name": "Eurydice",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "polycaste",
+          "character_name": "Polycaste",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "index": 18,
+      "label": "Chapter 4",
+      "points": [
+        {
+          "character_id": "menelaus",
+          "character_name": "Menelaus",
+          "x": -3.1,
+          "y": -1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 6,
+            "control": 1.7,
+            "chaos": 4.8,
+            "integrity": 2.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "telemachus",
+          "character_name": "Telemachus",
+          "x": 0.3,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 2.1,
+            "chaos": 1.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "pisistratus",
+          "character_name": "Pisistratus",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "eteoneus",
+          "character_name": "Eteoneus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "helen",
+          "character_name": "Helen",
+          "x": 0.7,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 2.1,
+            "chaos": 1.4,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "antinous",
+          "character_name": "Antinous",
+          "x": -2.4,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Happiness": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "eurymachus",
+          "character_name": "Eurymachus",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "penelope",
+          "character_name": "Penelope",
+          "x": -4.4,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.2,
+            "chaos": 5.6,
+            "integrity": 1.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "medon",
+          "character_name": "Medon",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "dolius",
+          "character_name": "Dolius",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "euryclea",
+          "character_name": "Euryclea",
+          "x": -1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 0.7,
+            "chaos": 1.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_21",
+      "index": 21,
+      "label": "Chapter 7",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -4.8,
+          "y": -3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 1.0,
+            "chaos": 5.8,
+            "integrity": 1.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "nausicaa",
+          "character_name": "Nausicaa",
+          "x": 2.9,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 2.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "alcinous",
+          "character_name": "Alcinous",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_22",
+      "index": 22,
+      "label": "Chapter 8",
+      "points": [
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -5.6,
+          "y": -3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 1.0,
+            "chaos": 6.6,
+            "integrity": 1.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "alcinous",
+          "character_name": "Alcinous",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "arete",
+          "character_name": "Arete",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "echeneus",
+          "character_name": "Echeneus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "nausicaa",
+          "character_name": "Nausicaa",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "eurymedusa",
+          "character_name": "Eurymedusa",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_23",
+      "index": 23,
+      "label": "Chapter 9",
+      "points": [
+        {
+          "character_id": "alcinous",
+          "character_name": "Alcinous",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "ulysses",
+          "character_name": "Ulysses",
+          "x": -4.6,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 1.0,
+            "chaos": 5.6,
+            "integrity": 1.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "minerva",
+          "character_name": "Minerva",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "demodocus",
+          "character_name": "Demodocus",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "euryalus",
+          "character_name": "Euryalus",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "laodamas",
+          "character_name": "Laodamas",
+          "x": 2.1,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "nausicaa",
+          "character_name": "Nausicaa",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "arete",
+          "character_name": "Arete",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "hades": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "hercules": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "aegyptius": [
+      {
+        "unit_index": 16,
+        "x": -1.2,
+        "y": 0.4
+      }
+    ],
+    "clytemnestra": [
+      {
+        "unit_index": 1,
+        "x": -1.9,
+        "y": 0.2
+      }
+    ],
+    "penelope": [
+      {
+        "unit_index": 5,
+        "x": -5.6,
+        "y": -2.6
+      },
+      {
+        "unit_index": 7,
+        "x": -4.0,
+        "y": -0.8
+      },
+      {
+        "unit_index": 8,
+        "x": -1.0,
+        "y": -0.6
+      },
+      {
+        "unit_index": 10,
+        "x": -1.6,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": -1.4,
+        "y": 2.4
+      },
+      {
+        "unit_index": 12,
+        "x": -2.0,
+        "y": 1.3
+      },
+      {
+        "unit_index": 14,
+        "x": 0.6,
+        "y": 3.1
+      },
+      {
+        "unit_index": 18,
+        "x": -4.4,
+        "y": -1.6
+      }
+    ],
+    "dolius": [
+      {
+        "unit_index": 15,
+        "x": -0.1,
+        "y": -0.3
+      },
+      {
+        "unit_index": 18,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "agelaus": [
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "leiodes": [
+      {
+        "unit_index": 12,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "menelaus": [
+      {
+        "unit_index": 6,
+        "x": 0.1,
+        "y": -1.5
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": -3.1,
+        "y": -1.9
+      }
+    ],
+    "anticlea": [
+      {
+        "unit_index": 1,
+        "x": -1.6,
+        "y": 0.0
+      }
+    ],
+    "phemius": [
+      {
+        "unit_index": 10,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 15,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "nestor": [
+      {
+        "unit_index": 17,
+        "x": -0.5,
+        "y": 1.9
+      }
+    ],
+    "helen": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 0.7,
+        "y": 1.9
+      }
+    ],
+    "echephron": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "agamemnon": [
+      {
+        "unit_index": 1,
+        "x": -4.0,
+        "y": -1.8
+      },
+      {
+        "unit_index": 15,
+        "x": -1.2,
+        "y": 0.0
+      }
+    ],
+    "proserpine": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "eurylochus": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -4.2,
+        "y": -0.8
+      }
+    ],
+    "euryclea": [
+      {
+        "unit_index": 5,
+        "x": 1.7,
+        "y": 1.7
+      },
+      {
+        "unit_index": 10,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 16,
+        "x": -3.4,
+        "y": 1.0
+      },
+      {
+        "unit_index": 18,
+        "x": -1.1,
+        "y": 1.5
+      }
+    ],
+    "arete": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 23,
+        "x": 2.9,
+        "y": 3.4
+      }
+    ],
+    "amphimedon": [
+      {
+        "unit_index": 15,
+        "x": -1.8,
+        "y": 0.0
+      }
+    ],
+    "eupeithes": [
+      {
+        "unit_index": 15,
+        "x": -0.9,
+        "y": 0.7
+      }
+    ],
+    "demodocus": [
+      {
+        "unit_index": 23,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "halitherses": [
+      {
+        "unit_index": 16,
+        "x": 1.0,
+        "y": 1.2
+      }
+    ],
+    "aeolus": [
+      {
+        "unit_index": 0,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "alcinous": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 21,
+        "x": 2.1,
+        "y": 2.7
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 23,
+        "x": 2.9,
+        "y": 3.4
+      }
+    ],
+    "minerva": [
+      {
+        "unit_index": 6,
+        "x": 2.7,
+        "y": 1.4
+      },
+      {
+        "unit_index": 7,
+        "x": 1.2,
+        "y": 1.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 10,
+        "x": 0.9,
+        "y": -0.8
+      },
+      {
+        "unit_index": 11,
+        "x": 1.7,
+        "y": 1.7
+      },
+      {
+        "unit_index": 15,
+        "x": 0.0,
+        "y": 0.2
+      },
+      {
+        "unit_index": 17,
+        "x": 1.1,
+        "y": -0.6
+      },
+      {
+        "unit_index": 21,
+        "x": 2.1,
+        "y": 2.7
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 23,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "ctesippus": [
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "antiphus": [
+      {
+        "unit_index": 16,
+        "x": -0.6,
+        "y": 1.2
+      }
+    ],
+    "melanthius": [
+      {
+        "unit_index": 8,
+        "x": -2.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "philoetius": [
+      {
+        "unit_index": 11,
+        "x": 1.3,
+        "y": 1.7
+      },
+      {
+        "unit_index": 12,
+        "x": -0.8,
+        "y": 2.2
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "eurymachus": [
+      {
+        "unit_index": 7,
+        "x": -2.6,
+        "y": -1.8
+      },
+      {
+        "unit_index": 10,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 13,
+        "x": -0.2,
+        "y": 0.2
+      },
+      {
+        "unit_index": 16,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 18,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "thrasymedes": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "telemachus": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 5,
+        "x": 1.7,
+        "y": 1.7
+      },
+      {
+        "unit_index": 6,
+        "x": -3.4,
+        "y": -1.8
+      },
+      {
+        "unit_index": 7,
+        "x": -0.5,
+        "y": 2.6
+      },
+      {
+        "unit_index": 8,
+        "x": -0.9,
+        "y": -0.1
+      },
+      {
+        "unit_index": 10,
+        "x": -3.7,
+        "y": -0.5
+      },
+      {
+        "unit_index": 11,
+        "x": 2.1,
+        "y": 1.7
+      },
+      {
+        "unit_index": 12,
+        "x": -1.0,
+        "y": 0.2
+      },
+      {
+        "unit_index": 13,
+        "x": 0.5,
+        "y": 0.7
+      },
+      {
+        "unit_index": 14,
+        "x": 3.0,
+        "y": 2.9
+      },
+      {
+        "unit_index": 15,
+        "x": 1.7,
+        "y": 2.4
+      },
+      {
+        "unit_index": 16,
+        "x": -2.5,
+        "y": -0.2
+      },
+      {
+        "unit_index": 17,
+        "x": -3.6,
+        "y": -0.4
+      },
+      {
+        "unit_index": 18,
+        "x": 0.3,
+        "y": 1.7
+      }
+    ],
+    "neptune": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 10,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "antiphates": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "medon": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 15,
+        "x": -1.6,
+        "y": -0.8
+      },
+      {
+        "unit_index": 18,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "antinous": [
+      {
+        "unit_index": 7,
+        "x": -2.6,
+        "y": -1.8
+      },
+      {
+        "unit_index": 8,
+        "x": -2.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 10,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": -2.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 13,
+        "x": -1.6,
+        "y": 0.0
+      },
+      {
+        "unit_index": 16,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 18,
+        "x": -2.4,
+        "y": -1.0
+      }
+    ],
+    "iphitus": [
+      {
+        "unit_index": 12,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "nausicaa": [
+      {
+        "unit_index": 21,
+        "x": 2.9,
+        "y": 2.4
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 23,
+        "x": 2.9,
+        "y": 3.4
+      }
+    ],
+    "elpenor": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 1,
+        "x": -2.2,
+        "y": -0.8
+      }
+    ],
+    "stratius": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "perseus": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "ulysses": [
+      {
+        "unit_index": 0,
+        "x": -3.1,
+        "y": -0.4
+      },
+      {
+        "unit_index": 1,
+        "x": -2.5,
+        "y": -1.1
+      },
+      {
+        "unit_index": 2,
+        "x": -4.3,
+        "y": -2.1
+      },
+      {
+        "unit_index": 4,
+        "x": -2.6,
+        "y": -2.8
+      },
+      {
+        "unit_index": 5,
+        "x": 1.5,
+        "y": 2.7
+      },
+      {
+        "unit_index": 7,
+        "x": 1.3,
+        "y": 2.6
+      },
+      {
+        "unit_index": 8,
+        "x": -1.3,
+        "y": -0.1
+      },
+      {
+        "unit_index": 10,
+        "x": -3.4,
+        "y": -2.8
+      },
+      {
+        "unit_index": 11,
+        "x": -2.9,
+        "y": -2.3
+      },
+      {
+        "unit_index": 12,
+        "x": 1.1,
+        "y": 0.7
+      },
+      {
+        "unit_index": 13,
+        "x": -0.1,
+        "y": -0.3
+      },
+      {
+        "unit_index": 14,
+        "x": 1.7,
+        "y": 1.4
+      },
+      {
+        "unit_index": 15,
+        "x": 1.7,
+        "y": 2.4
+      },
+      {
+        "unit_index": 21,
+        "x": -4.8,
+        "y": -3.4
+      },
+      {
+        "unit_index": 22,
+        "x": -5.6,
+        "y": -3.4
+      },
+      {
+        "unit_index": 23,
+        "x": -4.6,
+        "y": -1.4
+      }
+    ],
+    "pisistratus": [
+      {
+        "unit_index": 6,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 2.1,
+        "y": 2.7
+      }
+    ],
+    "polycaste": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "circe": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 2.3,
+        "y": 1.4
+      }
+    ],
+    "mentor": [
+      {
+        "unit_index": 16,
+        "x": 1.0,
+        "y": 1.2
+      }
+    ],
+    "aretus": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "laertes": [
+      {
+        "unit_index": 15,
+        "x": -1.6,
+        "y": -0.6
+      }
+    ],
+    "euryalus": [
+      {
+        "unit_index": 23,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "eurymedusa": [
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "theoclymenus": [
+      {
+        "unit_index": 6,
+        "x": -0.4,
+        "y": 2.2
+      },
+      {
+        "unit_index": 8,
+        "x": 2.5,
+        "y": 2.4
+      },
+      {
+        "unit_index": 11,
+        "x": -0.6,
+        "y": -1.0
+      }
+    ],
+    "amphinomus": [
+      {
+        "unit_index": 13,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "teiresias": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "eteoneus": [
+      {
+        "unit_index": 18,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "achilles": [
+      {
+        "unit_index": 1,
+        "x": -0.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 15,
+        "x": -0.1,
+        "y": 0.5
+      }
+    ],
+    "eumaeus": [
+      {
+        "unit_index": 4,
+        "x": -3.8,
+        "y": -0.6
+      },
+      {
+        "unit_index": 6,
+        "x": -0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": 1.9,
+        "y": 2.7
+      },
+      {
+        "unit_index": 8,
+        "x": 0.7,
+        "y": 1.7
+      },
+      {
+        "unit_index": 11,
+        "x": 1.3,
+        "y": 1.7
+      },
+      {
+        "unit_index": 12,
+        "x": -0.8,
+        "y": 2.2
+      },
+      {
+        "unit_index": 13,
+        "x": 0.8,
+        "y": 2.2
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "piraeus": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "argos": [
+      {
+        "unit_index": 8,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "laodamas": [
+      {
+        "unit_index": 23,
+        "x": 2.1,
+        "y": 1.7
+      }
+    ],
+    "nurse_euryclea": [
+      {
+        "unit_index": 8,
+        "x": 0.8,
+        "y": 0.7
+      }
+    ],
+    "eurydice": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "calypso": [
+      {
+        "unit_index": 10,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "melantho": [
+      {
+        "unit_index": 5,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "echeneus": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

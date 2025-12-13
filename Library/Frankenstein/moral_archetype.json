@@ -399,6 +399,2902 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "chapter_0",
+      "index": 0,
+      "label": "Chapter 10",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -5.8,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 8,
+            "control": 0.8,
+            "chaos": 6.6,
+            "integrity": 2.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "justine",
+          "character_name": "Justine",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": -0.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "victors_father",
+          "character_name": "Victor's father",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "index": 1,
+      "label": "Chapter 11",
+      "points": [
+        {
+          "character_id": "frankenstein",
+          "character_name": "Frankenstein",
+          "x": -4.8,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.4,
+            "chaos": 5.2,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "creature",
+          "character_name": "Creature",
+          "x": -3.6,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 1.0,
+            "chaos": 4.6,
+            "integrity": 2.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "index": 2,
+      "label": "Chapter 12",
+      "points": [
+        {
+          "character_id": "a",
+          "character_name": "A",
+          "x": -1.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.8,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "FutureHope": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "old_man",
+          "character_name": "Old Man",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "young_girl",
+          "character_name": "Young Girl",
+          "x": 0.6,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.4,
+            "chaos": 0.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "young_man",
+          "character_name": "Young Man",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "index": 3,
+      "label": "Chapter 13",
+      "points": [
+        {
+          "character_id": "monster",
+          "character_name": "Monster",
+          "x": -2.4,
+          "y": -0.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.6,
+            "chaos": 4.0,
+            "integrity": 2.7,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "felix",
+          "character_name": "Felix",
+          "x": -4.0,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.0,
+            "integrity": 1.0,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "agatha",
+          "character_name": "Agatha",
+          "x": -3.2,
+          "y": -1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.0,
+            "integrity": 1.7,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "old_man",
+          "character_name": "Old Man",
+          "x": -1.5,
+          "y": -2.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 2.2,
+            "integrity": 1.5,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "PastPain": 1,
+            "FuturePain": 1,
+            "SinForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "index": 5,
+      "label": "Chapter 15",
+      "points": [
+        {
+          "character_id": "de_lacey",
+          "character_name": "De Lacey",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "felix",
+          "character_name": "Felix",
+          "x": -3.3,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 6,
+            "control": 1.9,
+            "chaos": 5.2,
+            "integrity": 2.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "agatha",
+          "character_name": "Agatha",
+          "x": -1.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "safie",
+          "character_name": "Safie",
+          "x": 2.1,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.7,
+            "chaos": 0.6,
+            "integrity": 3.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "the_turk",
+          "character_name": "The Turk",
+          "x": -1.8,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 2.8,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "index": 6,
+      "label": "Chapter 16",
+      "points": [
+        {
+          "character_id": "creature",
+          "character_name": "Creature",
+          "x": -5.8,
+          "y": -2.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 8,
+            "control": 0.8,
+            "chaos": 6.6,
+            "integrity": 1.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "de_lacey",
+          "character_name": "De Lacey",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "felix",
+          "character_name": "Felix",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "safie",
+          "character_name": "Safie",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "agatha",
+          "character_name": "Agatha",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "index": 7,
+      "label": "Chapter 17",
+      "points": [
+        {
+          "character_id": "creature",
+          "character_name": "Creature",
+          "x": -4.2,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.8,
+            "chaos": 6.0,
+            "integrity": 2.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "felix",
+          "character_name": "Felix",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "de_lacey",
+          "character_name": "De Lacey",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "agatha",
+          "character_name": "Agatha",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "safie",
+          "character_name": "Safie",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "m._frankenstein",
+          "character_name": "M. Frankenstein",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "index": 8,
+      "label": "Chapter 18",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -3.1,
+          "y": 0.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 6,
+            "control": 1.7,
+            "chaos": 4.8,
+            "integrity": 2.7,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "creature",
+          "character_name": "Creature",
+          "x": -4.6,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 5.4,
+            "integrity": 1.7,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_9",
+      "index": 9,
+      "label": "Chapter 19",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -4.3,
+          "y": -2.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.5,
+            "chaos": 5.8,
+            "integrity": 2.5,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 1.1,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.8,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": 1.9,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "index": 10,
+      "label": "Chapter 1",
+      "points": [
+        {
+          "character_id": "r._walton",
+          "character_name": "R. Walton",
+          "x": 3.1,
+          "y": 3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 1,
+            "control": 3.7,
+            "chaos": 0.6,
+            "integrity": 4.4,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "margaret",
+          "character_name": "Margaret",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "the_stranger",
+          "character_name": "The Stranger",
+          "x": -6.2,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.4,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "index": 11,
+      "label": "Chapter 20",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -5.0,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 0.8,
+            "chaos": 5.8,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": 3.3,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 0,
+            "control": 3.3,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "index": 12,
+      "label": "Chapter 21",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -6.6,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "creature",
+          "character_name": "Creature",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._kirwin",
+          "character_name": "Mr. Kirwin",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "index": 13,
+      "label": "Chapter 22",
+      "points": [
+        {
+          "character_id": "magistrate",
+          "character_name": "magistrate",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "daniel_nugent",
+          "character_name": "Daniel Nugent",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "old_woman",
+          "character_name": "old woman",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._kirwin",
+          "character_name": "Mr. Kirwin",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "henry_clerval",
+          "character_name": "Henry Clerval",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "nurse",
+          "character_name": "nurse",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "victor_frankenstein",
+          "character_name": "Victor Frankenstein",
+          "x": -4.8,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 0.8,
+            "chaos": 5.6,
+            "integrity": 2.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "index": 14,
+      "label": "Chapter 23",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -4.8,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 8,
+            "control": 1.8,
+            "chaos": 6.6,
+            "integrity": 3.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "father",
+          "character_name": "Father",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "index": 15,
+      "label": "Chapter 24",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -4.0,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.8,
+            "chaos": 5.8,
+            "integrity": 3.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "index": 16,
+      "label": "Chapter 25",
+      "points": [
+        {
+          "character_id": "walton",
+          "character_name": "Walton",
+          "x": 0.8,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.8,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "frankenstein",
+          "character_name": "Frankenstein",
+          "x": -4.4,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.4,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "monster",
+          "character_name": "Monster",
+          "x": -4.6,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.6,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "SinForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "index": 17,
+      "label": "Chapter 2",
+      "points": [
+        {
+          "character_id": "father",
+          "character_name": "Father",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "beaufort",
+          "character_name": "Beaufort",
+          "x": -5.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 5.0,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "caroline_beaufort",
+          "character_name": "Caroline Beaufort",
+          "x": -0.6,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 1.8,
+            "chaos": 2.4,
+            "integrity": 2.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "elizabeth_lavenza",
+          "character_name": "Elizabeth Lavenza",
+          "x": 2.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 0,
+            "control": 2.9,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "index": 18,
+      "label": "Chapter 3",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -2.4,
+          "y": -3.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.2,
+            "chaos": 3.6,
+            "integrity": 0.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "henry_clerval",
+          "character_name": "Henry Clerval",
+          "x": 0.9,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 1.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_19",
+      "index": 19,
+      "label": "Chapter 4",
+      "points": [
+        {
+          "character_id": "victor_frankenstein",
+          "character_name": "Victor Frankenstein",
+          "x": -3.5,
+          "y": -2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 2.3,
+            "chaos": 5.8,
+            "integrity": 2.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": 1.1,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.8,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "victors_mother",
+          "character_name": "Victor's Mother",
+          "x": -0.4,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 1.4,
+            "integrity": 2.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Love": 1,
+            "PastPain": 1,
+            "VirtueForce": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": 0.7,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 2.5,
+            "chaos": 1.8,
+            "integrity": 2.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "SinForce": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "m._krempe",
+          "character_name": "M. Krempe",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "m._waldman",
+          "character_name": "M. Waldman",
+          "x": 1.9,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 2.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "VirtueForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_20",
+      "index": 20,
+      "label": "Chapter 5",
+      "points": [
+        {
+          "character_id": "victor_frankenstein",
+          "character_name": "Victor Frankenstein",
+          "x": 0.3,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 2.3,
+            "chaos": 2.0,
+            "integrity": 2.2,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "m._krempe",
+          "character_name": "M. Krempe",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "m._waldman",
+          "character_name": "M. Waldman",
+          "x": 1.3,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 2.3,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_21",
+      "index": 21,
+      "label": "Chapter 6",
+      "points": [
+        {
+          "character_id": "victor_frankenstein",
+          "character_name": "Victor Frankenstein",
+          "x": -4.4,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 5.2,
+            "integrity": 1.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "henry_clerval",
+          "character_name": "Henry Clerval",
+          "x": 2.1,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_22",
+      "index": 22,
+      "label": "Chapter 7",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -4.6,
+          "y": -2.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.2,
+            "chaos": 5.8,
+            "integrity": 1.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": 1.3,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.6,
+            "integrity": 3.4,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": -0.1,
+          "y": -0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 4,
+            "control": 2.9,
+            "chaos": 3.0,
+            "integrity": 3.4,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "justine",
+          "character_name": "Justine",
+          "x": -2.2,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "madame_moritz",
+          "character_name": "Madame Moritz",
+          "x": -2.2,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "ernest",
+          "character_name": "Ernest",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "william",
+          "character_name": "William",
+          "x": 0.3,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "m._waldman",
+          "character_name": "M. Waldman",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "m._krempe",
+          "character_name": "M. Krempe",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_23",
+      "index": 23,
+      "label": "Chapter 8",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -6.6,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "clerval",
+          "character_name": "Clerval",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 1.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "alphonse",
+          "character_name": "Alphonse",
+          "x": -4.8,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 4.8,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": -4.2,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.2,
+            "integrity": 1.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "ernest",
+          "character_name": "Ernest",
+          "x": -3.2,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.2,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "SinForce": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "william",
+          "character_name": "William",
+          "x": 0.8,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.8,
+            "chaos": 0.0,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "justine",
+          "character_name": "Justine",
+          "x": -2.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.4,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Sadness": 1,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_24",
+      "index": 24,
+      "label": "Chapter 9",
+      "points": [
+        {
+          "character_id": "victor",
+          "character_name": "Victor",
+          "x": -5.8,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "justine",
+          "character_name": "Justine",
+          "x": -2.2,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.0,
+            "chaos": 3.2,
+            "integrity": 2.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "elizabeth",
+          "character_name": "Elizabeth",
+          "x": -0.6,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 1.8,
+            "chaos": 2.4,
+            "integrity": 2.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "justine": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 22,
+        "x": -2.2,
+        "y": -1.0
+      },
+      {
+        "unit_index": 23,
+        "x": -2.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 24,
+        "x": -2.2,
+        "y": 1.4
+      }
+    ],
+    "victors_father": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "a": [
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 1.0
+      }
+    ],
+    "madame_moritz": [
+      {
+        "unit_index": 22,
+        "x": -2.2,
+        "y": -1.0
+      }
+    ],
+    "clerval": [
+      {
+        "unit_index": 9,
+        "x": 1.9,
+        "y": 1.4
+      },
+      {
+        "unit_index": 11,
+        "x": 3.3,
+        "y": 3.4
+      },
+      {
+        "unit_index": 12,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 19,
+        "x": 0.7,
+        "y": 0.4
+      },
+      {
+        "unit_index": 22,
+        "x": 1.3,
+        "y": 0.6
+      },
+      {
+        "unit_index": 23,
+        "x": -3.6,
+        "y": -1.0
+      }
+    ],
+    "old_man": [
+      {
+        "unit_index": 2,
+        "x": 2.1,
+        "y": 2.7
+      },
+      {
+        "unit_index": 3,
+        "x": -1.5,
+        "y": -2.1
+      }
+    ],
+    "de_lacey": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 1.1,
+        "y": 1.5
+      },
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "margaret": [
+      {
+        "unit_index": 10,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "safie": [
+      {
+        "unit_index": 5,
+        "x": 2.1,
+        "y": 2.4
+      },
+      {
+        "unit_index": 6,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "felix": [
+      {
+        "unit_index": 3,
+        "x": -4.0,
+        "y": -2.6
+      },
+      {
+        "unit_index": 5,
+        "x": -3.3,
+        "y": -1.3
+      },
+      {
+        "unit_index": 6,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 7,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "mr._kirwin": [
+      {
+        "unit_index": 12,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "the_turk": [
+      {
+        "unit_index": 5,
+        "x": -1.8,
+        "y": 0.2
+      }
+    ],
+    "agatha": [
+      {
+        "unit_index": 3,
+        "x": -3.2,
+        "y": -1.9
+      },
+      {
+        "unit_index": 5,
+        "x": -1.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 6,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "victor_frankenstein": [
+      {
+        "unit_index": 13,
+        "x": -4.8,
+        "y": -0.6
+      },
+      {
+        "unit_index": 19,
+        "x": -3.5,
+        "y": -2.4
+      },
+      {
+        "unit_index": 20,
+        "x": 0.3,
+        "y": -0.8
+      },
+      {
+        "unit_index": 21,
+        "x": -4.4,
+        "y": -2.8
+      }
+    ],
+    "old_woman": [
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "nurse": [
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "young_girl": [
+      {
+        "unit_index": 2,
+        "x": 0.6,
+        "y": 2.2
+      }
+    ],
+    "walton": [
+      {
+        "unit_index": 16,
+        "x": 0.8,
+        "y": 1.7
+      }
+    ],
+    "m._waldman": [
+      {
+        "unit_index": 19,
+        "x": 1.9,
+        "y": 0.7
+      },
+      {
+        "unit_index": 20,
+        "x": 1.3,
+        "y": 0.2
+      },
+      {
+        "unit_index": 22,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "ernest": [
+      {
+        "unit_index": 22,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 23,
+        "x": -3.2,
+        "y": -2.8
+      }
+    ],
+    "frankenstein": [
+      {
+        "unit_index": 1,
+        "x": -4.8,
+        "y": -3.8
+      },
+      {
+        "unit_index": 16,
+        "x": -4.4,
+        "y": -1.0
+      }
+    ],
+    "m._frankenstein": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "elizabeth": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 1.0
+      },
+      {
+        "unit_index": 9,
+        "x": 1.1,
+        "y": 1.4
+      },
+      {
+        "unit_index": 12,
+        "x": 0.4,
+        "y": 1.0
+      },
+      {
+        "unit_index": 14,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 15,
+        "x": 0.4,
+        "y": 1.0
+      },
+      {
+        "unit_index": 18,
+        "x": 0.9,
+        "y": 0.2
+      },
+      {
+        "unit_index": 19,
+        "x": 1.1,
+        "y": 1.4
+      },
+      {
+        "unit_index": 22,
+        "x": -0.1,
+        "y": -0.2
+      },
+      {
+        "unit_index": 23,
+        "x": -4.2,
+        "y": -1.8
+      },
+      {
+        "unit_index": 24,
+        "x": -0.6,
+        "y": 1.4
+      }
+    ],
+    "magistrate": [
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "daniel_nugent": [
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "monster": [
+      {
+        "unit_index": 3,
+        "x": -2.4,
+        "y": -0.9
+      },
+      {
+        "unit_index": 16,
+        "x": -4.6,
+        "y": -3.0
+      }
+    ],
+    "william": [
+      {
+        "unit_index": 22,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "unit_index": 23,
+        "x": 0.8,
+        "y": 0.7
+      }
+    ],
+    "beaufort": [
+      {
+        "unit_index": 17,
+        "x": -5.0,
+        "y": -1.8
+      }
+    ],
+    "alphonse": [
+      {
+        "unit_index": 23,
+        "x": -4.8,
+        "y": -3.6
+      }
+    ],
+    "m._krempe": [
+      {
+        "unit_index": 19,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 20,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 22,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "victor": [
+      {
+        "unit_index": 0,
+        "x": -5.8,
+        "y": -2.6
+      },
+      {
+        "unit_index": 8,
+        "x": -3.1,
+        "y": 0.1
+      },
+      {
+        "unit_index": 9,
+        "x": -4.3,
+        "y": -2.1
+      },
+      {
+        "unit_index": 11,
+        "x": -5.0,
+        "y": -3.6
+      },
+      {
+        "unit_index": 12,
+        "x": -6.6,
+        "y": -4.6
+      },
+      {
+        "unit_index": 14,
+        "x": -4.8,
+        "y": -1.4
+      },
+      {
+        "unit_index": 15,
+        "x": -4.0,
+        "y": -1.4
+      },
+      {
+        "unit_index": 17,
+        "x": 2.9,
+        "y": 3.4
+      },
+      {
+        "unit_index": 18,
+        "x": -2.4,
+        "y": -3.1
+      },
+      {
+        "unit_index": 22,
+        "x": -4.6,
+        "y": -2.9
+      },
+      {
+        "unit_index": 23,
+        "x": -6.6,
+        "y": -4.6
+      },
+      {
+        "unit_index": 24,
+        "x": -5.8,
+        "y": -4.6
+      }
+    ],
+    "caroline_beaufort": [
+      {
+        "unit_index": 17,
+        "x": -0.6,
+        "y": 1.4
+      }
+    ],
+    "creature": [
+      {
+        "unit_index": 1,
+        "x": -3.6,
+        "y": 0.6
+      },
+      {
+        "unit_index": 6,
+        "x": -5.8,
+        "y": -2.9
+      },
+      {
+        "unit_index": 7,
+        "x": -4.2,
+        "y": -1.6
+      },
+      {
+        "unit_index": 8,
+        "x": -4.6,
+        "y": -1.3
+      },
+      {
+        "unit_index": 12,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "victors_mother": [
+      {
+        "unit_index": 19,
+        "x": -0.4,
+        "y": 1.4
+      }
+    ],
+    "r._walton": [
+      {
+        "unit_index": 10,
+        "x": 3.1,
+        "y": 3.6
+      }
+    ],
+    "elizabeth_lavenza": [
+      {
+        "unit_index": 17,
+        "x": 2.9,
+        "y": 3.4
+      }
+    ],
+    "henry_clerval": [
+      {
+        "unit_index": 13,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 0.9,
+        "y": -0.8
+      },
+      {
+        "unit_index": 21,
+        "x": 2.1,
+        "y": 2.7
+      }
+    ],
+    "the_stranger": [
+      {
+        "unit_index": 10,
+        "x": -6.2,
+        "y": -4.6
+      }
+    ],
+    "father": [
+      {
+        "unit_index": 14,
+        "x": 1.1,
+        "y": 1.5
+      },
+      {
+        "unit_index": 17,
+        "x": 2.9,
+        "y": 3.4
+      }
+    ],
+    "young_man": [
+      {
+        "unit_index": 2,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ]
+  }
 }

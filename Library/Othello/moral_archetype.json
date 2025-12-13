@@ -249,6 +249,1404 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "act_0",
+      "index": 0,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "roderigo",
+          "character_name": "Roderigo",
+          "x": -2.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "iago",
+          "character_name": "Iago",
+          "x": -2.3,
+          "y": -2.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 3.0,
+            "integrity": 0.5,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "brabantio",
+          "character_name": "Brabantio",
+          "x": -5.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 5.0,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "othello",
+          "character_name": "Othello",
+          "x": 1.5,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 2.1,
+            "chaos": 0.6,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "cassio",
+          "character_name": "Cassio",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "Desdemona",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_1",
+      "index": 1,
+      "label": "Act 2",
+      "points": [
+        {
+          "character_id": "montano",
+          "character_name": "Montano",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "first_gentleman",
+          "character_name": "First Gentleman",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "second_gentleman",
+          "character_name": "Second Gentleman",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "third_gentleman",
+          "character_name": "Third Gentleman",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "cassio",
+          "character_name": "Cassio",
+          "x": -0.7,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 1.9,
+            "chaos": 2.6,
+            "integrity": 2.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "messenger",
+          "character_name": "Messenger",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "iago",
+          "character_name": "Iago",
+          "x": -1.8,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 2.8,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "Desdemona",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "emilia",
+          "character_name": "Emilia",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "othello",
+          "character_name": "Othello",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "roderigo",
+          "character_name": "Roderigo",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "herald",
+          "character_name": "Herald",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_2",
+      "index": 2,
+      "label": "Act 3",
+      "points": [
+        {
+          "character_id": "cassio",
+          "character_name": "Cassio",
+          "x": 1.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "clown",
+          "character_name": "Clown",
+          "x": 1.2,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.2,
+            "chaos": 0.0,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "musician",
+          "character_name": "Musician",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "iago",
+          "character_name": "Iago",
+          "x": -2.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "emilia",
+          "character_name": "Emilia",
+          "x": 1.2,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.2,
+            "chaos": 0.0,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "othello",
+          "character_name": "Othello",
+          "x": -2.8,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 6,
+            "control": 2.2,
+            "chaos": 5.0,
+            "integrity": 2.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "Desdemona",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "bianca",
+          "character_name": "Bianca",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_3",
+      "index": 3,
+      "label": "Act 4",
+      "points": [
+        {
+          "character_id": "othello",
+          "character_name": "Othello",
+          "x": -5.6,
+          "y": -3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 1.0,
+            "chaos": 6.6,
+            "integrity": 1.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "iago",
+          "character_name": "Iago",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "cassio",
+          "character_name": "Cassio",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "bianca",
+          "character_name": "Bianca",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "Desdemona",
+          "x": -0.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "emilia",
+          "character_name": "Emilia",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lodovico",
+          "character_name": "Lodovico",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "roderigo",
+          "character_name": "Roderigo",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_4",
+      "index": 4,
+      "label": "Act 5",
+      "points": [
+        {
+          "character_id": "iago",
+          "character_name": "Iago",
+          "x": -1.3,
+          "y": -2.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.7,
+            "chaos": 2.0,
+            "integrity": 0.5,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "roderigo",
+          "character_name": "Roderigo",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "cassio",
+          "character_name": "Cassio",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "othello",
+          "character_name": "Othello",
+          "x": -2.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.8,
+            "chaos": 2.8,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "FutureHope": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "Desdemona",
+          "x": 0.2,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 0.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "emilia",
+          "character_name": "Emilia",
+          "x": -1.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lodovico",
+          "character_name": "Lodovico",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "gratiano",
+          "character_name": "Gratiano",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_5",
+      "index": 5,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "othello",
+          "character_name": "OTHELLO",
+          "x": -4.6,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 1.0,
+            "chaos": 5.6,
+            "integrity": 1.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "desdemona",
+          "character_name": "DESDEMONA",
+          "x": 1.3,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.6,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "brabantio",
+          "character_name": "BRABANTIO",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "iago",
+          "character_name": "IAGO",
+          "x": -4.8,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 4.8,
+            "integrity": 1.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "emilia",
+          "character_name": "EMILIA",
+          "x": 1.7,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 3.3,
+            "chaos": 1.6,
+            "integrity": 2.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "cassio",
+          "character_name": "CASSIO",
+          "x": -0.6,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.2,
+            "chaos": 1.8,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "roderigo",
+          "character_name": "RODERIGO",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "lodovico",
+          "character_name": "LODOVICO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "gratiano",
+          "character_name": "GRATIANO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "montano",
+          "character_name": "MONTANO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "bianca",
+          "character_name": "BIANCA",
+          "x": -1.6,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "clown",
+          "character_name": "CLOWN",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "roderigo": [
+      {
+        "unit_index": 5,
+        "x": -3.6,
+        "y": -1.0
+      }
+    ],
+    "first_gentleman": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "clown": [
+      {
+        "unit_index": 2,
+        "x": 1.2,
+        "y": 0.7
+      }
+    ],
+    "iago": [
+      {
+        "unit_index": 0,
+        "x": -2.3,
+        "y": -2.5
+      },
+      {
+        "unit_index": 1,
+        "x": -1.8,
+        "y": 0.2
+      },
+      {
+        "unit_index": 2,
+        "x": -2.0,
+        "y": -3.0
+      },
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.3,
+        "y": -2.5
+      }
+    ],
+    "montano": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "musician": [
+      {
+        "unit_index": 2,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "third_gentleman": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "messenger": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "emilia": [
+      {
+        "unit_index": 5,
+        "x": 1.7,
+        "y": 2.4
+      }
+    ],
+    "cassio": [
+      {
+        "unit_index": 0,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 1,
+        "x": -0.7,
+        "y": 1.2
+      },
+      {
+        "unit_index": 2,
+        "x": 1.9,
+        "y": 1.2
+      },
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.3,
+        "y": 1.5
+      }
+    ],
+    "othello": [
+      {
+        "unit_index": 5,
+        "x": -4.6,
+        "y": -1.4
+      }
+    ],
+    "desdemona": [
+      {
+        "unit_index": 5,
+        "x": 1.3,
+        "y": 3.4
+      }
+    ],
+    "brabantio": [
+      {
+        "unit_index": 5,
+        "x": -3.6,
+        "y": -1.0
+      }
+    ],
+    "gratiano": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lodovico": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "bianca": [
+      {
+        "unit_index": 5,
+        "x": -1.6,
+        "y": 1.0
+      }
+    ],
+    "second_gentleman": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "herald": [
+      {
+        "unit_index": 1,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

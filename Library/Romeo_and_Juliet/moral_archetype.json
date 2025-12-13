@@ -346,6 +346,1762 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "act_0",
+      "index": 0,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "sampson",
+          "character_name": "Sampson",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "gregory",
+          "character_name": "Gregory",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "abram",
+          "character_name": "Abram",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "benvolio",
+          "character_name": "Benvolio",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "tybalt",
+          "character_name": "Tybalt",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "citizens",
+          "character_name": "Citizens",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "capulet",
+          "character_name": "Capulet",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_capulet",
+          "character_name": "Lady Capulet",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "montague",
+          "character_name": "Montague",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lady_montague",
+          "character_name": "Lady Montague",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "prince",
+          "character_name": "Prince",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "romeo",
+          "character_name": "Romeo",
+          "x": -1.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 0.4,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "juliet",
+          "character_name": "Juliet",
+          "x": -0.6,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 1.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "nurse",
+          "character_name": "Nurse",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mercutio",
+          "character_name": "Mercutio",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "paris",
+          "character_name": "Paris",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_2",
+      "index": 2,
+      "label": "Act 3",
+      "points": [
+        {
+          "character_id": "mercutio",
+          "character_name": "Mercutio",
+          "x": -2.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "benvolio",
+          "character_name": "Benvolio",
+          "x": 1.4,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.4,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "tybalt",
+          "character_name": "Tybalt",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "petruchio",
+          "character_name": "Petruchio",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "romeo",
+          "character_name": "Romeo",
+          "x": -2.6,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.4,
+            "integrity": 2.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "juliet",
+          "character_name": "Juliet",
+          "x": -0.4,
+          "y": 2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.2,
+            "chaos": 1.6,
+            "integrity": 2.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastJoy": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "nurse",
+          "character_name": "Nurse",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "friar_lawrence",
+          "character_name": "Friar Lawrence",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "capulet",
+          "character_name": "Capulet",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "lady_capulet",
+          "character_name": "Lady Capulet",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "paris",
+          "character_name": "Paris",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_3",
+      "index": 3,
+      "label": "Act 4",
+      "points": [
+        {
+          "character_id": "friar_lawrence",
+          "character_name": "Friar Lawrence",
+          "x": 2.5,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.5,
+            "chaos": 0.0,
+            "integrity": 2.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "county_paris",
+          "character_name": "County Paris",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "juliet",
+          "character_name": "Juliet",
+          "x": -4.4,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.2,
+            "chaos": 5.6,
+            "integrity": 2.0,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "father_capulet",
+          "character_name": "Father Capulet",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mother",
+          "character_name": "Mother",
+          "x": 0.7,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "nurse",
+          "character_name": "Nurse",
+          "x": 0.7,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_4",
+      "index": 4,
+      "label": "Act 5",
+      "points": [
+        {
+          "character_id": "romeo",
+          "character_name": "Romeo",
+          "x": -0.7,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 5,
+            "control": 3.7,
+            "chaos": 4.4,
+            "integrity": 4.4,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "balthasar",
+          "character_name": "Balthasar",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "apothecary",
+          "character_name": "Apothecary",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "friar_john",
+          "character_name": "Friar John",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "friar_lawrence",
+          "character_name": "Friar Lawrence",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "paris",
+          "character_name": "Paris",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "page",
+          "character_name": "Page",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "juliet",
+          "character_name": "Juliet",
+          "x": -1.8,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 5,
+            "control": 2.2,
+            "chaos": 4.0,
+            "integrity": 3.2,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "montague",
+          "character_name": "Montague",
+          "x": -3.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "capulet",
+          "character_name": "Capulet",
+          "x": -2.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_capulet",
+          "character_name": "Lady Capulet",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "prince",
+          "character_name": "Prince",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "first_watch",
+          "character_name": "First Watch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "second_watch",
+          "character_name": "Second Watch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "third_watch",
+          "character_name": "Third Watch",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_5",
+      "index": 5,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "romeo",
+          "character_name": "ROMEO",
+          "x": 0.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 1.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "montague",
+          "character_name": "MONTAGUE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_montague",
+          "character_name": "LADY MONTAGUE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "benvolio",
+          "character_name": "BENVOLIO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "abram",
+          "character_name": "ABRAM",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "balthasar",
+          "character_name": "BALTHASAR",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "juliet",
+          "character_name": "JULIET",
+          "x": 0.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "capulet",
+          "character_name": "CAPULET",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "lady_capulet",
+          "character_name": "LADY CAPULET",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "nurse",
+          "character_name": "NURSE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "tybalt",
+          "character_name": "TYBALT",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "petruchio",
+          "character_name": "PETRUCHIO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "escalus",
+          "character_name": "ESCALUS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "paris",
+          "character_name": "PARIS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mercutio",
+          "character_name": "MERCUTIO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "friar_lawrence",
+          "character_name": "FRIAR LAWRENCE",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "friar_john",
+          "character_name": "FRIAR JOHN",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "apothecary",
+          "character_name": "APOTHECARY",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "chorus",
+          "character_name": "CHORUS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "nurse": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 3,
+        "x": 0.7,
+        "y": 1.5
+      }
+    ],
+    "page": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "benvolio": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "first_watch": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "lady_capulet": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "juliet": [
+      {
+        "unit_index": 5,
+        "x": 0.9,
+        "y": 2.2
+      }
+    ],
+    "apothecary": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "balthasar": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "friar_lawrence": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "abram": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "escalus": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "montague": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": -3.4,
+        "y": 0.0
+      }
+    ],
+    "paris": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "friar_john": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mother": [
+      {
+        "unit_index": 3,
+        "x": 0.7,
+        "y": 1.5
+      }
+    ],
+    "lady_montague": [
+      {
+        "unit_index": 0,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "romeo": [
+      {
+        "unit_index": 5,
+        "x": 0.1,
+        "y": 1.5
+      }
+    ],
+    "citizens": [
+      {
+        "unit_index": 0,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "petruchio": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "third_watch": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mercutio": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": -2.0,
+        "y": -3.0
+      }
+    ],
+    "capulet": [
+      {
+        "unit_index": 5,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "tybalt": [
+      {
+        "unit_index": 5,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "prince": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.8,
+        "y": 0.0
+      }
+    ],
+    "second_watch": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "chorus": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "gregory": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "sampson": [
+      {
+        "unit_index": 0,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "county_paris": [
+      {
+        "unit_index": 3,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "father_capulet": [
+      {
+        "unit_index": 3,
+        "x": 1.1,
+        "y": 0.5
+      }
+    ]
+  }
 }

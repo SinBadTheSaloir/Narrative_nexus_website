@@ -397,6 +397,5023 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "chapter_0",
+      "index": 0,
+      "label": "Chapter 10",
+      "points": [
+        {
+          "character_id": "mr._lockwood",
+          "character_name": "Mr. Lockwood",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._heathcliff",
+          "character_name": "Mr. Heathcliff",
+          "x": -2.2,
+          "y": -2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.8,
+            "chaos": 3.0,
+            "integrity": 1.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mrs._linton",
+          "character_name": "Mrs. Linton",
+          "x": 2.3,
+          "y": 3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 1.4,
+            "integrity": 4.4,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 0.3,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 3,
+            "control": 2.7,
+            "chaos": 2.4,
+            "integrity": 3.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": -3.6,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._edgar",
+          "character_name": "Mr. Edgar",
+          "x": 0.4,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.4,
+            "chaos": 1.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "mr._earnshaw",
+          "character_name": "Mr. Earnshaw",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "index": 1,
+      "label": "Chapter 11",
+      "points": [
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": -1.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -5.8,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.8,
+            "chaos": 6.6,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.9,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.7,
+            "chaos": 3.6,
+            "integrity": 0.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": 0.9,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.7,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "index": 2,
+      "label": "Chapter 12",
+      "points": [
+        {
+          "character_id": "catherine_linton",
+          "character_name": "Catherine Linton",
+          "x": -6.6,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "edgar_linton",
+          "character_name": "Edgar Linton",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "nelly_dean",
+          "character_name": "Nelly Dean",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "isabella_linton",
+          "character_name": "Isabella Linton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "index": 3,
+      "label": "Chapter 13",
+      "points": [
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": 1.9,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -1.4,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.8,
+            "chaos": 2.2,
+            "integrity": 2.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": -2.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.6,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -4.8,
+          "y": -3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 1.0,
+            "chaos": 5.8,
+            "integrity": 1.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "earnshaw",
+          "character_name": "Earnshaw",
+          "x": -2.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 3.0,
+            "integrity": 1.2,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "index": 5,
+      "label": "Chapter 15",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -5.8,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.6,
+            "integrity": 2.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": -1.2,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 2.2,
+            "integrity": 1.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "index": 6,
+      "label": "Chapter 16",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "edgar_linton",
+          "character_name": "Edgar Linton",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -4.0,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 4.8,
+            "integrity": 1.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "mrs._dean",
+          "character_name": "Mrs. Dean",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._earnshaw",
+          "character_name": "Mr. Earnshaw",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "index": 7,
+      "label": "Chapter 17",
+      "points": [
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": -4.1,
+          "y": -2.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.7,
+            "chaos": 5.8,
+            "integrity": 1.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -3.4,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "earnshaw",
+          "character_name": "Earnshaw",
+          "x": -3.4,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.4,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "index": 8,
+      "label": "Chapter 18",
+      "points": [
+        {
+          "character_id": "cathy",
+          "character_name": "Cathy",
+          "x": 0.5,
+          "y": 1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 3,
+            "control": 2.9,
+            "chaos": 2.4,
+            "integrity": 3.4,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": -3.6,
+          "y": -3.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.4,
+            "integrity": 0.7,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "mr._linton",
+          "character_name": "Mr. Linton",
+          "x": 2.5,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.5,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -1.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "mr._heathcliff",
+          "character_name": "Mr. Heathcliff",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_9",
+      "index": 9,
+      "label": "Chapter 19",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -3.6,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.4,
+            "integrity": 1.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "mr._linton",
+          "character_name": "Mr. Linton",
+          "x": -0.3,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.5,
+            "chaos": 1.8,
+            "integrity": 2.5,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "index": 10,
+      "label": "Chapter 1",
+      "points": [
+        {
+          "character_id": "mr._lockwood",
+          "character_name": "Mr. Lockwood",
+          "x": 0.4,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.2,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._heathcliff",
+          "character_name": "Mr. Heathcliff",
+          "x": -3.8,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.8,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "index": 11,
+      "label": "Chapter 20",
+      "points": [
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -2.4,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 0.8,
+            "chaos": 3.2,
+            "integrity": 1.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -4.8,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.4,
+            "chaos": 5.2,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 1.2,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.2,
+            "chaos": 0.0,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "index": 12,
+      "label": "Chapter 21",
+      "points": [
+        {
+          "character_id": "cathy",
+          "character_name": "Cathy",
+          "x": 1.1,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 0.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._linton",
+          "character_name": "Mr. Linton",
+          "x": -1.8,
+          "y": -2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "index": 13,
+      "label": "Chapter 22",
+      "points": [
+        {
+          "character_id": "cathy",
+          "character_name": "Cathy",
+          "x": -2.8,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 1.0,
+            "chaos": 3.8,
+            "integrity": 2.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": -0.1,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 1.9,
+            "chaos": 2.0,
+            "integrity": 2.5,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "mr._linton",
+          "character_name": "Mr. Linton",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._heathcliff",
+          "character_name": "Mr. Heathcliff",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "index": 14,
+      "label": "Chapter 23",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.9,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.4,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -5.6,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.6,
+            "integrity": 0.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": 0.9,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.7,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -0.5,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.5,
+            "chaos": 2.0,
+            "integrity": 1.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "FutureHope": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "index": 16,
+      "label": "Chapter 25",
+      "points": [
+        {
+          "character_id": "mrs._dean",
+          "character_name": "Mrs. Dean",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": -3.6,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 0.4,
+            "chaos": 4.0,
+            "integrity": 1.0,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -1.8,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.4,
+            "chaos": 3.2,
+            "integrity": 1.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Happiness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -0.2,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.8,
+            "chaos": 2.0,
+            "integrity": 2.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "index": 17,
+      "label": "Chapter 26",
+      "points": [
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.1,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 1.8,
+            "integrity": 3.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -2.8,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 1.8,
+            "chaos": 4.6,
+            "integrity": 2.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "index": 18,
+      "label": "Chapter 27",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -0.3,
+          "y": 0.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 2.1,
+            "chaos": 2.4,
+            "integrity": 2.7,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -3.2,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 1.8,
+            "chaos": 5.0,
+            "integrity": 2.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -3.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 3.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "ellen",
+          "character_name": "Ellen",
+          "x": 1.1,
+          "y": 2.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 0.8,
+            "integrity": 2.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_19",
+      "index": 19,
+      "label": "Chapter 28",
+      "points": [
+        {
+          "character_id": "zillah",
+          "character_name": "Zillah",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._dean",
+          "character_name": "Mrs. Dean",
+          "x": -2.2,
+          "y": 0.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 6,
+            "control": 3.0,
+            "chaos": 5.2,
+            "integrity": 3.9,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.6,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "FuturePain": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -1.9,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 2.6,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "mr._edgar_linton",
+          "character_name": "Mr. Edgar Linton",
+          "x": 1.9,
+          "y": 1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 3.3,
+            "chaos": 1.4,
+            "integrity": 2.4,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "PastPain": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_20",
+      "index": 20,
+      "label": "Chapter 29",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 2.3,
+          "y": 4.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 7,
+            "negative": 2,
+            "control": 4.1,
+            "chaos": 1.8,
+            "integrity": 4.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -5.8,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_21",
+      "index": 21,
+      "label": "Chapter 2",
+      "points": [
+        {
+          "character_id": "i",
+          "character_name": "I",
+          "x": -2.1,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 2.8,
+            "integrity": 0.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.6,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 1.0,
+            "chaos": 3.6,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "mrs._heathcliff",
+          "character_name": "Mrs. Heathcliff",
+          "x": -2.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.8,
+            "integrity": 1.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "hareton_earnshaw",
+          "character_name": "Hareton Earnshaw",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "zillah",
+          "character_name": "Zillah",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.2,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 0.8,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_22",
+      "index": 22,
+      "label": "Chapter 30",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -4.4,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.4,
+            "integrity": 1.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -1.0,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 2,
+            "control": 1.0,
+            "chaos": 2.0,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "zillah",
+          "character_name": "Zillah",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 0.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "linton",
+          "character_name": "Linton",
+          "x": -3.0,
+          "y": -1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 1.0,
+            "chaos": 4.0,
+            "integrity": 1.2,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "mrs._dean",
+          "character_name": "Mrs. Dean",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_23",
+      "index": 23,
+      "label": "Chapter 31",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -5.8,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -1.6,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 1.0,
+            "chaos": 2.6,
+            "integrity": 1.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lockwood",
+          "character_name": "Lockwood",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_24",
+      "index": 24,
+      "label": "Chapter 32",
+      "points": [
+        {
+          "character_id": "lockwood",
+          "character_name": "Lockwood",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -3.8,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.8,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.9,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 1.8,
+            "integrity": 4.4,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_25",
+      "index": 25,
+      "label": "Chapter 33",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 0.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 1.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -6.6,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": -2.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 1.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_26",
+      "index": 26,
+      "label": "Chapter 34",
+      "points": [
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -3.3,
+          "y": -2.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 6,
+            "control": 1.9,
+            "chaos": 5.2,
+            "integrity": 1.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._kenneth",
+          "character_name": "Mr. Kenneth",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lockwood",
+          "character_name": "Lockwood",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "edgar_linton",
+          "character_name": "Edgar Linton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_27",
+      "index": 27,
+      "label": "Chapter 3",
+      "points": [
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -0.6,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 1.8,
+            "chaos": 2.4,
+            "integrity": 3.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "FuturePain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -5.2,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 5.2,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "lockwood",
+          "character_name": "Lockwood",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -4.4,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.4,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "zillah",
+          "character_name": "Zillah",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._heathcliff",
+          "character_name": "Mrs. Heathcliff",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "hareton_earnshaw",
+          "character_name": "Hareton Earnshaw",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_28",
+      "index": 28,
+      "label": "Chapter 4",
+      "points": [
+        {
+          "character_id": "a",
+          "character_name": "A",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "mrs._dean",
+          "character_name": "Mrs. Dean",
+          "x": -0.3,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 1.5,
+            "chaos": 1.8,
+            "integrity": 1.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "cathy",
+          "character_name": "Cathy",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_29",
+      "index": 29,
+      "label": "Chapter 5",
+      "points": [
+        {
+          "character_id": "mr._earnshaw",
+          "character_name": "Mr. Earnshaw",
+          "x": -5.8,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 0.1,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 1.9,
+            "chaos": 1.8,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -0.7,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.1,
+            "chaos": 1.8,
+            "integrity": 1.5,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -1.6,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.8,
+            "chaos": 3.4,
+            "integrity": 2.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": -2.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_30",
+      "index": 30,
+      "label": "Chapter 6",
+      "points": [
+        {
+          "character_id": "mr._hindley",
+          "character_name": "Mr. Hindley",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 0.5,
+          "y": 3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 4,
+            "control": 3.7,
+            "chaos": 3.2,
+            "integrity": 4.4,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -0.1,
+          "y": -1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.9,
+            "chaos": 2.0,
+            "integrity": 1.5,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "edgar_linton",
+          "character_name": "Edgar Linton",
+          "x": 2.1,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 2.1,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "isabella_linton",
+          "character_name": "Isabella Linton",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "joseph",
+          "character_name": "Joseph",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_31",
+      "index": 31,
+      "label": "Chapter 7",
+      "points": [
+        {
+          "character_id": "cathy",
+          "character_name": "Cathy",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -2.4,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 1.8,
+            "chaos": 4.2,
+            "integrity": 2.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "edgar",
+          "character_name": "Edgar",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "isabella",
+          "character_name": "Isabella",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.0,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.8,
+            "chaos": 0.8,
+            "integrity": 0.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "mr._earnshaw",
+          "character_name": "Mr. Earnshaw",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._earnshaw",
+          "character_name": "Mrs. Earnshaw",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_32",
+      "index": 32,
+      "label": "Chapter 8",
+      "points": [
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": -0.8,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -5.2,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 5.2,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": 1.7,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 2.0,
+            "integrity": 4.4,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "edgar_linton",
+          "character_name": "Edgar Linton",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_33",
+      "index": 33,
+      "label": "Chapter 9",
+      "points": [
+        {
+          "character_id": "hindley",
+          "character_name": "Hindley",
+          "x": -4.4,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.4,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "FuturePain": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "nelly",
+          "character_name": "Nelly",
+          "x": 0.6,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.4,
+            "chaos": 0.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "heathcliff",
+          "character_name": "Heathcliff",
+          "x": -4.4,
+          "y": -3.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.4,
+            "integrity": 0.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "catherine",
+          "character_name": "Catherine",
+          "x": -1.2,
+          "y": 1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 5,
+            "control": 3.0,
+            "chaos": 4.2,
+            "integrity": 3.9,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "hareton",
+          "character_name": "Hareton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "hindley": [
+      {
+        "unit_index": 1,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 27,
+        "x": -4.4,
+        "y": -1.0
+      },
+      {
+        "unit_index": 28,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 29,
+        "x": -1.6,
+        "y": 0.4
+      },
+      {
+        "unit_index": 31,
+        "x": -3.6,
+        "y": -1.0
+      },
+      {
+        "unit_index": 32,
+        "x": -5.2,
+        "y": -3.8
+      },
+      {
+        "unit_index": 33,
+        "x": -4.4,
+        "y": -3.8
+      }
+    ],
+    "mr._heathcliff": [
+      {
+        "unit_index": 0,
+        "x": -2.2,
+        "y": -2.0
+      },
+      {
+        "unit_index": 8,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 10,
+        "x": -3.8,
+        "y": -3.0
+      },
+      {
+        "unit_index": 13,
+        "x": -2.0,
+        "y": -1.0
+      }
+    ],
+    "hareton_earnshaw": [
+      {
+        "unit_index": 21,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 27,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "mrs._earnshaw": [
+      {
+        "unit_index": 31,
+        "x": 1.1,
+        "y": 0.5
+      }
+    ],
+    "a": [
+      {
+        "unit_index": 28,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "isabella": [
+      {
+        "unit_index": 0,
+        "x": -1.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 1,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 3,
+        "x": -2.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": -4.1,
+        "y": -2.9
+      },
+      {
+        "unit_index": 31,
+        "x": 1.1,
+        "y": 0.5
+      }
+    ],
+    "mr._edgar": [
+      {
+        "unit_index": 0,
+        "x": 0.4,
+        "y": 1.2
+      }
+    ],
+    "mrs._heathcliff": [
+      {
+        "unit_index": 21,
+        "x": -2.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 27,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "earnshaw": [
+      {
+        "unit_index": 3,
+        "x": -2.0,
+        "y": -1.8
+      },
+      {
+        "unit_index": 7,
+        "x": -3.4,
+        "y": -1.8
+      }
+    ],
+    "isabella_linton": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "nelly_dean": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._linton": [
+      {
+        "unit_index": 8,
+        "x": 2.5,
+        "y": 2.7
+      },
+      {
+        "unit_index": 9,
+        "x": -0.3,
+        "y": 0.5
+      },
+      {
+        "unit_index": 12,
+        "x": -1.8,
+        "y": -2.0
+      },
+      {
+        "unit_index": 13,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "linton": [
+      {
+        "unit_index": 9,
+        "x": -3.6,
+        "y": -2.8
+      },
+      {
+        "unit_index": 11,
+        "x": -2.4,
+        "y": 0.2
+      },
+      {
+        "unit_index": 12,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 14,
+        "x": -5.6,
+        "y": -2.6
+      },
+      {
+        "unit_index": 16,
+        "x": -1.8,
+        "y": 0.4
+      },
+      {
+        "unit_index": 17,
+        "x": -2.8,
+        "y": 0.6
+      },
+      {
+        "unit_index": 18,
+        "x": -3.2,
+        "y": 0.4
+      },
+      {
+        "unit_index": 19,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 22,
+        "x": -3.0,
+        "y": -1.4
+      }
+    ],
+    "mrs._dean": [
+      {
+        "unit_index": 6,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 16,
+        "x": 0.0,
+        "y": 1.0
+      },
+      {
+        "unit_index": 19,
+        "x": -2.2,
+        "y": 0.1
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 28,
+        "x": -0.3,
+        "y": -0.8
+      }
+    ],
+    "heathcliff": [
+      {
+        "unit_index": 1,
+        "x": -2.9,
+        "y": -0.5
+      },
+      {
+        "unit_index": 3,
+        "x": -4.8,
+        "y": -3.4
+      },
+      {
+        "unit_index": 5,
+        "x": -2.8,
+        "y": 1.0
+      },
+      {
+        "unit_index": 6,
+        "x": -4.0,
+        "y": -1.6
+      },
+      {
+        "unit_index": 7,
+        "x": -3.4,
+        "y": -1.8
+      },
+      {
+        "unit_index": 11,
+        "x": -4.8,
+        "y": -3.8
+      },
+      {
+        "unit_index": 12,
+        "x": -2.0,
+        "y": -3.0
+      },
+      {
+        "unit_index": 14,
+        "x": -0.5,
+        "y": 0.5
+      },
+      {
+        "unit_index": 16,
+        "x": -0.2,
+        "y": 1.2
+      },
+      {
+        "unit_index": 18,
+        "x": -3.0,
+        "y": -3.0
+      },
+      {
+        "unit_index": 19,
+        "x": -2.6,
+        "y": -3.8
+      },
+      {
+        "unit_index": 20,
+        "x": -5.8,
+        "y": -4.6
+      },
+      {
+        "unit_index": 21,
+        "x": -2.6,
+        "y": 0.2
+      },
+      {
+        "unit_index": 22,
+        "x": -1.0,
+        "y": 0.2
+      },
+      {
+        "unit_index": 23,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 24,
+        "x": -3.8,
+        "y": -3.0
+      },
+      {
+        "unit_index": 25,
+        "x": -6.6,
+        "y": -4.6
+      },
+      {
+        "unit_index": 26,
+        "x": -3.3,
+        "y": -2.3
+      },
+      {
+        "unit_index": 27,
+        "x": -5.2,
+        "y": -3.8
+      },
+      {
+        "unit_index": 28,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 29,
+        "x": -0.7,
+        "y": -0.5
+      },
+      {
+        "unit_index": 30,
+        "x": -0.1,
+        "y": -1.5
+      },
+      {
+        "unit_index": 31,
+        "x": -2.4,
+        "y": 0.4
+      },
+      {
+        "unit_index": 32,
+        "x": -3.6,
+        "y": -1.0
+      },
+      {
+        "unit_index": 33,
+        "x": -4.4,
+        "y": -3.8
+      }
+    ],
+    "joseph": [
+      {
+        "unit_index": 3,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 9,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 10,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 21,
+        "x": 0.2,
+        "y": 1.2
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 24,
+        "x": -1.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 25,
+        "x": -2.6,
+        "y": -1.0
+      },
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 27,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 29,
+        "x": -2.0,
+        "y": -3.0
+      },
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._edgar_linton": [
+      {
+        "unit_index": 19,
+        "x": 1.9,
+        "y": 1.6
+      }
+    ],
+    "mr._earnshaw": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 29,
+        "x": -5.8,
+        "y": -4.6
+      },
+      {
+        "unit_index": 31,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "catherine_linton": [
+      {
+        "unit_index": 2,
+        "x": -6.6,
+        "y": -3.6
+      }
+    ],
+    "catherine": [
+      {
+        "unit_index": 0,
+        "x": 0.3,
+        "y": 1.4
+      },
+      {
+        "unit_index": 1,
+        "x": -5.8,
+        "y": -3.6
+      },
+      {
+        "unit_index": 3,
+        "x": -1.4,
+        "y": 1.2
+      },
+      {
+        "unit_index": 5,
+        "x": -5.8,
+        "y": -3.6
+      },
+      {
+        "unit_index": 6,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 9,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 14,
+        "x": 1.9,
+        "y": 2.4
+      },
+      {
+        "unit_index": 16,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 17,
+        "x": 1.1,
+        "y": 1.7
+      },
+      {
+        "unit_index": 18,
+        "x": -0.3,
+        "y": 0.9
+      },
+      {
+        "unit_index": 19,
+        "x": -1.9,
+        "y": 1.5
+      },
+      {
+        "unit_index": 20,
+        "x": 2.3,
+        "y": 4.4
+      },
+      {
+        "unit_index": 22,
+        "x": -4.4,
+        "y": -2.8
+      },
+      {
+        "unit_index": 23,
+        "x": -5.8,
+        "y": -4.6
+      },
+      {
+        "unit_index": 24,
+        "x": 1.9,
+        "y": 3.4
+      },
+      {
+        "unit_index": 25,
+        "x": 0.9,
+        "y": 1.2
+      },
+      {
+        "unit_index": 26,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 27,
+        "x": -0.6,
+        "y": 2.4
+      },
+      {
+        "unit_index": 29,
+        "x": 0.1,
+        "y": 0.2
+      },
+      {
+        "unit_index": 30,
+        "x": 0.5,
+        "y": 3.6
+      },
+      {
+        "unit_index": 32,
+        "x": 1.7,
+        "y": 3.4
+      },
+      {
+        "unit_index": 33,
+        "x": -1.2,
+        "y": 1.1
+      }
+    ],
+    "i": [
+      {
+        "unit_index": 21,
+        "x": -2.1,
+        "y": -0.5
+      }
+    ],
+    "nelly": [
+      {
+        "unit_index": 0,
+        "x": -3.6,
+        "y": -3.8
+      },
+      {
+        "unit_index": 1,
+        "x": -1.8,
+        "y": 1.0
+      },
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 1.2,
+        "y": 0.7
+      },
+      {
+        "unit_index": 20,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 24,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 25,
+        "x": 1.9,
+        "y": 1.2
+      },
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.7
+      },
+      {
+        "unit_index": 32,
+        "x": -0.8,
+        "y": 1.0
+      },
+      {
+        "unit_index": 33,
+        "x": 0.6,
+        "y": 2.2
+      }
+    ],
+    "lockwood": [
+      {
+        "unit_index": 23,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 24,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 27,
+        "x": -1.8,
+        "y": 0.0
+      }
+    ],
+    "mr._lockwood": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 10,
+        "x": 0.4,
+        "y": 1.7
+      }
+    ],
+    "zillah": [
+      {
+        "unit_index": 19,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 21,
+        "x": 0.4,
+        "y": 1.0
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 27,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "ellen": [
+      {
+        "unit_index": 7,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 8,
+        "x": -3.6,
+        "y": -3.1
+      },
+      {
+        "unit_index": 12,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": -0.1,
+        "y": -0.5
+      },
+      {
+        "unit_index": 14,
+        "x": 0.9,
+        "y": 1.7
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 1.1,
+        "y": 2.5
+      }
+    ],
+    "mr._hindley": [
+      {
+        "unit_index": 30,
+        "x": -1.0,
+        "y": -1.0
+      }
+    ],
+    "mr._kenneth": [
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "edgar_linton": [
+      {
+        "unit_index": 2,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 6,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": 2.1,
+        "y": 1.7
+      },
+      {
+        "unit_index": 32,
+        "x": 1.1,
+        "y": 1.5
+      }
+    ],
+    "cathy": [
+      {
+        "unit_index": 8,
+        "x": 0.5,
+        "y": 1.6
+      },
+      {
+        "unit_index": 12,
+        "x": 1.1,
+        "y": 2.2
+      },
+      {
+        "unit_index": 13,
+        "x": -2.8,
+        "y": 0.6
+      },
+      {
+        "unit_index": 28,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 31,
+        "x": 1.9,
+        "y": 2.2
+      }
+    ],
+    "edgar": [
+      {
+        "unit_index": 1,
+        "x": 0.9,
+        "y": 1.7
+      },
+      {
+        "unit_index": 3,
+        "x": 1.9,
+        "y": 1.4
+      },
+      {
+        "unit_index": 5,
+        "x": -1.2,
+        "y": 0.4
+      },
+      {
+        "unit_index": 16,
+        "x": -3.6,
+        "y": -2.6
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 1.1,
+        "y": 0.5
+      }
+    ],
+    "mrs._linton": [
+      {
+        "unit_index": 0,
+        "x": 2.3,
+        "y": 3.6
+      }
+    ],
+    "hareton": [
+      {
+        "unit_index": 1,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 3,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 8,
+        "x": -1.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 22,
+        "x": 0.0,
+        "y": 1.2
+      },
+      {
+        "unit_index": 23,
+        "x": -1.6,
+        "y": -0.6
+      },
+      {
+        "unit_index": 24,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 25,
+        "x": 1.9,
+        "y": 1.2
+      },
+      {
+        "unit_index": 26,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 32,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 33,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

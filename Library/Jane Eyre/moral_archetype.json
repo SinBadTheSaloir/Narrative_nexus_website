@@ -629,6 +629,6002 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "chapter_0",
+      "index": 0,
+      "label": "Chapter 10",
+      "points": [
+        {
+          "character_id": "jane",
+          "character_name": "Jane",
+          "x": -0.3,
+          "y": 0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 5,
+            "control": 3.7,
+            "chaos": 4.0,
+            "integrity": 4.4,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "bessie",
+          "character_name": "Bessie",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_gryce",
+          "character_name": "Miss Gryce",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "john_reed",
+          "character_name": "John Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "georgiana_reed",
+          "character_name": "Georgiana Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "rev._mr._nasmyth",
+          "character_name": "Rev. Mr. Nasmyth",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "index": 1,
+      "label": "Chapter 11",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 0.1,
+          "y": 1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 4,
+            "control": 3.3,
+            "chaos": 3.2,
+            "integrity": 2.7,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 2.1,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 0.8,
+            "integrity": 2.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "index": 2,
+      "label": "Chapter 12",
+      "points": [
+        {
+          "character_id": "narrator",
+          "character_name": "Narrator",
+          "x": 0.5,
+          "y": 1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 3,
+            "control": 2.9,
+            "chaos": 2.4,
+            "integrity": 2.4,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "grace_poole",
+          "character_name": "Grace Poole",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "john",
+          "character_name": "John",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "leah",
+          "character_name": "Leah",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "sophie",
+          "character_name": "Sophie",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -0.6,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 1.8,
+            "chaos": 2.4,
+            "integrity": 2.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "FuturePain": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "index": 3,
+      "label": "Chapter 13",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -4.2,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 5,
+            "control": 0.0,
+            "chaos": 4.2,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "FuturePain": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.8,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.6,
+            "chaos": 0.8,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.7,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.5,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "narrator",
+          "character_name": "Narrator",
+          "x": -0.8,
+          "y": 1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 4,
+            "control": 2.2,
+            "chaos": 3.0,
+            "integrity": 2.9,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "index": 4,
+      "label": "Chapter 14",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -3.6,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.4,
+            "integrity": 1.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "FuturePain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 1.1,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 0.8,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_eyre",
+          "character_name": "Miss Eyre",
+          "x": -0.4,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.4,
+            "chaos": 1.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "index": 5,
+      "label": "Chapter 15",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -6.2,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.4,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 0.9,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 2,
+            "control": 2.9,
+            "chaos": 2.0,
+            "integrity": 3.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_6",
+      "index": 6,
+      "label": "Chapter 16",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "leah",
+          "character_name": "Leah",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "grace_poole",
+          "character_name": "Grace Poole",
+          "x": -3.2,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.2,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "PastPain": 1,
+            "SinForce": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -1.6,
+          "y": 2.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 5,
+            "control": 2.6,
+            "chaos": 4.2,
+            "integrity": 3.9,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "index": 7,
+      "label": "Chapter 17",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -1.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 1.5,
+            "chaos": 2.8,
+            "integrity": 2.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "grace_poole",
+          "character_name": "Grace Poole",
+          "x": 1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 1.0,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "leah",
+          "character_name": "Leah",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "lady_ingram",
+          "character_name": "Lady Ingram",
+          "x": 1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "blanche_ingram",
+          "character_name": "Blanche Ingram",
+          "x": 1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 1.0,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mary_ingram",
+          "character_name": "Mary Ingram",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "colonel_dent",
+          "character_name": "Colonel Dent",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "henry_lynn",
+          "character_name": "Henry Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "frederick_lynn",
+          "character_name": "Frederick Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "sir_george_lynn",
+          "character_name": "Sir George Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._eshton",
+          "character_name": "Mrs. Eshton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "louisa_eshton",
+          "character_name": "Louisa Eshton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "amy_eshton",
+          "character_name": "Amy Eshton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_8",
+      "index": 8,
+      "label": "Chapter 18",
+      "points": [
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_ingram",
+          "character_name": "Miss Ingram",
+          "x": -2.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.4,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Sadness": 1,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": -0.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 0.7,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "colonel_dent",
+          "character_name": "Colonel Dent",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._dent",
+          "character_name": "Mrs. Dent",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "louisa_eshton",
+          "character_name": "Louisa Eshton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mary_ingram",
+          "character_name": "Mary Ingram",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._eshton",
+          "character_name": "Mr. Eshton",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "sir_george_lynn",
+          "character_name": "Sir George Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "frederick_lynn",
+          "character_name": "Frederick Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "henry_lynn",
+          "character_name": "Henry Lynn",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._mason",
+          "character_name": "Mr. Mason",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_9",
+      "index": 9,
+      "label": "Chapter 19",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 2.5,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 2.5,
+            "chaos": 0.0,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -4.3,
+          "y": -3.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 7,
+            "control": 1.5,
+            "chaos": 5.8,
+            "integrity": 1.5,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "the_gipsy",
+          "character_name": "The Gipsy",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "index": 11,
+      "label": "Chapter 20",
+      "points": [
+        {
+          "character_id": "jane",
+          "character_name": "Jane",
+          "x": -1.1,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 0.7,
+            "chaos": 1.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -2.9,
+          "y": -0.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.7,
+            "chaos": 4.6,
+            "integrity": 2.7,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "mr._mason",
+          "character_name": "Mr. Mason",
+          "x": -2.4,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastJoy": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "colonel_dent",
+          "character_name": "Colonel Dent",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_ingram",
+          "character_name": "Miss Ingram",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "grace_poole",
+          "character_name": "Grace Poole",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "index": 12,
+      "label": "Chapter 21",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 0.3,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 2.1,
+            "chaos": 1.8,
+            "integrity": 2.7,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": -4.0,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 4.8,
+            "integrity": 1.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "bessie_leaven",
+          "character_name": "Bessie Leaven",
+          "x": 1.3,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 2.1,
+            "chaos": 0.8,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "robert_leaven",
+          "character_name": "Robert Leaven",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 0.7,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 1.7,
+            "chaos": 1.0,
+            "integrity": 1.7,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "miss_ingram",
+          "character_name": "Miss Ingram",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "georgiana_reed",
+          "character_name": "Georgiana Reed",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "eliza_reed",
+          "character_name": "Eliza Reed",
+          "x": -3.0,
+          "y": -1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 3.8,
+            "integrity": 1.0,
+            "corruption": 2.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "FuturePain": 1
+          }
+        },
+        {
+          "character_id": "john_reed",
+          "character_name": "John Reed",
+          "x": -5.8,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.8,
+            "chaos": 6.6,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "index": 13,
+      "label": "Chapter 22",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 1.3,
+          "y": 1.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 3,
+            "control": 3.7,
+            "chaos": 2.4,
+            "integrity": 4.4,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 1.9,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "georgiana",
+          "character_name": "Georgiana",
+          "x": -3.0,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.0,
+            "integrity": 0.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Sadness": 1,
+            "FuturePain": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "eliza",
+          "character_name": "Eliza",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 1.9,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 1.1,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 0.8,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "leah",
+          "character_name": "Leah",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "sophie",
+          "character_name": "Sophie",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_14",
+      "index": 14,
+      "label": "Chapter 23",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -3.7,
+          "y": -1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 7,
+            "control": 2.1,
+            "chaos": 5.8,
+            "integrity": 2.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 0.1,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 4,
+            "control": 3.7,
+            "chaos": 3.6,
+            "integrity": 4.4,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_15",
+      "index": 15,
+      "label": "Chapter 24",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 1.7,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.7,
+            "chaos": 1.0,
+            "integrity": 3.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.4,
+          "y": 0.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 0.6,
+            "integrity": 1.2,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "PastPain": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_16",
+      "index": 16,
+      "label": "Chapter 25",
+      "points": [
+        {
+          "character_id": "jane_rochester",
+          "character_name": "Jane Rochester",
+          "x": -2.1,
+          "y": 1.1,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.7,
+            "chaos": 3.8,
+            "integrity": 2.7,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": 0.3,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 2,
+            "control": 1.9,
+            "chaos": 1.6,
+            "integrity": 2.2,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FuturePain": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_17",
+      "index": 17,
+      "label": "Chapter 26",
+      "points": [
+        {
+          "character_id": "sophie",
+          "character_name": "Sophie",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -2.9,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.5,
+            "chaos": 4.4,
+            "integrity": 2.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -2.0,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.4,
+            "chaos": 2.4,
+            "integrity": 0.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "PastJoy": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "leah",
+          "character_name": "Leah",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mason",
+          "character_name": "Mason",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "briggs",
+          "character_name": "Briggs",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._wood",
+          "character_name": "Mr. Wood",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "grace_poole",
+          "character_name": "Grace Poole",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_18",
+      "index": 18,
+      "label": "Chapter 27",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -4.0,
+          "y": -0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 8,
+            "control": 2.6,
+            "chaos": 6.6,
+            "integrity": 3.9,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -4.4,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 0.8,
+            "chaos": 5.2,
+            "integrity": 2.0,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._fairfax",
+          "character_name": "Mrs. Fairfax",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_20",
+      "index": 20,
+      "label": "Chapter 29",
+      "points": [
+        {
+          "character_id": "narrator",
+          "character_name": "Narrator",
+          "x": -4.4,
+          "y": -2.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 6,
+            "control": 0.4,
+            "chaos": 4.8,
+            "integrity": 1.0,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "hannah",
+          "character_name": "Hannah",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._st._john",
+          "character_name": "Mr. St. John",
+          "x": 1.0,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 1.0,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "diana",
+          "character_name": "Diana",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mary",
+          "character_name": "Mary",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_21",
+      "index": 21,
+      "label": "Chapter 2",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -5.8,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 7,
+            "control": 0.0,
+            "chaos": 5.8,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "bessie",
+          "character_name": "Bessie",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_abbot",
+          "character_name": "Miss Abbot",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "john_reed",
+          "character_name": "John Reed",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "eliza",
+          "character_name": "Eliza",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "georgiana",
+          "character_name": "Georgiana",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_23",
+      "index": 23,
+      "label": "Chapter 31",
+      "points": [
+        {
+          "character_id": "narrator",
+          "character_name": "Narrator",
+          "x": -1.9,
+          "y": -1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 6,
+            "control": 2.9,
+            "chaos": 4.8,
+            "integrity": 3.4,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "st._john_rivers",
+          "character_name": "St. John Rivers",
+          "x": -2.0,
+          "y": -3.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "miss_oliver",
+          "character_name": "Miss Oliver",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_24",
+      "index": 24,
+      "label": "Chapter 32",
+      "points": [
+        {
+          "character_id": "i",
+          "character_name": "I",
+          "x": 3.7,
+          "y": 4.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 0,
+            "control": 3.7,
+            "chaos": 0.0,
+            "integrity": 4.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "rosamond_oliver",
+          "character_name": "Rosamond Oliver",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rivers",
+          "character_name": "Mr. Rivers",
+          "x": -2.3,
+          "y": -2.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 3.0,
+            "integrity": 0.5,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._oliver",
+          "character_name": "Mr. Oliver",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_25",
+      "index": 25,
+      "label": "Chapter 33",
+      "points": [
+        {
+          "character_id": "mr._st._john_rivers",
+          "character_name": "Mr. St. John Rivers",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 0.7,
+          "y": 0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 4,
+            "control": 3.7,
+            "chaos": 3.0,
+            "integrity": 4.4,
+            "corruption": 3.6
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_26",
+      "index": 26,
+      "label": "Chapter 34",
+      "points": [
+        {
+          "character_id": "jane",
+          "character_name": "Jane",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mr._rivers",
+          "character_name": "Mr. Rivers",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "diana",
+          "character_name": "Diana",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mary",
+          "character_name": "Mary",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "hannah",
+          "character_name": "Hannah",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "st._john",
+          "character_name": "St. John",
+          "x": -2.6,
+          "y": -2.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "FuturePain": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_27",
+      "index": 27,
+      "label": "Chapter 35",
+      "points": [
+        {
+          "character_id": "jane",
+          "character_name": "Jane",
+          "x": -1.7,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 2.4,
+            "integrity": 1.5,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "st._john",
+          "character_name": "St. John",
+          "x": 1.5,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 2.5,
+            "chaos": 1.0,
+            "integrity": 2.4,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Hope": 1,
+            "VirtueForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "diana",
+          "character_name": "Diana",
+          "x": 1.9,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "mary",
+          "character_name": "Mary",
+          "x": 1.5,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.5,
+            "chaos": 0.0,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_28",
+      "index": 28,
+      "label": "Chapter 36",
+      "points": [
+        {
+          "character_id": "jane",
+          "character_name": "Jane",
+          "x": -1.5,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 6,
+            "control": 3.7,
+            "chaos": 5.2,
+            "integrity": 4.4,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "st._john",
+          "character_name": "St. John",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "diana",
+          "character_name": "Diana",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mary",
+          "character_name": "Mary",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -5.2,
+          "y": -2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 8,
+            "control": 1.4,
+            "chaos": 6.6,
+            "integrity": 2.2,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "the_butler",
+          "character_name": "the butler",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mrs._poole",
+          "character_name": "Mrs. Poole",
+          "x": 1.7,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_29",
+      "index": 29,
+      "label": "Chapter 37",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": 2.1,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 0.8,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "mr._rochester",
+          "character_name": "Mr. Rochester",
+          "x": -2.4,
+          "y": 1.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.8,
+            "chaos": 4.2,
+            "integrity": 3.2,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "john",
+          "character_name": "John",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mary",
+          "character_name": "Mary",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "st._john_rivers",
+          "character_name": "St. John Rivers",
+          "x": -0.6,
+          "y": -2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "PastJoy": 1,
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "ad\u00e8le",
+          "character_name": "Ad\u00e8le",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_30",
+      "index": 30,
+      "label": "Chapter 3",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -6.6,
+          "y": -4.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 0.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "bessie",
+          "character_name": "Bessie",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._lloyd",
+          "character_name": "Mr. Lloyd",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "abbot",
+          "character_name": "Abbot",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "john_reed",
+          "character_name": "John Reed",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "georgiana",
+          "character_name": "Georgiana",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_31",
+      "index": 31,
+      "label": "Chapter 4",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -3.4,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 5,
+            "control": 1.2,
+            "chaos": 4.6,
+            "integrity": 1.7,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": 0.2,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 0.8,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "VirtueForce": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "bessie",
+          "character_name": "Bessie",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "eliza",
+          "character_name": "Eliza",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "georgiana",
+          "character_name": "Georgiana",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "john_reed",
+          "character_name": "John Reed",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_32",
+      "index": 32,
+      "label": "Chapter 5",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -2.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "bessie",
+          "character_name": "Bessie",
+          "x": 1.7,
+          "y": 2.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.7,
+            "chaos": 0.0,
+            "integrity": 2.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "mrs._reed",
+          "character_name": "Mrs. Reed",
+          "x": -1.4,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.4,
+            "integrity": 0.0,
+            "corruption": 0.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "PastPain": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "porter",
+          "character_name": "Porter",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "porters_wife",
+          "character_name": "Porter's wife",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_miller",
+          "character_name": "Miss Miller",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": -1.0,
+          "y": -2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "SinForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "miss_scatcherd",
+          "character_name": "Miss Scatcherd",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Shame": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "madame_pierrot",
+          "character_name": "Madame Pierrot",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_33",
+      "index": 33,
+      "label": "Chapter 6",
+      "points": [
+        {
+          "character_id": "i",
+          "character_name": "I",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "burns",
+          "character_name": "Burns",
+          "x": -1.7,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 3,
+            "control": 0.7,
+            "chaos": 2.4,
+            "integrity": 1.5,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "FuturePain": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "miss_smith",
+          "character_name": "Miss Smith",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_scatcherd",
+          "character_name": "Miss Scatcherd",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": 1.5,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.5,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": -2.8,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 3,
+            "control": 0.0,
+            "chaos": 2.8,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_34",
+      "index": 34,
+      "label": "Chapter 7",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -6.6,
+          "y": -3.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 8,
+            "control": 0.0,
+            "chaos": 6.6,
+            "integrity": 1.0,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": -0.3,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 0.7,
+            "chaos": 1.0,
+            "integrity": 0.5,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": 0.1,
+          "y": -0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 1.0,
+            "integrity": 1.5,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "helen_burns",
+          "character_name": "Helen Burns",
+          "x": -1.4,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 2,
+            "control": 0.4,
+            "chaos": 1.8,
+            "integrity": 1.0,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_35",
+      "index": 35,
+      "label": "Chapter 8",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -4.5,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 7,
+            "control": 1.5,
+            "chaos": 6.0,
+            "integrity": 2.5,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1
+          }
+        },
+        {
+          "character_id": "helen_burns",
+          "character_name": "Helen Burns",
+          "x": 2.5,
+          "y": 3.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 3.3,
+            "chaos": 0.8,
+            "integrity": 3.4,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "FutureHope": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": 1.9,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 3.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "miss_scatcherd",
+          "character_name": "Miss Scatcherd",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_36",
+      "index": 36,
+      "label": "Chapter 9",
+      "points": [
+        {
+          "character_id": "jane_eyre",
+          "character_name": "Jane Eyre",
+          "x": -1.5,
+          "y": -0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 5,
+            "control": 2.7,
+            "chaos": 4.2,
+            "integrity": 3.2,
+            "corruption": 3.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Hope": 1
+          }
+        },
+        {
+          "character_id": "helen_burns",
+          "character_name": "Helen Burns",
+          "x": -1.4,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 4,
+            "control": 1.4,
+            "chaos": 2.8,
+            "integrity": 2.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1,
+            "PastJoy": 1
+          }
+        },
+        {
+          "character_id": "mary_ann_wilson",
+          "character_name": "Mary Ann Wilson",
+          "x": 1.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "miss_temple",
+          "character_name": "Miss Temple",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "mr._brocklehurst",
+          "character_name": "Mr. Brocklehurst",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mr._bates",
+          "character_name": "Mr. Bates",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "georgiana": [
+      {
+        "unit_index": 13,
+        "x": -3.0,
+        "y": -0.8
+      },
+      {
+        "unit_index": 21,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_temple": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 32,
+        "x": -1.0,
+        "y": -2.0
+      },
+      {
+        "unit_index": 33,
+        "x": 1.5,
+        "y": 1.2
+      },
+      {
+        "unit_index": 34,
+        "x": 0.1,
+        "y": -0.5
+      },
+      {
+        "unit_index": 35,
+        "x": 1.9,
+        "y": 1.7
+      },
+      {
+        "unit_index": 36,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "miss_gryce": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "john": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 29,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mary_ingram": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "robert_leaven": [
+      {
+        "unit_index": 12,
+        "x": 0.3,
+        "y": 1.5
+      }
+    ],
+    "burns": [
+      {
+        "unit_index": 33,
+        "x": -1.7,
+        "y": -1.3
+      }
+    ],
+    "lady_ingram": [
+      {
+        "unit_index": 7,
+        "x": 1.1,
+        "y": 1.5
+      }
+    ],
+    "henry_lynn": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "john_reed": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": -5.8,
+        "y": -3.6
+      },
+      {
+        "unit_index": 21,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "louisa_eshton": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._st._john_rivers": [
+      {
+        "unit_index": 25,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mary": [
+      {
+        "unit_index": 20,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 26,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 27,
+        "x": 1.5,
+        "y": 2.2
+      },
+      {
+        "unit_index": 28,
+        "x": 1.7,
+        "y": 1.7
+      },
+      {
+        "unit_index": 29,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_ingram": [
+      {
+        "unit_index": 8,
+        "x": -2.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "jane_rochester": [
+      {
+        "unit_index": 16,
+        "x": -2.1,
+        "y": 1.1
+      }
+    ],
+    "miss_scatcherd": [
+      {
+        "unit_index": 32,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 33,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 35,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "frederick_lynn": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "briggs": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._eshton": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_eyre": [
+      {
+        "unit_index": 4,
+        "x": -0.4,
+        "y": 2.2
+      }
+    ],
+    "rev._mr._nasmyth": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._st._john": [
+      {
+        "unit_index": 20,
+        "x": 1.0,
+        "y": 1.2
+      }
+    ],
+    "the_butler": [
+      {
+        "unit_index": 28,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._rochester": [
+      {
+        "unit_index": 2,
+        "x": -0.6,
+        "y": 1.4
+      },
+      {
+        "unit_index": 3,
+        "x": -4.2,
+        "y": -4.6
+      },
+      {
+        "unit_index": 4,
+        "x": -3.6,
+        "y": -2.8
+      },
+      {
+        "unit_index": 5,
+        "x": -6.2,
+        "y": -4.6
+      },
+      {
+        "unit_index": 6,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": -1.3,
+        "y": 1.5
+      },
+      {
+        "unit_index": 8,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 9,
+        "x": -4.3,
+        "y": -3.1
+      },
+      {
+        "unit_index": 11,
+        "x": -2.9,
+        "y": -0.3
+      },
+      {
+        "unit_index": 12,
+        "x": 0.7,
+        "y": 0.7
+      },
+      {
+        "unit_index": 13,
+        "x": 1.9,
+        "y": 1.7
+      },
+      {
+        "unit_index": 14,
+        "x": 0.1,
+        "y": 0.6
+      },
+      {
+        "unit_index": 15,
+        "x": 1.7,
+        "y": 2.2
+      },
+      {
+        "unit_index": 16,
+        "x": 0.3,
+        "y": -0.6
+      },
+      {
+        "unit_index": 17,
+        "x": -2.9,
+        "y": -1.3
+      },
+      {
+        "unit_index": 18,
+        "x": -4.4,
+        "y": -1.8
+      },
+      {
+        "unit_index": 24,
+        "x": -2.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 28,
+        "x": -5.2,
+        "y": -2.4
+      },
+      {
+        "unit_index": 29,
+        "x": -2.4,
+        "y": 1.4
+      }
+    ],
+    "jane": [
+      {
+        "unit_index": 0,
+        "x": -0.3,
+        "y": 0.8
+      },
+      {
+        "unit_index": 11,
+        "x": -1.1,
+        "y": 1.5
+      },
+      {
+        "unit_index": 26,
+        "x": 0.3,
+        "y": 1.5
+      },
+      {
+        "unit_index": 27,
+        "x": -1.7,
+        "y": 0.7
+      },
+      {
+        "unit_index": 28,
+        "x": -1.5,
+        "y": 0.6
+      }
+    ],
+    "sir_george_lynn": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mrs._fairfax": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 1,
+        "x": 2.1,
+        "y": 2.4
+      },
+      {
+        "unit_index": 2,
+        "x": 1.1,
+        "y": 0.5
+      },
+      {
+        "unit_index": 3,
+        "x": 0.7,
+        "y": 1.5
+      },
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": 0.7,
+        "y": 0.5
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 1.9,
+        "y": 1.7
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 15,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._mason": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": -2.4,
+        "y": -1.0
+      }
+    ],
+    "porter": [
+      {
+        "unit_index": 32,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "grace_poole": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": -3.2,
+        "y": -2.8
+      },
+      {
+        "unit_index": 7,
+        "x": 1.0,
+        "y": 1.2
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._oliver": [
+      {
+        "unit_index": 24,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "eliza_reed": [
+      {
+        "unit_index": 12,
+        "x": -3.0,
+        "y": -1.6
+      }
+    ],
+    "mason": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._brocklehurst": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 32,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 33,
+        "x": -2.8,
+        "y": -1.0
+      },
+      {
+        "unit_index": 34,
+        "x": -0.3,
+        "y": -0.5
+      },
+      {
+        "unit_index": 35,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 36,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "i": [
+      {
+        "unit_index": 24,
+        "x": 3.7,
+        "y": 4.4
+      },
+      {
+        "unit_index": 33,
+        "x": -2.8,
+        "y": -1.0
+      }
+    ],
+    "mrs._poole": [
+      {
+        "unit_index": 28,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "ad\u00e8le": [
+      {
+        "unit_index": 1,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 2,
+        "x": 1.1,
+        "y": 1.5
+      },
+      {
+        "unit_index": 3,
+        "x": 0.8,
+        "y": 1.7
+      },
+      {
+        "unit_index": 4,
+        "x": 1.1,
+        "y": 1.2
+      },
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": 0.3,
+        "y": 1.5
+      },
+      {
+        "unit_index": 8,
+        "x": -0.1,
+        "y": 1.5
+      },
+      {
+        "unit_index": 13,
+        "x": 1.1,
+        "y": 1.2
+      },
+      {
+        "unit_index": 14,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 15,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 18,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 24,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 29,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "sophie": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "bessie_leaven": [
+      {
+        "unit_index": 12,
+        "x": 1.3,
+        "y": 2.7
+      }
+    ],
+    "blanche_ingram": [
+      {
+        "unit_index": 7,
+        "x": 1.0,
+        "y": 1.2
+      }
+    ],
+    "colonel_dent": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 11,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mrs._eshton": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "st._john": [
+      {
+        "unit_index": 26,
+        "x": -2.6,
+        "y": -2.8
+      },
+      {
+        "unit_index": 27,
+        "x": 1.5,
+        "y": 1.4
+      },
+      {
+        "unit_index": 28,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "mrs._dent": [
+      {
+        "unit_index": 8,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._lloyd": [
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "porters_wife": [
+      {
+        "unit_index": 32,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "st._john_rivers": [
+      {
+        "unit_index": 23,
+        "x": -2.0,
+        "y": -3.0
+      },
+      {
+        "unit_index": 29,
+        "x": -0.6,
+        "y": -2.0
+      }
+    ],
+    "abbot": [
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._bates": [
+      {
+        "unit_index": 36,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mary_ann_wilson": [
+      {
+        "unit_index": 36,
+        "x": 1.9,
+        "y": 1.2
+      }
+    ],
+    "leah": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 6,
+        "x": 0.4,
+        "y": 0.0
+      },
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 13,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_miller": [
+      {
+        "unit_index": 32,
+        "x": -0.8,
+        "y": 0.0
+      }
+    ],
+    "madame_pierrot": [
+      {
+        "unit_index": 32,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_abbot": [
+      {
+        "unit_index": 21,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "georgiana_reed": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": 0.3,
+        "y": 1.5
+      }
+    ],
+    "jane_eyre": [
+      {
+        "unit_index": 1,
+        "x": 0.1,
+        "y": 1.9
+      },
+      {
+        "unit_index": 5,
+        "x": 0.9,
+        "y": 1.4
+      },
+      {
+        "unit_index": 6,
+        "x": -1.6,
+        "y": 2.1
+      },
+      {
+        "unit_index": 9,
+        "x": 2.5,
+        "y": 3.4
+      },
+      {
+        "unit_index": 12,
+        "x": 0.3,
+        "y": 1.7
+      },
+      {
+        "unit_index": 13,
+        "x": 1.3,
+        "y": 1.6
+      },
+      {
+        "unit_index": 14,
+        "x": -3.7,
+        "y": -1.9
+      },
+      {
+        "unit_index": 15,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 17,
+        "x": -2.0,
+        "y": -0.8
+      },
+      {
+        "unit_index": 18,
+        "x": -4.0,
+        "y": -0.7
+      },
+      {
+        "unit_index": 21,
+        "x": -5.8,
+        "y": -4.6
+      },
+      {
+        "unit_index": 25,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "unit_index": 29,
+        "x": 2.1,
+        "y": 3.4
+      },
+      {
+        "unit_index": 30,
+        "x": -6.6,
+        "y": -4.6
+      },
+      {
+        "unit_index": 31,
+        "x": -3.4,
+        "y": -1.3
+      },
+      {
+        "unit_index": 32,
+        "x": -2.6,
+        "y": 0.0
+      },
+      {
+        "unit_index": 34,
+        "x": -6.6,
+        "y": -3.6
+      },
+      {
+        "unit_index": 35,
+        "x": -4.5,
+        "y": -1.3
+      },
+      {
+        "unit_index": 36,
+        "x": -1.5,
+        "y": -0.6
+      }
+    ],
+    "amy_eshton": [
+      {
+        "unit_index": 7,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "eliza": [
+      {
+        "unit_index": 13,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 21,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miss_oliver": [
+      {
+        "unit_index": 23,
+        "x": 1.9,
+        "y": 2.2
+      }
+    ],
+    "rosamond_oliver": [
+      {
+        "unit_index": 24,
+        "x": 1.9,
+        "y": 2.2
+      }
+    ],
+    "the_gipsy": [
+      {
+        "unit_index": 9,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "mr._rivers": [
+      {
+        "unit_index": 24,
+        "x": -2.3,
+        "y": -2.5
+      },
+      {
+        "unit_index": 26,
+        "x": 0.0,
+        "y": 1.0
+      }
+    ],
+    "miss_smith": [
+      {
+        "unit_index": 33,
+        "x": 0.7,
+        "y": 0.5
+      }
+    ],
+    "narrator": [
+      {
+        "unit_index": 2,
+        "x": 0.5,
+        "y": 1.6
+      },
+      {
+        "unit_index": 3,
+        "x": -0.8,
+        "y": 1.3
+      },
+      {
+        "unit_index": 20,
+        "x": -4.4,
+        "y": -2.6
+      },
+      {
+        "unit_index": 23,
+        "x": -1.9,
+        "y": -1.2
+      }
+    ],
+    "bessie": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 1.0
+      },
+      {
+        "unit_index": 21,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": -0.8,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 32,
+        "x": 1.7,
+        "y": 2.7
+      }
+    ],
+    "hannah": [
+      {
+        "unit_index": 20,
+        "x": 0.0,
+        "y": 1.0
+      },
+      {
+        "unit_index": 26,
+        "x": 0.4,
+        "y": 1.0
+      }
+    ],
+    "helen_burns": [
+      {
+        "unit_index": 34,
+        "x": -1.4,
+        "y": -1.0
+      },
+      {
+        "unit_index": 35,
+        "x": 2.5,
+        "y": 3.4
+      },
+      {
+        "unit_index": 36,
+        "x": -1.4,
+        "y": 0.6
+      }
+    ],
+    "diana": [
+      {
+        "unit_index": 20,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 26,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 27,
+        "x": 1.9,
+        "y": 2.2
+      },
+      {
+        "unit_index": 28,
+        "x": 1.7,
+        "y": 1.7
+      }
+    ],
+    "mrs._reed": [
+      {
+        "unit_index": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 12,
+        "x": -4.0,
+        "y": -1.6
+      },
+      {
+        "unit_index": 21,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 30,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 31,
+        "x": 0.2,
+        "y": 1.2
+      },
+      {
+        "unit_index": 32,
+        "x": -1.4,
+        "y": -0.8
+      }
+    ],
+    "mr._wood": [
+      {
+        "unit_index": 17,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ]
+  }
 }

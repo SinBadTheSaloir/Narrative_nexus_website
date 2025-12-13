@@ -268,6 +268,1607 @@
       "is_main": true
     }
   ],
-  "units": [],
-  "trajectories": {}
+  "units": [
+    {
+      "id": "act_0",
+      "index": 0,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "master",
+          "character_name": "MASTER",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "boatswain",
+          "character_name": "BOATSWAIN",
+          "x": -2.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 2.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "alonso",
+          "character_name": "ALONSO",
+          "x": -1.6,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.6,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "sebastian",
+          "character_name": "SEBASTIAN",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "antonio",
+          "character_name": "ANTONIO",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "gonzalo",
+          "character_name": "GONZALO",
+          "x": -0.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 0.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "miranda",
+          "character_name": "MIRANDA",
+          "x": 2.2,
+          "y": 3.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 1,
+            "control": 3.0,
+            "chaos": 0.8,
+            "integrity": 3.9,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "PastJoy": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "prospero",
+          "character_name": "PROSPERO",
+          "x": 1.9,
+          "y": 0.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 2.9,
+            "chaos": 1.0,
+            "integrity": 2.7,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "FutureHope": 1,
+            "SinForce": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "ariel",
+          "character_name": "ARIEL",
+          "x": 0.0,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "caliban",
+          "character_name": "CALIBAN",
+          "x": -3.2,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.2,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Anger": 1,
+            "PastPain": 1,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "ferdinand",
+          "character_name": "FERDINAND",
+          "x": -0.4,
+          "y": 2.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 2,
+            "control": 1.2,
+            "chaos": 1.6,
+            "integrity": 2.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_2",
+      "index": 2,
+      "label": "Act 3",
+      "points": [
+        {
+          "character_id": "ferdinand",
+          "character_name": "Ferdinand",
+          "x": 2.7,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 1,
+            "control": 3.7,
+            "chaos": 1.0,
+            "integrity": 4.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "miranda",
+          "character_name": "Miranda",
+          "x": 1.9,
+          "y": 2.4,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 6,
+            "negative": 2,
+            "control": 3.7,
+            "chaos": 1.8,
+            "integrity": 4.4,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "prospero",
+          "character_name": "Prospero",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "caliban",
+          "character_name": "Caliban",
+          "x": 1.6,
+          "y": 1.7,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.6,
+            "chaos": 0.0,
+            "integrity": 1.7,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Hope": 1,
+            "FutureHope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "stephano",
+          "character_name": "Stephano",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "trinculo",
+          "character_name": "Trinculo",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "alonso",
+          "character_name": "Alonso",
+          "x": -3.4,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 5,
+            "control": 0.8,
+            "chaos": 4.2,
+            "integrity": 1.0,
+            "corruption": 2.8
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "PastPain": 1,
+            "FutureHope": 1
+          }
+        },
+        {
+          "character_id": "sebastian",
+          "character_name": "Sebastian",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "antonio",
+          "character_name": "Antonio",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "gonzalo",
+          "character_name": "Gonzalo",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "adrian",
+          "character_name": "Adrian",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "francisco",
+          "character_name": "Francisco",
+          "x": -1.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Fear": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_3",
+      "index": 3,
+      "label": "Act 4",
+      "points": [
+        {
+          "character_id": "prospero",
+          "character_name": "Prospero",
+          "x": -2.5,
+          "y": -1.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 6,
+            "control": 2.5,
+            "chaos": 5.0,
+            "integrity": 2.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "ferdinand",
+          "character_name": "Ferdinand",
+          "x": 0.9,
+          "y": -0.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 1.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "miranda",
+          "character_name": "Miranda",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "ariel",
+          "character_name": "Ariel",
+          "x": 0.5,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.5,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "SinForce": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "iris",
+          "character_name": "Iris",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "ceres",
+          "character_name": "Ceres",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "juno",
+          "character_name": "Juno",
+          "x": 0.9,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 1.0,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "caliban",
+          "character_name": "Caliban",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "stephano",
+          "character_name": "Stephano",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "trinculo",
+          "character_name": "Trinculo",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_4",
+      "index": 4,
+      "label": "Act 5",
+      "points": [
+        {
+          "character_id": "prospero",
+          "character_name": "Prospero",
+          "x": -1.9,
+          "y": -0.9,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 5,
+            "negative": 6,
+            "control": 2.9,
+            "chaos": 4.8,
+            "integrity": 3.7,
+            "corruption": 4.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Pride_Healthy": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Love": 1
+          }
+        },
+        {
+          "character_id": "ariel",
+          "character_name": "Ariel",
+          "x": 0.4,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "gonzalo",
+          "character_name": "Gonzalo",
+          "x": -1.2,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 3,
+            "control": 1.4,
+            "chaos": 2.6,
+            "integrity": 2.2,
+            "corruption": 2.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "alonso",
+          "character_name": "Alonso",
+          "x": -2.8,
+          "y": 0.6,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 5,
+            "control": 1.0,
+            "chaos": 3.8,
+            "integrity": 2.2,
+            "corruption": 1.6
+          },
+          "top_emotions": {
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "PastPain": 1
+          }
+        },
+        {
+          "character_id": "sebastian",
+          "character_name": "Sebastian",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "antonio",
+          "character_name": "Antonio",
+          "x": 0.0,
+          "y": 0.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 1,
+            "control": 1.0,
+            "chaos": 1.0,
+            "integrity": 1.2,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "VirtueForce": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "ferdinand",
+          "character_name": "Ferdinand",
+          "x": -0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 0.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "miranda",
+          "character_name": "Miranda",
+          "x": 0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 0.4,
+            "chaos": 0.0,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "caliban",
+          "character_name": "Caliban",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "stephano",
+          "character_name": "Stephano",
+          "x": -1.0,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 1,
+            "control": 0.0,
+            "chaos": 1.0,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Anger": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "trinculo",
+          "character_name": "Trinculo",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "boatwain",
+          "character_name": "Boatwain",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "act_5",
+      "index": 5,
+      "label": "Act 1",
+      "points": [
+        {
+          "character_id": "prospero",
+          "character_name": "PROSPERO",
+          "x": -2.1,
+          "y": -1.3,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 4,
+            "control": 1.7,
+            "chaos": 3.8,
+            "integrity": 1.7,
+            "corruption": 3.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "SinForce": 1
+          }
+        },
+        {
+          "character_id": "miranda",
+          "character_name": "MIRANDA",
+          "x": 1.1,
+          "y": 2.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 4,
+            "negative": 1,
+            "control": 1.9,
+            "chaos": 0.8,
+            "integrity": 2.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Hope": 1,
+            "Love": 1,
+            "Happiness": 1
+          }
+        },
+        {
+          "character_id": "ariel",
+          "character_name": "ARIEL",
+          "x": -0.4,
+          "y": 1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 1,
+            "control": 0.4,
+            "chaos": 0.8,
+            "integrity": 1.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0
+          }
+        },
+        {
+          "character_id": "caliban",
+          "character_name": "CALIBAN",
+          "x": -5.0,
+          "y": -1.8,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 6,
+            "control": 0.0,
+            "chaos": 5.0,
+            "integrity": 0.0,
+            "corruption": 1.8
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1
+          }
+        },
+        {
+          "character_id": "ferdinand",
+          "character_name": "FERDINAND",
+          "x": 0.3,
+          "y": 1.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 1,
+            "control": 1.1,
+            "chaos": 0.8,
+            "integrity": 1.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Sadness": 1,
+            "Love": 1,
+            "Happiness": 1,
+            "Shame": 0
+          }
+        },
+        {
+          "character_id": "alonso",
+          "character_name": "ALONSO",
+          "x": -2.4,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 4,
+            "control": 1.0,
+            "chaos": 3.4,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Guilt": 1,
+            "Fear": 1,
+            "Sadness": 1,
+            "VirtueForce": 1
+          }
+        },
+        {
+          "character_id": "antonio",
+          "character_name": "ANTONIO",
+          "x": -3.6,
+          "y": -1.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 4,
+            "control": 0.0,
+            "chaos": 3.6,
+            "integrity": 0.0,
+            "corruption": 1.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Anger": 1,
+            "Sadness": 1,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "sebastian",
+          "character_name": "SEBASTIAN",
+          "x": -1.8,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 2,
+            "control": 0.0,
+            "chaos": 1.8,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 1,
+            "Fear": 1,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "gonzalo",
+          "character_name": "GONZALO",
+          "x": 1.9,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 3,
+            "negative": 0,
+            "control": 1.9,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0
+          }
+        },
+        {
+          "character_id": "adrian",
+          "character_name": "ADRIAN",
+          "x": 0.7,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 1,
+            "negative": 0,
+            "control": 0.7,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "francisco",
+          "character_name": "FRANCISCO",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "trinculo",
+          "character_name": "TRINCULO",
+          "x": 1.5,
+          "y": 1.2,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.5,
+            "chaos": 0.0,
+            "integrity": 1.2,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Hope": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "stephano",
+          "character_name": "STEPHANO",
+          "x": 1.1,
+          "y": 0.5,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 2,
+            "negative": 0,
+            "control": 1.1,
+            "chaos": 0.0,
+            "integrity": 0.5,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Pride_Healthy": 1,
+            "Happiness": 1,
+            "Shame": 0,
+            "Guilt": 0,
+            "Fear": 0
+          }
+        },
+        {
+          "character_id": "shipmaster",
+          "character_name": "SHIPMASTER",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "boatswain",
+          "character_name": "BOATSWAIN",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        },
+        {
+          "character_id": "mariners",
+          "character_name": "MARINERS",
+          "x": 0.0,
+          "y": 0.0,
+          "importance": 1.0,
+          "internal_scores": {
+            "positive": 0,
+            "negative": 0,
+            "control": 0.0,
+            "chaos": 0.0,
+            "integrity": 0.0,
+            "corruption": 0.0
+          },
+          "top_emotions": {
+            "Shame": 0,
+            "Guilt": 0,
+            "Pride_Healthy": 0,
+            "Fear": 0,
+            "Anger": 0
+          }
+        }
+      ]
+    }
+  ],
+  "trajectories": {
+    "juno": [
+      {
+        "unit_index": 3,
+        "x": 0.9,
+        "y": 0.2
+      }
+    ],
+    "alonso": [
+      {
+        "unit_index": 0,
+        "x": -1.6,
+        "y": 0.0
+      },
+      {
+        "unit_index": 5,
+        "x": -2.4,
+        "y": 1.2
+      }
+    ],
+    "ariel": [
+      {
+        "unit_index": 3,
+        "x": 0.5,
+        "y": 0.2
+      },
+      {
+        "unit_index": 4,
+        "x": 0.4,
+        "y": 0.0
+      }
+    ],
+    "caliban": [
+      {
+        "unit_index": 0,
+        "x": -3.2,
+        "y": -1.8
+      },
+      {
+        "unit_index": 5,
+        "x": -5.0,
+        "y": -1.8
+      }
+    ],
+    "adrian": [
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "sebastian": [
+      {
+        "unit_index": 0,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 5,
+        "x": -1.8,
+        "y": 0.0
+      }
+    ],
+    "trinculo": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 3,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "miranda": [
+      {
+        "unit_index": 0,
+        "x": 2.2,
+        "y": 3.9
+      },
+      {
+        "unit_index": 5,
+        "x": 1.1,
+        "y": 2.2
+      }
+    ],
+    "gonzalo": [
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.2,
+        "y": 0.2
+      }
+    ],
+    "boatwain": [
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "prospero": [
+      {
+        "unit_index": 0,
+        "x": 1.9,
+        "y": 0.7
+      },
+      {
+        "unit_index": 5,
+        "x": -2.1,
+        "y": -1.3
+      }
+    ],
+    "ceres": [
+      {
+        "unit_index": 3,
+        "x": 0.9,
+        "y": 0.2
+      }
+    ],
+    "antonio": [
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 4,
+        "x": 0.0,
+        "y": 0.2
+      }
+    ],
+    "boatswain": [
+      {
+        "unit_index": 0,
+        "x": -2.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "stephano": [
+      {
+        "unit_index": 2,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "unit_index": 3,
+        "x": -1.0,
+        "y": -1.0
+      },
+      {
+        "unit_index": 4,
+        "x": -1.0,
+        "y": -1.0
+      }
+    ],
+    "ferdinand": [
+      {
+        "unit_index": 2,
+        "x": 2.7,
+        "y": 2.4
+      },
+      {
+        "unit_index": 3,
+        "x": 0.9,
+        "y": -0.8
+      },
+      {
+        "unit_index": 4,
+        "x": -0.4,
+        "y": 1.0
+      }
+    ],
+    "shipmaster": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "master": [
+      {
+        "unit_index": 0,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "francisco": [
+      {
+        "unit_index": 2,
+        "x": -1.0,
+        "y": 0.0
+      }
+    ],
+    "mariners": [
+      {
+        "unit_index": 5,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "iris": [
+      {
+        "unit_index": 3,
+        "x": 0.9,
+        "y": 0.2
+      }
+    ]
+  }
 }
